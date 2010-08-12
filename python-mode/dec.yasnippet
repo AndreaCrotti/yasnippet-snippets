@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: dec
+# key: dec
+# group : definitions
+# --
+def ${1:decorator}(func):
+    ${2:initialize}
+    def _$1(*args, **kwargs):
+    	${3:before}
+    	ret = func(*args, **kargs)
+	${4:after}
+	return ret
+    return _$1

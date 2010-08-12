@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: struct
+# key: {
+# --
+{.${1:field} = ${2:value}$0};

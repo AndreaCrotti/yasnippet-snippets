@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: var
+# key: var
+# --
+`(with-comment "-*- ${1:var}: ${2:value} -*-")`

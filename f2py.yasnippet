@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: f2py
+# key: f2py
+# --
+python module ${1:m}
+interface
+  subroutine ${2:foo(x,y)}
+  $0
+
+  end subroutine ${2:$(substring text 0 (string-match "(" text))}
+end interface
+end python module $1

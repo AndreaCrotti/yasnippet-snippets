@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# expand-env: ((comment-char (if comment-start comment-start ?\#)))
+# name: box
+# key: box
+# --
+${1:$(make-string (+ 4 (string-width text))  ?\#)}
+# ${1:text}
+${1:$(make-string (+ 4 (string-width text)) ?\#)}
+$0

@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: standalone
+# key: standalone
+# --
+#ifdef STANDALONE
+
+int main(int argc, char *argv[]) {
+    $0
+}
+
+#endif

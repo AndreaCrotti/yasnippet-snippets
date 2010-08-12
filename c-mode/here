@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: here
+# key: here
+# --
+printf("here\n");
