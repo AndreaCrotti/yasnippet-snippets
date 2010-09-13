@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: operator+
+# key: +
+# --
+${1://we need to have defined already the +=}
+const ${2:MyClass} $2::operator+(const $2 &other) const {
+    $2 result = *this;
+    result += other;
+    return result;
+}

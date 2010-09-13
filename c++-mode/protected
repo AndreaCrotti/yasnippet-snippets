@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: protected
-# key: proc
+# key: pt
 # --
 protected:
         $0

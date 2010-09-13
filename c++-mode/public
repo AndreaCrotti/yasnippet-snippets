@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: public
-# key: pub
+# key: pb
 # --
 public:
         $0
