@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: class_template
+# key: tempc
+# --
+template<class ${1:T}$0>

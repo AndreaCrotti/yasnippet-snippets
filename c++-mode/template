@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: template
+# key: temp
+# --
+template<${1:typename ${2:T}}$0>

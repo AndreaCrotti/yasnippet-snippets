@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: typeid
+# key: type
+# --
+typeid(${1:var}).name()
