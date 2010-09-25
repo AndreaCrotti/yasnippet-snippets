@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: mode
+# key: mode
+# --
+`(with-comment "-*- mode: ${1:mode} -*-")`
