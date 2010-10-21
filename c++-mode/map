@@ -2,4 +2,4 @@
 # name: map
 # key: map
 # --
-std::map<${1:type1}$0>  ${2:var};
+std::map<${1:type1}$0> ${2:var};

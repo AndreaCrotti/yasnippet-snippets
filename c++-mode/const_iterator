@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: const_iterator
+# key: iter
+# --
+${1:std::vector<int>}::const_iterator ${2:i};
