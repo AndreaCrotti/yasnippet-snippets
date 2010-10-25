@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: xxx
+# key: xxx
+# --
+`(with-comment "XXX: $0 ")`
