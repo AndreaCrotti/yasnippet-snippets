@@ -4,7 +4,8 @@
 # contributor: Andrea crotti
 # --
 
-${1:MyClass} & $1::operator+=(const $1 &rhs) {
+${1:MyClass} & $1::operator+=(const $1 &rhs)
+{
   $0
   return *this;
 }
