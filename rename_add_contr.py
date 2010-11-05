@@ -10,20 +10,22 @@ def rename(root, f):
         print "already ending with the right extension"
 
 CONT = "# contributor: Andrea crotti\n# --"
-END = "# --"
+END = "# --\n\n"
 
-def insert(root, f, from, to):
+orig = "# --\n\n"
+to  = "# --\n"
+
+def insert(root, f, orig, to):
     fname = join(root, f)
-    nex_text = re.sub(from, to, open(fname).read())
+    text = open(fname).read()
+    nex_text = re.sub(orig, to, text)
     open(fname, 'w').write(nex_text)
 
 for root, dirs, files in os.walk('.'):
     if "mode" in root:
         # os.popen("git add *yasnippet")
         for f in files:
-            if f != '.yas-parents':
-                rename(root, f)
-                insert(root, f, END+"\n", END)
+            insert(root, f, orig, to)
 
 
             
