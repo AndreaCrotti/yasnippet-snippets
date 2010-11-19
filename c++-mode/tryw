@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: tryw
+# key: tryw
+# contributor: Andrea Crotti
+# --
+try {
+    `(or yas/selected-text (car kill-ring))`
+} catch ${1:Exception} {
+
+}
