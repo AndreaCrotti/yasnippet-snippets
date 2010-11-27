@@ -3,4 +3,5 @@
 # key: temp
 # contributor: Andrea crotti
 # --
-template<${1:typename ${2:T}}$0>
+template<${1:$$(yas/choose-value '("typename" "class"))} ${2:T}>
+$0
