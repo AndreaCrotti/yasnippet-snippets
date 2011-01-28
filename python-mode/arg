@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: arg
+# key: arg
+# --
+parser.add_argument('-${1:x}', action='${2:store}', type=int, dest='${3:dest}',
+                    metavar='NUM', default=${4:100},
+                    help='${5:description}')
+
