@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: subfig
+# key: subfig
+# --
+\begin{figure}
+  \centering
+  \subfloat[${1:name}]{\label{fig:${2:label}}\includegraphics[${3:dim}\textwidth]{${4:image}}}                
+  $0
+  \label{fig:${5:generic}}
+\end{figure}

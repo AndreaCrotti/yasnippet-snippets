@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: wrap
+# key: wrap
+# --
+\begin{wrapfigure}{${1:r}}{${2:0.5}\textwidth}
+  \begin{center}
+    \includegraphics[width=0.48\textwidth]{${3:image}}
+  \end{center}
+  \caption{${4:caption}}
+\end{wrapfigure}
