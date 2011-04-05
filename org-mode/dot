@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: dot
-# key: dot 
+# key: dot
 # --
 #+begin_src dot :file ${1:path}.${2:pdf} :cmdline -T$2
 $0
