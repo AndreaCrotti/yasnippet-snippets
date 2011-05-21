@@ -3,6 +3,6 @@
 # key: sub
 # --
 \subsection{${1:name}}
-\label{$1}
+\label{subsec:$1}
 
 $0
