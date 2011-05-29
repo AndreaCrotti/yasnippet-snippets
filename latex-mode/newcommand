@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: newcommand
+# key: cmd
+# --
+\newcommand{\\${1:name}}[${2:num_args}]{$0}

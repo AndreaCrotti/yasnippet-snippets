@@ -2,7 +2,7 @@
 # name: subfigure
 # key: subfig
 # --
-\begin{figure}
+\begin{figure}[ht]
   \centering
   \subfigure[$1]
   {\label{fig:${2:label}} 
