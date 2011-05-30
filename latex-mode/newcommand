@@ -2,4 +2,4 @@
 # name: newcommand
 # key: cmd
 # --
-\newcommand{\\${1:name}}[${2:num_args}]{$0}
+\newcommand{\\${1:name}}${2:[${3:0}]}{$0}
