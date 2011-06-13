@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
 # name: assertEqual
-# key: ea
+# key: ae
 # --
 self.assertEqual($1, $2)
