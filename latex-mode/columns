@@ -3,11 +3,11 @@
 # key: cols
 # --
 \begin{columns}
-  \begin{column}{0.${1:5}\textwidth}
+  \begin{column}{.${1:5}\textwidth}
   $0
   \end{column}
 
-  \begin{column}{0.${2:5}\textwidth}
+  \begin{column}{.${2:5}\textwidth}
 
   \end{column}
 \end{columns}
