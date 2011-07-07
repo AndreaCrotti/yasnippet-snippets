@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
-# name: assert
-# key: ass
+# name: noinst_HEADERS
+# key: noinst
 # contributor: Andrea crotti
 # --
-#include <assert.h>
-$0
+noinst_HEADERS = $0

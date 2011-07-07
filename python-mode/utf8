@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: utf8
+# key: utf
+# group : general
+# contributor: Andrea crotti
+# --
+# -*- encoding: utf-8 -*-
+$0

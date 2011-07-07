@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: assert
-# key: ass
+# name: node
+# key: node
 # contributor: Andrea crotti
 # --
-#include <assert.h>
+t${1:0} [ label = "${2:label}" ];
 $0

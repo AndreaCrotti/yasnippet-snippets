@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: assert
-# key: ass
+# name: submodules
+# key: sub
 # contributor: Andrea crotti
 # --
-#include <assert.h>
-$0
+submodules:
+   $0

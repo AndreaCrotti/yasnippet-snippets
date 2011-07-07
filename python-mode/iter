@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: iter
+# key: iter
+# group: overloading
+# contributor: Andrea crotti
+# --
+def __iter__(self):
+    return ${1:iter($2)}

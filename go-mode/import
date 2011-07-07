@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: assert
-# key: ass
+# name: import
+# key: imp
 # contributor: Andrea crotti
 # --
-#include <assert.h>
+import ${1:package}
 $0

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: def
+# key: def
+# group : definitions
+# contributor: Andrea crotti
+# --
+def ${1:fun}(${2:args}):
+    $0

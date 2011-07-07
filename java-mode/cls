@@ -1,7 +1,8 @@
 # -*- mode: snippet -*-
-# name: assert
-# key: ass
+# name: cls
+# key: cls
 # contributor: Andrea crotti
 # --
-#include <assert.h>
-$0
+class ${1:Class} {
+      $0
+}

@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
-# name: assert
-# key: ass
+# name: xxx
+# key: x
 # contributor: Andrea crotti
 # --
-#include <assert.h>
-$0
+`(with-comment "XXX: $0 ")`

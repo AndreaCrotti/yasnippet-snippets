@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
-# name: assert
-# key: ass
+# name: not_impl
+# key: not_impl
 # contributor: Andrea crotti
 # --
-#include <assert.h>
-$0
+raise NotImplementedError

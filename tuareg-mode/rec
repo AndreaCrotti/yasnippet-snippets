@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: assert
-# key: ass
+# name: rec
+# key: rec
 # contributor: Andrea crotti
 # --
-#include <assert.h>
-$0
+let rec ${1:fun} ${2:args} =
+    $0

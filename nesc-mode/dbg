@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: dbg
+# key: dbg
+# contributor: Andrea crotti
+# --
+dbg("${1:Module}", "${2:message}"${3:, ${4:var list}});

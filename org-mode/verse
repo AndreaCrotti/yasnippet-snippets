@@ -1,7 +1,8 @@
 # -*- mode: snippet -*-
-# name: assert
-# key: ass
+# name: verse
+# key: verse
 # contributor: Andrea crotti
 # --
-#include <assert.h>
-$0
+#+begin_verse
+	$0
+#+end_verse

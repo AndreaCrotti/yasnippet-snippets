@@ -1,7 +1,9 @@
 # -*- mode: snippet -*-
-# name: assert
-# key: ass
+# name: if
+# key: if
 # contributor: Andrea crotti
 # --
-#include <assert.h>
+if ${1:[ -f file]}
+   then ${2:do}
+fi
 $0

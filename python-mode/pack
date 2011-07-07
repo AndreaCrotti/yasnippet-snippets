@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
-# name: assert
-# key: ass
+# name: pack
+# key: pack
 # contributor: Andrea crotti
 # --
-#include <assert.h>
-$0
+struct.pack("!${1:fmt}", $0)

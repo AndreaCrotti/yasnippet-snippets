@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: equals
+# key: eq
+# contributor: Andrea crotti
+# --
+public boolean equals(${1:Class} other) {
+       $0
+}

@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
-# name: assert
-# key: ass
+# name: cin
+# key: cin
 # contributor: Andrea crotti
 # --
-#include <assert.h>
-$0
+cin >> $0;

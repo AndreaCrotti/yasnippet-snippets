@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: new class
+# key: class
+# contributor: Andrea crotti
+# --
+class ${1:Class Name} where
+      $0

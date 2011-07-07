@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
-# name: assert
-# key: ass
+# name: todo
+# key: t
 # contributor: Andrea crotti
 # --
-#include <assert.h>
-$0
+`(with-comment " TODO: $0")`

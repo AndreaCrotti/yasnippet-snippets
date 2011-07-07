@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: defun
+# key: def
+# contributor: Andrea crotti
+# --
+(defun ${1:fun} (${2:args})
+  ${3:(interactive${4: "P"})}
+  $0)

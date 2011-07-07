@@ -1,7 +1,9 @@
 # -*- mode: snippet -*-
-# name: assert
-# key: ass
+# name: javadoc
+# key: doc
 # contributor: Andrea crotti
 # --
-#include <assert.h>
-$0
+/**
+ * $0
+ *
+ */

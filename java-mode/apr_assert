@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: apr_assert
+# key: apr_assert
+# contributor: Andrea crotti
+# --
+if (Globals.useAssertions) {
+   ${1:assert ..};
+}

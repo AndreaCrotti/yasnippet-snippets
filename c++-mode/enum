@@ -1,7 +1,8 @@
 # -*- mode: snippet -*-
-# name: assert
-# key: ass
+# name: enum
+# key: enum
 # contributor: Andrea crotti
 # --
-#include <assert.h>
+enum ${1:NAME}{
 $0
+};

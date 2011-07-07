@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
-# name: assert
-# key: ass
+# name: EV
+# key: ev
 # contributor: Andrea crotti
 # --
-#include <assert.h>
-$0
+EV << "${1:string}"$0;

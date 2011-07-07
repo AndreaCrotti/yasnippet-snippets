@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
-# name: assert
-# key: ass
+# name: tu
+# key: tu
 # contributor: Andrea crotti
 # --
-#include <assert.h>
-$0
+require 'test/unit'

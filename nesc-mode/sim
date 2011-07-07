@@ -1,7 +1,8 @@
 # -*- mode: snippet -*-
-# name: assert
-# key: ass
+# name: sim
+# key: sim
 # contributor: Andrea crotti
 # --
-#include <assert.h>
-$0
+#ifdef TOSSIM
+       $0
+#endif

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: vector
+# key: vec
+# contributor: Andrea crotti
+# --
+std::vector<${1:Class}> ${2:var}${3:(${4:10}, $1($5))};

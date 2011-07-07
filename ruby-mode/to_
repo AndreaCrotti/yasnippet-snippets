@@ -1,7 +1,9 @@
 # -*- mode: snippet -*-
-# name: assert
-# key: ass
+# name: to_
+# key: to_
 # contributor: Andrea crotti
 # --
-#include <assert.h>
+def to_s
+    "${1:string}"
+end
 $0

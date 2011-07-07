@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
-# name: assert
-# key: ass
+# name: group
+# key: group
 # contributor: Andrea crotti
 # --
-#include <assert.h>
-$0
+# group : ${1:group}

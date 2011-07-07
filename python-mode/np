@@ -1,7 +1,8 @@
 # -*- mode: snippet -*-
-# name: assert
-# key: ass
+# name: np
+# key: np
+# group : general
 # contributor: Andrea crotti
 # --
-#include <assert.h>
+import numpy as np
 $0

@@ -1,7 +1,8 @@
 # -*- mode: snippet -*-
-# name: assert
-# key: ass
+# name: latex
+# key: latex
 # contributor: Andrea crotti
 # --
-#include <assert.h>
+#+BEGIN_LaTeX
 $0
+#+END_LaTeX

@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
-# name: assert
-# key: ass
+# name: packed
+# key: packed
 # contributor: Andrea crotti
 # --
-#include <assert.h>
-$0
+__attribute__((__packed__))$0

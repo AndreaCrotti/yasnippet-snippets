@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: target
+# key: target
+# contributor: Andrea crotti
+# --
+<target name="${1:compile}" ${2:other}>
+	$0
+</target>

@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: assert
-# key: ass
+# name: def
+# key: def
 # contributor: Andrea crotti
 # --
-#include <assert.h>
+define(\`${1:macro}',\`${2:subst}').
 $0

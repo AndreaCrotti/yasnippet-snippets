@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: static
+# key: sm
+# contributor: Andrea crotti
+# --
+@staticmethod
+def ${1:func}($0):
+    

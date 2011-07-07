@@ -1,7 +1,8 @@
 # -*- mode: snippet -*-
-# name: assert
-# key: ass
+# name: func
+# key: func
 # contributor: Andrea crotti
 # --
-#include <assert.h>
+func ${1:fun}(${2:args}) {
 $0
+}

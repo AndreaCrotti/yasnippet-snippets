@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: curly
+# key: curly
+# contributor: Andrea crotti
+# --
+${1:def} =
+\left \{
+\begin{array}{ll}
+$0
+\end{array}
+\right

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: test
+# key: test
+# contributor: Andrea crotti
+# --
+@Test
+public void test_${1:Case}() {
+       $0
+}

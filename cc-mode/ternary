@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: ternary
+# key: ?
+# contributor: Andrea crotti
+# --
+(${1:cond}) ? ${2:then} : ${3:else};

@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
-# name: assert
-# key: ass
+# name: nan
+# key: nan
 # contributor: Andrea crotti
 # --
-#include <assert.h>
-$0
+isnan(${1:x})

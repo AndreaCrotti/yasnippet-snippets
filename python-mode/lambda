@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
-# name: assert
-# key: ass
+# name: lambda
+# key: lam
 # contributor: Andrea crotti
 # --
-#include <assert.h>
-$0
+lambda ${1:x}: $0

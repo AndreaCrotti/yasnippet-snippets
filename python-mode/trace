@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
-# name: assert
-# key: ass
+# name: trace
+# key: tr
 # contributor: Andrea crotti
 # --
-#include <assert.h>
-$0
+import pdb; pdb.set_trace()

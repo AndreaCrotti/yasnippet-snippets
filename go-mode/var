@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: assert
-# key: ass
+# name: var
+# key: var
 # contributor: Andrea crotti
 # --
-#include <assert.h>
+var ${1:ok} ${2:bool}
 $0

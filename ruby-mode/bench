@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: bench
+# key: bench
+# contributor: Andrea crotti
+# --
+require "benchmark"
+
+TESTS = ${1:1_000}
+Benchmark.bmbm do |x|
+  x.report("${2:var}") {}
+end

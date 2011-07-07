@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: assert
-# key: ass
+# name: uint8_t
+# key: u8
 # contributor: Andrea crotti
 # --
-#include <assert.h>
+uint8_t ${1:var};
 $0

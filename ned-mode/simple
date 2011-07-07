@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: simple
+# key: simple
+# contributor: Andrea crotti
+# --
+simple ${1:Component}${2: extends ${3:Component}}
+{
+    $0
+}

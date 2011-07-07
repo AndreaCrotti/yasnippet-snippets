@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: for
+# key: for
+# contributor: Andrea crotti
+# --
+for ${1:var} = ${2:expr}
+    $0
+endfor

@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
-# name: assert
-# key: ass
+# name: delete
+# key: dl
 # contributor: Andrea crotti
 # --
-#include <assert.h>
-$0
+delete ${1:pointer};

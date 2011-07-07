@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
-# name: assert
-# key: ass
+# name: cont
+# key: cont
 # contributor: Andrea crotti
 # --
-#include <assert.h>
-$0
+# contributor: Andrea Crotti

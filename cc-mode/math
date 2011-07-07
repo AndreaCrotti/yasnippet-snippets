@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: assert
-# key: ass
+# name: math
+# key: math
 # contributor: Andrea crotti
 # --
-#include <assert.h>
+#include <math.h>
 $0

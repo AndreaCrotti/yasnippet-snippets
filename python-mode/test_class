@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: test_class
+# key: tcs
+# group : definitions
+# contributor: Andrea crotti
+# --
+class Test${1:toTest}(unittest.TestCase):
+      $0

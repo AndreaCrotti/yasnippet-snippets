@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: ife
+# key: ife
+# contributor: Andrea crotti
+# --
+if (${1:cond}) {
+    $2
+}
+else {
+     $3
+}

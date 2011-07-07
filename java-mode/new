@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: new
+# key: new
+# contributor: Andrea crotti
+# --
+${1:Type} ${2:obj} = new ${3:Constr}(${4:args});
+$0

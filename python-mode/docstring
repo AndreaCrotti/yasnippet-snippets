@@ -1,7 +1,8 @@
 # -*- mode: snippet -*-
-# name: assert
-# key: ass
+# name: docstring
+# key: ds
 # contributor: Andrea crotti
 # --
-#include <assert.h>
+"""
 $0
+"""

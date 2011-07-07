@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: try
+# key: try
+# contributor: Andrea crotti
+# a bit too intrusive now still, not always I want to do this
+# --
+try {
+    $0
+} catch (${1:type}) {
+  
+}

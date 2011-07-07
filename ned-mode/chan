@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: chan
+# key: chan
+# contributor: Andrea crotti
+# --
+channel Channel extends ${1:ned.DelayChannel} {
+        $0
+}

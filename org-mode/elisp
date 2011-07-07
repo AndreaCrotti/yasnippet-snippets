@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: elisp
+# key: elisp
+# contributor: Andrea crotti
+# --
+#+begin_src emacs-lisp :tangle yes
+$0
+#+end_src

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: iso
+# key: iso
+# group : general
+# contributor: Andrea crotti
+# --
+# -*- coding: iso-8859-15 -*-
+$0

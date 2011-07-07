@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: def
+# key: def
+# contributor: Andrea crotti
+# --
+def ${1:method}${2:(${3:args})}
+    $0
+end

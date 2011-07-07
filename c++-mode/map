@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
-# name: assert
-# key: ass
+# name: map
+# key: map
 # contributor: Andrea crotti
 # --
-#include <assert.h>
-$0
+std::map<${1:type1}$0> ${2:var};

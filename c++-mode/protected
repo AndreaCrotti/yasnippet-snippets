@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: assert
-# key: ass
+# name: protected
+# key: pt
 # contributor: Andrea crotti
 # --
-#include <assert.h>
-$0
+protected:
+        $0

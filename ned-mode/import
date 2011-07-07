@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
-# name: assert
-# key: ass
+# name: import
+# key: imp
 # contributor: Andrea crotti
 # --
-#include <assert.h>
-$0
+import ned.${1:Package};

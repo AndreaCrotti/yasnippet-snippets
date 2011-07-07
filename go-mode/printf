@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: assert
-# key: ass
+# name: printf
+# key: pr
 # contributor: Andrea crotti
 # --
-#include <assert.h>
+fmt.Printf("${1:fmt}\n"${2:,str})
 $0

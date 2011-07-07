@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: assert
-# key: ass
+# name: module
+# key: mod
 # contributor: Andrea crotti
 # --
-#include <assert.h>
+module ${1:Module} where
 $0

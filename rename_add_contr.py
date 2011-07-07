@@ -3,11 +3,14 @@ import os
 import re
 from os.path import join
 from shutil import move
+
+
 def rename(root, f):
-    if not f.endswith(".yasnippet"):
-        move(join(root, f), join(root, f + ".yasnippet"))
-    else:
-        print "already ending with the right extension"
+    if f.endswith('.yasnippet'):
+        base, _ = f.split('.')
+        print("move %s to %s" % (join(root, f), join(root, base)))
+        move(join(root, f), join(root, base))
+
 
 CONT = "# contributor: Andrea crotti\n# --"
 END = "# --\n\n"
@@ -21,11 +24,13 @@ def insert(root, f, orig, to):
     nex_text = re.sub(orig, to, text)
     open(fname, 'w').write(nex_text)
 
-for root, dirs, files in os.walk('.'):
-    if "mode" in root:
-        # os.popen("git add *yasnippet")
-        for f in files:
-            insert(root, f, orig, to)
+if __name__ == '__main__':
+    for root, dirs, files in os.walk('.'):
+        if "mode" in root:
+            # os.popen("git add *yasnippet")
+            for f in files:
+                rename(root, f)
+                # insert(root, f, orig, to)
 
 
             

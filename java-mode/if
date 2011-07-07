@@ -1,7 +1,8 @@
 # -*- mode: snippet -*-
-# name: assert
-# key: ass
+# name: if
+# key: if
 # contributor: Andrea crotti
 # --
-#include <assert.h>
-$0
+if (${1:condition) {
+   $0
+}

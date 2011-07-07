@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: scheduleAt
+# key: sched
+# contributor: Andrea crotti
+# --
+scheduleAt(simTime()+${1:1.0}, ${2:event});

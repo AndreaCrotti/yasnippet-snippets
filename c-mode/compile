@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: compile
+# key: compile
+# contributor: Andrea crotti
+# --
+// -*- compile-command: "${1:gcc -Wall -o ${2:dest} ${3:file}}" -*-

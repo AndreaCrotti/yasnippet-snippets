@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
-# name: assert
-# key: ass
+# name: cerr
+# key: err
 # contributor: Andrea crotti
 # --
-#include <assert.h>
-$0
+cerr << $0;

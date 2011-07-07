@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: for
+# key: for
+# contributor: Andrea crotti
+# --
+for (${1:var} in ${2:iter}) {
+    $0
+}
+    

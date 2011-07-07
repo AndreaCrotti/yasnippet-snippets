@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
-# name: assert
-# key: ass
+# name: hash
+# key: hash
 # contributor: Andrea crotti
 # --
-#include <assert.h>
-$0
+make-hash-table ${1:options}

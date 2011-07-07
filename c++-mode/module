@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: module
+# key: mod
+# contributor: Andrea crotti
+# --
+class ${1:Class} : public cSimpleModule
+{
+   $0
+}

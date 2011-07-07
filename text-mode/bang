@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: bang
+# key: !
+# insert a choice if you have more than one possibility
+# contributor: Andrea crotti
+# --
+#!/usr/bin/env `(let ((found (all-asscs interpreter-mode-alist major-mode))) (if found (yas/choose-value found) ""))`$0

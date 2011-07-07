@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: assert
-# key: ass
+# name: list
+# key: list
 # contributor: Andrea crotti
 # --
-#include <assert.h>
+[$1]
 $0

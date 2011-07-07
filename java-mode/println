@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: assert
-# key: ass
+# name: println
+# key: pr
 # contributor: Andrea crotti
 # --
-#include <assert.h>
+System.out.println("${1:text}");
 $0

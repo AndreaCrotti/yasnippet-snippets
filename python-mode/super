@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: super
+# key: super
+# contributor: Andrea crotti
+# --
+super(${1:Class}, self).${2:function}(${3:args})

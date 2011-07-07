@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: emit_signal
+# key: emit
+# contributor: Andrea crotti
+# --
+emit(${1:signal_id}, ${2:long});

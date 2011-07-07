@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: reg
+# key: reg
+<<<<<<< HEAD
+# group : general
+=======
+>>>>>>> d3678734bbc83e0fcaf0cf4493c0fbace41c5416
+# contributor: Andrea crotti
+# --
+${1:regexp} = re.compile(r"${2:expr}")
+$0

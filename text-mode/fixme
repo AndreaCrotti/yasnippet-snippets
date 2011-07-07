@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
-# name: assert
-# key: ass
+# name: fixme
+# key: fi
 # contributor: Andrea crotti
 # --
-#include <assert.h>
-$0
+`(with-comment " FIXME: $0")`

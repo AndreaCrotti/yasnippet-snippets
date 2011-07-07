@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: setdef
+# key: setdef
+# contributor: Andrea crotti
+# --
+${1:var}.setdefault(${2:key}, []).append(${3:value})

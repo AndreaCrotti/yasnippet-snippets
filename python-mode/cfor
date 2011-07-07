@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: cfor
+# key: cfor
+# contributor: Andrea crotti
+# --
+for ${1:i} from ${2:0} < = $1 < ${3:num}:
+    $0

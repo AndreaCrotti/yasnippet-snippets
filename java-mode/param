@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
-# name: assert
-# key: ass
+# name: param
+# key: param
 # contributor: Andrea crotti
 # --
-#include <assert.h>
-$0
+@param ${1:paramater} $0

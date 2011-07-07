@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: assert
-# key: ass
+# name: section
+# key: --
 # contributor: Andrea crotti
 # --
-#include <assert.h>
+--- # ${1:section}
 $0

@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
-# name: assert
-# key: ass
+# name: let
+# key: let
 # contributor: Andrea crotti
 # --
-#include <assert.h>
-$0
+let ${1:var} $0
