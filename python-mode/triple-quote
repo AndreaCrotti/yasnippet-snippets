@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: triple-quote
+# key: \"
+# --
+"""$0"""
