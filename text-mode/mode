@@ -3,4 +3,4 @@
 # key: mode
 # contributor: Andrea crotti
 # --
-`(with-comment "-*- mode: ${1:mode} -*-")`
+`(ca-with-comment "-*- mode: ${1:mode} -*-")`
