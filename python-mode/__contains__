@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: __contains__
+# key: cont
+# --
+def __contains__(self, el):
+    $0
