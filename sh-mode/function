@@ -3,6 +3,6 @@
 # key: func
 # contributor: Andrea crotti
 # --
-function ${1:name} (${2:args}) {
+function ${1:name} {
 	 $0
 }
