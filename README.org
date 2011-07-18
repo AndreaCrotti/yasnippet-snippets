@@ -1,14 +1,13 @@
-In this repository there is a colletion of my personal snippets for
-many different modes.
+My snippets
 
-If you would like to try them
-git clone 
+In this repository there is a colletion of my personal [[http://code.google.com/p/yasnippet/][yasnippet]]
+snippets for many different Emacs modes.
 
-they are usable by [[http://code.google.com/p/yasnippet/][yasnippet]] and to try them out
+To try them out:
 1. install yasnippet
 2. clone this repository with *git clone git://github.com/AndreaCrotti/yasnippet-snippets.git*
 3. add to your .emacs the following
    - (add-to-list 'yas/root-directory "$DIRECTORY_WHERE_YOU_CLONED")
    - (yas/initialize)
+4. M-x yas/reload-all to activate them
 
-and it should be all :)
