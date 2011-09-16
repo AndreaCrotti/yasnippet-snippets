@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: selfassign
+# key: sn
+# --
+self.$1 = $1
