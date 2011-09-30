@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: triple-quote
-# key: ""
+# key: tri
 # --
 """$0
 """
