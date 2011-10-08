@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: self_without_dot
+# key: s
+# --
+self
