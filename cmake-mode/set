@@ -2,4 +2,4 @@
 # name: set
 # key: set
 # --
-set (${1:var} ${2:value})
+set(${1:var} ${2:value})

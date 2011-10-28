@@ -5,4 +5,4 @@
 if (${1:cond})
    $0
 
-endif ()
+endif ($1)
