@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: graph
+# key: graph
+# --
+.. graph::
+   $0

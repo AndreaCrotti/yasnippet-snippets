@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: parser
+# key: pars
+# --
+parser = argparse.ArgumentParser(description='$1')
+$0
