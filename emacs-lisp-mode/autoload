@@ -1,6 +1,5 @@
-# -*- mode: snippet -*-
-# name: autoload
-# key: auto
+#contributor: Xah Lee (XahLee.org)
+#name: autoload
+#key: autoload
 # --
-;;;###autoload
-$0
+(autoload 'FUNCNAME$0 "FILENAME" &optional "DOCSTRING" INTERACTIVE TYPE)
