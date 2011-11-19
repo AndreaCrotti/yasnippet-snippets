@@ -2,5 +2,5 @@
 # name: method
 # key: m
 # --
-def ${1:method}(self, $0):
-    
+def ${1:method}(self${2:, $3}):
+    $0
