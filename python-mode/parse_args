@@ -5,4 +5,4 @@
 def parse_arguments():
     parser = argparse.ArgumentParser(description='$1')
     $0
-    return parse.parse_args()
+    return parser.parse_args()
