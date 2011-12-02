@@ -4,3 +4,5 @@
 # --
 def __enter__(self):
     $0
+
+    return self
