@@ -1,6 +1,5 @@
 # -*- mode: snippet -*-
 # name: cin
 # key: cin
-# contributor: Andrea crotti
 # --
 cin >> $0;

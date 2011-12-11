@@ -1,6 +1,5 @@
 # -*- mode: snippet -*-
 # name: stdio
 # key: io
-# contributor: Andrea crotti
 # --
 #include <stdio.h>

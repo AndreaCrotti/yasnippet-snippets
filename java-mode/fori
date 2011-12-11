@@ -1,9 +1,7 @@
 # -*- mode: snippet -*-
 # name: fori
 # key: fori
-# contributor: Andrea crotti
 # --
 for (${1:Object el} : ${2:iterator}) {
     $0
 }
-    

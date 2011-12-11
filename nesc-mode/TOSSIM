@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
 # name: TOSSIM
 # key: tossim
-# contributor: Andrea crotti
 # --
 #ifndef TOSSIM
         $0

@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
 # name: class
 # key: cls
-# contributor: Andrea Crotti
 # --
 class ${1:Name}
 {

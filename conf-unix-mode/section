@@ -2,7 +2,6 @@
 # name: section
 # key: sec
 # section for xorg.conf
-# contributor: Andrea crotti
 # --
 Section "${1:Device}"
         $0

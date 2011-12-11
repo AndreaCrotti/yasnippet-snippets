@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
 # name: network
 # key: net
-# contributor: Andrea crotti
 # --
 network ${1:Name}
 {

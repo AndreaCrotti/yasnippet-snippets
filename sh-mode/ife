@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
 # name: ife
 # key: ife
-# contributor: Andrea crotti
 # --
 if ${1:cond}
 then ${2:stuff}

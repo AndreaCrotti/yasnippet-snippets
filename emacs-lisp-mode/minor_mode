@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
 # name: minor_mode
 # key: minor
-# contributor: Andrea Crotti
 # --
 (defvar ${1:mode}-modeline-indicator " ${2:INDICATOR}"
   "call ($1-install-mode) again if this is changed")

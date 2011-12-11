@@ -2,7 +2,6 @@
 # name: np
 # key: np
 # group : general
-# contributor: Andrea crotti
 # --
 import numpy as np
 $0

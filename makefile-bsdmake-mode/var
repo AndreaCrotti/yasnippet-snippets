@@ -1,6 +1,5 @@
 # -*- mode: snippet -*-
 # name: var
 # key: $
-# contributor: Andrea crotti
 # --
 $(${1:VAR})$0

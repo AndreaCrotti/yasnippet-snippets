@@ -1,6 +1,5 @@
 # -*- mode: snippet -*-
 # name: let
 # key: let
-# contributor: Andrea crotti
 # --
 let ${1:var} $0
