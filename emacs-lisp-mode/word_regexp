@@ -1,6 +1,5 @@
 # -*- mode: snippet -*-
 # name: word_regexp
 # key: <
-# contributor: Andrea crotti
 # --
 "\\_<${1:word}\\_>"

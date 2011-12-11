@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
 # name: latex
 # key: latex
-# contributor: Andrea crotti
 # --
 #+BEGIN_LaTeX
 $0

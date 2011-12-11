@@ -1,6 +1,5 @@
 # -*- mode: snippet -*-
 # name: not_impl
 # key: not_impl
-# contributor: Andrea crotti
 # --
 raise NotImplementedError

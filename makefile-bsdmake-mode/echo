@@ -1,6 +1,5 @@
 # -*- mode: snippet -*-
 # name: echo
 # key: echo
-# contributor: Andrea crotti
 # --
 @echo ${1:"message to output"}

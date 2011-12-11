@@ -1,6 +1,5 @@
 # -*- mode: snippet -*-
 # name: hash
 # key: hash
-# contributor: Andrea crotti
 # --
 make-hash-table ${1:options}

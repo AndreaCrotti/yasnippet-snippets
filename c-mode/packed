@@ -1,6 +1,5 @@
 # -*- mode: snippet -*-
 # name: packed
 # key: packed
-# contributor: Andrea crotti
 # --
 __attribute__((__packed__))$0

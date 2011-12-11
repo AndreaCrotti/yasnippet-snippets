@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
 # name: section
 # key: --
-# contributor: Andrea crotti
 # --
 --- # ${1:section}
 $0

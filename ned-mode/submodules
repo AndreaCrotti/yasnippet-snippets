@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
 # name: submodules
 # key: sub
-# contributor: Andrea crotti
 # --
 submodules:
    $0

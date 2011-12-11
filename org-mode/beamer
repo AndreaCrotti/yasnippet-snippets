@@ -12,6 +12,5 @@
 #+BEAMER_HEADER_EXTRA: \usetheme{Berlin} \usecolortheme{default}
 #+COLUMNS: %40ITEM %10BEAMER_env(Env) %10BEAMER_envargs(Env Args) %4BEAMER_col(Col) %8BEAMER_extra(Extra)
 #+TITLE: ${2:TITLE}
-#+AUTHOR: Andrea Crotti
 
 $0

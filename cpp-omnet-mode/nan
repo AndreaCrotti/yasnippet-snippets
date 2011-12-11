@@ -1,6 +1,5 @@
 # -*- mode: snippet -*-
 # name: nan
 # key: nan
-# contributor: Andrea crotti
 # --
 isnan(${1:x})

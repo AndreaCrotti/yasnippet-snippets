@@ -1,6 +1,5 @@
 # -*- mode: snippet -*-
 # name: io
 # key: io
-# contributor: Andrea crotti
 # --
 #include <iostream>

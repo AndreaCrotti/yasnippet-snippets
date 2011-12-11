@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
 # name: bench
 # key: bench
-# contributor: Andrea crotti
 # --
 require "benchmark"
 
