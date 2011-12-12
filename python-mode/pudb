@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: pudb
+# key: tu
+# --
+import pudb; pudb.set_trace()
