@@ -1,6 +1,5 @@
 # -*- mode: snippet -*-
 # name: group
 # key: group
-# contributor: Andrea crotti
 # --
 # group : ${1:group}

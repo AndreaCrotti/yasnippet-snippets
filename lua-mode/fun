@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
 # name: fun
 # key: fun
-# contributor: Andrea crotti
 # --
 function ()
          ${1:return something}

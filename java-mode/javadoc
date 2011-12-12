@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
 # name: javadoc
 # key: doc
-# contributor: Andrea crotti
 # --
 /**
  * $0

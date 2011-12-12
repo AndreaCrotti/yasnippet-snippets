@@ -2,7 +2,6 @@
 # name: ife
 # key: ife
 # group : control structure
-# contributor: Andrea crotti
 # --
 if $1:
    $2

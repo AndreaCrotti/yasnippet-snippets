@@ -2,7 +2,6 @@
 # name: test_file
 # key: tf
 # group : definitions
-# contributor: Andrea crotti
 # --
 import unittest
 ${1:from ${2:test_file} import *}

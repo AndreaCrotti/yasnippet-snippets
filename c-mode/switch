@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
 # name: switch
 # key: case
-# contributor: Andrea crotti
 # --
 switch (${1:ch}) {
        case ${2:const}:

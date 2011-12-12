@@ -2,7 +2,6 @@
 # name: builtin
 # key: __
 # group : definitions
-# contributor: Andrea crotti
 # --
 def __${1:$$(yas/choose-value '("str" "cmp" "iter" "eq" "repr"))}__(self${2:, other}):
     $0

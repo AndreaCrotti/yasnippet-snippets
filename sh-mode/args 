@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
-# name:args 
+# name:args
 # key: args
-# contributor: Andrea Crotti
 # --
 if [ $# -lt ${1:2} ]
    then $0

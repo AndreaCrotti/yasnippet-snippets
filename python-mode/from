@@ -2,7 +2,6 @@
 # name: from
 # key: from
 # group : general
-# contributor: Andrea crotti
 # --
 from ${1:lib} import ${2:funs}
 $0

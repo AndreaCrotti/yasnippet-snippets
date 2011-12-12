@@ -2,7 +2,6 @@
 # name: yaml
 # key: yaml
 # group : general
-# contributor: Andrea crotti
 # --
 ${1:res} = yaml.load(open(${2:file}))
 $0

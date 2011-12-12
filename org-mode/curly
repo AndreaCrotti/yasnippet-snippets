@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
 # name: curly
 # key: curly
-# contributor: Andrea crotti
 # --
 ${1:def} =
 \left \{

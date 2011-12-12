@@ -1,6 +1,5 @@
 # -*- mode: snippet -*-
 # name: math
 # key: math
-# contributor: Andrea crotti
 # --
 #include <cmath>

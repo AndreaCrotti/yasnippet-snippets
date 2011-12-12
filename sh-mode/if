@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
 # name: if
 # key: if
-# contributor: Andrea crotti
 # --
 if ${1:[ -f file]}
    then ${2:do}

@@ -1,6 +1,5 @@
 # -*- mode: snippet -*-
 # name: delete[]
 # key: dla
-# contributor: Andrea crotti
 # --
 delete[] ${1:arr};

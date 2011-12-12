@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
 # name: toString
 # key: toStr
-# contributor: Andrea crotti
 # --
 public String toString() {
        $0

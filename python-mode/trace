@@ -1,6 +1,5 @@
 # -*- mode: snippet -*-
 # name: trace
 # key: tr
-# contributor: Andrea crotti
 # --
 import pdb; pdb.set_trace()

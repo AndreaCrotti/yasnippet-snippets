@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
 # name: doc
 # key: /*
-# contributor: Andrea crotti
 # --
 /**
  * ${1:documentation}
