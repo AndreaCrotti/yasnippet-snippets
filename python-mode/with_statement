@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: with_statement
+# key: fw
+# --
+from __future__ import with_statement
