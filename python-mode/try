@@ -4,5 +4,5 @@
 # --
 try:
     $1
-except $2:
+except ${2:Exception}:
     $0
