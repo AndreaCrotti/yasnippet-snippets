@@ -2,9 +2,12 @@
 # name: setup
 # key: setup
 # --
+from setuptools import setup
+
 package = '${1:name}'
 version = '${2:0.1}'
 
-setup(name=package, version=version,
+setup(name=package,
+      version=version,
       description="${3:description}",
       url='${4:url}'$0)
