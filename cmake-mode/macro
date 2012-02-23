@@ -2,6 +2,6 @@
 # name: macro
 # key: macro
 # --
-macro (${1:name}${2: args})
+macro(${1:name}${2: args})
 
-endmacro ()
+endmacro()

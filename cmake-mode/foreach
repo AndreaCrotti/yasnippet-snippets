@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # name: foreach
-# key: foreach
+# key: for
 # --
-foreach (${1:item} \${${2:array}})
+foreach(${1:item} \${${2:array}})
         $0
-endforeach ()
+endforeach()
