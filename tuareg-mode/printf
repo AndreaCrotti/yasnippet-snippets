@@ -2,4 +2,4 @@
 # name: printf
 # key: pr
 # --
-Printf.printf ${1:"string"} ${2:vals};;
+Printf.printf "${1:string}" ${2:vals};;
