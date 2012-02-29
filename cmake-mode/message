@@ -2,4 +2,4 @@
 # name: message
 # key: msg
 # --
-message("$0")
+message(${1:STATUS }"$0")
