@@ -2,4 +2,4 @@
 # name: message
 # key: msg
 # --
-message(${1:STATUS }"$0")
+MessageBox MB_OK "${1:hello}"

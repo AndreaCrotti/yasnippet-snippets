@@ -2,4 +2,4 @@
 # name: include
 # key: inc
 # --
-!include ${Library.nsh}
+!include "${Library.nsh}"
