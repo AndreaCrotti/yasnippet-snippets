@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: graph
+# name: digraph
 # key: graph
 # --
-.. graph:: $1
+.. digraph:: $1
 
    $0
