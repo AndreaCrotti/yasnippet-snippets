@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
 # name: autofunction
-# key: autof
+# key: auto
 # --
 .. autofunction:: $0

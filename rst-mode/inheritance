@@ -2,4 +2,4 @@
 # name: inheritance
 # key: inh
 # --
-.. inheritance-diagram: $0
+.. inheritance-diagram:: $0
