@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 #Author : Jonas Bonèr <jonas@jonasboner.com>
 #name : def f = ...
-# key: def.simple
+# key: def
 # --
 def ${1:name} = $0

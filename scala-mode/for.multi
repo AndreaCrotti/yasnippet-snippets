@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 #Author : Jonas Bonèr <jonas@jonasboner.com>
 #name : for {x <- xs \ y <- ys} { yield }
-# key: for.multi
+# key: for
 # --
 for {
   ${1:x} <- ${2:xs}

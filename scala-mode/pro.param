@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 #Author : Jonas Bonèr <jonas@jonasboner.com>
 #name : protected[this]
-# key: pro.param
+# key: prno
 # --
 protected[${1:this}] $0

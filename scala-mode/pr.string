@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 #Author : Jonas Bonèr <jonas@jonasboner.com>
 #name : println("..")
-# key: pr.string
+# key: pr
 # --
 println("${1:msg}") $0
