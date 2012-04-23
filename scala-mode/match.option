@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 #Author : Jonas Bonèr <jonas@jonasboner.com>
 #name : option match { case None => .. }
+# key: match.option
 # --
 ${1:option} match {
   case None => $0

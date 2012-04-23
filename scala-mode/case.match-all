@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 #Author : Jonas Bonèr <jonas@jonasboner.com>
 #name : case _ => 
+# key: case.match-all
 # --
 case _ => $0

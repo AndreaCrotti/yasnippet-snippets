@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 #Author : Jonas Bonèr <jonas@jonasboner.com>
 #name : try { .. } catch { case e => ..}
+# key: try
 # --
 try {
   $0

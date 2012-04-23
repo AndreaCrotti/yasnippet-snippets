@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 #Author : Jonas Bonèr <jonas@jonasboner.com>
 #name : def f = {...}
+# key: def.body
 # --
 def ${1:name} = {
   $0

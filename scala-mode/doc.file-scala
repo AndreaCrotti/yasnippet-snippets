@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 #Author : Anders Bach Nielsen <andersbach.nielsen@epfl.ch>
 #name : /** scala file */
+# key: doc.file-scala
 # --
 /*                     __                                               *\
 **     ________ ___   / /  ___     Scala $3                               **

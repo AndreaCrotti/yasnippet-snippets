@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 #Author : Jonas Bonèr <jonas@jonasboner.com>
 #name : val a = actor { ..}
+# key: actor
 # --
 val a = actor {
   loop {
