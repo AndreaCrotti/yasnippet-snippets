@@ -2,4 +2,4 @@
 # name: fixme
 # key: fi
 # --
-`(ca-with-comment "FIXME: $0")`
+`(ca-with-comment "FIXME: ")`
