@@ -2,4 +2,4 @@
 # name: xxx
 # key: x
 # --
-`(ca-with-comment "XXX: $0 ")`
+`(ca-with-comment "XXX: ")`
