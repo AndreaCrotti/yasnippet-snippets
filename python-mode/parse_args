@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: parse_args
 # key: pargs
+# group: argparser
 # --
 def parse_arguments():
     parser = argparse.ArgumentParser(description='$1')

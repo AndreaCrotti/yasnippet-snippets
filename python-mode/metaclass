@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: metaclass
 # key: mt
+# group: object oriented
 # --
 __metaclass__ = type

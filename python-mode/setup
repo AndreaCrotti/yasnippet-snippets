@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: setup
 # key: setup
+# group: distribute
 # --
 from setuptools import setup
 

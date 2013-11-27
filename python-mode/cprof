@@ -1,8 +1,0 @@
-# -*- mode: snippet -*-
-# name: cprof
-# key: cprof
-# --
-try:
-     import cProfile as profile
-except ImportError:
-     import profile

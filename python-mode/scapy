@@ -1,5 +1,0 @@
-# -*- mode: snippet -*-
-# name: scapy
-# key: scapy
-# --
-from scapy.all import $0

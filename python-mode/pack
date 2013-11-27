@@ -1,5 +1,0 @@
-# -*- mode: snippet -*-
-# name: pack
-# key: pack
-# --
-struct.pack("!${1:fmt}", $0)
