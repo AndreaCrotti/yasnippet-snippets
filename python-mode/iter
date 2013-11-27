@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: iter
+# name: __iter__
 # key: iter
-# group: overloading
+# group: dunder methods
 # --
 def __iter__(self):
     return ${1:iter($2)}

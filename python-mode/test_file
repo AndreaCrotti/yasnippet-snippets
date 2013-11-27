@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # name: test_file
 # key: tf
-# group : definitions
+# group : testing
 # --
 import unittest
 ${1:from ${2:test_file} import *}

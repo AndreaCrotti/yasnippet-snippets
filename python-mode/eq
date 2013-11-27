@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: eq
+# name: __eq__
 # key: eq
-# group: overloading
+# group: dunder methods
 # --
 def __eq__(self, other):
     return self.$1 == other.$1

@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: str
+# name: __str__
 # key: str
-# group: overloading
+# group: dunder methods
 # --
 def __str__(self):
     $0
