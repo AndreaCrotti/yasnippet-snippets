@@ -2,4 +2,4 @@
 # name: todo
 # key: t
 # --
-`(ca-with-comment "TODO: ")`
+`(yas-with-comment "TODO: ")`
