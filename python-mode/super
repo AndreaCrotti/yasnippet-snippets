@@ -3,4 +3,5 @@
 # key: super
 # group: object oriented
 # --
-super(${1:Class}, self).${2:function}(${3:args})
+super(`(replace-regexp-in-string "\\([.]\\)[^.]+$" ", self)." (python-info-current-defun) nil nil 1)`($1)
+$0
