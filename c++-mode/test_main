@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: test_main
 # key: test_main
+# group: testing
 # --
 int main(int argc, char **argv) {
       ::testing::InitGoogleTest(&argc, argv);

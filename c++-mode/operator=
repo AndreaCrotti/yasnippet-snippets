@@ -2,6 +2,7 @@
 # name: operator=
 # key: =
 # where this is a reference to myself
+# group: operator overloading
 # --
 ${1:MyClass}& $1::operator=(const $1 &rhs) {
     // Check for self-assignment!

@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: operator<<
 # key: <<
+# group: operator overloading
 # --
 std::ostream& operator<<(std::ostream& s, const ${1:type}& ${2:c})
 {
