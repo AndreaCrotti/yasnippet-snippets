@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: celery pdb
+# key: cdb
+# --
+from celery.contrib import rdb; rdb.set_trace()
