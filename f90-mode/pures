@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # contributor: Jonas Kalderstam <jonas@kalderstam.se>
-# name: pure subroutine ... end subroutine ...
+# name: pure subroutine .. end subroutine
 # key: pure subroutine
 # --
 pure subroutine ${1:name} (${2:arg})

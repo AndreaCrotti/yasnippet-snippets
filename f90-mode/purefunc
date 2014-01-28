@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # contributor: Jonas Kalderstam <jonas@kalderstam.se>
-# name: pure function ... end function ...
+# name: pure function .. end function
 # key: pure function
 # --
 pure function ${1:name} (${2:arg})
