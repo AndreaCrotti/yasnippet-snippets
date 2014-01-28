@@ -1,9 +1,9 @@
 # -*- mode: snippet -*-
 # contributor: Jonas Kalderstam <jonas@kalderstam.se>
-# name: subroutine ... end subroutine ...
-# key: su
+# name: pure subroutine ... end subroutine ...
+# key: pure subroutine
 # --
-subroutine ${1:name} (${2:arg})
+pure subroutine ${1:name} (${2:arg})
   ${3:real, intent(in) :: $2}
 
   $0

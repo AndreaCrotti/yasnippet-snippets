@@ -1,8 +1,9 @@
 # -*- mode: snippet -*-
 # contributor: Jonas Kalderstam <jonas@kalderstam.se>
-# name: do ... end do ...
-# key: do
+# name: where ... end where ...
+# key: where
 # --
-do $1
+
+where (${1:condition})
   $0
-end do
+end where
