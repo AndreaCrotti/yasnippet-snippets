@@ -3,8 +3,8 @@
 # name: subroutine ... end subroutine ...
 # key: su
 # --
-subroutine ${10:name} (${11:arg})
-  ${12:real, intent(in) :: $11}
+subroutine ${1:name} (${2:arg})
+  ${3:real, intent(in) :: $2}
 
   $0
-end subroutine $10
+end subroutine $1
