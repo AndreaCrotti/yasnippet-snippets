@@ -3,10 +3,10 @@
 # name: pure function ... end function ...
 # key: pure func
 # --
-pure function ${10:name} (${11:arg})
-  ${13:real} :: $10
-  ${14:real, intent(in)} :: $11
+pure function ${1:name} (${2:arg})
+  ${3:real} :: $1
+  ${4:real, intent(in)} :: $2
 
   $0
 
-end function $10
+end function $1
