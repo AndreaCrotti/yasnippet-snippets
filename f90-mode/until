@@ -1,8 +1,9 @@
 # -*- mode: snippet -*-
 # contributor: Jonas Kalderstam <jonas@kalderstam.se>
-# name: do ... end do ...
-# key: do
+# name: until ... end until ...
+# key: until
 # --
-do $1
+do
   $0
+  if (${1:condition}) exit
 end do

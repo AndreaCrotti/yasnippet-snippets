@@ -1,8 +1,8 @@
 # -*- mode: snippet -*-
 # contributor: Jonas Kalderstam <jonas@kalderstam.se>
-# name: do ... end do ...
-# key: do
+# name: while ... end while ...
+# key: while
 # --
-do $1
+do while (${1:condition})
   $0
 end do
