@@ -1,0 +1,5 @@
+#contributor : Fernando Briano <fernando@picandocodigo.net>
+#name : <section> ... </section>
+#group : sections
+# --
+<section>$1</section>
