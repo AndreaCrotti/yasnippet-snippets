@@ -1,0 +1,4 @@
+#contributor : Balachandran Sivakumar <benignbala@gmail.com>
+#name : alter table ... add column ... after
+# --
+ALTER TABLE [${1:dbo}].[${2:TableName}] ADD COLUMN ${3:Id} ${4:INT} ${5:NOT NULL} AFTER ${6:Column}
