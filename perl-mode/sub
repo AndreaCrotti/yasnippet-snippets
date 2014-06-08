@@ -1,0 +1,7 @@
+# contributor: Balachandran Sivakumar <benignbala@gmail.com>
+# name: sub name...
+# key: sub
+# --
+sub ${1:function} {
+
+}

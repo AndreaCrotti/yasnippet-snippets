@@ -1,0 +1,9 @@
+# contributor: Balachandran Sivakumar <benignbala@gmail.com>
+# name: new
+# --
+sub new {
+    my $class = shift;
+    my $self = {};
+    bless ($self, $class);
+    return $self;
+}

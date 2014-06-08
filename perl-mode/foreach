@@ -1,0 +1,6 @@
+# contributor: Balachandran Sivakumar <benignbala@gmail.com>
+# name: foreach...
+# --
+foreach my $${1:SV} (@${2:ARRAY}) {
+	$0
+}
