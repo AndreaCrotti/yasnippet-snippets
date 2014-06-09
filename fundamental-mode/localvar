@@ -2,4 +2,4 @@
 # name: var
 # key: var
 # --
-`(yas-with-comment "-*- ${1:var}: ${2:value} -*-")`
+`comment-start`-*- ${1:var}: ${2:value} -*-`comment-end`

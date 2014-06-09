@@ -2,4 +2,4 @@
 # name: mode
 # key: mode
 # --
-`(yas-with-comment "-*- mode: ${1:mode} -*-")`
+`comment-start`-*- mode: ${1:mode} -*-`comment-end`
