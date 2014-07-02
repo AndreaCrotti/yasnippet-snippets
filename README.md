@@ -1,4 +1,4 @@
-In this repository there is a colletion of my personal [[http://github.com/capitaomorte/yasnippet][yasnippet]]
+In this repository there is a colletion of my personal [yasnippet](http://github.com/capitaomorte/yasnippet)
 snippets for many different Emacs modes.
 
 
