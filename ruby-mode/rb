@@ -1,4 +1,4 @@
-#name : /usr/bin/ruby -wKU
+#name : /usr/bin/ruby -wU
 #group : general
 # --
-#!/usr/bin/ruby -wKU
+#!/usr/bin/ruby -wU
