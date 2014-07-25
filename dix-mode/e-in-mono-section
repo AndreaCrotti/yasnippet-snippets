@@ -1,0 +1,8 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: <e> in monodix section
+# key: <e
+# condition: (dix-enclosing-is-mono-section)
+# binding: direct-keybinding
+# --
+<e lm="${1:`(dix-yas-prev-lemma)`}"> <i>${1:$(replace-regexp-in-string " " "<b/>" yas-text)}</i> <par n="${2:`(dix-yas-prev-par)`}"/></e>
+$0

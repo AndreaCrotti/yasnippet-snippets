@@ -1,0 +1,10 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: <p> element
+# key: <p
+# condition: (member (dix-enclosing-elt  'noerror) '("e"))
+# binding: direct-keybinding
+#TODO: https://github.com/capitaomorte/yasnippet/issues/496
+#means you have to manually (remhash 'nxml-mode yas--tables)
+#after yas-reload-all for this to work
+# --
+<p><l>$1</l> <r>$2</r></p>

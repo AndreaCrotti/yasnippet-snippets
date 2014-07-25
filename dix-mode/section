@@ -1,0 +1,9 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: <section> element
+# key: <s
+# condition: (not (dix-enclosing-is-mono-section))
+# binding: direct-keybinding
+# --
+<section id="${1:main}" type="${2:standard}">
+$0
+</section>

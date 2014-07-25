@@ -1,0 +1,8 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: <s> element
+# key: <s
+# binding: direct-keybinding
+# condition: (member (dix-enclosing-elt 'noerror) '("l" "r" "i" "g"))
+#TODO https://github.com/capitaomorte/yasnippet/issues/497
+# --
+<s n="$1"/>$0

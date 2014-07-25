@@ -1,0 +1,15 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: <pardef> element
+# key: <p
+# condition: (equal (dix-enclosing-elt 'noerror) "pardefs")
+# binding: direct-keybinding
+#TODO: https://github.com/capitaomorte/yasnippet/issues/496
+#means you have to manually (remhash 'nxml-mode yas--tables)
+#after yas-reload-all for this to work
+# --
+<pardef n="${1:corp/us__n}">
+  <e>       <p><l>${2:ora}</l>      <r>${3:us<s n="n"/><s n="pl"/>}</r></p></e>
+  <e>       <p><l>$2$0</l>      <r>$3</r></p></e>
+  <e>       <p><l>$2</l>      <r>$3</r></p></e>
+  <e>       <p><l>$2</l>      <r>$3</r></p></e>
+</pardef>
