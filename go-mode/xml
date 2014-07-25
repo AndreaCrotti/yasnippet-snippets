@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: xml
+# key: xml
+# --
+\`xml:"$1"\`
