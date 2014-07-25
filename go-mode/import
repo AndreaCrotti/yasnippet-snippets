@@ -2,5 +2,6 @@
 # name: import
 # key: imp
 # --
-import ${1:package}
-$0
+import (
+    "${1:package}"
+)
