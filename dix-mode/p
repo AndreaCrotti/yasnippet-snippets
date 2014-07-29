@@ -7,4 +7,4 @@
 #means you have to manually (remhash 'nxml-mode yas--tables)
 #after yas-reload-all for this to work
 # --
-<p><l>$1</l> <r>$2</r></p>
+<p><l>$1</l> <r>$1$0</r></p>
