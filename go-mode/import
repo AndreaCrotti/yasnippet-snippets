@@ -1,6 +1,6 @@
-# -*- mode: snippet -*-
+# -*- mode:snippet -*-
 # name: import
 # key: imp
 # --
-import ${1:package}
+import "$0"
 $0

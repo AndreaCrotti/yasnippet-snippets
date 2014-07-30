@@ -2,7 +2,7 @@
 # name: switch
 # key: switch
 # --
-switch {
-    case ${1:cond}:
-         $0
+switch $1 {
+  case $2:
+    $0
 }

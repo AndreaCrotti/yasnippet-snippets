@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: debug-printf
+# key: dd
+# --
+fmt.Printf("%+v\n", $1)
+$0
