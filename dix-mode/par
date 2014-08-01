@@ -7,4 +7,4 @@
 #means you have to manually (remhash 'nxml-mode yas--tables)
 #after yas-reload-all for this to work
 # --
-<par n="${1:`(dix-yas-prev-par)`}"/>$0
+<par n="${1::$$(dix-yas-message-pardef (yas-choose-value (dix-pardef-suggest-for (dix-lemma-at-point))))`}"/>$0
