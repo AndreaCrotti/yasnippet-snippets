@@ -2,6 +2,6 @@
 # name: lambda func
 # key: lambda
 # --
-func(${1:args}) $3 {
+func(${1:args}) $2 {
   $0
 }()

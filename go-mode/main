@@ -2,6 +2,6 @@
 # name: func main()
 # key: main
 # --
-func main(${1:args}) {
+func main() {
   $0
 }

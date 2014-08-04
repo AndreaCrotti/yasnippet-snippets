@@ -2,5 +2,5 @@
 # name: import
 # key: imp
 # --
-import "$0"
+import "$1"
 $0

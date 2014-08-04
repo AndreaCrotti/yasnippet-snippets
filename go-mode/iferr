@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-# name: iferr
+# name: if error
 # key: iferr
 # --
 if err != $1 {
