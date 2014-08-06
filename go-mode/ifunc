@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: ifunc
+# key: ifunc
+# --
+func ($1) $2 {
+  $0
+}
