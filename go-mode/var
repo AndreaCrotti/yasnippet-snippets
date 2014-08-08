@@ -2,5 +2,5 @@
 # name: var
 # key: var
 # --
-var ${1:ok} ${2:bool}
+var ${1:name} ${2:type}
 $0

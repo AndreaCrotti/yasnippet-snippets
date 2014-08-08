@@ -1,6 +1,7 @@
 # -*- mode:snippet -*-
-# name: import
+# name: import (...)
 # key: imp
 # --
-import "$1"
-$0
+import (
+  "$0"
+)
