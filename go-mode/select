@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: select
-# key: select
+# key: sel
 # --
 select {
 case $1:

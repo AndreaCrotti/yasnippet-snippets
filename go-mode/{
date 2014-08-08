@@ -1,8 +1,0 @@
-# -*- mode: snippet -*-
-# name: {
-# key: {
-# contributor : grafov
-# --
-{
-  $0
-}
