@@ -4,4 +4,4 @@
 # group: object oriented
 # --
 class ${1:class}:
-      $0
+    $0

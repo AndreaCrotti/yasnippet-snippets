@@ -4,4 +4,4 @@
 # group: control structure
 # --
 while ${1:True}:
-      $0
+    $0
