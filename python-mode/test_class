@@ -4,4 +4,4 @@
 # group : testing
 # --
 class Test${1:toTest}(${2:unittest.TestCase}):
-      $0
+    $0

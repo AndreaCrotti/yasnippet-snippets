@@ -4,4 +4,4 @@
 # group : control structure
 # --
 if ${1:cond}:
-   $0
+    $0

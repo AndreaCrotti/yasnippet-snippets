@@ -2,16 +2,16 @@
 # name: prop
 # --
 def ${1:foo}():
-   doc = """${2:Doc string}"""
-   def fget(self):
-       return self._$1
+    doc = """${2:Doc string}"""
+    def fget(self):
+        return self._$1
 
-   def fset(self, value):
-       self._$1 = value
+    def fset(self, value):
+        self._$1 = value
 
-   def fdel(self):
-       del self._$1
-   return locals()
+    def fdel(self):
+        del self._$1
+    return locals()
 $1 = property(**$1())
 
 $0
