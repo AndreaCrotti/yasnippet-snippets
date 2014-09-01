@@ -1,4 +1,5 @@
 #contributor : Anders Bach Nielsen <abachn@abachn.net>
-#name : <div...>...</div>
+#name : <tag.../>
+#key: t
 # --
-<div$1>$0</div>
+<$1 $2 />$0
