@@ -1,5 +1,0 @@
-# -*- mode: snippet -*-
-# name: mode
-# key: mode
-# --
-`comment-start`-*- mode: ${1:mode} -*-`comment-end`
