@@ -2,4 +2,4 @@
 # name: cout
 # key: cout
 # --
-std::cout << ${1:string} $0<< std::endl;
+${1:std::}cout << $0${2: << '${3:\n}'};
