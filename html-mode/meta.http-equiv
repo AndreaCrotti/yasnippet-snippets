@@ -2,4 +2,4 @@
 #name : <meta http-equiv="..." content="..." />
 #group : meta
 # --
-<meta name="${1:Content-Type}" content="${2:text/html; charset=UTF-8}" />
+<meta http-equiv="${1:Content-Type}" content="${2:text/html; charset=UTF-8}" />
