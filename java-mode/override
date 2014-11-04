@@ -1,5 +1,6 @@
 # -*- mode: snippet; require-final-newline: nil -*-
-# name: return
-# key: r
+# name: override
+# key: o
 # --
-return $0
+@Override
+$0
