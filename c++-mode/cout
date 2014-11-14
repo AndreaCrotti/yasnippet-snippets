@@ -1,5 +1,8 @@
 # -*- mode: snippet -*-
+# contributor: York Zhao <gtdplatform@gmail.com>
 # name: cout
 # key: cout
 # --
-${1:std::}cout << $0${2: << '${3:\n}'};
+`(progn (save-excursion) (goto-char (point-min)) (unless (re-search-forward
+"^using\\s-+namespace std;" nil 'no-errer) "std::"))
+`cout << $0${1: << '${2:\n}'};
