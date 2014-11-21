@@ -2,5 +2,5 @@
 # name: bang
 # key: !
 # --
-#!/bin/bash
+#!/usr/bin/env bash
 $0
