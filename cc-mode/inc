@@ -1,4 +1,5 @@
-#name : #include "..."
-#key  : inc
+# -*- mode: snippet -*-
+# name : #include "..."
+# key  : inc
 # --
 #include "$1"
