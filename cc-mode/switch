@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name : switch (...) { case : ... default: ...}
+# key: switch
+# --
+switch (${expr}) {
+case ${constexpr}:
+    $0
+    break;
+
+default:
+    break;
+}

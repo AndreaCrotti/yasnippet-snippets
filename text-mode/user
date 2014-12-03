@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name : user's full name
+# condition: 'force-in-comment
+# key: user
+# --
+`user-full-name`

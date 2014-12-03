@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name : copyright notice
+# key: copyright
+# condition: 'force-in-comment
+# --
+Copyright (C) `(format-time-string "%Y")` ${`user-full-name`}. All Rights Reserved.

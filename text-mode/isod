@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name : current date(YYYY-MM-DD)
+# key: isod
+# condition: 'force-in-comment
+# --
+`(format-time-string "%Y-%m-%d")`
