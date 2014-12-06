@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
 # name: cerr
-# key: err
+# key: cerr
 # --
 cerr << $0;
