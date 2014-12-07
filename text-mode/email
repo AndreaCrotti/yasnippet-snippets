@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-# name: (user's email)
+# name: user's email (default)
 # key: email
 # --
 `user-mail-address`
