@@ -3,8 +3,8 @@
 # key: <<
 # group: operator overloading
 # --
-std::ostream& operator<<(std::ostream& s, const ${1:type}& ${2:c})
+std::ostream& operator<<(std::ostream& os, const ${1:Class}& ${2:c})
 {
          $0
-         return s;
+         return os;
 }
