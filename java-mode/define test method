@@ -3,6 +3,6 @@
 # key: dt
 # --
 @Test
-public void ${1:testName}() throws Exception {
+public void test${1:Name}() throws Exception {
     $0
 }

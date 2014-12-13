@@ -1,5 +1,6 @@
-# -*- mode: snippet -*-
+# -*- mode: snippet; require-final-newline: nil -*-
 # name: this
 # key: .
 # --
-this.$0
+this.$1 = $1;
+$0
