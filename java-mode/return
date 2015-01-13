@@ -1,5 +1,5 @@
-# -*- mode: snippet -*-
+# -*- mode: snippet; require-final-newline: nil -*-
 # name: return
-# key: ret
+# key: r
 # --
-@return ${1:description}
+return $0

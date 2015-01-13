@@ -1,6 +1,5 @@
 # -*- mode: snippet; require-final-newline: nil -*-
-# name: this
-# key: .
+# name: assert
+# key: as
 # --
-this.$1 = $1;
-$0
+assert ${1:expression};

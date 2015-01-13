@@ -2,4 +2,4 @@
 # name: logger_name
 # key: ln
 # --
-logger = logging.getLogger(__name__)
+logger = logging.getLogger(${1:__name__})

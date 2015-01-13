@@ -1,6 +1,5 @@
 # -*- mode: snippet; require-final-newline: nil -*-
-# name: this
-# key: .
+# name: lambda
+# key: \
 # --
-this.$1 = $1;
-$0
+(${1:args}) -> ${2:expression};

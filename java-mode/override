@@ -1,6 +1,6 @@
 # -*- mode: snippet; require-final-newline: nil -*-
-# name: this
-# key: .
+# name: override
+# key: o
 # --
-this.$1 = $1;
+@Override
 $0
