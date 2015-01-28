@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: matrix
-# key: matrix
+# key: matrix_
 # possible improvement, compute the number of lines from the argument to array
 # --
 \left \(
