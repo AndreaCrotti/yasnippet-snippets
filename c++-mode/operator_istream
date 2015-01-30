@@ -3,7 +3,8 @@
 # key: >>
 # group: operator overloading
 # --
-istream& operator>>(istream& s, const ${1:type}& ${2:c})
+std::istream& operator>>(std::istream& is, const ${1:Class}& ${2:c})
 {
          $0
+	 return is;
 }

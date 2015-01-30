@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name : current time(ISO 8601 format)
+# key: isot
+# condition: 'force-in-comment
+# --
+`(format-time-string "%Y-%m-%dT%T%z")`

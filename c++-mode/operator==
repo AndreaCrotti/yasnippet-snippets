@@ -3,6 +3,7 @@
 # key: ==
 # group: operator overloading
 # --
-bool ${1:MyClass}::operator==(const $1 &other) const {
+bool ${1:MyClass}::operator==(const $1 &other) const
+{
      $0
 }
