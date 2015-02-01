@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name : case : {...}
+# key: case
+# --
+`(indent-region (- (point) 20) (+ (point) 20) nil)`case ${2:constexpr}:${3: \{}
+    $0
+    break;
+${3:$(if (string-match "\{" yas-text) "\}" "")}
