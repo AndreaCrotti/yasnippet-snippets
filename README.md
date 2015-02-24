@@ -1,14 +1,17 @@
-In this repository there is a colletion of my personal [yasnippet](http://github.com/capitaomorte/yasnippet)
-snippets for many different Emacs modes.
+# Yasnippet official snippet collections
+This repository contains the official snippets for [yasnippet](http://github.com/capitaomorte/yasnippet), as you can see from the git submodules link.
 
-
-# How to use
+# How to install
 
 1. install yasnippet
+2. clone this repository
 3. add to your .emacs the following
    - (add-to-list 'yas/root-directory "$DIRECTORY_WHERE_YOU_CLONED")
    - (yas/initialize)
+
 4. M-x yas/reload-all to activate them
+
+Alternatively run a *git submodule update* after you check out yasnippet (which however might be a bit behind the version in master).
 
 # Contributing
 
