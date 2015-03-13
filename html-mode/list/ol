@@ -1,7 +1,7 @@
 # contributor: Jimmy Wu <frozenthrone88@gmail.com>
-# name: <html>...</html>
-# key: html
+# name: <ol>...</ol>
+# key: ol
 # --
-<html>
+<ol>
   $0
-</html>
+</ol>
