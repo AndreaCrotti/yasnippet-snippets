@@ -1,7 +1,5 @@
 # contributor: Jimmy Wu <frozenthrone88@gmail.com>
-# name: <html>...</html>
-# key: html
+# name: <h1>...</h1>
+# key: h1
 # --
-<html>
-  $0
-</html>
+<h1>$1</h1>

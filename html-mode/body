@@ -1,7 +1,7 @@
 # contributor: Jimmy Wu <frozenthrone88@gmail.com>
-# name: <html>...</html>
-# key: html
+# name: <body>...</body>
+# key: body
 # --
-<html>
+<body$1>
   $0
-</html>
+</body>
