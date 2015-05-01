@@ -1,4 +1,6 @@
 # Yasnippet official snippet collections
+
+[![Join the chat at https://gitter.im/AndreaCrotti/yasnippet-snippets](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/AndreaCrotti/yasnippet-snippets?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 This repository contains the official snippets for [yasnippet](http://github.com/capitaomorte/yasnippet), as you can see from the git submodules link.
 
 # How to install
