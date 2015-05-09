@@ -1,0 +1,10 @@
+#contributor : Jhonatan Rua <ruajhonatan@gmail.com>
+#name : <nav>...</nav>
+# --
+<nav>
+    <ul>
+        <li>
+            <a href="$1">$2</a>
+        <li>
+    </ul>
+</nav>
