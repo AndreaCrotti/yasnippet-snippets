@@ -2,7 +2,7 @@
 # name: func
 # key: func
 # --
-//
+// $1 ${4:...}
 func ${1:name}(${2:args}) $3 {
   $0
 }
