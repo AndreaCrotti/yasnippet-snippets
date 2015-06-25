@@ -5,17 +5,17 @@ This repository contains the official snippets for [yasnippet](http://github.com
 
 # How to install
 
-There are two options, if you have checked out *yasnippet* already, the only thing you need to do is to run *git submodule update --init*
+There are two options, if you have checked out *yasnippet* already, the only thing you need to do is to run `git submodule update --init`
 and it will checkout automatically this repository, at the last version it was synchronized too.
 
 Otherwise if you want the latest and greatest snippets collection proceed as follows:
 
 1. clone this repository
 2. add to your .emacs the following
-   - (add-to-list 'yas/root-directory "$DIRECTORY_WHERE_YOU_CLONED")
-   - (yas/initialize)
+   - `(add-to-list 'yas/root-directory "$DIRECTORY_WHERE_YOU_CLONED")`
+   - `(yas/initialize)`
 
-3. M-x yas/reload-all to activate them
+3. `M-x yas/reload-all` to activate them
 
 # Contributing
 
