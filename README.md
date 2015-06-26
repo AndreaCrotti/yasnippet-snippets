@@ -22,7 +22,7 @@ Otherwise if you want the latest and greatest snippets collection proceed as fol
 This repository has now become the default snippets repository (as a submodule) in yasnippet.
 So if you have any useful snippets for any language or framework please feel free to contribute.
 
-To study the current snippets I suggest to use `M-x yasdescribe-tables`
+To study the current snippets I suggest to use `M-x yas-describe-tables`
 which will gave a table representation of all the snippets available in the current mode.
 
 
