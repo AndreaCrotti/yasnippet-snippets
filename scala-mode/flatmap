@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+#Author : Sam Halliday
+#name : map(x => ..)
+# key: map
+# --
+flatMap { ${1:x} => $0 }

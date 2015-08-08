@@ -1,6 +1,0 @@
-# -*- mode: snippet -*-
-#Author : Jonas Bonèr <jonas@jonasboner.com>
-#name : assert(true)
-# key: ass
-# --
-assert(true) $0

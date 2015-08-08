@@ -3,4 +3,4 @@
 #name : case pattern => 
 # key: case
 # --
-case ${1:pattern} => $0
+case ${1:_} => $0

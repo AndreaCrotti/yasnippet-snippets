@@ -3,4 +3,4 @@
 #name : foreach(x => ..)
 # key: foreach
 # --
-foreach(${1:x} => ${2:body}) $0
+foreach { ${1:x} => $0 }
