@@ -1,9 +1,0 @@
-# -*- mode: snippet -*-
-#Author : Anders Bach Nielsen <andersbach.nielsen@epfl.ch>
-#name : /** ... */
-# key: doc.scaladoc
-# --
-/**
- * ${1:description}
- * $0
- */
