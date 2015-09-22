@@ -12,8 +12,8 @@ Otherwise if you want the latest and greatest snippets collection proceed as fol
 
 1. clone this repository
 2. add to your .emacs the following
-   - `(add-to-list 'yas-root-directory "$DIRECTORY_WHERE_YOU_CLONED")`
-   - `(yas-initialize)`
+   - `(add-to-list 'yas-snippet-dirs "$$DIRECTORY_WHERE_YOU_CLONED")`
+   - and in case you want to enable yasnippet globally: `(yas-global-mode t)`
 
 3. `M-x yas-reload-all` to activate them
 
