@@ -5,5 +5,5 @@
 # key: cl
 # --
 clean:
-	${1:rm -r ${2:\$(${outdir})}}
+	${1:rm -r ${2:\$(${3:outdir})}}
 $0
