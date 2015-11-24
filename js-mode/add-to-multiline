@@ -1,7 +1,0 @@
-# -*- mode: snippet -*-
-#name: multiline-comment
-#key: *
-#condition: (= (js2-node-type (js2-node-at-point)) js2-COMMENT)
-# --
-*
-*
