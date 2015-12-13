@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: case
 # key: case
+# expand-env: ((yas-indent-line 'fixed))
 # --
 case ${1:var} of
      ${2:cond} -> ${3:value}
