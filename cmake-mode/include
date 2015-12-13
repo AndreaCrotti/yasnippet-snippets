@@ -1,5 +1,5 @@
-# type: command
-# key: inc
+# -*- mode: snippet -*-
 # name: include
+# key: inc
 # --
 include ($0)
