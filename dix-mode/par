@@ -1,10 +1,7 @@
 # -*- mode: snippet; require-final-newline: nil -*-
 # name: <par> element
 # key: <p
-# condition: (equal (dix-enclosing-elt 'noerror) "e")
+# condition: (progn (backward-char 2) (equal (dix-enclosing-elt 'noerror) "e"))
 # binding: direct-keybinding
-#TODO: https://github.com/capitaomorte/yasnippet/issues/496
-#means you have to manually (remhash 'nxml-mode yas--tables)
-#after yas-reload-all for this to work
 # --
 <par n="${1::$$(dix-yas-message-pardef (yas-choose-value (dix-pardef-suggest-for (dix-lemma-at-point))))`}"/>$0

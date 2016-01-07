@@ -2,7 +2,8 @@
 # name: <s> element
 # key: <s
 # binding: direct-keybinding
-# condition: (member (dix-enclosing-elt 'noerror) '("l" "r" "i" "g"))
-#TODO https://github.com/capitaomorte/yasnippet/issues/497
+# condition: (progn (backward-char 2) (member (dix-enclosing-elt 'noerror) '("l" "r" "i" "g")))
+#Note: requires (eval-after-load 'yasnippet '(add-to-list 'yas-key-syntaxes 'dix-yas-skip-backwards-to-key))
+#so that you can expand it after regular letter chars
 # --
 <s n="$1"/>$0

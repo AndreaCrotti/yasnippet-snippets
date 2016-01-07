@@ -1,11 +1,8 @@
 # -*- mode: snippet; require-final-newline: nil -*-
 # name: <pardef> element
 # key: <p
-# condition: (equal (dix-enclosing-elt 'noerror) "pardefs")
+# condition: (progn (backward-char 2) (not (equal (dix-enclosing-elt 'noerror) "e")))
 # binding: direct-keybinding
-#TODO: https://github.com/capitaomorte/yasnippet/issues/496
-#means you have to manually (remhash 'nxml-mode yas--tables)
-#after yas-reload-all for this to work
 # --
 <pardef n="${1:corp/us__n}">
   <e>       <p><l>${1:$(dix-yas-pdname-to-suffix yas-text)}</l>      <r>${1:$(dix-yas-pdname-to-suffix yas-text)}${1:$(dix-yas-pdname-to-pos yas-text)}$2</r></p></e>
