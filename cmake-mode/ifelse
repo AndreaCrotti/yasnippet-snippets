@@ -6,4 +6,4 @@ if(${1:cond})
         $2
 else(${3:cond})
         $0
-endif()
+endif($1)$0

@@ -3,5 +3,5 @@
 # key: if
 # --
 if(${1:cond})
-   $0
-endif()
+   $2
+endif($1)$0

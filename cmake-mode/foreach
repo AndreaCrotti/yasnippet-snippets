@@ -2,6 +2,6 @@
 # name: foreach
 # key: for
 # --
-foreach(${1:item} \${${2:array}})
-        $0
-endforeach()
+foreach(${1:var} \${${2:array}})
+        $3
+endforeach($1)$0

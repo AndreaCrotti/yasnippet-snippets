@@ -2,4 +2,4 @@
 # name: include
 # key: inc
 # --
-include ($0)
+include($0)
