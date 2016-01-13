@@ -2,4 +2,4 @@
 # name: project
 # key: proj
 # --
-project ($0)
+project($0)
