@@ -3,6 +3,4 @@
 #key: cond
 # --
 (cond
-(CONDITION$0 BODY)
-(CONDITION BODY)
-)
+ (${1:condition} ${2:body})$0)
