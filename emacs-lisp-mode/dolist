@@ -2,4 +2,4 @@
 #name: dolist
 #key: dolist
 # --
-(dolist $0 )
+(dolist $0)

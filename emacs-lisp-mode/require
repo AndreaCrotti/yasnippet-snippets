@@ -2,4 +2,4 @@
 #name: require
 #key: require
 # --
-(require $0 )
+(require $0)

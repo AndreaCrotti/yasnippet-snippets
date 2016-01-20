@@ -3,4 +3,4 @@
 #key: condition-case
 #key: cc
 # --
-(condition-case $0 )
+(condition-case $0)

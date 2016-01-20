@@ -3,4 +3,4 @@
 #key: find-file
 #key: ff
 # --
-(find-file $0 )
+(find-file $0)

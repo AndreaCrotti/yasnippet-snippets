@@ -3,4 +3,4 @@
 #key: file-relative-name
 #key: frn
 # --
-(file-relative-name $0 )
+(file-relative-name $0)

@@ -2,4 +2,4 @@
 #name: repeat
 #key: repeat
 # --
-(repeat $0 )
+(repeat $0)
