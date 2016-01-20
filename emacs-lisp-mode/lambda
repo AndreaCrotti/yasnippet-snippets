@@ -1,6 +1,6 @@
 #contributor: Xah Lee (XahLee.org)
 #name: lambda
-#key: lambda
+#key: lam
 # --
 (lambda (${1:args})
   $0)
