@@ -2,4 +2,4 @@
 #name: defcustom
 #key: defcustom
 # --
-(defcustom $0 VALUE "DOC" &optional ARGS)
+(defcustom ${1:symbol} ${2:standard} "${3:docstring}"${4: args})

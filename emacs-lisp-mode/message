@@ -3,4 +3,4 @@
 #key: message
 #key: m
 # --
-(message "FORMATSTRING$0" &optional ARGS)
+(message "${1:message}"${2: format-args})

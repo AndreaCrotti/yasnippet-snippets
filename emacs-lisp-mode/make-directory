@@ -3,4 +3,4 @@
 #key: make-directory
 #key: md
 # --
-(make-directory $0 &optional PARENTS)
+(make-directory ${1:directory}${2: parents})

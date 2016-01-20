@@ -3,4 +3,4 @@
 #key: insert-file-contents
 #key: ifc
 # --
-(insert-file-contents $0 &optional VISIT BEG END REPLACE)
+(insert-file-contents ${1:filename}${2: visit}${3: beg}${4: end}${5: replace})

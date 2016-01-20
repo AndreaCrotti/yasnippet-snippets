@@ -3,4 +3,4 @@
 #key: directory-files
 #key: df
 # --
-(directory-files $0 &optional FULL MATCH NOSORT)
+(directory-files ${1:directory}${2: full}${3: match}${4: nosort})

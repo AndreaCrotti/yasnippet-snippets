@@ -3,4 +3,4 @@
 #key: search-backward
 #key: sb
 # --
-(search-backward "$0" &optional BOUND NOERROR COUNT)
+(search-backward ${1:string}${2: bound}${3: noerror}${4: count})

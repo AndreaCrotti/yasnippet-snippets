@@ -1,5 +1,5 @@
 #contributor: Xah Lee (XahLee.org)
 #name: format
-#key: format
+#key: f
 # --
-(format "$0" &optional OBJECTS)
+(format "${1:message}" ${2:format-args})
