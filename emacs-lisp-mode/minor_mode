@@ -2,7 +2,7 @@
 # name: minor_mode
 # key: minor
 # --
-(defvar ${1:mode}-modeline-indicator " ${2:INDICATOR}"
+(defvar ${1:mode}-modeline-indicator " ${2:indicator}"
   "call ($1-install-mode) again if this is changed")
 
 (defvar $1-mode nil)

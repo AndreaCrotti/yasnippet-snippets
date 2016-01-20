@@ -2,4 +2,4 @@
 #name: put
 #key: put
 # --
-(put $0 PROPNAME VALUE)
+(put ${1:symbol} ${2:propname} ${3:value})

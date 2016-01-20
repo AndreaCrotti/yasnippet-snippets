@@ -3,4 +3,4 @@
 #key: buffer-substring-no-properties
 #key: bsnp
 # --
-(buffer-substring-no-properties START$0 END)
+(buffer-substring-no-properties ${1:start} ${2:end})

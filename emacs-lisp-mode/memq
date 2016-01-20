@@ -2,4 +2,4 @@
 #name: memq
 #key: memq
 # --
-(memq ELT$0 LIST)
+(memq ${1:element} ${2:list})

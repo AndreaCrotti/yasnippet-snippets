@@ -3,4 +3,4 @@
 #key: match-beginning
 #key: mb
 # --
-(match-beginning N$0)
+(match-beginning $0)

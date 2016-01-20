@@ -3,4 +3,4 @@
 #key: match-end
 #key: me
 # --
-(match-end N$0)
+(match-end $0)

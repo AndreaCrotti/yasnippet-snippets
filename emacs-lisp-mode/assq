@@ -2,4 +2,4 @@
 #name: assq
 #key: assq
 # --
-(assq KEY$0 LIST)
+(assq ${1:key} ${2:list})

@@ -3,4 +3,4 @@
 #key: add-hook
 #key: ah
 # --
-(add-hook HOOK$0 FUNCTION)
+(add-hook ${1:hook} ${2:function})

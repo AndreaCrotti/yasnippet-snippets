@@ -2,4 +2,4 @@
 #name: yes-or-no-p
 #key: yes-or-no-p
 # --
-(yes-or-no-p "PROMPT$0 ")
+(yes-or-no-p "${1:prompt} ")
