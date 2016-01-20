@@ -2,4 +2,5 @@
 #name: lambda
 #key: lambda
 # --
-(lambda ($0) "DOCSTRING" (interactive) BODY)
+(lambda (${1:args})
+  $0)
