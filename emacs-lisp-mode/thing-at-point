@@ -3,4 +3,4 @@
 #key: thing-at-point
 #key: tap
 # --
-(thing-at-point '$0) ; symbol, list, sexp, defun, filename, url, email, word, sentence, whitespace, line, page ...
+(thing-at-point ${1:thing}${2: no-properties})
