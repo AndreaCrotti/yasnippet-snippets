@@ -3,4 +3,4 @@
 #key: with-current-buffer
 #key: wcb
 # --
-(with-current-buffer $0 )
+(with-current-buffer $0)

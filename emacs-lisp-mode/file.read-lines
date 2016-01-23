@@ -6,11 +6,11 @@
   (with-temp-buffer
     (insert-file-contents filePath)
     (split-string
-     (buffer-string) "\n" t)) )
+     (buffer-string) "\n" t)))
 
 ;; process all lines
-(mapc 
- (lambda (aLine) 
+(mapc
+ (lambda (aLine)
    (message aLine) ; do your stuff here
    )
  (read-lines "inputFilePath")

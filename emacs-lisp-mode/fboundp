@@ -2,4 +2,4 @@
 #name: fboundp
 #key: fboundp
 # --
-(fboundp '$0 )
+(fboundp '$0)

@@ -3,4 +3,4 @@
 #key: delete-region
 #key: dr
 # --
-(delete-region $0 )
+(delete-region $0)

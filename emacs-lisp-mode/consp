@@ -2,4 +2,4 @@
 #name: consp
 #key: consp
 # --
-(consp $0 )
+(consp $0)

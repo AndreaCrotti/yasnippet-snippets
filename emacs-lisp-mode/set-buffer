@@ -3,4 +3,4 @@
 #key: set-buffer
 #key: sb
 # --
-(set-buffer $0 )
+(set-buffer $0)

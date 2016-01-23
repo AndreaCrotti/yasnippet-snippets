@@ -3,4 +3,4 @@
 #key: forward-line
 #key: fl
 # --
-(forward-line $0 )
+(forward-line $0)
