@@ -3,4 +3,4 @@
 #key: define-key
 #key: dk
 # --
-(define-key KEYMAPNAME$0 (kbd "M-b") 'FUNCNAME)
+(define-key ${1:mode}-map (kbd "${2:key}") $0)

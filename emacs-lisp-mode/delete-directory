@@ -3,4 +3,4 @@
 #key: delete-directory
 #key: dd
 # --
-(delete-directory $0 &optional RECURSIVE)
+(delete-directory ${1:dicretory}${2: recursive})

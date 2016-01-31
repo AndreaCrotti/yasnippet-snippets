@@ -2,4 +2,4 @@
 #name: error
 #key: error
 # --
-(error "$0" &optional ARGS)
+(error "${1:message}"${2: format-args})

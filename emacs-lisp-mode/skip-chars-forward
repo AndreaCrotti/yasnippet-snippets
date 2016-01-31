@@ -3,4 +3,4 @@
 #key: skip-chars-forward
 #key: scf
 # --
-(skip-chars-forward "$0" &optional LIM)
+(skip-chars-forward "${1:string}"${2: lim})

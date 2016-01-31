@@ -3,4 +3,4 @@
 #key: string-to-number
 #key: stn
 # --
-(string-to-number "$0")
+(string-to-number $0)

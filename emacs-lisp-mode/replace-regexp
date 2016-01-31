@@ -3,4 +3,4 @@
 #key: replace-regexp
 #key: rr
 # --
-(replace-regexp REGEXP$0 TO-STRING &optional DELIMITED START END)
+(replace-regexp ${1:regexp}${2: delimited}${3: start}${4: end})

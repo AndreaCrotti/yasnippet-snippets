@@ -2,4 +2,4 @@
 #name: defalias
 #key: defalias
 # --
-(defalias 'SYMBOL$0 'DEFINITION &optional DOCSTRING)
+(defalias '${1:symbol} '${2:alias}${3: "docstring"})

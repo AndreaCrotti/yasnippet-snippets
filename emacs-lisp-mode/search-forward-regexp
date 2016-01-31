@@ -3,4 +3,4 @@
 #key: search-forward-regexp
 #key: sfr
 # --
-(search-forward-regexp "$0" &optional BOUND NOERROR COUNT)
+(search-forward-regexp ${1:regexp}${2: bound}${3: noerror}${4: count})

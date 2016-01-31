@@ -2,4 +2,4 @@
 #name: interactive
 #key: interactive
 # --
-(interactive)
+(interactive${1: "${2:P}"})

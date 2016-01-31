@@ -3,4 +3,4 @@
 #key: custom-autoload
 #key: ca
 # --
-(custom-autoload$0 SYMBOL LOAD &optional NOSET)
+(custom-autoload ${1:symbol} ${2:load}${3: noset})

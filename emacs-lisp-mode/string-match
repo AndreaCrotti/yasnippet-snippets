@@ -3,4 +3,4 @@
 #key: string-match
 #key: sm
 # --
-(string-match "REGEXP$0" "STRING" &optional START)
+(string-match "${1:regexp}" "${2:string}"${3: start})

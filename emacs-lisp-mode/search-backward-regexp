@@ -3,4 +3,4 @@
 #key: search-backward-regexp
 #key: sbr
 # --
-(search-backward-regexp "$0" &optional BOUND NOERROR COUNT)
+(search-backward-regexp ${1:regexp}${2: bound}${3: noerror}${4: count})

@@ -2,4 +2,4 @@
 #name: aref
 #key: aref
 # --
-(aref ARRAY$0 INDEX)
+(aref ${1:array} {2:index})

@@ -1,5 +1,6 @@
 #contributor: Xah Lee (XahLee.org)
 #name: lambda
-#key: lambda
+#key: lam
 # --
-(lambda ($0) "DOCSTRING" (interactive) BODY)
+(lambda (${1:args})
+  $0)

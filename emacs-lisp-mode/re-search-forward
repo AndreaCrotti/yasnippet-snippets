@@ -3,4 +3,4 @@
 #key: re-search-forward
 #key: rsf
 # --
-(re-search-forward REGEXP$0 &optional BOUND NOERROR COUNT)
+(re-search-forward ${1:regexp}${2: bound}${3: noerror}${4: count})

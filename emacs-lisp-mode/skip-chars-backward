@@ -3,4 +3,4 @@
 #key: skip-chars-backward
 #key: scb
 # --
-(skip-chars-backward "$0" &optional LIM)
+(skip-chars-backward "${1:string}"${2: lim})

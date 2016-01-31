@@ -3,4 +3,4 @@
 #key: search-forward
 #key: sf
 # --
-(search-forward "$0" &optional BOUND NOERROR COUNT)
+(search-forward ${1:string}${2: bound}${3: noerror}${4: count})

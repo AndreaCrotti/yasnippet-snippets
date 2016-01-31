@@ -2,4 +2,4 @@
 # name: hash
 # key: hash
 # --
-make-hash-table ${1:options}
+(make-hash-table $0)

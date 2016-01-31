@@ -2,4 +2,4 @@
 #name: get
 #key: get
 # --
-(get SYMBOL$0 PROPNAME)
+(get ${1:symbol} {2:propname})

@@ -3,4 +3,4 @@
 #key: split-string
 #key: ss
 # --
-(split-string $0 &optional SEPARATORS OMIT-NULLS)
+(split-string ${1:string}${2: separators}${3: omit-nulls})
