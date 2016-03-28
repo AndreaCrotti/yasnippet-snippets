@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # name: Import pyplot
-# key: pl
+# key: plt
 # group : general
 # --
-import matplotlib.pyplot as pl
+import matplotlib.pyplot as plt
 $0
