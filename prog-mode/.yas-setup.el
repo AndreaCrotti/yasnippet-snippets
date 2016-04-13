@@ -10,7 +10,7 @@
 
 (defun yas-get-comment-end ()
   (if (eq (length comment-end) 0)
-	  (reverse start)
+	  (reverse (yas-get-comment-start))
 	(substring comment-end
 			   (dotimes (i (length comment-end))
 				 (unless (or (eq (aref comment-end i) nil)

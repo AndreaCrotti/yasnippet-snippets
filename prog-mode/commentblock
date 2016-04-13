@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # contributor: sh-ow <sh-ow@users.noreply.github.com>
 # name: commentblock
-# key: com
+# key: cob
 # --
 ${1:$(let* ((col (current-column))
            (str "")
@@ -33,5 +33,4 @@ ${1:$(let* ((col (current-column))
            (over (- (+ (string-width yas-text) (length start) (length end) col) 77)))
          (while (< (length str) (+ (- 79 (length start) (length end) col) (if (> over 0) over 0)))
                 (setq str (concat str lastcom)))
-       (concat start str end))}
-$0
+       (concat start str end))}$0

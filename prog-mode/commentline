@@ -1,15 +1,13 @@
 # -*- mode: snippet -*-
 # contributor: sh-ow <sh-ow@users.noreply.github.com>
 # name: commentline
-# key: co
+# key: col
 # --
-${1:$(let* ((start (yas-get-comment-start)))
-           start)} ${1:comment} ${1:$(let* ((str "")
+${1:$(yas-get-comment-start)} ${1:comment} ${1:$(let* ((str "")
                                            (curr (current-column))
                                            (start (yas-get-comment-start))
                                            (lastcom (substring start -1))
                                            (end (yas-get-comment-end)))
                                          (while (< (length str) (- 79 (+ curr (length end))))
                                                 (setq str (concat str lastcom)))
-                                       (concat str end))}
-$0
+                                       (concat str end))}$0
