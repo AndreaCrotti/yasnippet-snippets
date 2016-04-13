@@ -9,10 +9,10 @@
     s))
 
 (defun yas-s-trim-right (s)
-	   "Remove whitespace at the end of S."
-	   (if (string-match "[ \t\n\r]+\\'" s)
-		   (replace-match "" t t s)
-		 s))
+  "Remove whitespace at the end of S."
+  (if (string-match "[ \t\n\r]+\\'" s)
+	  (replace-match "" t t s)
+	s))
 
 (defun yas-s-trim (s)
   "Remove whitespace at the beginning and end of S."
