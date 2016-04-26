@@ -1,0 +1,56 @@
+# -*- mode: snippet -*-
+# name: class11
+# key: cls11
+# uuid: d7c41f87-9b8a-479d-bb12-89f4cbdd46a7
+# contributor: Ved Vyas
+# desc: Snippet for C++11 classes based on c++-mode/class. Allows for Rule of
+# [0, All]. A choice between ";", " = default;", and " = delete;" is presented
+# for each method. The methods and some of the optional keywords/specifiers are
+# exposed as fields that users can easily skip-and-clear. Note that the single
+# vs. differentiated copy/move assignment operators conflict.
+# Hackish query-replace-regexp to renumber non-mirror fields in the region
+# between public and protected:
+# \${[0-9N]*:\([^\$]\) -> ${\,(+ 2 \#):\1)
+# References:
+# 1. http://en.cppreference.com/w/cpp/language/rule_of_three#Rule_of_five
+# 2. https://en.wikipedia.org/wiki/Rule_of_three_%28C%2B%2B_programming%29#Example_in_C.2B.2B
+# 3. http://stackoverflow.com/a/4782927
+# --
+class ${1:Name}
+{
+public:
+${2:  //! Default constructor
+  ${1:$(yas/substr yas-text "[^: ]*")}()${3:;$(yas-choose-value '(";" " = default;" " = delete;"))}
+
+}${4:  //! Copy constructor
+  ${1:$(yas/substr yas-text "[^: ]*")}(const ${1:$(yas/substr yas-text "[^: ]*")} &other)${5:;$(yas-choose-value '(";" " = default;" " = delete;"))}
+
+}${6:  //! Move constructor
+  ${1:$(yas/substr yas-text "[^: ]*")}(${1:$(yas/substr yas-text "[^: ]*")} &&other)${7: noexcept}${8:;$(yas-choose-value '(";" " = default;" " = delete;"))}
+
+}${9:  //! Destructor
+  ${10:virtual }~${1:$(yas/substr yas-text "[^: ]*")}()${11: noexcept}${12:;$(yas-choose-value '(";" " = default;" " = delete;"))}
+
+}${13:  //! Copy assignment operator
+  ${1:$(yas/substr yas-text "[^: ]*")}& operator=(const ${1:$(yas/substr yas-text "[^: ]*")} &other)${14:;$(yas-choose-value '(";" " = default;" " = delete;"))}
+
+}${15:  //! Copy assignment operator (lvalue *this)
+  ${1:$(yas/substr yas-text "[^: ]*")}& operator=(const ${1:$(yas/substr yas-text "[^: ]*")} &other) &${16:;$(yas-choose-value '(";" " = default;" " = delete;"))}
+
+}${17:  //! Copy assignment operator (rvalue *this)
+  ${1:$(yas/substr yas-text "[^: ]*")}& operator=(const ${1:$(yas/substr yas-text "[^: ]*")} &other) &&${18:;$(yas-choose-value '(";" " = default;" " = delete;"))}
+
+}${19:  //! Move assignment operator
+  ${1:$(yas/substr yas-text "[^: ]*")}& operator=(${1:$(yas/substr yas-text "[^: ]*")} &&other)${20: noexcept}${21:;$(yas-choose-value '(";" " = default;" " = delete;"))}
+
+}${22:  //! Move assignment operator (lvalue *this)
+  ${1:$(yas/substr yas-text "[^: ]*")}& operator=(${1:$(yas/substr yas-text "[^: ]*")} &&other) &${23: noexcept}${24:;$(yas-choose-value '(";" " = default;" " = delete;"))}
+
+}${25:  //! Move assignment operator (rvalue *this)
+  ${1:$(yas/substr yas-text "[^: ]*")}& operator=(${1:$(yas/substr yas-text "[^: ]*")} &&other) &&${26: noexcept}${27:;$(yas-choose-value '(";" " = default;" " = delete;"))}
+
+}$0
+
+protected:
+private:
+};
