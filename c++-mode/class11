@@ -10,8 +10,8 @@
 # exposed as fields that users can easily skip-and-clear. Note that the single
 # vs. differentiated copy/move assignment operators conflict.
 # Hackish query-replace-regexp to renumber non-mirror fields in the region
-# between public and protected:
-# \${[0-9N]*:\([^\$]\) -> ${\,(+ 2 \#):\1)
+# between public and protected (can use N as a field number in the snippet):
+# \${[0-9N]*:\([^\$]\) -> ${\,(+ 2 \#):\1
 # References:
 # 1. http://en.cppreference.com/w/cpp/language/rule_of_three#Rule_of_five
 # 2. https://en.wikipedia.org/wiki/Rule_of_three_%28C%2B%2B_programming%29#Example_in_C.2B.2B
