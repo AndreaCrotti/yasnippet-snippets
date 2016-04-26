@@ -7,8 +7,7 @@
 # desc: Snippet for C++11 classes based on c++-mode/class. Allows for Rule of
 # [0, All]. A choice between ";", " = default;", and " = delete;" is presented
 # for each method. The methods and some of the optional keywords/specifiers are
-# exposed as fields that users can easily skip-and-clear. Note that the single
-# vs. differentiated copy/move assignment operators conflict.
+# exposed as fields that users can easily skip-and-clear.
 # Hackish query-replace-regexp to renumber non-mirror fields in the region
 # between public and protected (can use N as a field number in the snippet):
 # \${[0-9N]*:\([^\$]\) -> ${\,(+ 2 \#):\1
@@ -35,20 +34,8 @@ ${2:  //! Default constructor
 }${13:  //! Copy assignment operator
   ${1:$(yas/substr yas-text "[^: ]*")}& operator=(const ${1:$(yas/substr yas-text "[^: ]*")} &other)${14:;$(yas-choose-value '(";" " = default;" " = delete;"))}
 
-}${15:  //! Copy assignment operator (lvalue *this)
-  ${1:$(yas/substr yas-text "[^: ]*")}& operator=(const ${1:$(yas/substr yas-text "[^: ]*")} &other) &${16:;$(yas-choose-value '(";" " = default;" " = delete;"))}
-
-}${17:  //! Copy assignment operator (rvalue *this)
-  ${1:$(yas/substr yas-text "[^: ]*")}& operator=(const ${1:$(yas/substr yas-text "[^: ]*")} &other) &&${18:;$(yas-choose-value '(";" " = default;" " = delete;"))}
-
-}${19:  //! Move assignment operator
-  ${1:$(yas/substr yas-text "[^: ]*")}& operator=(${1:$(yas/substr yas-text "[^: ]*")} &&other)${20: noexcept}${21:;$(yas-choose-value '(";" " = default;" " = delete;"))}
-
-}${22:  //! Move assignment operator (lvalue *this)
-  ${1:$(yas/substr yas-text "[^: ]*")}& operator=(${1:$(yas/substr yas-text "[^: ]*")} &&other) &${23: noexcept}${24:;$(yas-choose-value '(";" " = default;" " = delete;"))}
-
-}${25:  //! Move assignment operator (rvalue *this)
-  ${1:$(yas/substr yas-text "[^: ]*")}& operator=(${1:$(yas/substr yas-text "[^: ]*")} &&other) &&${26: noexcept}${27:;$(yas-choose-value '(";" " = default;" " = delete;"))}
+}${15:  //! Move assignment operator
+  ${1:$(yas/substr yas-text "[^: ]*")}& operator=(${1:$(yas/substr yas-text "[^: ]*")} &&other)${16: noexcept}${17:;$(yas-choose-value '(";" " = default;" " = delete;"))}
 
 }$0
 
