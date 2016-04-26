@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: class11
 # key: cls11
+# group: c++11
 # uuid: d7c41f87-9b8a-479d-bb12-89f4cbdd46a7
 # contributor: Ved Vyas
 # desc: Snippet for C++11 classes based on c++-mode/class. Allows for Rule of
