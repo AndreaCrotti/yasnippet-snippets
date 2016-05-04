@@ -6,8 +6,8 @@ module ${1:`(let ((fn (capitalize (file-name-nondirectory
                                  (file-name-sans-extension
          (or (buffer-file-name)
              (buffer-name (current-buffer))))))))
-           (cond
-             ((string-match "_" fn) (replace-match "" nil nil fn))
-              (t fn)))`}
+           (while (string-match "_" fn)
+             (setq fn (replace-match "" nil nil fn)))
+           fn)`}
   $0
 end
