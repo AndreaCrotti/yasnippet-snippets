@@ -2,12 +2,11 @@
 # name: package url
 # key: pu
 # --
-
 { stdenv, fetchurl$1}:
 
 stdenv.mkDerivation rec {
   version = "$2";
-  name = "$3-${version}";
+  name = "$3-\$\{version\}";
 
   src = fetchurl {
     url = "$4";
