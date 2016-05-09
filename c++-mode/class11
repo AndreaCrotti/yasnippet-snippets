@@ -19,23 +19,23 @@
 class ${1:Name}
 {
 public:
-${2:  //! Default constructor
-  ${1:$(yas/substr yas-text "[^: ]*")}()${3:;$(yas-choose-value '(";" " = default;" " = delete;"))}
+${2:  ${3://! Default constructor
+  }${1:$(yas/substr yas-text "[^: ]*")}()${4:;$(yas-choose-value '(";" " = default;" " = delete;"))}
 
-}${4:  //! Copy constructor
-  ${1:$(yas/substr yas-text "[^: ]*")}(const ${1:$(yas/substr yas-text "[^: ]*")} &other)${5:;$(yas-choose-value '(";" " = default;" " = delete;"))}
+}${5:  ${6://! Copy constructor
+  }${1:$(yas/substr yas-text "[^: ]*")}(const ${1:$(yas/substr yas-text "[^: ]*")} &other)${7:;$(yas-choose-value '(";" " = default;" " = delete;"))}
 
-}${6:  //! Move constructor
-  ${1:$(yas/substr yas-text "[^: ]*")}(${1:$(yas/substr yas-text "[^: ]*")} &&other)${7: noexcept}${8:;$(yas-choose-value '(";" " = default;" " = delete;"))}
+}${8:  ${9://! Move constructor
+  }${1:$(yas/substr yas-text "[^: ]*")}(${1:$(yas/substr yas-text "[^: ]*")} &&other)${10: noexcept}${11:;$(yas-choose-value '(";" " = default;" " = delete;"))}
 
-}${9:  //! Destructor
-  ${10:virtual }~${1:$(yas/substr yas-text "[^: ]*")}()${11: noexcept}${12:;$(yas-choose-value '(";" " = default;" " = delete;"))}
+}${12:  ${13://! Destructor
+  }${14:virtual }~${1:$(yas/substr yas-text "[^: ]*")}()${15: noexcept}${16:;$(yas-choose-value '(";" " = default;" " = delete;"))}
 
-}${13:  //! Copy assignment operator
-  ${1:$(yas/substr yas-text "[^: ]*")}& operator=(const ${1:$(yas/substr yas-text "[^: ]*")} &other)${14:;$(yas-choose-value '(";" " = default;" " = delete;"))}
+}${17:  ${18://! Copy assignment operator
+  }${1:$(yas/substr yas-text "[^: ]*")}& operator=(const ${1:$(yas/substr yas-text "[^: ]*")} &other)${19:;$(yas-choose-value '(";" " = default;" " = delete;"))}
 
-}${15:  //! Move assignment operator
-  ${1:$(yas/substr yas-text "[^: ]*")}& operator=(${1:$(yas/substr yas-text "[^: ]*")} &&other)${16: noexcept}${17:;$(yas-choose-value '(";" " = default;" " = delete;"))}
+}${20:  ${21://! Move assignment operator
+  }${1:$(yas/substr yas-text "[^: ]*")}& operator=(${1:$(yas/substr yas-text "[^: ]*")} &&other)${22: noexcept}${23:;$(yas-choose-value '(";" " = default;" " = delete;"))}
 
 }$0
 
