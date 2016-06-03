@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: all
-# key: a
+# key: all
 # --
 __all__ = [
     $0
