@@ -1,4 +1,6 @@
+# -*- mode: snippet -*-
 # name : Chapter title
+# key: chap
 # --
 ${1:Chapter}
 ${1:$(make-string (string-width yas-text) ?\=)}
