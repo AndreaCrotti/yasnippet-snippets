@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: code
+# key: code_
+# contributor: Liang Zhou <lzhoucs@gmail.com>
+# --
+#+BEGIN_SRC ${1:lang}
+${2:body}
+#+END_SRC
+$0
