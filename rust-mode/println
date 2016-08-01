@@ -2,4 +2,4 @@
 # name: println!("{}", value);
 # key: println
 # --
-println!("${1:{}}", ${2});
+println!("${1:{}}", $2);
