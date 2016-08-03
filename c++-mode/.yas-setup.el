@@ -1,3 +1,5 @@
+(require 'yasnippet)
+
 (defun yas-c++-class-name (str)
   "Search for a class name like `DerivedClass' in STR
 (which may look like `DerivedClass : ParentClass1, ParentClass2, ...')
