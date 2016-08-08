@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# contributor: sh-ow <sh-ow@users.noreply.github.com>
+# name: commentline
+# key: col
+# --
+${1:$(yas-trimmed-comment-start)} ${1:comment} ${1:$(let* ((str "")
+                                               (curr (current-column))
+                                               (start (yas-trimmed-comment-start))
+                                               (lastcom (substring start -1))
+                                               (end (yas-trimmed-comment-end)))
+                                             (while (< (length str) (- 79 (+ curr (length end))))
+                                                    (setq str (concat str lastcom)))
+                                           (concat str end))}$0
