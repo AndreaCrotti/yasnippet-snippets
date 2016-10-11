@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: sort_heap
+# key: sth
+# contributor: Tommy BENNETT and Ludwig PACIFICI <ludwig@lud.cc>
+# --
+std::sort_heap(std::begin(${1:container}), std::end($1));
+$0

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: generate_n
+# key: gnn
+# contributor: Tommy BENNETT and Ludwig PACIFICI <ludwig@lud.cc>
+# --
+std::generate_n(std::begin(${1:container}), $2, []($3) {
+  $4
+});
+$0

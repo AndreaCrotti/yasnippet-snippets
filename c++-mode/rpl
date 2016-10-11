@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: replace
+# key: rpl
+# contributor: Tommy BENNETT and Ludwig PACIFICI <ludwig@lud.cc>
+# --
+std::replace(std::begin(${1:container}), std::end($1), $2, $3);
+$0

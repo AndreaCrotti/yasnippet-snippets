@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: remove
+# key: rmv
+# contributor: Tommy BENNETT and Ludwig PACIFICI <ludwig@lud.cc>
+# --
+auto pos = std::remove(std::begin(${1:container}), std::end($1), $2);
+if (pos != std::end($1)) {
+  $3
+}
+$0

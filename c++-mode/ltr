@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: transform
+# key: ltr
+# contributor: Tommy BENNETT and Ludwig PACIFICI <ludwig@lud.cc>
+# --
+${1:container}.erase(0, $1.find_first_not_of(" \t\n\r"));
+$0

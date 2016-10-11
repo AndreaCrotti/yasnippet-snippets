@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: partition
+# key: ptn
+# contributor: Tommy BENNETT and Ludwig PACIFICI <ludwig@lud.cc>
+# --
+auto pos = std::partition(std::begin(${1:container}), std::end($1), []($2) {
+  $3
+});
+if (pos != std::end($1)) {
+  $4
+}
+$0

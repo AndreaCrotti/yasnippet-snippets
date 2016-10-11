@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: fill_n
+# key: fln
+# contributor: Tommy BENNETT and Ludwig PACIFICI <ludwig@lud.cc>
+# --
+std::fill_n(std::begin(${1:container}), $2, $3);
+$0

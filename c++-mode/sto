@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: cout
+# key: sto
+# contributor: Tommy BENNETT and Ludwig PACIFICI <ludwig@lud.cc>
+# --
+std::cout <<
+$0

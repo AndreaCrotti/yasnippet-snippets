@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: copy_backward
+# key: cpb
+# contributor: Tommy BENNETT and Ludwig PACIFICI <ludwig@lud.cc>
+# --
+std::copy_backward(std::begin(${1:container}), std::end($1), std::end($1));
+$0
