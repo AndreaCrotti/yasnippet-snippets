@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
 # name: reverse_copy
 # key: rvc
-# contributor: Tommy BENNETT and Ludwig PACIFICI <ludwig@lud.cc>
 # --
 std::reverse_copy(std::begin(${1:container}), std::end($1), std::begin($2));
 $0

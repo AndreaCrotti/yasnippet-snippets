@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
 # name: copy_if
 # key: cpi
-# contributor: Tommy BENNETT and Ludwig PACIFICI <ludwig@lud.cc>
 # --
 std::copy_if(std::begin(${1:container}), std::end($1), std::begin($2),
 []($3) {

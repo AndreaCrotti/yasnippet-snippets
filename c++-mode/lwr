@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
 # name: transform
 # key: lwr
-# contributor: Tommy BENNETT and Ludwig PACIFICI <ludwig@lud.cc>
 # --
 std::transform(std::begin(${1:container}), std::end($1), std::begin($1), [](char c) {
 return std::tolower(c);});

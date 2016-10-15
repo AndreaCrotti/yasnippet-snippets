@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
 # name: cin
 # key: sti
-# contributor: Tommy BENNETT and Ludwig PACIFICI <ludwig@lud.cc>
 # --
 std::cin >>
 $0

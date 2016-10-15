@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
 # name: equal
 # key: eql
-# contributor: Tommy BENNETT and Ludwig PACIFICI <ludwig@lud.cc>
 # --
 if (std::equal(std::begin(${1:container}), std::end($1), std::begin($2))) {
   $3

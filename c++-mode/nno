@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
 # name: none_of
 # key: nno
-# contributor: Tommy BENNETT and Ludwig PACIFICI <ludwig@lud.cc>
 # --
 if (std::none_of(std::begin(${1:container}), std::end($1), []($2) {
   $3

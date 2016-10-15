@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
 # name: make_heap
 # key: mkh
-# contributor: Tommy BENNETT and Ludwig PACIFICI <ludwig@lud.cc>
 # --
 std::make_heap(std::begin(${1:container}), std::end($1));
 $0

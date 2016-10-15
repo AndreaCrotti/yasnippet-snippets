@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
 # name: is_heap_until
 # key: ihu
-# contributor: Tommy BENNETT and Ludwig PACIFICI <ludwig@lud.cc>
 # --
 auto pos = std::is_heap_until(std::begin(${1:container}), std::end($1));
 if (pos != std::end($1)) {

@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
 # name: find_first_of
 # key: ffo
-# contributor: Tommy BENNETT and Ludwig PACIFICI <ludwig@lud.cc>
 # --
 auto pos = std::find_first_of(std::begin(${1:container}), std::end($1),
   std::begin($2), std::end($3));

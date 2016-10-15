@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
 # name: transform
 # key: tfm
-# contributor: Tommy BENNETT and Ludwig PACIFICI <ludwig@lud.cc>
 # --
 std::transform(std::begin(${1:container}), std::end($1),
   std::begin($1), []($2) {

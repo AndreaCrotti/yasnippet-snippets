@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
 # name: vector
 # key: stv
-# contributor: Tommy BENNETT and Ludwig PACIFICI <ludwig@lud.cc>
 # --
 std::vector<$2> $3
 $0

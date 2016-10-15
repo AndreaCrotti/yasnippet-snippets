@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
 # name: remove_copy
 # key: rmc
-# contributor: Tommy BENNETT and Ludwig PACIFICI <ludwig@lud.cc>
 # --
 std::remove_copy(std::begin(${1:container}), std::end($1),
   std::begin($1), $2);

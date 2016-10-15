@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
 # name: iota
 # key: ita
-# contributor: Tommy BENNETT and Ludwig PACIFICI <ludwig@lud.cc>
 # --
 std::iota(std::begin(${1:container}), std::end($1), $2);
 $0

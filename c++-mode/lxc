@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
 # name: lexigraphical_compare
 # key: lxc
-# contributor: Tommy BENNETT and Ludwig PACIFICI <ludwig@lud.cc>
 # --
 if (std::lexigraphical_compare(std::begin(${1:container}), std::end($1),
   std::begin($2), std::end($3)) {

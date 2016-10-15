@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
 # name: sort
 # key: srt
-# contributor: Tommy BENNETT and Ludwig PACIFICI <ludwig@lud.cc>
 # --
 std::sort(std::begin(${1:container}), std::end($1));
 $0

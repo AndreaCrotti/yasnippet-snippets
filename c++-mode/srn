@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
 # name: search_n
 # key: srn
-# contributor: Tommy BENNETT and Ludwig PACIFICI <ludwig@lud.cc>
 # --
 auto pos = std::search_n(std::begin(${1:container}), std::end($1),$2,$3);
 if (pos != std::end($1)) {

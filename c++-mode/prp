@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
 # name: prev_permutation
 # key: prp
-# contributor: Tommy BENNETT and Ludwig PACIFICI <ludwig@lud.cc>
 # --
 if (std::prev_permutation(std::begin(${1:container}), std::end($1))) {
   $2

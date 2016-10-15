@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
 # name: search
 # key: srh
-# contributor: Tommy BENNETT and Ludwig PACIFICI <ludwig@lud.cc>
 # --
 auto pos = std::search(std::begin(${1:container}), std::end($1),
   std::begin($2), std::end($3));
