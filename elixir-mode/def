@@ -2,6 +2,6 @@
 # name: def
 # key: def
 # --
-def ${1:method}${2:(${3:args})} do
+def ${1:function}${2:(${3:args})} do
   $0
 end
