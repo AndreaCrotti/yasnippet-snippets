@@ -3,5 +3,5 @@
 # key: if
 # --
 if ${1:condition} do
-    $0
+  $0
 end
