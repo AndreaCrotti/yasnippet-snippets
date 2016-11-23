@@ -1,0 +1,6 @@
+#contributor : Jhonatan Rua <ruajhonatan@gmail.com>
+#name : <select>...</select>
+# --
+<select name="$1" id="">
+    <option value="">$2</option>
+</select>

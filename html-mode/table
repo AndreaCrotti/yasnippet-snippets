@@ -1,0 +1,8 @@
+#contributor : Jhonatan Rua <ruajhonatan@gmail.com>
+#name : <table>...</table>
+# --
+<table>
+    <tr>
+        <td>$1</td>
+    </tr>
+</table>

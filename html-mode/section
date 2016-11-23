@@ -1,0 +1,6 @@
+#contributor : Jhonatan Rua <ruajhonatan@gmail.com>
+#name : <section>...</section>
+# --
+<section>
+    $1
+</section>
