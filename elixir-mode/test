@@ -3,5 +3,5 @@
 # key: test
 # --
 test "$1" do
-    $0
+  $0
 end
