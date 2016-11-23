@@ -3,7 +3,7 @@
 # key: ife
 # --
 if ${1:condition} do
-    $2
+  $2
 else
-    $3
+  $3
 end
