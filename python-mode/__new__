@@ -3,6 +3,6 @@
 # key: new
 # group: dunder methods
 # --
-def __new__(mcs, name, bases, dict):
+def __new__(mcs, name, bases, dct):
     $0
-    return type.__new__(mcs, name, bases, dict)
+    return type.__new__(mcs, name, bases, dct)
