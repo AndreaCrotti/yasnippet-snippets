@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: long long int
+# key: lli
+# --
+long long int ${1:x};

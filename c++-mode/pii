@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: pair<int,int>
+# key: pii
+# --
+pair<int,int> ${1:p};

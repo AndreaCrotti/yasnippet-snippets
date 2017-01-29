@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: vector<long long int>
+# key: vll
+# --
+vector<long long int> ${1:v};
