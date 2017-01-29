@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: fun
-# key: fun
+# name: if
+# key: if
 # --
-function ($1)
+if $1 then
 	$0
 end

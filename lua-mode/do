@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: fun
-# key: fun
+# name: do
+# key: do
 # --
-function ($1)
+do
 	$0
 end
