@@ -2,4 +2,5 @@
 #name: use-package
 #key: up
 # --
-(use-package ${1:package-name})
+(use-package ${1:package-name}
+:ensure t$0)
