@@ -3,6 +3,6 @@
 # name: cout
 # key: cout
 # --
-`(progn (save-excursion) (goto-char (point-min)) (unless (re-search-forward
+`(progn (goto-char (point-min)) (unless (re-search-forward
 "^using\\s-+namespace std;" nil 'no-errer) "std::"))
 `cout << $0${1: << "${2:\n}"};
