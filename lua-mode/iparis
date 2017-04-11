@@ -1,7 +1,0 @@
-# -*- mode: snippet -*-
-# name: for in iparis
-# key: iparis
-# --
-for ${1:idx}, ${2:val} in ipairs(${3:table_name}) do
-	$0
-end
