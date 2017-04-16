@@ -7,16 +7,16 @@ class Test${1:toTest}(${2:unittest.TestCase}):
 
     @classmethod
     def setUpClass(cls):
-        pass
+        ${3:pass}
 
     @classmethod
     def tearDownClass(cls):
-        pass
+        ${4:pass}
 
     def setUp(self):
-        pass
+        ${5:pass}
 
     def tearDown(self):
-        pass
+        ${6:pass}
 
     $0
