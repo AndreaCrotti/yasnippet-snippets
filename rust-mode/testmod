@@ -3,11 +3,11 @@
 # key: testmod
 # --
 #[cfg(test)]
-mod tests {
+mod ${1:tests} {
     use super::*;
 
     #[test]
-    fn ${1:test_name}() {
+    fn ${2:test_name}() {
        $0
     }
 }
