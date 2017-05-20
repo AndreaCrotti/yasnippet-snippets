@@ -4,4 +4,19 @@
 # group : testing
 # --
 class Test${1:toTest}(${2:unittest.TestCase}):
+
+    @classmethod
+    def setUpClass(cls):
+        ${3:pass}
+
+    @classmethod
+    def tearDownClass(cls):
+        ${4:pass}
+
+    def setUp(self):
+        ${5:pass}
+
+    def tearDown(self):
+        ${6:pass}
+
     $0
