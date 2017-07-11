@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: a.length()
+# key: ln
+# --
+${1:a}.length();

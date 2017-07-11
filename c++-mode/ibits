@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: #include <bits/stdc++.h>
+# key: ibits
+# --
+#include <bits/stdc++.h>

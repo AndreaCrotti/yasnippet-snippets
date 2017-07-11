@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: long double
+# key: ld
+# --
+long double ${1:x};

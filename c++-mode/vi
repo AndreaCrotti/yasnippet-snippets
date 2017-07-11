@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: vector<int>
+# key: vi
+# --
+vector<int> ${1:v};
