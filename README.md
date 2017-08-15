@@ -1,5 +1,7 @@
 # Yasnippet official snippet collections
 
+[![Gratipay]https://assets.gratipay.com/gratipay.svg](https://gratipay.com/Emacs-Yasnippet-Snippets/)
+
 [![MELPA](https://melpa.org/packages/yasnippet-snippets-badge.svg)](https://melpa.org/#/yasnippet-snippets)
 
 [![Join the chat at https://gitter.im/AndreaCrotti/yasnippet-snippets](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/AndreaCrotti/yasnippet-snippets?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
