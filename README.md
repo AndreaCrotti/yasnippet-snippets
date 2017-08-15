@@ -1,6 +1,6 @@
 # Yasnippet official snippet collections
 
-[![Gratipay]https://assets.gratipay.com/gratipay.svg](https://gratipay.com/Emacs-Yasnippet-Snippets/)
+[![Gratipay](https://assets.gratipay.com/gratipay.svg)](https://gratipay.com/Emacs-Yasnippet-Snippets/)
 
 [![MELPA](https://melpa.org/packages/yasnippet-snippets-badge.svg)](https://melpa.org/#/yasnippet-snippets)
 
