@@ -13,7 +13,7 @@ This repository contains the official collection of snippets for [yasnippet](htt
 
 ## From melpa
 
-You can install this package from melpa, first by ensuring you have it source of your pacages.
+You can install this package from melpa, by first ensuring that you have the melpa source in your package-archives.
 
 ```lisp
 (require 'package)
@@ -22,19 +22,19 @@ You can install this package from melpa, first by ensuring you have it source of
 (package-initialize)
 ```
 
-Once that is done just refresh the packages andd install with.
+Once that is done, then just refresh the packages and install it with.
 
 * <kbd>M-x package-refresh-contents</kbd>
 * <kbd>M-x package-install yasnippet-snippets</kbd>
 
-Once that is done all the snippets will load automatically as soon as yasnippet loads.
+Now all the snippets will load automatically, as soon as yasnippet loads.
 
 # Contributing
 
-So if you have any useful snippets for any language or framework please feel free to contribute, by opening a PR or an issue if you have any suggestions.
+If you have any useful snippets for any language or framework, then please feel free to contribute, by opening a PR or an issue if you have any suggestions.
 
-To study the current snippets I suggest to use `M-x yas-describe-tables`
-which will gave a table representation of all the snippets available in the current mode.
+To study the current snippets, I suggest that you use `M-x yas-describe-tables`,
+which will show a table representation of all the snippets that are available in the current mode.
 
 
 # Guidelines
@@ -45,7 +45,7 @@ Snippets need to be generic enough to be useful for everyone, and not contain an
 
 ## HTML snippets
 
-Until September 1st 2014 there were a lot of HTML snippets in the repository, which were sometimes useful but I came to the conclusion that yasnippet was not the right fool for them, so they were removed in this pull request:
+Until September 1st 2014 there were a lot of HTML snippets in the repository, which sometimes were useful, but I came to the conclusion that yasnippet was not the right tool for them, so they were removed in this pull request:
 https://github.com/AndreaCrotti/yasnippet-snippets/pull/49
 
 To everyone writing a lot of HTML I suggest using [emmet mode](https://github.com/smihica/emmet-mode) instead, which is a much more powerful mode for writing HTML tags.
