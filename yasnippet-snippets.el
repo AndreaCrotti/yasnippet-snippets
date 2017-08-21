@@ -4,7 +4,7 @@
 
 ;; Author: Andrea Crotti <andrea.crotti.0@gmail.com>
 ;; Keywords: snippets
-;; Version: 1.0.1
+;; Version: 1.0.2
 ;; Package-Requires: ((yasnippet "0.8.0"))
 
 ;; This program is free software; you can redistribute it and/or modify
