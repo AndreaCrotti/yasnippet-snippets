@@ -4,7 +4,7 @@
 # key: clsi
 # group: definitions
 # --
-class ${1:`(file-name-nondirectory (file-name-sans-extension (or (buffer-file-name) (buffer-name (current-buffer)))))`} implements ${interface}
+class ${1:`(yas-php-get-class-name-by-file-name)`} implements ${interface}
 {
     $0
 }

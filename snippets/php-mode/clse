@@ -4,7 +4,7 @@
 # key: clse
 # group: definitions
 # --
-class ${1:`(file-name-nondirectory (file-name-sans-extension (or (buffer-file-name) (buffer-name (current-buffer)))))`} extends ${2:ParentClass}
+class ${1:`(yas-php-get-class-name-by-file-name)`} extends ${2:ParentClass}
 {
     $0
 }
