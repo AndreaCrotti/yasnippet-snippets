@@ -2,6 +2,6 @@
 # name: resource
 # key: res
 # --
-resource "${1:name}" {
+resource "${1:type}" "${2:name}" {
          $0
 }
