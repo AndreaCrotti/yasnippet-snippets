@@ -3,4 +3,4 @@
 # key: mt
 # group: object oriented
 # --
-__metaclass__ = type
+__metaclass__ = ${1:type}
