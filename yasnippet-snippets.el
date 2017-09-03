@@ -6,6 +6,13 @@
 ;; Keywords: snippets
 ;; Version: 1.0.2
 ;; Package-Requires: ((yasnippet "0.8.0"))
+;; Keywords: convenience, snippets
+
+;;; Commentary:
+
+;; Official snippet collection for the yasnippet package.
+
+;;; License:
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
