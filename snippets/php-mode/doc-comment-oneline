@@ -4,4 +4,4 @@
 # key: *
 # group: annotation
 # --
-/** ${1:Summery} */
+/** ${1:Summary} */
