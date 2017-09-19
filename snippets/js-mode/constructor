@@ -3,6 +3,6 @@
 # key: init
 # --
 constructor(${1:arg}) {
-  super(${2:arg});
+  ${2:super(${3:arg});}
   $0
 }
