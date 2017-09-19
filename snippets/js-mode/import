@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: import
+# key: imp
+# --
+import ${1:module}${2:, { ${3:member} }} from '$1';
