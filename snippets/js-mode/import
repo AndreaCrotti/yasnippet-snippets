@@ -2,4 +2,4 @@
 # name: import
 # key: imp
 # --
-import ${1:module}${2:, { ${3:member} }} from '$1';
+import ${1:defaultMember}${2:, { ${3:member} }} from '${4:module}';
