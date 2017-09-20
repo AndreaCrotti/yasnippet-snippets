@@ -1,5 +1,6 @@
-# -*- mode: snippet -*-
-#name : Constructor
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: Constructor
+# key: init
 # --
 initialize: function($1) {
   $0
