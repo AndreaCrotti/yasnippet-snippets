@@ -1,11 +1,8 @@
-# -*- mode: snippet; require-final-newline: nil -*-
-# name: class
+# -*- mode: snippet -*-
+#name : Class
 # --
-class ${1:Class}${2: extends ${3:ParentClass}} {
-  ${4:constructor(${5:arg}) {
-    ${6:super(arg);}
-    $7
-  }}
-
-  $0
-}
+var ${1:name} = new Class({
+  initialize: function($2) {
+    $0
+  }
+});
