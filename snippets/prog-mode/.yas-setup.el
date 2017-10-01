@@ -1,8 +1,5 @@
 (require 'yasnippet)
 
-(defun yas-with-comment (str)
-  (format "%s%s%s" comment-start str comment-end))
-
 ;; whitespace removing functions from Magnar Sveen ;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (defun yas-s-trim-left (s)
   "Remove whitespace at the beginning of S."
