@@ -1,6 +1,0 @@
-# -*- mode: snippet; require-final-newline: nil -*-
-# name: arrow function with two arguments
-# key: af2
-# group: es6
-# --
-(${1:arg1}, ${2:arg2}) => $0
