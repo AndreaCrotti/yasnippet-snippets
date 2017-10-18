@@ -31,21 +31,21 @@
 
 (require 'yasnippet)
 
-(setq yasnippet-snippets-dir
-      (file-name-directory
-       ;; Copied from ‘f-this-file’ from f.el.
-       (cond
-        (load-in-progress load-file-name)
-        ((and (boundp 'byte-compile-current-file) byte-compile-current-file)
-         byte-compile-current-file)
-        (:else (buffer-file-name)))))
+(defconst yasnippet-snippets-dir
+  (expand-file-name
+   "snippets"
+   (file-name-directory
+    ;; Copied from ‘f-this-file’ from f.el.
+    (cond
+     (load-in-progress load-file-name)
+     ((and (boundp 'byte-compile-current-file) byte-compile-current-file)
+      byte-compile-current-file)
+     (:else (buffer-file-name))))))
 
 ;;;###autoload
 (defun yasnippet-snippets-initialize ()
-  (let ((snip-dir (expand-file-name "snippets" yasnippet-snippets-dir)))
-    (when (boundp 'yas-snippet-dirs)
-      (add-to-list 'yas-snippet-dirs snip-dir t))
-    (yas-load-directory snip-dir)))
+  (add-to-list 'yas-snippet-dirs 'yasnippet-snippets-dir t)
+  (yas-load-directory yasnippet-snippets-dir))
 
 ;;;###autoload
 (eval-after-load 'yasnippet
