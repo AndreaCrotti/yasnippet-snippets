@@ -48,6 +48,16 @@
   (add-to-list 'yas-snippet-dirs 'yasnippet-snippets-dir t)
   (yas-load-directory yasnippet-snippets-dir t))
 
+(defgroup yasnippet-snippets nil
+  "Options for yasnippet setups.
+
+This is useful for customizing options declared in
+“.yas-setup.el” files.  For example, you could declare a
+customizable variable used for a snippet expansion.
+
+See Info node `(elisp)Customization Types'."
+  :group 'yasnippet)
+
 ;;;###autoload
 (eval-after-load 'yasnippet
    '(yasnippet-snippets-initialize))
