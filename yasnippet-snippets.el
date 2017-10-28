@@ -42,6 +42,7 @@
 
 ;;;###autoload
 (defun yasnippet-snippets-initialize ()
+  "Load the `yasnippet-snippets' snippets directory."
   (let ((snip-dir (expand-file-name "snippets" yasnippet-snippets-dir)))
     (when (boundp 'yas-snippet-dirs)
       (add-to-list 'yas-snippet-dirs snip-dir t))
