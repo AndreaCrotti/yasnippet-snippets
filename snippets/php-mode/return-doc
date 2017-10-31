@@ -4,5 +4,4 @@
 # key: *return
 # group: annotation
 # --
-* @return ${1:type} ${2:description}${0:
-*}
+* @return ${1:type} ${2:description}

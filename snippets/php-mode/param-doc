@@ -4,5 +4,5 @@
 # key: *param
 # group: annotation
 # --
-* @param  ${1:type} ${2:$variable} ${3:description}${0:
+* @param ${1:type} ${2:$variable} ${3:description}${0:
 *}
