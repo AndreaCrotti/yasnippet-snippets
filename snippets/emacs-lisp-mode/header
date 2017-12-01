@@ -2,7 +2,6 @@
 #contributor: kchenphy <https://www.github.com/kchenphy>
 #name: package header
 #key: header
-#condition: (= (1 (point))
 # --
 ;; -*- lexical-binding: t -*-
 
@@ -10,24 +9,23 @@
 
 ;; Author: ${3:`(user-full-name)`}
 ;; Maintainer: ${4:`(user-full-name)`}
-;; Version: ${4:version}
-;; Package-Requires: (${5:dependencies})
+;; Version: ${5:version}
+;; Package-Requires: (${6:dependencies})
 ;; Homepage: ${7:homepage}
-;; Keywords: ${6:keywords}
+;; Keywords: ${8:keywords}
 
 ;;; Commentary:
 
-;; ${7:commentary}
+;; ${9:commentary}
 
 ;;; License:
 
-;; ${8:license}
+;; ${10:license}
 
 ;;; Code:
 
-${9:(message "Hello World!")}
+${11:(message "Hello World!")}
 
 (provide '$1)
 
 ;;; $1.el ends here
-
