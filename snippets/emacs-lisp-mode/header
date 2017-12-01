@@ -3,9 +3,7 @@
 #name: package header
 #key: header
 # --
-;; -*- lexical-binding: t -*-
-
-;;; ${1:name}.el --- ${2:summary}
+;;; ${1:name}.el --- ${2:summary} -*- lexical-binding: t -*-
 
 ;; Author: ${3:`(user-full-name)`}
 ;; Maintainer: ${4:`(user-full-name)`}
