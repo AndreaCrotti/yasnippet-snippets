@@ -2,4 +2,4 @@
 # name: bigcup
 # key: bigcup
 # --
-\bigcup_{${1:lower bound}}^{${2:upper bound}}$0
+\bigcup_{${1:lower}}^{${2:upper}}$0
