@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: int
+# key: int
+# --
+\int_{${1:lower bound}}^{${2:upper bound}}$0
