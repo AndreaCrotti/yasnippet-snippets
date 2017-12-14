@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: prod
+# key: prod
+# --
+\prod_{${1:lower bound}}^{${2:upper bound}}$0
