@@ -2,4 +2,4 @@
 # name: bigcap
 # key: bigcap
 # --
-\bigcap_{${1:lower}}^{${2:upper}}$0
+\bigcap_{$1}^{$2}$0
