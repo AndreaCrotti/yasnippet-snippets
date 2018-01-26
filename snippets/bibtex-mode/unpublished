@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: unpublished
+# key: unpublished
+# expand-env: ((yas-indent-line 0))
+# --
+@unpublished{ ${title},
+  author = {${author}},
+  title  = {${title}},
+  note   = {${note}}${,
+  month  = {${month}}}${,
+  year   = {${year}}}
+}
+
+$0

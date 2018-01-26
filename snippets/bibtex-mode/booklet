@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: booklet
+# key: booklet
+# expand-env: ((yas-indent-line 0))
+# --
+@booklet{ ${title},
+  author       = {${author}}${,
+  howpublished = {${howpublished}}}${,
+  address      = {${address}}}${,
+  year         = {${year}}}${,
+  month        = {${month}}}${,
+  volume       = {${volume}}}${,
+  note         = {${note}}}
+}
+
+$0

@@ -1,0 +1,22 @@
+# -*- mode: snippet -*-
+# name: inproceedings
+# key: inproceedings
+# expand-env: ((yas-indent-line 0))
+# --
+@inproceedings{ ${title},
+  author       = {${author}},
+  title        = {${title}},
+  booktitle    = {${booktitle}},
+  year         = {${year}},
+  editor       = {${editor}}${,
+  volume       = {${volume}}}${,
+  series       = {${series}}}${,
+  pages        = {${pages}}}${,
+  address      = {${address}}}${,
+  month        = {${month}}}${,
+  organization = {${organization}}}${,
+  publisher    = {${publisher}}}${,
+  note         = {${note}}}
+}
+ 
+$0

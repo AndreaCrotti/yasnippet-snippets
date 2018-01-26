@@ -1,0 +1,17 @@
+# -*- mode: snippet -*-
+# name: masterthesis
+# key: masterthesis
+# expand-env: ((yas-indent-line 0))
+# --
+@masterthesis{ ${title},
+  author  = {${author}},
+  title   = {${title}},
+  school  = {${school}},
+  year    = {${year}}${,
+  type    = {${type}}}${,
+  address = {${address}}}${,
+  month   = {${month}}}${,
+  note    = {${note}}}
+}
+
+$0

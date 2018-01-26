@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# name: article
+# key: article
+# expand-env: ((yas-indent-line 0))
+# --
+@article{ ${title},
+  author  = {${author}},
+  title   = {${title}},
+  journal = {${journal}},
+  year    = {${year}}${,
+  volume  = {${volume}}}${,
+  number  = {${number}}}${,
+  pages   = {${pages}}}${,
+  month   = {${month}}}${,
+  note    = {${note}}}
+}
+
+$0

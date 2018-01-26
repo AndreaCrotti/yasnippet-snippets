@@ -1,0 +1,17 @@
+# -*- mode: snippet -*-
+# name: phdthesis
+# key: phdthesis
+# expand-env: ((yas-indent-line 0))
+# --
+@phdthesis{ ${title},
+  author  = {${author}},
+  title   = {${title}},
+  school  = {${school}},
+  year    = {${year}}${,
+  type    = {${type}}}${,
+  address = {${address}}}${,
+  month   = {${month}}}${,
+  note    = {${note}}}
+}
+
+$0
