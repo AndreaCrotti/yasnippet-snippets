@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
 # name: conference
 # key: conference
-# expand-env: ((yas-indent-line 0))
 # --
 @conference{ ${title},
   author       = {${author}},

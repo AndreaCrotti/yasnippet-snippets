@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
 # name: manual
 # key: manual
-# expand-env: ((yas-indent-line 0))
 # --
 @manual{ ${title},
   title        = {${title}}${,

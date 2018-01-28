@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
 # name: techreport
 # key: techreport
-# expand-env: ((yas-indent-line 0))
 # --
 @techreport{ ${title},
   author       = {${author}},

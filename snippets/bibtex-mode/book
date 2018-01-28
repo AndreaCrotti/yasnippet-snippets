@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
 # name: book
 # key: book
-# expand-env: ((yas-indent-line 0))
 # --
 @book{ ${title},
   author    = {${author}},

@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
 # name: proceedings
 # key: proceedings
-# expand-env: ((yas-indent-line 0))
 # --
 @proceedings{ ${title},
   title        = {${title}},

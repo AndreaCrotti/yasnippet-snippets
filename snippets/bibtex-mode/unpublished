@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
 # name: unpublished
 # key: unpublished
-# expand-env: ((yas-indent-line 0))
 # --
 @unpublished{ ${title},
   author = {${author}},

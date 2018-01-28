@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
 # name: misc
 # key: misc
-# expand-env: ((yas-indent-line 0))
 # --
 @misc{ ${title}${,
   author       = {${author}}}${,

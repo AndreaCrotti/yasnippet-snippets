@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
 # name: phdthesis
 # key: phdthesis
-# expand-env: ((yas-indent-line 0))
 # --
 @phdthesis{ ${title},
   author  = {${author}},
