@@ -45,7 +45,7 @@
 ;;;###autoload
 (defun yasnippet-snippets-initialize ()
   (add-to-list 'yas-snippet-dirs 'yasnippet-snippets-dir t)
-  (yas-load-directory yasnippet-snippets-dir))
+  (yas-load-directory yasnippet-snippets-dir t))
 
 ;;;###autoload
 (eval-after-load 'yasnippet
