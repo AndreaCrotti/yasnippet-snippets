@@ -1,9 +1,9 @@
 # -*- mode: snippet -*-
-# name: __new__
-# key: __new__
+# name: __init__ with assignment
+# key: __init__
 # group: Special methods
 # --
-def __new__(cls${1:, args}):
+def __init__(self${1:, args}):
     """$2
 
     """

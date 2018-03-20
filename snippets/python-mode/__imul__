@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: __getitem__
-# key: __getitem__
+# name: __imul__
+# key: __imul__
 # group: Special methods
 # --
-def __getitem__(self, key):
+def __imul__(self, other):
     return $0

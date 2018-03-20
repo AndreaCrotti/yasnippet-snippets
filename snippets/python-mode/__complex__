@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: __getitem__
-# key: __getitem__
+# name: __complex__
+# key: __complex__
 # group: Special methods
 # --
-def __getitem__(self, key):
+def __complex__(self):
     return $0

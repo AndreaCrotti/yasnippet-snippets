@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: __getitem__
-# key: __getitem__
+# name: __idiv__
+# key: __idiv__
 # group: Special methods
 # --
-def __getitem__(self, key):
+def __idiv__(self, other):
     return $0

@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: __getitem__
-# key: __getitem__
+# name: __unicode__
+# key: __unicode__
 # group: Special methods
 # --
-def __getitem__(self, key):
+def __unicode__(self):
     return $0

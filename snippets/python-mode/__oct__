@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: __getitem__
-# key: __getitem__
+# name: __oct__
+# key: __oct__
 # group: Special methods
 # --
-def __getitem__(self, key):
+def __oct__(self):
     return $0
