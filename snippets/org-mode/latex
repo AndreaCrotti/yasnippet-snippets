@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: latex
-# key: latex_
+# name: title
+# key: <l
 # --
-#+BEGIN_LaTeX
+#+BEGIN_LATEX
 $0
-#+END_LaTeX
+#+END_LATEX
