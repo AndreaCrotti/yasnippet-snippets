@@ -1,7 +1,0 @@
-# -*- mode: snippet -*-
-# name: sourcecode
-# key: <s
-# --
-#+BEGIN_SRC ${1:major-mode} $2
-$0
-#+END_SRC
