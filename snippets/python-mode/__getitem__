@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: __getitem__
-# key: __getitem__
+# key: getitem
 # group: Special methods
 # --
 def __getitem__(self, key):

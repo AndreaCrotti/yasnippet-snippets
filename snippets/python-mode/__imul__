@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: __imul__
-# key: __imul__
+# key: imul
 # group: Special methods
 # --
 def __imul__(self, other):

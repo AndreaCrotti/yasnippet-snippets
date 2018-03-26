@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: __iand__
-# key: __iand__
+# key: iand
 # group: Special methods
 # --
 def __iand__(self, other):

@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: __unicode__
-# key: __unicode__
+# key: unicode
 # group: Special methods
 # --
 def __unicode__(self):

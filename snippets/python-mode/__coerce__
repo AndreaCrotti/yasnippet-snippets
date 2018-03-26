@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: __coerce__
-# key: __coerce__
+# key: coerce
 # group: Special methods
 # --
 def __coerce__(self, other):

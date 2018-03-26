@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: __xor__
-# key: __xor__
+# key: xor
 # group: Special methods
 # --
 def __xor__(self, other):

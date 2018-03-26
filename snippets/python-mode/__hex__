@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: __hex__
-# key: __hex__
+# key: hex
 # group: Special methods
 # --
 def __hex__(self):

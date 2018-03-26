@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: __setattr__
-# key: __setattr__
+# key: setattr
 # group: Special methods
 # --
 def __setattr__(self, name, value):

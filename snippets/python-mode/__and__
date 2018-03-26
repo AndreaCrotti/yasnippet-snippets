@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: __and__
-# key: __and__
+# key: and
 # group: Special methods
 # --
 def __and__(self, other):

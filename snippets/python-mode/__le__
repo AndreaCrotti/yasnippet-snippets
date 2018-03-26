@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: __le__
-# key: __le__
+# key: le
 # group: Special methods
 # --
 def __le__(self, other):

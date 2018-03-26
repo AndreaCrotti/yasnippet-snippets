@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: __enter__
-# key: __enter__
+# key: enter
 # group: Special methods
 # --
 def __enter__(self):

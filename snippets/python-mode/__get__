@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: __get__
-# key: __get__
+# key: get
 # group: Special methods
 # --
 def __get__(self, instance, owner):

@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: __ior__
-# key: __ior__
+# key: ior
 # group: Special methods
 # --
 def __ior__(self, other):
