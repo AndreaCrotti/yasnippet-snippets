@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: __mul__
-# key: __mul__
+# key: mul
 # group: Special methods
 # --
 def __mul__(self, other):

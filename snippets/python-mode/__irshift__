@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: __irshift__
-# key: __irshift__
+# key: irshift
 # group: Special methods
 # --
 def __irshift__(self, other):

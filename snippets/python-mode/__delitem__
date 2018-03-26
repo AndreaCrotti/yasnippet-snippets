@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: __delitem__
-# key: __delitem__
+# key: delitem
 # group: Special methods
 # --
 def __delitem__(self, key):

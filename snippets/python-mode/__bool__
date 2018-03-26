@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: __bool__
-# key: __bool__
+# key: bool
 # group: Special methods
 # --
 def __bool__(self):

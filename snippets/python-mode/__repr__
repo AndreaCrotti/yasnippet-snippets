@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: __repr__
-# key: __repr__
+# key: repr
 # group: Special methods
 # --
 def __repr__(self):

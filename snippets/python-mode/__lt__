@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: __lt__
-# key: __lt__
+# key: lt
 # group: Special methods
 # --
 def __lt__(self, other):

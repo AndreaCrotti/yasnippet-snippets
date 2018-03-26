@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: __invert__
-# key: __invert__
+# key: invert
 # group: Special methods
 # --
 def __invert__(self):

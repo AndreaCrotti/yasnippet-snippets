@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: __complex__
-# key: __complex__
+# key: complex
 # group: Special methods
 # --
 def __complex__(self):

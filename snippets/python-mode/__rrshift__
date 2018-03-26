@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: __rrshift__
-# key: __rrshift__
+# key: rrshift
 # group: Special methods
 # --
 def __rrshift__(self, other):

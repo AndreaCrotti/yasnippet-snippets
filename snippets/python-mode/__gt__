@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: __gt__
-# key: __gt__
+# key: gt
 # group: Special methods
 # --
 def __gt__(self, other):

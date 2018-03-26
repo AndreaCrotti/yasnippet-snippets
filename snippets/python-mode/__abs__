@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: __abs__
-# key: __abs__
+# key: abs
 # group: Special methods
 # --
 def __abs__(self):

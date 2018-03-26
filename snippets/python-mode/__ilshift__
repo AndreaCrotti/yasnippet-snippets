@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: __ilshift__
-# key: __ilshift__
+# key: ilshift
 # group: Special methods
 # --
 def __ilshift__(self, other):
