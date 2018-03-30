@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: pub fn name<T>(x: T) where T: Clone { ... }
+# key: pfnw
+# --
+pub fn ${1:name}<${2:T}>(${3:x: T}) where ${4:T: Clone} {
+     $0
+}
