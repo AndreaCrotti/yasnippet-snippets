@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# contributor: Dan Pitic <dpitic@gmail.com>
+# name: Function Doxygen Doc
+# key: \doxydoc
+# group: doxygen
+# --
+/**
+ *  @brief ${1:function description}
+ ${2:*
+ *  ${3:Detailed description}
+ *
+}*  @param ${4:param}
+ *  @return ${5:return type}
+ */
