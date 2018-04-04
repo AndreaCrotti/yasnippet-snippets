@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: __hash__
-# key: hash
+# key: _hash
 # group: Special methods
 # --
 def __hash__(self):

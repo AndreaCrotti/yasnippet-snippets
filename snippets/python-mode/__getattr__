@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: __getattr__
-# key: getattr
+# key: _getattr
 # group: Special methods
 # --
 def __getattr__(self, name):

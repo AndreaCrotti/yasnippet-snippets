@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: __itruediv__
-# key: itruediv
+# key: _itruediv
 # group: Special methods
 # --
 def __itruediv__(self, other):

@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: __oct__
-# key: oct
+# key: _oct
 # group: Special methods
 # --
 def __oct__(self):

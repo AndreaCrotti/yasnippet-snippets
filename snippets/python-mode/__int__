@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: __int__
-# key: int
+# key: _int
 # group: Special methods
 # --
 def __int__(self):

@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: __add__
-# key: add
+# key: _add
 # group: Special methods
 # --
 def __add__(self, other):

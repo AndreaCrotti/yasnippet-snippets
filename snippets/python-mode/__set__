@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: __set__
-# key: set
+# key: _set
 # group: Special methods
 # --
 def __set__(self, instance, value):

@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: __radd__
-# key: radd
+# key: _radd
 # group: Special methods
 # --
 def __radd__(self, other):

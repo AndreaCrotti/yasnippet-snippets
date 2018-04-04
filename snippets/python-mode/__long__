@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: __long__
-# key: long
+# key: _long
 # group: Special methods
 # --
 def __long__(self):

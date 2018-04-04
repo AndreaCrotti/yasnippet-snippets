@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: __rand__
-# key: rand
+# key: _rand
 # group: Special methods
 # --
 def __rand__(self, other):

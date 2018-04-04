@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: __cmp__
-# key: cmp
+# key: _cmp
 # group: Special methods
 # --
 def __cmp__(self, other):

@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: __rxor__
-# key: rxor
+# key: _rxor
 # group: Special methods
 # --
 def __rxor__(self, other):

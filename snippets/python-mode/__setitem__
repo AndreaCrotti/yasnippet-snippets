@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: __setitem__
-# key: setitem
+# key: _setitem
 # group: Special methods
 # --
 def __setitem__(self, key, value):

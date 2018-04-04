@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: __mod__
-# key: mod
+# key: _mod
 # group: Special methods
 # --
 def __mod__(self, other):

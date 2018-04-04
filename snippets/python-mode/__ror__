@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: __ror__
-# key: ror
+# key: _ror
 # group: Special methods
 # --
 def __ror__(self, other):
