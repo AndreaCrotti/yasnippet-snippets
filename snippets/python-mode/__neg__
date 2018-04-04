@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: __neg__
-# key: neg
+# key: _neg
 # group: Special methods
 # --
 def __neg__(self):

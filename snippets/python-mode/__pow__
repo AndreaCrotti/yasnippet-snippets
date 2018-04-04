@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: __pow__
-# key: pow
+# key: _pow
 # group: Special methods
 # --
 def __pow__(self, other, modulo=None):

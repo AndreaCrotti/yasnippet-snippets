@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: __div__
-# key: div
+# key: _div
 # group: Special methods
 # --
 def __div__(self, other):

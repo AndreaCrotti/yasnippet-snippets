@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: __divmod__
-# key: divmod
+# key: _divmod
 # group: Special methods
 # --
 def __divmod__(self, other):

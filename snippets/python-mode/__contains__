@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: __contains__
-# key: contains
+# key: _contains
 # group: Special methods
 # --
 def __contains__(self, item):

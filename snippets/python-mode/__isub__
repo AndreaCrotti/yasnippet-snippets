@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: __isub__
-# key: isub
+# key: _isub
 # group: Special methods
 # --
 def __isub__(self, other):

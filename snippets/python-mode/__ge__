@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: __ge__
-# key: ge
+# key: _ge
 # group: Special methods
 # --
 def __ge__(self, other):

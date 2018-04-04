@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: __sub__
-# key: sub
+# key: _sub
 # group: Special methods
 # --
 def __sub__(self, other):

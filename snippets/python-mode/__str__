@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: __str__
-# key: str
+# key: _str
 # group: Special methods
 # --
 def __str__(self):

@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: __or__
-# key: or
+# key: _or
 # group: Special methods
 # --
 def __or__(self, other):

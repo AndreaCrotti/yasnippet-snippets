@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: __index__
-# key: index
+# key: _index
 # group: Special methods
 # --
 def __index__(self):

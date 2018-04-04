@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: __subclasscheck__
-# key: subclasscheck
+# key: _subclasscheck
 # group: Special methods
 # --
 def __subclasscheck__(self, instance):
