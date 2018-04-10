@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: (if ... ... ...)
+# key: if
+# --
+(if ${1:(${2:predicate})}
+    ${3:consequent}
+    ${4:alternative})
+$0
