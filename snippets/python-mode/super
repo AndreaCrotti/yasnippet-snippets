@@ -3,5 +3,5 @@
 # key: super
 # group: Definitions
 # --
-super`(elpy-snippet-super-form)`(${1:`(elpy-snippet-super-arguments)`})
+super`(yas-snips-snippet-super-form)`(${1:`(yas-snips-snippet-super-arguments)`})
 $0

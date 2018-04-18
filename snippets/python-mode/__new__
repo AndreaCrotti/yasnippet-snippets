@@ -7,4 +7,4 @@ def __new__(cls${1:, args}):
     """$2
 
     """
-    ${1:$(elpy-snippet-init-assignments yas-text)}
+    ${1:$(yas-snips-snippet-init-assignments yas-text)}

@@ -33,7 +33,7 @@
                        "\nReturns\n-------" formatted-ret)
                  "\n"))))
 
-(defun elpy-snippet-current-method-and-args ()
+(defun yas-snips-snippet-current-method-and-args ()
   "Return information on the current definition."
   (let ((current-defun (python-info-current-defun))
         (current-arglist
@@ -45,7 +45,7 @@
                            (forward-char -1)
                            (forward-sexp)
                            (- (point) 1))))
-               (elpy-snippet-split-args
+               (yas-snips-snippet-split-args
                 (buffer-substring-no-properties start end))))))
         class method args)
     (when (not current-arglist)
@@ -59,7 +59,7 @@
     (setq args (mapcar #'car current-arglist))
     (list class method args)))
 
-(defun elpy-snippet-init-assignments (arg-string)
+(defun yas-snips-snippet-init-assignments (arg-string)
   "Return the typical __init__ assignments for arguments."
   (let ((indentation (make-string (save-excursion
                                     (goto-char start-point)
@@ -72,26 +72,26 @@
                            (car arg)
                            (car arg)
                            indentation)))
-               (elpy-snippet-split-args arg-string)
+               (yas-snips-snippet-split-args arg-string)
                "")))
 
-(defun elpy-snippet-super-form ()
+(defun yas-snips-snippet-super-form ()
   "Return (Class, first-arg).method if Py2.
 Else return ().method for Py3."
-  (let* ((defun-info (elpy-snippet-current-method-and-args))
+  (let* ((defun-info (yas-snips-snippet-current-method-and-args))
          (class (nth 0 defun-info))
          (method (nth 1 defun-info))
          (args (nth 2 defun-info))
          (first-arg (nth 0 args))
          (py-version-command " -c 'import sys ; print(sys.version_info.major)'")
          ;; Get the python version. Either 2 or 3
-         (py-version-num (substring (shell-command-to-string (concat elpy-rpc-python-command py-version-command))0 1)))
+         (py-version-num (substring (shell-command-to-string (concat yas-snips-rpc-python-command py-version-command))0 1)))
     (if (string-match py-version-num "2")
         (format "(%s, %s).%s" class first-arg method)
       (format "().%s" method))))
 
-(defun elpy-snippet-super-arguments ()
+(defun yas-snips-snippet-super-arguments ()
   "Return the argument list for the current method."
   (mapconcat (lambda (x) x)
-             (cdr (nth 2 (elpy-snippet-current-method-and-args)))
+             (cdr (nth 2 (yas-snips-snippet-current-method-and-args)))
              ", "))
