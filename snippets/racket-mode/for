@@ -2,4 +2,4 @@
 # name: (for... (...) ...)
 # key: for
 # --
-(for$1 (${2:for-clause}) ${3:body})$0
+(for$1 (${2:for-clause}) $0)

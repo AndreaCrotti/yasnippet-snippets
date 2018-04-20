@@ -2,4 +2,4 @@
 # name: (unless ...)
 # key: unless
 # --
-(unless ${1:(${2:predicate})} ${3:body})$0
+(unless ${1:(${2:predicate})} $0)

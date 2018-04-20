@@ -2,4 +2,4 @@
 # name: (match ... [... ...]...)
 # key: match
 # --
-(match ${1:expression} [${2:clause} ${3:body}]$4)$0
+(match ${1:expression} [${2:clause} $0])

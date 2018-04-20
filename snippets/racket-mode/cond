@@ -2,4 +2,4 @@
 # name: (cond [... ...]...)
 # key: cond
 # --
-(cond [${1:predicate} ${2:body}]$3)$0
+(cond [${1:predicate} $0])

@@ -2,4 +2,4 @@
 # name: (when ...)
 # key: when
 # --
-(when ${1:(${2:predicate})} ${3:body})$0
+(when ${1:(${2:predicate})} $0)

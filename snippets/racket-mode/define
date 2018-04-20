@@ -2,4 +2,4 @@
 # name: (define ... ...)
 # key: define
 # --
-(define ${1:(${2:name} ${3:arguments})} ${4:body})$0
+(define ${1:(${2:name} ${3:arguments})} $0)

@@ -2,4 +2,4 @@
 # name: (case ... [... ...]...)
 # key: case
 # --
-(case ${1:expression} [${2:datum} ${3:body}]$4)$0
+(case ${1:expression} [${2:datum} $0])
