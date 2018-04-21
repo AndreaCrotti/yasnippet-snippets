@@ -1,5 +1,5 @@
-#name : Unordered List
+#name : Emphasis
 #contributor: Peng Deng <dengpeng@gmail.com>
+# key: _
 # --
-+ ${1:Text}
-+$0
+_${1:Text}_ $0
