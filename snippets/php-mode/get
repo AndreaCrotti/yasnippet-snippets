@@ -4,7 +4,7 @@
 # key: get
 # group: definitions
 # --
-public function get${1:$(capitalize yas-text)}()
+public function get${1:$(upcase-initials yas-text)}()
 {
     return \$this->$1;
 }
