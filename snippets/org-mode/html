@@ -1,7 +1,5 @@
 # -*- mode: snippet -*-
-# name: html
-# key: <ht
+# name: HTML
+# key: <HT
 # --
-#+BEGIN_HTML
-$0
-#+END_HTML
+#+HTML:$1
