@@ -1,3 +1,4 @@
+(require 'yasnippet)
 (defvar yas-text)
 
 (defvar python-split-arg-arg-regex
@@ -91,7 +92,7 @@ Else return ().method for Py3."
          (first-arg (nth 0 args))
          (py-version-command " -c 'import sys ; print(sys.version_info.major)'")
          ;; Get the python version. Either 2 or 3
-         (py-version-num (substring (shell-command-to-string (concat yas-snips-rpc-python-command py-version-command))0 1)))
+         (py-version-num (substring (shell-command-to-string (concat "python" py-version-command)) 0 1)))
     (if (string-match py-version-num "2")
         (format "(%s, %s).%s" class first-arg method)
       (format "().%s" method))))
