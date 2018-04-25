@@ -1,14 +1,14 @@
 # -*- mode: snippet -*-
 # contributor: Dan Pitic <dpitic@gmail.com>
 # name: Function Doxygen Doc
-# key: \doxydoc
+# key: \c-func-description
 # group: doxygen
 # --
 /**
- * @brief ${1:function description}
- ${2:*
- * ${3:Detailed description}
+ * @brief    ${1:function description}
  *
-}* @param ${4:param}
- * @return ${5:return type}
+ * @details  ${2:detailed description}
+ *
+ * @param    ${3:param}
+ * @return   ${4:return type}
  */
