@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: __getitem__
-# key: __getitem__
+# name: __rand__
+# key: __rand__
 # group: Special methods
 # --
-def __getitem__(self, key):
+def __rand__(self, other):
     return $0

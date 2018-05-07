@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: __getitem__
-# key: __getitem__
+# name: __reversed__
+# key: __reversed__
 # group: Special methods
 # --
-def __getitem__(self, key):
+def __reversed__(self):
     return $0

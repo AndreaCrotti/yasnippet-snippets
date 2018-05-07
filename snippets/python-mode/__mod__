@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: __getitem__
-# key: __getitem__
+# name: __mod__
+# key: __mod__
 # group: Special methods
 # --
-def __getitem__(self, key):
+def __mod__(self, other):
     return $0

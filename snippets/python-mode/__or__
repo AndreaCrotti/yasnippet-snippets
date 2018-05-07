@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: __getitem__
-# key: __getitem__
+# name: __or__
+# key: __or__
 # group: Special methods
 # --
-def __getitem__(self, key):
+def __or__(self, other):
     return $0

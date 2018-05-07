@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: __getitem__
-# key: __getitem__
+# name: __ior__
+# key: __ior__
 # group: Special methods
 # --
-def __getitem__(self, key):
+def __ior__(self, other):
     return $0

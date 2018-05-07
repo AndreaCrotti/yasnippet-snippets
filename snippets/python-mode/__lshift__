@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: __getitem__
-# key: __getitem__
+# name: __lshift__
+# key: __lshift__
 # group: Special methods
 # --
-def __getitem__(self, key):
+def __lshift__(self, other):
     return $0

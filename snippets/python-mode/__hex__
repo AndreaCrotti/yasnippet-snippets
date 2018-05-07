@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: __getitem__
-# key: __getitem__
+# name: __hex__
+# key: __hex__
 # group: Special methods
 # --
-def __getitem__(self, key):
+def __hex__(self):
     return $0

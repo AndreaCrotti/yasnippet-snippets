@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: __getitem__
-# key: __getitem__
+# name: __coerce__
+# key: __coerce__
 # group: Special methods
 # --
-def __getitem__(self, key):
+def __coerce__(self, other):
     return $0

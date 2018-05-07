@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: __getitem__
-# key: __getitem__
+# name: __cmp__
+# key: __cmp__
 # group: Special methods
 # --
-def __getitem__(self, key):
+def __cmp__(self, other):
     return $0
