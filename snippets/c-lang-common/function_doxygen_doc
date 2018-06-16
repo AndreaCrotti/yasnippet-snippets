@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # contributor: Dan Pitic <dpitic@gmail.com>
 # name: Function Doxygen Doc
-# key: \c-func-description
+# key: doxy
 # group: doxygen
 # --
 /**
@@ -10,5 +10,6 @@
  * @details  ${2:detailed description}
  *
  * @param    ${3:param}
+ *
  * @return   ${4:return type}
  */
