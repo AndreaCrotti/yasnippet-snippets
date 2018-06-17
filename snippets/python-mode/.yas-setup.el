@@ -91,8 +91,17 @@ Else return ().method for Py3."
          (args (nth 2 defun-info))
          (first-arg (nth 0 args))
          (py-version-command " -c 'import sys ; print(sys.version_info.major)'")
-         ;; Get the python version. Either 2 or 3
-         (py-version-num (substring (shell-command-to-string (concat "python" py-version-command)) 0 1)))
+         ;; Check for distribution-defined or user-defined python-interpreter.
+         ;; If python-interpreter is not set, then py-version-command
+         ;; will always return "2" for "python" on PEP 394-compliant
+         ;; systems.
+         (if (fboundp 'python-interpreter)
+             (py-version-num (substring (shell-command-to-string (concat python-interpreter py-version-command)) 0 1))
+           ;; Otherwise get the version from "python" in $PATH
+           ;; This preserves support for virtualenvs that may have
+           ;; either version 2 or 3 installed as "python"--and also
+           ;; for distributions that install Python 3 to $PATH/python
+           (py-version-num (substring (shell-command-to-string (concat "python" py-version-command)) 0 1))))
     (if (string-match py-version-num "2")
         (format "(%s, %s).%s" class first-arg method)
       (format "().%s" method))))
