@@ -4,5 +4,5 @@
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region nil))
 # --
 for(var i = ${1:0}; i ${2:< 10}; i${3:++}) {
-  ${4:Body}
-}$0
+  $0
+}

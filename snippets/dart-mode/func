@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
-# name: func
-# key: func
+# name: fun
+# key: fun
 # --
 ${1:Type} ${2:Name}($3) {
   $0
