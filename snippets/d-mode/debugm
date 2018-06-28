@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: debugm
+# key: debugm
+# --
+debugm (${1:module})
+{
+	$0
+}

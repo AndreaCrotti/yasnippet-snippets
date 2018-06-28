@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: class … { … }
+# key: class
+# --
+/++
+ + $1
+ +/
+class ${1:ClassName}
+{
+	this($2)
+	{
+      $0
+	}
+}
