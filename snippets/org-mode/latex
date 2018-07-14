@@ -1,7 +1,0 @@
-# -*- mode: snippet -*-
-# name: title
-# key: <l
-# --
-#+BEGIN_LATEX
-$0
-#+END_LATEX
