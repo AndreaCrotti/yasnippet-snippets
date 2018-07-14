@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: aclass
+# key: acls
+# --
+abstract class ${1:Name} {
+  $0
+}

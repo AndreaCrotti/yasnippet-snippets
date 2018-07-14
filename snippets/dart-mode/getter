@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: getter
+# key: get
+# --
+${1:Type} _${2:Name};
+$1 get $2 => _$2;$0

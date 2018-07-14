@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: class
+# key: cls
+# --
+class ${1:Name} {
+  $0
+}
