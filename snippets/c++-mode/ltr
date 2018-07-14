@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-# name: transform
+# name: remove whitespace at beginning
 # key: ltr
 # --
 ${1:container}.erase(0, $1.find_first_not_of(" \t\n\r"));
