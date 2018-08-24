@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: provider
+# key: prov
+# --
+provider "${1:name}" {
+  $0
+}
