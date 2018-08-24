@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: terraform
+# key: tf
+# --
+terraform {
+  backend "${1:backend}" {
+    # enter parameters
+    ${0}
+  }
+}
