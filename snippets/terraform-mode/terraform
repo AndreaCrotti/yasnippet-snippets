@@ -4,7 +4,6 @@
 # --
 terraform {
   backend "${1:backend}" {
-    # enter parameters
-    ${0}
+    $0
   }
 }
