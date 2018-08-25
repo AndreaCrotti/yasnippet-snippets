@@ -1,7 +1,0 @@
-# -*- mode: snippet -*-
-# name: python
-# key: py_
-# --
-#+BEGIN_SRC python
-$0
-#+END_SRC
