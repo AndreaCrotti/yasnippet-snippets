@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name:main
+# key:main
+# binding: direct-keybinding
+# --
+(defmain [&rest ${1:args}]
+  $0)

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name:cond
+# key:cond
+# binding: direct-keybinding
+# --
+(cond
+  [${1:condition} ${result:2}]
+  [${3:condition} ${result:4}]
+  ${5:[True $6]})
