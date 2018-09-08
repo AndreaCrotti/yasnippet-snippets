@@ -2,6 +2,6 @@
 # name: funca
 # key: afun
 # --
-${1:Type} ${2:Name}($3) async {
+Future<${1:Type}> ${2:Name}($3) async {
   $0
 }
