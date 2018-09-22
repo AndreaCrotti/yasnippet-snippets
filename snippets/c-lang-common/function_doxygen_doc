@@ -5,11 +5,11 @@
 # group: doxygen
 # --
 /**
- * @brief    ${1:function description}
+ * @brief      ${1:function description}
  *
- * @details  ${2:detailed description}
+ * @details    ${2:detailed description}
  *
- * @param    ${3:param}
+ * @param      ${3:param}
  *
- * @return   ${4:return type}
+ * @return     ${4:return type}
  */
