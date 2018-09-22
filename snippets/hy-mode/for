@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: for
+# key: for
+# binding: direct-keybinding
+# --
+(for [${1:item items}] $0)

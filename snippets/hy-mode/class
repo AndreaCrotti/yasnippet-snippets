@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name:class
+# key:class
+# binding: direct-keybinding
+# --
+(defclass ${1:ClassName} [${2:BaseClass}]
+${3:  (defn --init-- [${4:arg}]
+    (setv $0))})

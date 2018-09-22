@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: let
+# key: let
+# binding: direct-keybinding
+# --
+(let [${1:arg}]
+  $0)
