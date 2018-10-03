@@ -2,4 +2,4 @@
 # name: d_operator[]
 # key: [
 # --
-${1:Type}& operator[](${2:int index});
+${1:Name}& operator[](${2:int index});
