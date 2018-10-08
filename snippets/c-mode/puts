@@ -2,4 +2,4 @@
 # name: puts
 # key: puts
 # --
-puts("${1:string}");
+puts(${1:string});
