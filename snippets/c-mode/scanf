@@ -2,4 +2,4 @@
 # name: scanf
 # key: scanf
 # --
-scanf("${1:format string}",${2:&variable});
+scanf("${1:format string}", ${2:&variable});
