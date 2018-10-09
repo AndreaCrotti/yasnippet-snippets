@@ -2,4 +2,4 @@
 # name: fprintf
 # key: fprintf
 # --
-fprintf(${1:stdout},"${2:format string}",${3:variable});
+fprintf(${1:stdout}, "${2:format string}", ${3:variable});
