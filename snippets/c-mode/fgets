@@ -2,4 +2,4 @@
 # name: fgets
 # key: fgets
 # --
-fgets(${1:string}, ${2:size}, ${3:stdin});
+fgets(${1:variable}, ${2:size}, ${3:stdin});
