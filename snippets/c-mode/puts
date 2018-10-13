@@ -1,5 +1,0 @@
-# -*- mode: snippet -*-
-# name: puts
-# key: puts
-# --
-puts(${1:string});
