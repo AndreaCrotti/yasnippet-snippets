@@ -1,5 +1,0 @@
-# -*- mode: snippet -*-
-# name: strlen
-# key: strlen
-# --
-strlen(${1:string});
