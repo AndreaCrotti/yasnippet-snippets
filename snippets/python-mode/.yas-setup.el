@@ -71,9 +71,7 @@ First group should give the argument name.")
 
 (defun yas-snips-snippet-init-assignments (arg-string)
   "Return the typical __init__ assignments for arguments in ARG-STRING."
-  (let ((indentation (make-string (save-excursion
-                                    (goto-char start-point)
-                                    (current-indentation))
+  (let ((indentation (make-string (current-indentation)
                                   ?\s)))
     (mapconcat (lambda (arg)
                  (if (string-match "^\\*" arg)
