@@ -3,5 +3,5 @@
 # key: <im
 # --
 #+caption: ${1:caption of the image}
-[[file:${2:image_path}]$0
+[[file:${2:image_path}]]$0
 
