@@ -2,4 +2,4 @@
 # name: d_operator<<
 # key: <<
 # --
-friend std::ostream& operator<<(std::ostream&, const ${1:Class}&);
+friend std::ostream& operator<<(std::ostream&, const ${1:Name}&);
