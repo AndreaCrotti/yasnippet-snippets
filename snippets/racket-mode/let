@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: (let... ([... ...]...) ...)
+# key: let
+# --
+(let$1 ([${2:name} ${3:expression}]$4) $0)

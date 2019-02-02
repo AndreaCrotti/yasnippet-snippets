@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: (cond [... ...]...)
+# key: cond
+# --
+(cond [${1:predicate} $0])

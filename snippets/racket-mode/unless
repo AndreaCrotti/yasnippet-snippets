@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: (unless ...)
+# key: unless
+# --
+(unless ${1:(${2:predicate})} $0)

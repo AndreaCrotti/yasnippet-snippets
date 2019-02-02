@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: (case-lambda [... ...]...)
+# key: case-lambda
+# --
+(case-lambda [${1:arguments} $0])

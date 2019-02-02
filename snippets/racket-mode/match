@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: (match ... [... ...]...)
+# key: match
+# --
+(match ${1:expression} [${2:clause} $0])
