@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 # name: docstring function
 # contributor: Andrea Giugliano
+# key: docfun
 # inspired by a snippet by Tibor Simko et al.
 # --
 /**
