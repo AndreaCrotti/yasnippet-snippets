@@ -3,6 +3,7 @@
 # contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
 # name: console.groupEnd
 # key: cge
+# group: console
 # --
 
 console.groupEnd()

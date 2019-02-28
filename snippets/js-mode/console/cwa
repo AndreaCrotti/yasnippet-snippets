@@ -3,6 +3,7 @@
 # contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
 # name: console.warn
 # key: cwa
+# group: console
 # --
 
 console.warn(${1:object})

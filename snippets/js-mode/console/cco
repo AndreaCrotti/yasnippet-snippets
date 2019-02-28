@@ -3,6 +3,7 @@
 # contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
 # name: console.count
 # key: cco
+# group: console
 # --
 
 console.count(${1:label})

@@ -3,6 +3,7 @@
 # contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
 # name: console.info
 # key: cin
+# group: console
 # --
 
 console.info(${1:object})

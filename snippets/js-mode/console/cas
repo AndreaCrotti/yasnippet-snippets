@@ -3,6 +3,7 @@
 # contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
 # name: console.assert
 # key: cas
+# group: console
 # --
 
 console.assert(${1:expression}, ${2:object})

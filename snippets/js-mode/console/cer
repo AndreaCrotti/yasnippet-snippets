@@ -3,6 +3,7 @@
 # contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
 # name: console.error
 # key: cer
+# group: console
 # --
 
 console.error(${1:object})

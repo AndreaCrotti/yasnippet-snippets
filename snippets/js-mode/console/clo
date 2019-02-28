@@ -3,6 +3,7 @@
 # contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
 # name: console.log (formatted)
 # key: clo
+# group: console
 # --
 
 console.log('${1:object}', ${1:object})

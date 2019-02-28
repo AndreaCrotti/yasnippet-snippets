@@ -3,6 +3,7 @@
 # contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
 # name: console.dir
 # key: cdi
+# group: console
 # --
 
 console.dir(${1:object})
