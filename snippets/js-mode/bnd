@@ -6,4 +6,3 @@
 # --
 
 this.${1:methodName} = this.${1:methodName}.bind(this)$0
-

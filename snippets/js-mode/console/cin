@@ -7,4 +7,3 @@
 # --
 
 console.info(${1:object})
-

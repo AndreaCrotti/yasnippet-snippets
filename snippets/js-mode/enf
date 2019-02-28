@@ -8,5 +8,3 @@
 export const ${1:functionName} = (${2:params}) => {
   $0
 }
-
-

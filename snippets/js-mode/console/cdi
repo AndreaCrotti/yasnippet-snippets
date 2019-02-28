@@ -7,4 +7,3 @@
 # --
 
 console.dir(${1:object})
-

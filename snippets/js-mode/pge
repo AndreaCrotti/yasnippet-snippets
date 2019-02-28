@@ -8,5 +8,3 @@
 get ${1:propertyName}() {
   return this.${0}
 }
-
-

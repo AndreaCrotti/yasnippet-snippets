@@ -18,5 +18,3 @@ export class ${1:${TM_FILENAME_BASE}} extends PureComponent {
 }
 
 export default ${1:$TM_FILENAME_BASE}
-
-

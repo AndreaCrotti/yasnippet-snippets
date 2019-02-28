@@ -6,4 +6,3 @@
 # --
 
 PropTypes.oneOf(['$0']).isRequired,
-

@@ -8,5 +8,3 @@
 for(let ${1:item} of ${2:object}) {
   ${0}
 }
-
-

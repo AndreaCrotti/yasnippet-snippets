@@ -8,5 +8,3 @@
 ${1:methodName} = (${2:params}) => {
   ${0}
 }
-
-

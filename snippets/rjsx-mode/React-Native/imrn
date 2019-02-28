@@ -6,4 +6,3 @@
 # --
 
 import { ${1:moduleName} } from 'react-native'
-

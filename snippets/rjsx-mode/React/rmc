@@ -14,5 +14,3 @@ export default memo(function ${1:${TM_FILENAME_BASE}}() {
     </div>
   )
 })
-
-

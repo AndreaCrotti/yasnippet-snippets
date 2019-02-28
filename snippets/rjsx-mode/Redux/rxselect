@@ -8,5 +8,3 @@
 import { createSelector } from 'reselect'
 
 export const ${1:selectorName} = state => state.${2:selector}
-
-

@@ -6,4 +6,3 @@
 # --
 
 PropTypes.arrayOf($0).isRequired,
-

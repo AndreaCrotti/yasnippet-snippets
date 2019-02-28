@@ -8,5 +8,3 @@
 componentWillUpdate = (nextProps, nextState) => {
   $0
 }
-
-

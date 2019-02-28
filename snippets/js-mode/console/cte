@@ -7,4 +7,3 @@
 # --
 
 console.timeEnd('${1:object}')
-

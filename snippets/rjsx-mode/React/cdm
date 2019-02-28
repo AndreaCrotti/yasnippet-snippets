@@ -8,5 +8,3 @@
 componentDidMount = () => {
   $0
 }
-
-

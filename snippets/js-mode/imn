@@ -6,4 +6,3 @@
 # --
 
 import '${1:module}'$0
-

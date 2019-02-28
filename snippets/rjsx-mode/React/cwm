@@ -8,5 +8,3 @@
 componentWillMount = () => {
   $0
 }
-
-

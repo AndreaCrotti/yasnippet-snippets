@@ -7,4 +7,3 @@
 # --
 
 console.assert(${1:expression}, ${2:object})
-

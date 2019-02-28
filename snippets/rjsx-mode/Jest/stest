@@ -18,5 +18,3 @@ describe('<${1:${TM_FILENAME_BASE}} />', () => {
     expect(wrapper).toMatchSnapshot()
   })
 })
-
-

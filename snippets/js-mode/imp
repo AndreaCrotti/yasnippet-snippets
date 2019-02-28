@@ -6,4 +6,3 @@
 # --
 
 import ${2:moduleName} from '${1:module}'$0
-

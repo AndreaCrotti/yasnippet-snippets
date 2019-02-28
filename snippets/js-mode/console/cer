@@ -7,4 +7,3 @@
 # --
 
 console.error(${1:object})
-

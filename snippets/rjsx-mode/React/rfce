@@ -16,5 +16,3 @@ function ${1:${TM_FILENAME_BASE}}() {
 }
 
 export default ${1:${TM_FILENAME_BASE}}
-
-

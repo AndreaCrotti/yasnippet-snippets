@@ -6,5 +6,3 @@
 # --
 
 this.${1:refName}Ref = React.createRef()
-
-

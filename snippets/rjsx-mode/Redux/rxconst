@@ -6,4 +6,3 @@
 # --
 
 export const ${1:constantName} = '${1:constantName}'
-

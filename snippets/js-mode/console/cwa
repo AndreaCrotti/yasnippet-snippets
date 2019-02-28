@@ -7,4 +7,3 @@
 # --
 
 console.warn(${1:object})
-

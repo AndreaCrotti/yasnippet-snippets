@@ -8,5 +8,3 @@
 export default (${1:params}) => {
   $0
 }
-
-

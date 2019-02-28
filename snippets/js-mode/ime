@@ -6,4 +6,3 @@
 # --
 
 import * as ${2:alias} from '${1:module}'$0
-

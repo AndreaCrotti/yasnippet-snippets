@@ -6,4 +6,3 @@
 # --
 
 PropTypes.bool.isRequired,
-

@@ -7,4 +7,3 @@
 # --
 
 console.group("${1:label}")
-

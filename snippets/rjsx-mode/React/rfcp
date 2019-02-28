@@ -21,6 +21,3 @@ ${1:${TM_FILENAME_BASE}}.propTypes = {
 }
 
 export default ${1:${TM_FILENAME_BASE}}
-
-
-

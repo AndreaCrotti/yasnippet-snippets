@@ -27,5 +27,3 @@ export const ${1:hocComponentName} = (WrappedComponent) => {
 }
 
 export default WrapperComponent => connect(mapStateToProps, mapDispatchToProps)(${1:hocComponentName}(WrapperComponent))
-
-

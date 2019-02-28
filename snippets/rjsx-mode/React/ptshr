@@ -8,4 +8,3 @@
 PropTypes.shape({
   $0
 }).isRequired,
-

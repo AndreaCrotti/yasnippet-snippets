@@ -8,5 +8,3 @@
 componentWillReceiveProps = (nextProps) => {
   $0
 }
-
-

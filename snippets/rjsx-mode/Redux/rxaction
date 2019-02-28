@@ -9,5 +9,3 @@ export const ${1:actionName} = (payload) => ({
   type: ${3:type},
   payload
 })
-
-

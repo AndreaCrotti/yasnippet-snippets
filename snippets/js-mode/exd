@@ -6,4 +6,3 @@
 # --
 
 export { $2 } from '${1:module}'$0
-

@@ -7,4 +7,3 @@
 # --
 
 console.count(${1:label})
-

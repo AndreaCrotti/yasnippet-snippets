@@ -8,5 +8,3 @@
 set ${1:propertyName}(${2:value}) {
   ${0}
 }
-
-
