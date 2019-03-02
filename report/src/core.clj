@@ -12,8 +12,9 @@
   (let [lines (-> filename
                   slurp
                   str/split-lines)]
-    (remove nil?
-            (map #(last (re-find (kw-pattern keyword) %)) lines))))
+    (first
+     (remove nil?
+             (map #(last (re-find (kw-pattern keyword) %)) lines)))))
 
 (defn mode-files
   [mode-dir]
@@ -26,3 +27,8 @@
     {:name (extract-keyword f "name")
      :key (extract-keyword f "key")
      :group (extract-keyword f "group")}))
+
+(defn parse-everything
+  [snippets-dir]
+  (for [d (file-seq (io/file snippets-dir))]
+    {d (parse-mode d)}))
