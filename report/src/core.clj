@@ -1,7 +1,6 @@
 (ns core
   "Parse files and generate some html reports"
   (:require [clojure.string :as str]
-            [clojure.edn :as edn]
             [hiccup.core :as hiccup]
             [clojure.java.io :as io]))
 
@@ -45,6 +44,16 @@
   [snippets-dir output-file]
   (spit output-file (parse-everything snippets-dir)))
 
+(defn render-snip
+  [{:keys [name key group filename]}]
+  (when name
+    [:ul
+     (filter some?
+             [[:li {:class "field"} "name: " name]
+              (when key [:li {:class "field"} "key: " key])
+              (when group [:li {:class "field"} "group: " group])
+              (when filename [:li {:class "field"} "filename: " filename])])]))
+
 (defn edn->hiccup
   "Transform the data structure containing all the modes described
   into an hiccup data structure"
@@ -52,11 +61,7 @@
   (for [[m snips] (sort-by first modes)]
     (into [:div.mode (str "Mode: " m)]
           (for [s snips]
-            [:ul
-             [:li "link =" (:filename s)]
-             [:li "name =" (:name s)]
-             [:li "group =" (:group s)]
-             [:li "key =" (:key s)]]))))
+            (render-snip s)))))
 
 (comment
   (let [all-modes (parse-everything "../snippets")
