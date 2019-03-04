@@ -44,30 +44,11 @@
   [snippets-dir output-file]
   (spit output-file (parse-everything snippets-dir)))
 
-(defn render-snip
-  [{:keys [name key group filename]}]
-  (when name
-    [:ul
-     (filter some?
-             [[:li {:class "field"} "name: " name]
-              (when key [:li {:class "field"} "key: " key])
-              (when group [:li {:class "field"} "group: " group])
-              (when filename [:li {:class "field"} "filename: " filename])])]))
-
-(defn edn->hiccup
-  "Transform the data structure containing all the modes described
-  into an hiccup data structure"
-  [modes]
-  (for [[m snips] (sort-by first modes)]
-    (into [:div.mode (str "Mode: " m)]
-          (for [s snips]
-            (render-snip s)))))
-
 (def header [:name :key :group :filename])
 
 (defn table
   [header rows]
-  [:table.table
+  [:table.table.is-striped
    [:thead (into [:tr.tr]
                  (for [h header]
                    [:td.td (name h)]))]
@@ -92,7 +73,8 @@
                            :href "https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.css"
                            :crossorigin "anonymous"}]]
                   [:body
-                   [:div m
+                   [:div.hero
+                    [:h2 m]
                     (table header snips)]]])]
     (spit
      "hello.html"
