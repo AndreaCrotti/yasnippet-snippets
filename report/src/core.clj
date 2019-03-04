@@ -63,12 +63,40 @@
           (for [s snips]
             (render-snip s)))))
 
-(comment
-  (let [all-modes (parse-everything "../snippets")
-        hicup (edn->hiccup all-modes)
-        content [:html
-                 (into [:body]
-                       hicup)]]
+(def header [:name :key :group :filename])
+
+(defn table
+  [header rows]
+  [:table.table
+   [:thead (into [:tr.tr]
+                 (for [h header]
+                   [:td.td (name h)]))]
+
+   (into [:tbody.tbody]
+         (for [r rows]
+           (into [:tr.tr]
+                 (for [h header]
+                   [:td.td (r h)]))))])
+
+[:link {:rel "stylesheet"
+        :href "https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.css"
+        :crossorigin "anonymous"}]
+
+(defn gen-html
+  [snips-dir]
+  (let [all-modes (parse-everything snips-dir)
+        tables (for [[m snips] all-modes]
+                 [:html
+                  [:head
+                   [:link {:rel "stylesheet"
+                           :href "https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.css"
+                           :crossorigin "anonymous"}]]
+                  [:body
+                   [:div m
+                    (table header snips)]]])]
     (spit
      "hello.html"
-     (hiccup/html content))))
+     (hiccup/html tables))))
+
+(comment
+  (gen-html "../snippets"))
