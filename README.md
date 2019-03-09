@@ -8,6 +8,8 @@
 
 This repository contains the official collection of snippets for [yasnippet](http://github.com/capitaomorte/yasnippet).
 
+You can see [here](snippets.html) a big HTML page with all the available snippets grouped by mode.
+
 # How to install
 
 ## From melpa
