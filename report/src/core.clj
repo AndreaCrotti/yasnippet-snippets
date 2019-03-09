@@ -9,7 +9,7 @@
 
 (defn kw-pattern
   [kw]
-  (re-pattern (format "# %s: (\\w+)" kw)))
+  (re-pattern (format "# %s: (.*)" kw)))
 
 (defn extract-keyword
   [filename keyword]
@@ -28,7 +28,7 @@
 (defn parse-mode
   [mode-dir]
   (for [f (mode-files mode-dir)]
-    {;;:filename f
+    {:filename (.getName (io/file mode-dir f))
      :name (extract-keyword f "name")
      :key (or (extract-keyword f "key")
               (extract-keyword f "name"))
@@ -47,7 +47,7 @@
   [snippets-dir output-file]
   (spit output-file (parse-everything snippets-dir)))
 
-(def header [:name :key :group :desc #_:filename])
+(def header [:name :key :filename :group :desc])
 
 (defn table
   "Generate a table"
