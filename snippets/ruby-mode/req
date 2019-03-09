@@ -1,4 +1,4 @@
-#name : require "..."
-#group : general
+# name: require "..."
+# group : general
 # --
 require '$0'

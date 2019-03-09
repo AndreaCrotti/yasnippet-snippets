@@ -1,5 +1,5 @@
-#name : find and replace on region
-#contributor : Xah Lee
+# name: find and replace on region
+# contributor : Xah Lee
 # --
 (defun replace-html-chars-region (start end)
   "Replace “<” to “&lt;” and other chars in HTML.

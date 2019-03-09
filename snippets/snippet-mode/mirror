@@ -1,5 +1,5 @@
-# name : ${n:$(...)} mirror
-# key : $m
+# name: ${n:$(...)} mirror
+# key: $m
 # contributor : joaotavora
 # key: mirror
 # --

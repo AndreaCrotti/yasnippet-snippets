@@ -1,4 +1,4 @@
-#contributor : rejeep <johan.rejeep@gmail.com>
-#name : margin-bottom: ...
+# contributor : rejeep <johan.rejeep@gmail.com>
+# name: margin-bottom: ...
 # --
 margin-bottom: $1;

@@ -1,5 +1,5 @@
-#name : -module().
-#contributor : hitesh <hitesh.jasani@gmail.com>
+# name: -module().
+# contributor : hitesh <hitesh.jasani@gmail.com>
 # --
 -module(${1:`(file-name-nondirectory
               (file-name-sans-extension (or (buffer-file-name) (buffer-name))))`}).

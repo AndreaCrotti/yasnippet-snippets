@@ -1,5 +1,5 @@
-#contributor : Jostein Kjønigsen <jostein@kjonigsen.net>
-#name : foreach { ... }
+# contributor : Jostein Kjønigsen <jostein@kjonigsen.net>
+# name: foreach { ... }
 # key: fore
 # --
 foreach (${1:var} ${2:item} in ${3:list})

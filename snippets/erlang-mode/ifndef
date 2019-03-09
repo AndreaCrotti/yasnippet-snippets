@@ -1,4 +1,4 @@
-#name : -ifndef(...). ... -endif.
+# name: -ifndef(...). ... -endif.
 # --
 -ifndef($1).
 $0

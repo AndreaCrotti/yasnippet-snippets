@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-# name : Chapter title
+# name: Chapter title
 # key: chap
 # --
 ${1:Chapter}

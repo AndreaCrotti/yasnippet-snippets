@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-#name : else
+# name: else
 # --
 else {
   $0

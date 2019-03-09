@@ -1,4 +1,4 @@
-#name : select { |...| ... }
-#group : collections
+# name: select { |...| ... }
+# group : collections
 # --
 select { |${1:element}| $0 }

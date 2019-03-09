@@ -1,5 +1,5 @@
-#contributor: Xah Lee (XahLee.org)
-#name: nth
-#key: nth
+# contributor: Xah Lee (XahLee.org)
+# name: nth
+# key: nth
 # --
 (nth ${1:index} ${2:list})

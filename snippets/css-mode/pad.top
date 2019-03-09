@@ -1,4 +1,4 @@
-#contributor : rejeep <johan.rejeep@gmail.com>
-#name : padding-top: ...
+# contributor : rejeep <johan.rejeep@gmail.com>
+# name: padding-top: ...
 # --
 padding-top: $1;
