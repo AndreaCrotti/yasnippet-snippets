@@ -5,6 +5,7 @@
             [clojure.java.io :as io]))
 
 ;; TODO: do something whenever the mode has just `.yas-parents` and nothing else?
+(def bulma-url "https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.css")
 
 (defn kw-pattern
   [kw]
@@ -47,6 +48,7 @@
 (def header [:name :key :group :filename])
 
 (defn table
+  "Generate a table"
   [header rows]
   [:table.table.is-striped
    [:thead (into [:tr.tr]
@@ -59,23 +61,22 @@
                  (for [h header]
                    [:td.td (r h)]))))])
 
-[:link {:rel "stylesheet"
-        :href "https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.css"
-        :crossorigin "anonymous"}]
+(defn structure
+  [body]
+  [:html
+   [:head
+    [:link {:rel "stylesheet"
+            :href bulma-url
+            :crossorigin "anonymous"}]]
+   [:body body]])
 
 (defn gen-html
   [snips-dir]
   (let [all-modes (parse-everything snips-dir)
-        tables (for [[m snips] all-modes]
-                 [:html
-                  [:head
-                   [:link {:rel "stylesheet"
-                           :href "https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.css"
-                           :crossorigin "anonymous"}]]
-                  [:body
-                   [:div.hero
-                    [:h2 m]
-                    (table header snips)]]])]
+        tables (for [[m snips] (take 10 (sort all-modes))]
+                 [:div
+                  [:h2 m]
+                  (table header snips)])]
     (spit
      "hello.html"
      (hiccup/html tables))))
