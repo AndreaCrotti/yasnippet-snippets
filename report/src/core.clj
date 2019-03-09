@@ -84,5 +84,25 @@
      (hiccup/html
       (structure tables)))))
 
+(def mode-line "# -*- mode: snippet -*-")
+
+(defn all-snips
+  [d]
+  (filter #(and (.isFile %)
+                (not= (.getName %) ".yas-parents")
+                (not (.endsWith (str %) ".el")))
+
+          (file-seq (io/file d))))
+
+(defn fix-all-modelines
+  [snips]
+  (doseq [s snips]
+    (let [content (-> s slurp str/split-lines)
+          f-line (first content)]
+
+      (when-not (str/includes? f-line "# -*- mode")
+        (println "Writing to " s)
+        (spit s (str/join "\n" (cons mode-line content)))))))
+
 (comment
   (gen-html "../snippets"))

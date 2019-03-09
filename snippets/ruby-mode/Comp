@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name: include Comparable; def <=> ... end
 # group : definitions
 # --

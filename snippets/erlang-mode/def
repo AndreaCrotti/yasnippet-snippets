@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name: -define(...,...).
 # --
 -define($1,$2).
