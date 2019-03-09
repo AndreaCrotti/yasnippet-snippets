@@ -28,10 +28,12 @@
 (defn parse-mode
   [mode-dir]
   (for [f (mode-files mode-dir)]
-    {:filename f
+    {;;:filename f
      :name (extract-keyword f "name")
-     :key (extract-keyword f "key")
-     :group (extract-keyword f "group")}))
+     :key (or (extract-keyword f "key")
+              (extract-keyword f "name"))
+     :group (extract-keyword f "group")
+     :desc (extract-keyword f "desc")}))
 
 (defn parse-everything
   [snippets-dir]
@@ -45,7 +47,7 @@
   [snippets-dir output-file]
   (spit output-file (parse-everything snippets-dir)))
 
-(def header [:name :key :group :filename])
+(def header [:name :key :group :desc #_:filename])
 
 (defn table
   "Generate a table"
@@ -68,18 +70,19 @@
     [:link {:rel "stylesheet"
             :href bulma-url
             :crossorigin "anonymous"}]]
-   [:body body]])
+   (into [:body] body)])
 
 (defn gen-html
   [snips-dir]
   (let [all-modes (parse-everything snips-dir)
-        tables (for [[m snips] (take 10 (sort all-modes))]
-                 [:div
-                  [:h2 m]
+        tables (for [[m snips] (sort all-modes)]
+                 [:div.section
+                  [:h2.subtitle m]
                   (table header snips)])]
     (spit
      "hello.html"
-     (hiccup/html tables))))
+     (hiccup/html
+      (structure tables)))))
 
 (comment
   (gen-html "../snippets"))
