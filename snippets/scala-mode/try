@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 #Author : Sam Halliday
-#name : try { .. } catch { case e => ..}
+# name: try { .. } catch { case e => ..}
 # key: try
 # --
 try {

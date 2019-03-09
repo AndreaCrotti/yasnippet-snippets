@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-# name : case : {...}
+# name: case : {...}
 # key: case
 # expand-env: ((yas-also-auto-indent-first-line t))
 # --

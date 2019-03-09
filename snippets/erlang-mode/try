@@ -1,4 +1,4 @@
-#name : try ... of ... catch after end
+# name: try ... of ... catch after end
 # --
 try $1 of
     $0

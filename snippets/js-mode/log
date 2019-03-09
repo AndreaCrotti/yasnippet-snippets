@@ -1,4 +1,4 @@
 # -*- mode: snippet -*-
-#name : console.log
+# name: console.log
 # --
 console.log($0);

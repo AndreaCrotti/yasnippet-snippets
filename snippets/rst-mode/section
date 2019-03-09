@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-# name : Section title
+# name: Section title
 # key: sec
 # --
 ${1:Section}

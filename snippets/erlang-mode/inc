@@ -1,4 +1,4 @@
-#name : -include("...").
+# name: -include("...").
 # --
 -include("$1").
 $0

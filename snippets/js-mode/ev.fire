@@ -1,4 +1,4 @@
 # -*- mode: snippet -*-
-#name : fireEvent
+# name: fireEvent
 # --
 fireEvent('$0')

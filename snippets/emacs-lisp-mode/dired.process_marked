@@ -1,5 +1,5 @@
-#name : process marked files in dired
-#contributor : Xah Lee
+# name: process marked files in dired
+# contributor : Xah Lee
 # --
 ;; idiom for processing a list of files in dired's marked files
  

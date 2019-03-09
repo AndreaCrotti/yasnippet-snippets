@@ -1,8 +1,8 @@
 # -*- mode: snippet -*-
 #cotributor: Henrique Jung <henriquenj@gmail.com>
-#name: File description
-#key: \file
-#group: doxygen
+# name: File description
+# key: \file
+# group: doxygen
 # --
 /**
  *   \file ${1:`(file-name-nondirectory(buffer-file-name))`}

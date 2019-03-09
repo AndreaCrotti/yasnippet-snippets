@@ -1,8 +1,8 @@
 # -*- mode: snippet -*-
-#name : Assembly Function Doc
-#key : doxy
-#group : doxygen
-#contributor : Dan Pitic <dpitic@gmail.com>
+# name: Assembly Function Doc
+# key: doxy
+# group : doxygen
+# contributor : Dan Pitic <dpitic@gmail.com>
 # --
 ;;
 ;; @brief      ${1:function description}

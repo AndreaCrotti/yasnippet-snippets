@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-#name : comment (/* ... */)
+# name: comment (/* ... */)
 # --
 /*
  * $0
