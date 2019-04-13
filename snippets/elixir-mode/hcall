@@ -2,7 +2,6 @@
 # name: hcall
 # key: hcall
 # --
-def handle_call($1, _from, state) do
-  reply = $0
-  {:reply, reply, state}
+def handle_call($1, _from, ${2:state}) do
+  $0
 end
