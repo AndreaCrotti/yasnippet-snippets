@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# contributor: quazgar
+# name: init_docstring_numpy
+# key: idn
+# group : definitions
+# --
+def __init__(self$1):
+    \"\"\"$2
+    ${1:$(python-args-to-docstring-numpy)}
+    \"\"\"
+    $0
