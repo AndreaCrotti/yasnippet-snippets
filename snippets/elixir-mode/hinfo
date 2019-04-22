@@ -2,7 +2,6 @@
 # name: hinfo
 # key: hinfo
 # --
-def handle_info($1, state) do
+def handle_info($1, ${2:state}) do
   $0
-  {:noreply, state}
 end
