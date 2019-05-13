@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: align
+# key: ali
+# --
+\begin{align}
+\item $0
+\end{align}
