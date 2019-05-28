@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: labelcref
+# key: lref
+# --
+\labelcref{$0}
