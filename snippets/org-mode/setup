@@ -2,4 +2,4 @@
 # name: setup
 # key: set
 # --
-#+SETUPFILE: $1
+#+SETUPFILE: $0

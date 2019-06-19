@@ -8,4 +8,3 @@ layout: ${1:default}
 title: ${2:title}
 ---
 #+end_html
-$0

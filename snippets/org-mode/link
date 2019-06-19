@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: link
+# key: <li
+# --
+[[${1:external_link}][${2:Description}]
