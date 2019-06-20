@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_sql_user
-# key: google_sql_user
+# key: goog_sql_user
 # --
 
 resource "google_sql_user" "${1:name}" {

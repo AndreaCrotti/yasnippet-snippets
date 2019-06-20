@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_project_iam_custom_role
-# key: google_project_iam_custom_role
+# key: goog_project_iam_custom_role
 # --
 
 resource "google_project_iam_custom_role" "${1:name}" {

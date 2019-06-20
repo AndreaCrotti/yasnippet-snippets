@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_billing_account_iam_binding
-# key: google_billing_account_iam_binding
+# key: goog_billing_account_iam_binding
 # --
 
 resource "google_billing_account_iam_binding" "${1:name}" {

@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_compute_interconnect_attachment
-# key: google_compute_interconnect_attachment
+# key: goog_compute_interconnect_attachment
 # --
 
 resource "google_compute_interconnect_attachment" "${1:name}" {

@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_compute_image_data
-# key: google_compute_image_data
+# key: goog_compute_image_data
 # --
 
 data "google_compute_image" "${1:name}" {

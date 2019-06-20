@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_monitoring_notification_channel
-# key: google_monitoring_notification_channel
+# key: goog_monitoring_notification_channel
 # --
 
 resource "google_monitoring_notification_channel" "${1:name}" {

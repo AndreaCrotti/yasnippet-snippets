@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_compute_subnetwork_iam_binding
-# key: google_compute_subnetwork_iam_binding
+# key: goog_compute_subnetwork_iam_binding
 # --
 
 resource "google_compute_subnetwork_iam_binding" "${1:name}" {

@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_folder_iam_policy
-# key: google_folder_iam_policy
+# key: goog_folder_iam_policy
 # --
 
 resource "google_folder_iam_policy" "${1:name}" {

@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_redis_instance
-# key: google_redis_instance
+# key: goog_redis_instance
 # --
 
 resource "google_redis_instance" "${1:name}" {

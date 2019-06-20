@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_compute_ssl_certificate
-# key: google_compute_ssl_certificate
+# key: goog_compute_ssl_certificate
 # --
 
 resource "google_compute_ssl_certificate" "${1:name}" {

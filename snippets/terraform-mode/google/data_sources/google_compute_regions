@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_compute_regions
-# key: google_compute_regions
+# key: goog_compute_regions
 # --
 
 data "google_compute_regions" "${1:name}" {}

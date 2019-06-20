@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_compute_snapshot
-# key: google_compute_snapshot
+# key: goog_compute_snapshot
 # --
 
 resource "google_compute_snapshot" "${1:name}" {

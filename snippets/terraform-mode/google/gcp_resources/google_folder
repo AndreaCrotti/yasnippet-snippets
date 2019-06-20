@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_folder
-# key: google_folder
+# key: goog_folder
 # --
 
 resource "google_folder" "${1:name}" {

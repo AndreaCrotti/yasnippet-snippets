@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_active_folder
-# key: google_active_folder
+# key: goog_active_folder
 # --
 
 data "google_active_folder" "${1:name}" {

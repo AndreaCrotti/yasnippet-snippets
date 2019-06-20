@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_compute_global_address
-# key: google_compute_global_address
+# key: goog_compute_global_address
 # --
 
 resource "google_compute_global_address" "${1:name}" {

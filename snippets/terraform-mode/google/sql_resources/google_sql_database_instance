@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_sql_database_instance
-# key: google_sql_database_instance
+# key: goog_sql_database_instance
 # --
 
 resource "google_sql_database_instance" "${1:name}" {

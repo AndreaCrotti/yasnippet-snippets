@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_sql_ssl_cert
-# key: google_sql_ssl_cert
+# key: goog_sql_ssl_cert
 # --
 
 resource "google_sql_ssl_cert" "${1:name}" {

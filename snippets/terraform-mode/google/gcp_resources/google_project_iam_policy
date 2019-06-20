@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_project_iam_policy
-# key: google_project_iam_policy
+# key: goog_project_iam_policy
 # --
 
 resource "google_project_iam_policy" "${1:name}" {

@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_monitoring_uptime_check_config
-# key: google_monitoring_uptime_check_config
+# key: goog_monitoring_uptime_check_config
 # --
 
 resource "google_monitoring_uptime_check_config" "${1:name}" {

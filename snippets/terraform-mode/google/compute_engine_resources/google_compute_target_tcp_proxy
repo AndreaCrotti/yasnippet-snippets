@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_compute_target_tcp_proxy
-# key: google_compute_target_tcp_proxy
+# key: goog_compute_target_tcp_proxy
 # --
 
 resource "google_compute_target_tcp_proxy" "${1:name}" {

@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_compute_url_map
-# key: google_compute_url_map
+# key: goog_compute_url_map
 # --
 
 resource "google_compute_url_map" "${1:name}" {

@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_storage_bucket_object
-# key: google_storage_bucket_object
+# key: goog_storage_bucket_object
 # --
 
 resource "google_storage_bucket_object" "${1:name}" {

@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_compute_shared_vpc_service_project
-# key: google_compute_shared_vpc_service_project
+# key: goog_compute_shared_vpc_service_project
 # --
 
 resource "google_compute_shared_vpc_service_project" "${1:name}" {

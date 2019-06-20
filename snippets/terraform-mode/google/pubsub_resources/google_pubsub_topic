@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_pubsub_topic
-# key: google_pubsub_topic
+# key: goog_pubsub_topic
 # --
 
 resource "google_pubsub_topic" "${1:name}" {

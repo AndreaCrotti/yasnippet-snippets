@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_compute_lb_ip_ranges
-# key: google_compute_lb_ip_ranges
+# key: goog_compute_lb_ip_ranges
 # --
 
 data "google_compute_lb_ip_ranges" "${1:name}" {}

@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_sourcerepo_repository
-# key: google_sourcerepo_repository
+# key: goog_sourcerepo_repository
 # --
 
 resource "google_sourcerepo_repository" "${1:name}" {

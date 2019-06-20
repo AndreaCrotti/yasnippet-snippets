@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_compute_instance_from_template
-# key: google_compute_instance_from_template
+# key: goog_compute_instance_from_template
 # --
 
 resource "google_compute_instance_from_template" "${1:name}" {

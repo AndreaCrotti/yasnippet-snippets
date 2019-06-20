@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_logging_billing_account_exclusion
-# key: google_logging_billing_account_exclusion
+# key: goog_logging_billing_account_exclusion
 # --
 
 resource "google_logging_billing_account_exclusion" "${1:name}" {

@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_compute_attached_disk
-# key: google_compute_attached_disk
+# key: goog_compute_attached_disk
 # --
 
 resource "google_compute_attached_disk" "${1:name}" {

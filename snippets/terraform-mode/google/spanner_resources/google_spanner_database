@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_spanner_database
-# key: google_spanner_database
+# key: goog_spanner_database
 # --
 
 resource "google_spanner_database" "${1:name}" {

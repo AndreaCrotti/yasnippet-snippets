@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_compute_router_peer
-# key: google_compute_router_peer
+# key: goog_compute_router_peer
 # --
 
 resource "google_compute_router_peer" "${1:name}" {

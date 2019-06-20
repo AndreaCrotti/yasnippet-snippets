@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_compute_ssl_policy_data
-# key: google_compute_ssl_policy_data
+# key: goog_compute_ssl_policy_data
 # --
 
 data "google_compute_ssl_policy" "${1:name}" {

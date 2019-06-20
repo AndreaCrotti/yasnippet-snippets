@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_compute_instance_group_data
-# key: google_compute_instance_group_data
+# key: goog_compute_instance_group_data
 # --
 
 data "google_compute_instance_group" "${1:name}" {

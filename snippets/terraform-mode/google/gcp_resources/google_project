@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_project
-# key: google_project
+# key: goog_project
 # --
 
 resource "google_project" "${1:name}" {

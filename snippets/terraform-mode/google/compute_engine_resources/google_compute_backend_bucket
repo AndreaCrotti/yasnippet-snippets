@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_compute_backend_bucket
-# key: google_compute_backend_bucket
+# key: goog_compute_backend_bucket
 # --
 
 resource "google_compute_backend_bucket" "${1:name}" {

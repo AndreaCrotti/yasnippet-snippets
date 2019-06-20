@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_pubsub_subscription
-# key: google_pubsub_subscription
+# key: goog_pubsub_subscription
 # --
 
 resource "google_pubsub_subscription" "${1:name}" {

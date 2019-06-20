@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_compute_target_pool
-# key: google_compute_target_pool
+# key: goog_compute_target_pool
 # --
 
 resource "google_compute_target_pool" "${1:name}" {

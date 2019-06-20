@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_app_engine_application
-# key: google_app_engine_application
+# key: goog_app_engine_application
 # --
 
 resource "google_app_engine_application" "${1:name}" {

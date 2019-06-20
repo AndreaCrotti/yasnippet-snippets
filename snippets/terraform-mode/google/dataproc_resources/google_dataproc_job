@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_dataproc_job
-# key: google_dataproc_job
+# key: goog_dataproc_job
 # --
 
 resource "google_dataproc_job" "${1:name}" {

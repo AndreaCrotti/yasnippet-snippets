@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_container_node_pool
-# key: google_container_node_pool
+# key: goog_container_node_pool
 # --
 
 resource "google_container_node_pool" "${1:name}" {

@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_compute_network_data
-# key: google_compute_network_data
+# key: goog_compute_network_data
 # --
 
 data "google_compute_network" "${1:name}" {

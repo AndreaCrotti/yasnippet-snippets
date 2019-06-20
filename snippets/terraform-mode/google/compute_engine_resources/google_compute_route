@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_compute_route
-# key: google_compute_route
+# key: goog_compute_route
 # --
 
 resource "google_compute_route" "${1:name}" {

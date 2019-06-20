@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_resource_manager_lien
-# key: google_resource_manager_lien
+# key: goog_resource_manager_lien
 # --
 
 resource "google_resource_manager_lien" "${1:name}" {

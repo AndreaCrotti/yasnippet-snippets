@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_compute_vpn_gateway
-# key: google_compute_vpn_gateway
+# key: goog_compute_vpn_gateway
 # --
 
 resource "google_compute_vpn_gateway" "${1:name}" {

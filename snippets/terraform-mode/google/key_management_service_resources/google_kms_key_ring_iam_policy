@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_kms_key_ring_iam_policy
-# key: google_kms_key_ring_iam_policy
+# key: goog_kms_key_ring_iam_policy
 # --
 
 resource "google_kms_key_ring_iam_policy" "${1:name}" {

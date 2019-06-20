@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_storage_bucket
-# key: google_storage_bucket
+# key: goog_storage_bucket
 # --
 
 resource "google_storage_bucket" "${1:name}" {

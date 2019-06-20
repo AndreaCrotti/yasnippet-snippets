@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_compute_security_policy
-# key: google_compute_security_policy
+# key: goog_compute_security_policy
 # --
 
 resource "google_compute_security_policy" "${1:name}" {

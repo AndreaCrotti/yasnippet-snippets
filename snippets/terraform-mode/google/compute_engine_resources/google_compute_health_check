@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_compute_health_check
-# key: google_compute_health_check
+# key: goog_compute_health_check
 # --
 
 resource "google_compute_health_check" "${1:name}" {

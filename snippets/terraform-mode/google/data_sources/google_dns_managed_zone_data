@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_dns_managed_zone_data
-# key: google_dns_managed_zone_data
+# key: goog_dns_managed_zone_data
 # --
 
 data "google_dns_managed_zone" "${1:name}" {

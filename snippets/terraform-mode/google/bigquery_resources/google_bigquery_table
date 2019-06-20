@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_bigquery_table
-# key: google_bigquery_table
+# key: goog_bigquery_table
 # --
 
 resource "google_bigquery_table" "${1:name}" {

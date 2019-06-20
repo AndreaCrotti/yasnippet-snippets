@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_compute_target_https_proxy
-# key: google_compute_target_https_proxy
+# key: goog_compute_target_https_proxy
 # --
 
 resource "google_compute_target_https_proxy" "${1:name}" {

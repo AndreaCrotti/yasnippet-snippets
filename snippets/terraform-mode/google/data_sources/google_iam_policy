@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_iam_policy
-# key: google_iam_policy
+# key: goog_iam_policy
 # --
 
 data "google_iam_policy" "${1:name}" {

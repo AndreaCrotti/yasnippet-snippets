@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_bigtable_instance
-# key: google_bigtable_instance
+# key: goog_bigtable_instance
 # --
 
 resource "google_bigtable_instance" "${1:name}" {

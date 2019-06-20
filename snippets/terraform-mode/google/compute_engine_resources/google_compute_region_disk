@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_compute_region_disk
-# key: google_compute_region_disk
+# key: goog_compute_region_disk
 # --
 
 resource "google_compute_region_disk" "${1:name}" {

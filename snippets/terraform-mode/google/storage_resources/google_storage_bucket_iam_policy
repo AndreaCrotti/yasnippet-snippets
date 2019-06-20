@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_storage_bucket_iam_policy
-# key: google_storage_bucket_iam_policy
+# key: goog_storage_bucket_iam_policy
 # --
 
 resource "google_storage_bucket_iam_policy" "${1:name}" {

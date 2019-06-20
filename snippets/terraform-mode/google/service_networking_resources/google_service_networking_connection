@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_service_networking_connection
-# key: google_service_networking_connection
+# key: goog_service_networking_connection
 # --
 
 resource "google_service_networking_connection" "${1:name}" {

@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_organization_policy
-# key: google_organization_policy
+# key: goog_organization_policy
 # --
 
 resource "google_organization_policy" "${1:name}" {

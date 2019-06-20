@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_compute_region_autoscaler
-# key: google_compute_region_autoscaler
+# key: goog_compute_region_autoscaler
 # --
 
 resource "google_compute_region_autoscaler" "${1:name}" {

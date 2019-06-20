@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_compute_instance
-# key: google_compute_instance
+# key: goog_compute_instance
 # --
 
 resource "google_compute_instance" "${1:name}" {

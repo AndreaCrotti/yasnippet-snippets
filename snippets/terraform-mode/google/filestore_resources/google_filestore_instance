@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_filestore_instance
-# key: google_filestore_instance
+# key: goog_filestore_instance
 # --
 
 resource "google_filestore_instance" "${1:name}" {

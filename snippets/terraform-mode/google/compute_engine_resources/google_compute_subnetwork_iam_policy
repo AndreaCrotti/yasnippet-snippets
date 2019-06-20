@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_compute_subnetwork_iam_policy
-# key: google_compute_subnetwork_iam_policy
+# key: goog_compute_subnetwork_iam_policy
 # --
 
 resource "google_compute_subnetwork_iam_policy" "${1:name}" {

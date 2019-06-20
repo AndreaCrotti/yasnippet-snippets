@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_dataflow_job
-# key: google_dataflow_job
+# key: goog_dataflow_job
 # --
 
 resource "google_dataflow_job" "${1:name}" {

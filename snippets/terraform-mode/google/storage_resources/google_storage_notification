@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_storage_notification
-# key: google_storage_notification
+# key: goog_storage_notification
 # --
 
 resource "google_storage_notification" "${1:name}" {

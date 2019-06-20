@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_logging_project_exclusion
-# key: google_logging_project_exclusion
+# key: goog_logging_project_exclusion
 # --
 
 resource "google_logging_project_exclusion" "${1:name}" {

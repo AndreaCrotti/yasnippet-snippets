@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_spanner_database_iam_binding
-# key: google_spanner_database_iam_binding
+# key: goog_spanner_database_iam_binding
 # --
 
 resource "google_spanner_database_iam_binding" "${1:name}" {

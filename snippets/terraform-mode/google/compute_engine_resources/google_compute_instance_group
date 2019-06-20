@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_compute_instance_group
-# key: google_compute_instance_group
+# key: goog_compute_instance_group
 # --
 
 resource "google_compute_instance_group" "${1:name}" {

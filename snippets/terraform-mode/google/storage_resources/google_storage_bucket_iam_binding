@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_storage_bucket_iam_binding
-# key: google_storage_bucket_iam_binding
+# key: goog_storage_bucket_iam_binding
 # --
 
 resource "google_storage_bucket_iam_binding" "${1:name}" {

@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_compute_router_nat
-# key: google_compute_router_nat
+# key: goog_compute_router_nat
 # --
 
 resource "google_compute_router_nat" "${1:name}" {

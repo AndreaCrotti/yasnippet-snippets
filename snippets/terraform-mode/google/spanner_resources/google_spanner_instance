@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_spanner_instance
-# key: google_spanner_instance
+# key: goog_spanner_instance
 # --
 
 resource "google_spanner_instance" "${1:name}" {

@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_compute_router_interface
-# key: google_compute_router_interface
+# key: goog_compute_router_interface
 # --
 
 resource "google_compute_router_interface" "${1:name}" {

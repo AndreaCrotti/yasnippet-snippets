@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_project_usage_export_bucket
-# key: google_project_usage_export_bucket
+# key: goog_project_usage_export_bucket
 # --
 
 resource "google_project_usage_export_bucket" "${1:name}" {

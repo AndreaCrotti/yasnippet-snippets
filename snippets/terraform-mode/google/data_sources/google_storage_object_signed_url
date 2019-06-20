@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_storage_object_signed_url
-# key: google_storage_object_signed_url
+# key: goog_storage_object_signed_url
 # --
 
 data "google_storage_object_signed_url" "${1:name}" {

@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: google_monitoring_group
-# key: google_monitoring_group
+# key: goog_monitoring_group
 # --
 
 resource "google_monitoring_group" "${1:name}" {
