@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: google_container_registry_repository
+# key: goog_container_registry_repository
+# --
+
+data "google_container_registry_repository" "${1:name}" {}
+

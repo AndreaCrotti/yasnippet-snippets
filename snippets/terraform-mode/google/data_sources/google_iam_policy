@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: google_iam_policy
+# key: goog_iam_policy
+# --
+
+data "google_iam_policy" "${1:name}" {
+  binding {
+    role    = "${2:role}"
+    members = [
+      "user:${3:service_account}",
+    ]
+  }
+}
+

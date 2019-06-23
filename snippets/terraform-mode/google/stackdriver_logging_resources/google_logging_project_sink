@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: google_logging_project_sink
+# key: goog_logging_project_sink
+# --
+
+resource "google_logging_project_sink" "${1:name}" {
+  name        = "${2:name}"
+  destination = "${3:destination}"
+}
+

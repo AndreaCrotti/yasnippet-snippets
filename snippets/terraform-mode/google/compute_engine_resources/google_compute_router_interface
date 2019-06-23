@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: google_compute_router_interface
+# key: goog_compute_router_interface
+# --
+
+resource "google_compute_router_interface" "${1:name}" {
+  name       = "${2:name}"
+  router     = "${3:router}"
+  vpn_tunnel = "${4:vpn_tunnel}"
+}
+

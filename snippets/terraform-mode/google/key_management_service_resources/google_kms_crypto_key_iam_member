@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: google_kms_crypto_key_iam_member
+# key: goog_kms_crypto_key_iam_member
+# --
+
+resource "google_kms_crypto_key_iam_member" "${1:name}" {
+  crypto_key_id = "${2:crypto_key}"
+  role          = "${3:role}"
+  member        = "user:${4:user}"
+}
+

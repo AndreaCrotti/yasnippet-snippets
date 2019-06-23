@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: google_compute_url_map
+# key: goog_compute_url_map
+# --
+
+resource "google_compute_url_map" "${1:name}" {
+  name            = "${2:name}"
+  default_service = "${3:default_service}"
+}
+

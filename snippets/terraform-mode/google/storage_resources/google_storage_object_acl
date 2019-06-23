@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: google_storage_object_acl
+# key: goog_storage_object_acl
+# --
+
+resource "google_storage_object_acl" "${1:name}" {
+  bucket = "${2:bucket}"
+  object = "${3:object}"
+}
+

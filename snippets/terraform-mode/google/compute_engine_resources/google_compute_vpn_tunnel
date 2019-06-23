@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: google_compute_vpn_tunnel
+# key: goog_compute_vpn_tunnel
+# --
+
+resource "google_compute_vpn_tunnel" "${1:name}" {
+  name               = "${2:name}"
+  peer_ip            = "${3:0.0.0.0}"
+  shared_secret      = "${4:secret}"
+  target_vpn_gateway = "${5:target_vpn_gateway}"
+}
+

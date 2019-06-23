@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: google_pubsub_subscription_iam_policy
+# key: goog_pubsub_subscription_iam_policy
+# --
+
+resource "google_pubsub_subscription_iam_policy" "${1:name}" {
+  subscription = "${2:subscription}"
+  policy_data  = "${3:policy_data}"
+}
+

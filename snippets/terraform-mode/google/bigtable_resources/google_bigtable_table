@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: google_bigtable_table
+# key: goog_bigtable_table
+# --
+
+resource "google_bigtable_table" "${1:name}" {
+  name          = "${2:name}"
+  instance_name = "${3:instance_name}"
+}
+

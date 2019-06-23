@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: google_runtimeconfig_variable
+# key: goog_runtimeconfig_variable
+# --
+
+resource "google_runtimeconfig_variable" "${1:name}" {
+  name   = "${2:name}"
+  parent = "${3:parent_config_name}"
+  text   = "${4:text}"
+}
+

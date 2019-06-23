@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: google_compute_router
+# key: goog_compute_router
+# --
+
+resource "google_compute_router" "${1:name}" {
+  name    = "${2:name}"
+  network = "${3:network}"
+}
+

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: google_container_cluster
+# key: goog_container_cluster
+# --
+
+resource "google_container_cluster" "${1:name}" {
+  name = "${2:value}"
+}
+

@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: google_project_iam_binding
+# key: goog_project_iam_binding
+# --
+
+resource "google_project_iam_binding" "${1:name}" {
+  role    = "${2:role}"
+  members = [
+    "user:${3:user}",
+  ]
+}
+

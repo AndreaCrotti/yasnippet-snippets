@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: google_compute_subnetwork_iam_binding
+# key: goog_compute_subnetwork_iam_binding
+# --
+
+resource "google_compute_subnetwork_iam_binding" "${1:name}" {
+  subnetwork = "${2:subnet_id}"
+  role       = "${3:role}"
+  members    = [
+    "${4:user:jane@example.com}",
+  ]
+}
+

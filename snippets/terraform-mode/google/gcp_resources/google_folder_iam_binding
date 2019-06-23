@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: google_folder_iam_binding
+# key: goog_folder_iam_binding
+# --
+
+resource "google_folder_iam_binding" "${1:name}" {
+  folder  = "${2:folder}"
+  role    = "${3:role}"
+  members = [
+    "user:${4:user}",
+  ]
+}
+

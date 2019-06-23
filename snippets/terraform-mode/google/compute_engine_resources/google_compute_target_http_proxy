@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: google_compute_target_http_proxy
+# key: goog_compute_target_http_proxy
+# --
+
+resource "google_compute_target_http_proxy" "${1:name}" {
+  name    = "${2:name}"
+  url_map = "${3:url_map}"
+}
+

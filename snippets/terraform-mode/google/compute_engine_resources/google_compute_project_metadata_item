@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: google_compute_project_metadata_item
+# key: goog_compute_project_metadata_item
+# --
+
+resource "google_compute_project_metadata_item" "${1:name}" {
+  key   = "${2:key}"
+  value = "${3:value}"
+}
+

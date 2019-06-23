@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: google_compute_instance_from_template
+# key: goog_compute_instance_from_template
+# --
+
+resource "google_compute_instance_from_template" "${1:name}" {
+  name                     = "${2:name}"
+  source_instance_template = "${3:template}"
+}
+

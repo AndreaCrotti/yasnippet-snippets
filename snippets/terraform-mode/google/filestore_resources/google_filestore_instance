@@ -1,0 +1,21 @@
+# -*- mode: snippet -*-
+# name: google_filestore_instance
+# key: goog_filestore_instance
+# --
+
+resource "google_filestore_instance" "${1:name}" {
+  name = "${2:name}"
+  zone = "${3:zone}"
+  tier = "${4:tier}"
+
+  file_shares {
+    capacity_gb = ${5:capacity}
+    name        = "${6:name}"
+  }
+
+  networks {
+    network = "${7:network}"
+    modes   = ["${8:mode}"]
+  }
+}
+

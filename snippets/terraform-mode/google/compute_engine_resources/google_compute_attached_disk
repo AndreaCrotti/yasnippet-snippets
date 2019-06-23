@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: google_compute_attached_disk
+# key: goog_compute_attached_disk
+# --
+
+resource "google_compute_attached_disk" "${1:name}" {
+  disk     = "${2:name}"
+  instance = "${3:instance_name}"
+}
+

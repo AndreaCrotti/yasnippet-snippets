@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: google_compute_instance_data
+# key: goog_compute_instance_data
+# --
+
+data "google_compute_instance" "${1:name}" {
+  name = "${2:name}"
+}
+

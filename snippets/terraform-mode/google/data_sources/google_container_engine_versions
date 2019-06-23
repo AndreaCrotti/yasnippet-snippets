@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: google_container_engine_versions
+# key: goog_container_engine_versions
+# --
+
+data "google_container_engine_versions" "${1:name}" {}
+

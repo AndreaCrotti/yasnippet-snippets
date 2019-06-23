@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: google_spanner_instance_iam_policy
+# key: goog_spanner_instance_iam_policy
+# --
+
+resource "google_spanner_instance_iam_policy" "${1:name}" {
+  instance    = "${2:instance}"
+  policy_data = "${3:policy_data}"
+}
+

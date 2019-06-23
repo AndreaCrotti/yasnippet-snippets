@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: google_compute_target_ssl_proxy
+# key: goog_compute_target_ssl_proxy
+# --
+
+resource "google_compute_target_ssl_proxy" "${1:name}" {
+  name             = "${2:name}"
+  backend_service  = "${3:backend_service}"
+  ssl_certificates = ["${4:ssl_cert}"]
+}
+

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: google_compute_snapshot
+# key: goog_compute_snapshot
+# --
+
+resource "google_compute_snapshot" "${1:name}" {
+  name        = "${2:name}"
+  source_disk = "${3:source_disk}"
+}
+

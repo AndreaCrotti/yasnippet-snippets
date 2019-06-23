@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: google_billing_account
+# key: goog_billing_account
+# --
+
+data "google_billing_account" "${1:name}" {
+}
+

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: google_active_folder
+# key: goog_active_folder
+# --
+
+data "google_active_folder" "${1:name}" {
+  display_name = "${2:name}"
+  parent       = "${3:parent}"
+}
+

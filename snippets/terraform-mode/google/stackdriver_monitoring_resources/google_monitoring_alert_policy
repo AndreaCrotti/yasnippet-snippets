@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: google_monitoring_alert_policy
+# key: goog_monitoring_alert_policy
+# --
+
+resource "google_monitoring_alert_policy" "${1:name}" {
+  display_name = "${2:display_name}"
+  combiner     = "${3:combiner}"
+  conditions   = [
+    {
+      display_name = "${4:display_name}"
+    }
+  ]
+}
+

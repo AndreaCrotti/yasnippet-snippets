@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: google_kms_crypto_key
+# key: goog_kms_crypto_key
+# --
+
+resource "google_kms_crypto_key" "${1:name}" {
+  name     = "${2:name}"
+  key_ring = "${3:key_ring}"
+}
+

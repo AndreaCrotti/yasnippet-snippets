@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: google_client_config
+# key: goog_client_config
+# --
+
+data "google_client_config" "${1:name}" {}
+

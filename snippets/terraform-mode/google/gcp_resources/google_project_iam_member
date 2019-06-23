@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: google_project_iam_member
+# key: goog_project_iam_member
+# --
+
+resource "google_project_iam_member" "${1:name}" {
+  role   = "${2:role}"
+  member = "user:${3:user}"
+}
+

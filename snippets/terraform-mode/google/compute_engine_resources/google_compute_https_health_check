@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: google_compute_https_health_check
+# key: goog_compute_https_health_check
+# --
+
+resource "google_compute_https_health_check" "${1:name}" {
+  name = "${2:name}"
+}
+

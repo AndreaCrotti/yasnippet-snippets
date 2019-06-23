@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: google_organization_iam_binding
+# key: goog_organization_iam_binding
+# --
+
+resource "google_organization_iam_binding" "${1:name}" {
+  org_id  = "${2:org_id}"
+  role    = "${3:role}"
+  members = [
+    "user:${4:user}",
+  ]
+}
+

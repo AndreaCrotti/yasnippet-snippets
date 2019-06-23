@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: google_storage_default_object_acl
+# key: goog_storage_default_object_acl
+# --
+
+resource "google_storage_default_object_acl" "${1:name}" {
+  bucket      = "${2:bucket}"
+  role_entity = [
+    "OWNER:${3:owner}",
+  ]
+}
+

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: google_logging_project_exclusion
+# key: goog_logging_project_exclusion
+# --
+
+resource "google_logging_project_exclusion" "${1:name}" {
+  name   = "${2:name}"
+  filter = "${3:filter}"
+}
+

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: google_iam_role
+# key: goog_iam_role
+# --
+
+data "google_iam_role" "${1:name}" {
+  name = "${2:name}"
+}
+
