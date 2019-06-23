@@ -2,6 +2,6 @@
 # name: ipython
 # key: ipy_
 # --
-#+BEGIN_SRC ipython :session ${1:session01} :file ${2:$$(concat (make-temp-name "./ipython-") ".png")} :exports ${3:both}
+#+begin_src ipython :session ${1:session01} :file ${2:$$(concat (make-temp-name "./ipython-") ".png")} :exports ${3:both}
 $0
-#+END_SRC
+#+end_src

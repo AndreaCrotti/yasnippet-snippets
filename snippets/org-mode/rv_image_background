@@ -3,7 +3,7 @@
 # key: <rib
 # --
 
-    :PROPERTIES:
+    :properties:
     :reveal_background: ${1: path of the image}
     :reveal_background_trans: ${2: default||cube||page||concave||zoom||linear||fade||none||slide}
-    :END:
+    :end:
