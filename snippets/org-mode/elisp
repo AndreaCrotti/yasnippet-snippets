@@ -2,6 +2,6 @@
 # name: elisp
 # key: elisp_
 # --
-#+BEGIN_SRC emacs-lisp :tangle yes
+#+begin_src emacs-lisp :tangle yes
 $0
-#+END_SRC
+#+end_src

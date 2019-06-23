@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-# name: HTML
-# key: <HT
+# name: html
+# key: <ht
 # --
-#+HTML:$1
+#+html:$1

@@ -2,6 +2,6 @@
 # name: python
 # key: py_
 # --
-#+BEGIN_SRC python
+#+begin_src python
 $0
-#+END_SRC
+#+end_src
