@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# uuid: 01abffb6-2b92-423d-850b-51ee5fdf4117
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: classConstructor
+# key: rconst
+# --
+
+constructor(props) {
+  super(props)
+
+  this.state = {
+     $0
+  }
+}

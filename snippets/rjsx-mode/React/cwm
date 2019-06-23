@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# uuid: dba0d644-e837-40ad-8082-bbe583fa444f
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: componentWillMount
+# key: cwm
+# --
+
+componentWillMount = () => {
+  $0
+}

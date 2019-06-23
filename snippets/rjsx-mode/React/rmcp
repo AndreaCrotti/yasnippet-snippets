@@ -1,0 +1,23 @@
+# -*- mode: snippet -*-
+# uuid: ba569173-16e1-4d9d-9205-96dc0832455f
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: reactFunctionMemoComponentWithPropTypes
+# key: rmcp
+# --
+
+import React, { memo } from 'react'
+import PropTypes from 'prop-types'
+
+const ${1:${TM_FILENAME_BASE}} = memo(function ${1:${TM_FILENAME_BASE}}(props) {
+  return (
+    <div>
+      $0
+    </div>
+  )
+})
+
+${1:${TM_FILENAME_BASE}}.propTypes = {
+
+}
+
+export default ${1:${TM_FILENAME_BASE}}

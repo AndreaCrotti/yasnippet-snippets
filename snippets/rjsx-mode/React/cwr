@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# uuid: 59e0e0d0-6efb-475f-a482-3d76f2f561a0
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: componentWillReceiveProps
+# key: cwr
+# --
+
+componentWillReceiveProps = (nextProps) => {
+  $0
+}

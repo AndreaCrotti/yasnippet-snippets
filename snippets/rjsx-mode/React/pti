@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# uuid: 2b76dd2b-5065-47b9-a8f9-9c25c49327c5
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: propTypeInstanceOf
+# key: pti
+# --
+
+PropTypes.instanceOf($0),

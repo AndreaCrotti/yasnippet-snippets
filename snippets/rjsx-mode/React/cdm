@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# uuid: fed15504-4984-4bd8-a6d6-b1f34bccc721
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: componentDidMount
+# key: cdm
+# --
+
+componentDidMount = () => {
+  $0
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# uuid: b0e07d72-3b54-4c30-a379-015b9537cf33
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: propTypeObjectRequired
+# key: ptor
+# --
+
+PropTypes.object.isRequired,

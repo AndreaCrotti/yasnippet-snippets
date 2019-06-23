@@ -1,0 +1,19 @@
+# -*- mode: snippet -*-
+# uuid: c4aa3b3e-82af-434b-acc5-b08bf018e0aa
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: reactNativeComponent
+# key: rnc
+# --
+
+import React, { Component } from 'react'
+import { Text, View } from 'react-native'
+
+export default class ${1:${TM_FILENAME_BASE}} extends Component {
+  render() {
+    return (
+      <View>
+        <Text> ${2:textInComponent} </Text>
+      </View>
+    )
+  }
+}

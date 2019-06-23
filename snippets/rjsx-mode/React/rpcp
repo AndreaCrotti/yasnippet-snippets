@@ -1,0 +1,23 @@
+# -*- mode: snippet -*-
+# uuid: 54fc179d-98f0-44b8-bd39-a66ac67aaf38
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: reactClassPureComponentWithPropTypes
+# key: rpcp
+# --
+
+import React, { PureComponent } from 'react'
+import PropTypes from 'prop-types'
+
+export default class ${1:${TM_FILENAME_BASE}} extends PureComponent {
+  static propTypes = {
+
+  }
+
+  render() {
+    return (
+      <div>
+        $0
+      </div>
+    )
+  }
+}

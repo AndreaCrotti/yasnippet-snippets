@@ -1,0 +1,23 @@
+# -*- mode: snippet -*-
+# uuid: f8a0e704-88a4-4c72-8b9e-44fcf0290ae7
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: reactClassCompomentPropTypes
+# key: rccp
+# --
+
+import React, { Component } from 'react'
+import PropTypes from 'prop-types'
+
+export default class ${1:${TM_FILENAME_BASE}} extends Component {
+  static propTypes = {
+    ${2:prop}: ${3:PropTypes}
+  }
+
+  render() {
+    return (
+      <div>
+        $0
+      </div>
+    )
+  }
+}

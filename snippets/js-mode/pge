@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# uuid: 4d26710e-cad0-4584-8099-87403d4c43cb
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: propertyGet
+# key: pge
+# --
+
+get ${1:propertyName}() {
+  return this.${0}
+}

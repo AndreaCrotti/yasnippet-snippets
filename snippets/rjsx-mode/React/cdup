@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# uuid: a283c221-42f9-46f9-abaf-f41ef7f5812c
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: componentDidUpdate
+# key: cdup
+# --
+
+componentDidUpdate = (prevProps, prevState) => {
+  $0
+}

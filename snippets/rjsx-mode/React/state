@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# uuid: 2830720f-93e5-4c01-9624-c4ba068eecce
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: componentState
+# key: state
+# --
+
+this.state.$0

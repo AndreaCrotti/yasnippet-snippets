@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# uuid: 48f9521a-2b4e-4f71-850e-ecd47261a7a6
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: reactFunctionalExportComponent
+# key: rfce
+# --
+
+import React from 'react'
+
+function ${1:${TM_FILENAME_BASE}}() {
+  return (
+    <div>
+      $0
+    </div>
+  )
+}
+
+export default ${1:${TM_FILENAME_BASE}}

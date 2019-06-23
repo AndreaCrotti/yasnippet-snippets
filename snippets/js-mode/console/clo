@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# uuid: 3d2ddcac-d8c0-4b56-81a7-523eb6621442
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: console.log (formatted)
+# key: clo
+# group: console
+# --
+
+console.log('${1:object}', ${1:object})

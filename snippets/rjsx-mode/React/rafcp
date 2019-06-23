@@ -1,0 +1,23 @@
+# -*- mode: snippet -*-
+# uuid: a85f3fea-065d-499b-a297-b6e3f516c2d7
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: reactArrowFunctionComponentWithPropTypes
+# key: rafcp
+# --
+
+import React from 'react'
+import PropTypes from 'prop-types'
+
+const ${1:${TM_FILENAME_BASE}} = props => {
+  return (
+    <div>
+      $0
+    </div>
+  )
+}
+
+${1:${TM_FILENAME_BASE}}.propTypes = {
+
+}
+
+export default ${1:${TM_FILENAME_BASE}}

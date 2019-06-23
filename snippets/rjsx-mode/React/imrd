@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# uuid: 733c4c97-18be-443d-a929-5a562dacf02b
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: import ReactDOM
+# key: imrd
+# --
+
+import ReactDOM from 'react-dom'

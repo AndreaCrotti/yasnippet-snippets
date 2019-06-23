@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# uuid: dcd12a23-82f9-4779-8847-1ff9a7fdaecc
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: destructProps
+# key: cp
+# --
+
+const { $1 } = this.props

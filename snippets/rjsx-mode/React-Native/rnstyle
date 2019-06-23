@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# uuid: 0b1a0e2b-5577-4a15-bbbb-d573376c8587
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: reactNativeStyles
+# key: rnstyle
+# --
+
+const styles = StyleSheet.create({
+  ${1:style}
+})

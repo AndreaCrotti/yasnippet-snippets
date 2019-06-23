@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# uuid: edfbca80-e069-46cd-a034-b1523e57c4a4
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: describeBlock
+# key: desc
+# --
+
+describe('$1', () => {
+  $0
+})

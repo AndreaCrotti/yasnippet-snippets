@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# uuid: ac6e22b0-886b-4a09-861b-c759bfb8fcbe
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: exportGraphQL
+# key: expgql
+# --
+
+export default compose(
+  graphql(${1:queryOrMutation}, { name: ${2:name} }),
+)(${1:${TM_FILENAME_BASE}})

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# uuid: 128e90f1-5994-4011-92e6-9263fc186c71
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: propTypeArray
+# key: pta
+# --
+
+PropTypes.array,

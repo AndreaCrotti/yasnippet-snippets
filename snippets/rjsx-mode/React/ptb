@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# uuid: 92723ee5-aa37-4b1a-be15-c9a730961575
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: propTypeBool
+# key: ptb
+# --
+
+PropTypes.bool,

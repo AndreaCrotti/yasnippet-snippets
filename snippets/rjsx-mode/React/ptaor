@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# uuid: f2e72fa4-efc0-4cb3-a03b-0a5f190a2f06
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: propTypeArrayOfRequired
+# key: ptaor
+# --
+
+PropTypes.arrayOf($0).isRequired,

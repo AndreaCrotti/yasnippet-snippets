@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# uuid: bfc91d09-863d-4e5d-96bf-afbd234f7ca8
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: componentRender
+# key: ren
+# --
+
+render() {
+  return (
+    <div>
+      $0
+    </div>
+  )
+}

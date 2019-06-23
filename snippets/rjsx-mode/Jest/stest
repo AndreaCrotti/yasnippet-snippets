@@ -1,0 +1,20 @@
+# -*- mode: snippet -*-
+# uuid: ddc5cfd4-640f-4fb3-9f85-667de1e4a345
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: setupTest
+# key: stest
+# --
+
+import React from 'react'
+import renderer from 'react-test-renderer'
+
+import { ${1:${TM_FILENAME_BASE}} } from '../${1:${TM_FILENAME_BASE}}'
+
+describe('<${1:${TM_FILENAME_BASE}} />', () => {
+  const defaultProps = {}
+  const wrapper = renderer.create(<${1:${TM_FILENAME_BASE}} {...defaultProps} />)
+
+  test('render', () => {
+    expect(wrapper).toMatchSnapshot()
+  })
+})

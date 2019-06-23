@@ -1,0 +1,21 @@
+# -*- mode: snippet -*-
+# uuid: b36666f2-3ac6-4ee7-9f17-b32d82705306
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: reactNativePureComponentExport
+# key: rnpce
+# --
+
+import React, { PureComponent } from 'react'
+import { Text, View } from 'react-native'
+
+export class ${1:${TM_FILENAME_BASE}} extends PureComponent {
+  render() {
+    return (
+      <View>
+        <Text> ${2:textInComponent} </Text>
+      </View>
+    )
+  }
+}
+
+export default ${1:${TM_FILENAME_BASE}}

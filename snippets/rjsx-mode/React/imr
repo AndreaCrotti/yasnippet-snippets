@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# uuid: eab40eaf-3ddc-4994-9618-d575a82393fb
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: import React
+# key: imr
+# --
+
+import React from 'react'

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# uuid: 287a1b5e-57e6-4e00-b2af-24dd61bf6d8c
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: staticPropTpyes
+# key: ptypes
+# --
+
+static propTypes = {
+$0
+}

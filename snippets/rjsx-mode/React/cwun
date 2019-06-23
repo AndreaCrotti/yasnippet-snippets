@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# uuid: f9e81a1f-356b-482d-9795-fc58fe00432d
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: componentWillUnmount
+# key: cwun
+# --
+
+componentWillUnmount = () => {
+  $0
+}

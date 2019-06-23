@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# uuid: a59f3383-a176-4f60-a992-0d2b983eaa5c
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: forEach
+# key: fre
+# --
+
+${1:array}.forEach(${2:currentItem} => {
+  ${0}
+})

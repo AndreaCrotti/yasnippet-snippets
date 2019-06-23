@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# uuid: 091603e8-70cf-42fa-89c0-4fb046aea976
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: destructState
+# key: cs
+# --
+
+const { $1 } = this.state

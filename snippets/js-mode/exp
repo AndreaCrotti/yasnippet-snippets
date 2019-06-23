@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# uuid: 19643fe0-3063-41cd-b384-9f0a51b2f809
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: exportDefault
+# key: exp
+# --
+
+export default $1$0

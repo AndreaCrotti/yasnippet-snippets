@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# uuid: 7dfa38c5-1e83-4c4f-b9bb-eaa17fbaba58
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: import React Router
+# key: imrr
+# --
+
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom'

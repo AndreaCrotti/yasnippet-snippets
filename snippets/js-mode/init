@@ -1,7 +1,8 @@
 # -*- mode: snippet; require-final-newline: nil -*-
-# name: Constructor
+# name: constructor
 # key: init
 # --
-initialize: function($1) {
+constructor(${1:arg}) {
+  ${2:super(${3:arg});}
   $0
 }

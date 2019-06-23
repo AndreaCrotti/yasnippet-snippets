@@ -1,0 +1,35 @@
+# -*- mode: snippet -*-
+# uuid: 73a39297-05ec-45c0-9a05-9b3e5653c477
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: reactNativeClassComponentRedux
+# key: rncredux
+# --
+
+import React, { Component } from 'react'
+import { View, Text } from 'react-native'
+import PropTypes from 'prop-types'
+import { connect } from 'react-redux'
+
+export class ${1:${TM_FILENAME_BASE}} extends Component {
+  static propTypes = {
+    ${2:prop}: ${3:PropTypes}
+  }
+
+  render() {
+    return (
+      <View>
+        <Text> ${2:textInComponent} </Text>
+      </View>
+    )
+  }
+}
+
+const mapStateToProps = (state) => ({
+  
+})
+
+const mapDispatchToProps = {
+  
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(${1:${TM_FILENAME_BASE}})

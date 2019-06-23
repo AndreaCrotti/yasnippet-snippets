@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# uuid: 137d875c-953c-4180-bda6-0522b99af83a
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: createRef
+# key: cref
+# --
+
+this.${1:refName}Ref = React.createRef()

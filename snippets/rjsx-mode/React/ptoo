@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# uuid: 9681a478-42a2-4253-b652-ce92f5be6432
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: propTypeObjectOf
+# key: ptoo
+# --
+
+PropTypes.objectOf($0),

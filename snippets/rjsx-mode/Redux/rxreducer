@@ -1,0 +1,21 @@
+# -*- mode: snippet -*-
+# uuid: a7bb3ea0-bf96-401b-851e-a63b254f42ba
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: reduxReducer
+# key: rxreducer
+# --
+
+const initialState = {
+
+}
+
+export default (state = initialState, { type, payload }) => {
+  switch (type) {
+
+  case ${1:typeName}:
+    return { ...state, ...payload }
+
+  default:
+    return state
+  }
+}

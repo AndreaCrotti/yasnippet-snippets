@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# uuid: d2971e16-ac74-4270-864e-9d771a0ba3d8
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: propTypeEnumRequired
+# key: pter
+# --
+
+PropTypes.oneOf(['$0']).isRequired,

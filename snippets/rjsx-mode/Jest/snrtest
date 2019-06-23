@@ -1,0 +1,27 @@
+# -*- mode: snippet -*-
+# uuid: de59c777-b0cb-40b1-903a-a006987fef2e
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: setupReactNativeTestWithRedux
+# key: snrtest
+# --
+
+import 'react-native'
+import React from 'react'
+import renderer from 'react-test-renderer'
+import { Provider } from 'react-redux'
+
+import store from 'src/store'
+import ${1:${TM_FILENAME_BASE}} from '../${1:${TM_FILENAME_BASE}}'
+
+describe('<${1:${TM_FILENAME_BASE}} />', () => {
+  const defaultProps = {}
+  const wrapper = renderer.create(
+    <Provider store={store}>
+      <${1:${TM_FILENAME_BASE}} {...defaultProps} />
+    </Provider>,
+  )
+
+  test('render', () => {
+    expect(wrapper).toMatchSnapshot()
+  })
+})
