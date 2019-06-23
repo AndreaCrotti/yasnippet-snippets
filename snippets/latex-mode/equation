@@ -3,5 +3,6 @@
 # key: eq
 # --
 \begin{equation}
-\item $0
+\label{$0}
+$1
 \end{equation}
