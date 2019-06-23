@@ -2,4 +2,4 @@
 # name: keywords
 # key: <ke
 # --
-#+KEYWORDS: ${1:org-mode}
+#+KEYWORDS: $0

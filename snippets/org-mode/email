@@ -2,4 +2,4 @@
 # name: email
 # key: <em
 # --
-#+EMAIL: $1
+#+EMAIL: $0

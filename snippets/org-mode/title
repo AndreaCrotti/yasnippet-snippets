@@ -2,4 +2,4 @@
 # name: Title
 # key: <ti
 # --
-#+TITLE: ${1:What the hell}
+#+TITLE: $0
