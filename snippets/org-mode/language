@@ -2,4 +2,4 @@
 # name: language
 # key: <lan
 # --
-#+LANGUAGE: ${1:en}
+#+language: ${1:en}

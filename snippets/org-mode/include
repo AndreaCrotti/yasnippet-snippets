@@ -2,4 +2,4 @@
 # name: include
 # key: <i
 # --
-#+INCLUDE: $0
+#+include: $0

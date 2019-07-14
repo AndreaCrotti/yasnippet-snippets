@@ -3,6 +3,6 @@
 # key: <rsb
 # --
 
-:PROPERTIES:
+:properties:
 :reveal_background: ${1: #123456}
-:END:
+:end:

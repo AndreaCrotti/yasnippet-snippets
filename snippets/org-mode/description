@@ -2,4 +2,4 @@
 # name: description
 # key: desc
 # --
-#+DESCRIPTION: $0
+#+description: $0
