@@ -2,4 +2,4 @@
 # name: extern crate
 # key: ec
 # --
-extern crate ${0:name};
+extern crate ${1:name};
