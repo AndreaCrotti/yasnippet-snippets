@@ -30,6 +30,10 @@ Once that is done, then just refresh the packages and install it with.
 
 Now all the snippets will load automatically, as soon as yasnippet loads.
 
+## On Debian ≥10 and derivatives such as Ubuntu ≥ 18.10
+
+`sudo apt install elpa-yasnippet-snippets`
+
 # Contributing
 
 If you have any useful snippets for any language or framework, then please feel free to contribute, by opening a PR or an issue if you have any suggestions.
