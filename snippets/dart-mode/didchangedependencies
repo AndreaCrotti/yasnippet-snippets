@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: didChangeDependencies
+# key: dcd
+# group: flutter
+# --
+@override
+void didChangeDependencies() {
+  super.didChangeDependencies();
+  $0
+}
