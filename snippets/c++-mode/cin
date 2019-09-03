@@ -2,4 +2,6 @@
 # name: cin
 # key: cin
 # --
-cin >> $0;
+`(progn (goto-char (point-min)) (unless (re-search-forward
+"^using\\s-+namespace std;" nil 'no-error) "std::"))
+`cin >> $0;
