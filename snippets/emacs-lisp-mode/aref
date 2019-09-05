@@ -3,4 +3,4 @@
 # name: aref
 # key: aref
 # --
-(aref ${1:array} {2:index})
+(aref ${1:array} ${2:index})
