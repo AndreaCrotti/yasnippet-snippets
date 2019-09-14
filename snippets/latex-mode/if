@@ -5,4 +5,4 @@
 \IF {$${1:cond}$}
     $0
 \ELSE
-\ENDIF 
+\ENDIF

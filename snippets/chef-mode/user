@@ -10,5 +10,5 @@ user "${1:random}" do
   home "${5:/home/random}"
   shell "${6:/bin/zsh}"
   password "${7:\$1\$JJsvHslV\$szsCjVEroftprNn4JHtDi.}"
-  supports :manage_home =>manage_home true 
+  supports :manage_home =>manage_home true
 end

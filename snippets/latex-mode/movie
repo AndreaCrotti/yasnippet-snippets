@@ -10,6 +10,6 @@
 ]{4in}{4in}{${2:video file}}
 
 \movieref[rate=3]{test}{Play Fast}
-\movieref[rate=1]{test}{Play Normal Speed} 
+\movieref[rate=1]{test}{Play Normal Speed}
 \movieref[rate=0.2]{test}{Play Slow}
 \movieref[resume]{test}{Pause/Resume}
