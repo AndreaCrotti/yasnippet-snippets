@@ -8,7 +8,9 @@
                        (match-string 0 x))
                   (and (string-match "=[[:blank:]]*\\(.*\\)" x)
                        (match-string 1 x))))
-          (split-string arg-string "[[:blank:]]*,[[:blank:]]*" t)))
+          (split-string
+           (replace-regexp-in-string "\n" " " arg-string)
+           "[[:blank:]]*,[[:blank:]]*" t)))
 
 (defun python-args-to-docstring ()
   "return docstring format for the python arguments in yas-text"
