@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: dispose
+# key: is
+# group: flutter
+# --
+@override
+void dispose() {
+  super.dispose();
+  $0
+}
