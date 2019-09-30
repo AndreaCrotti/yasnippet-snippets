@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: for ... in ... ... end
+# key: for
+# contributor : hankail05
+# --
+for ${1:i} in ${2:1:n}
+    $0
+end
