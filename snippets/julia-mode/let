@@ -1,9 +1,9 @@
 # -*- mode: snippet -*-
-# name: do ... ... end
-# key: do
+# name: let ... ... end
+# key: let
 # contributor: hankail05
 # --
-do ${1:x}
+let ${1:x = 0}
     ${2:body}
 end
 $0

@@ -1,9 +1,9 @@
 # -*- mode: snippet -*-
-# name: if ... ... end
-# key: if
+# name: begin ... end
+# key: begin
 # contributor: hankail05
 # --
-if ${1:cond}
-    ${2:body}
+begin
+    ${1:body}
 end
 $0

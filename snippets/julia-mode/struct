@@ -1,9 +1,9 @@
 # -*- mode: snippet -*-
-# name: do ... ... end
-# key: do
+# name: struct ... end
+# key: struct
 # contributor: hankail05
 # --
-do ${1:x}
+struct ${1:name}
     ${2:body}
 end
 $0

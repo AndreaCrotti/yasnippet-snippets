@@ -1,8 +1,9 @@
 # -*- mode: snippet -*-
-# name: for ... in ... ... end
+# name: for ... ... end
 # key: for
-# contributor : hankail05
+# contributor: hankail05
 # --
-for ${1:i} in ${2:1:n}
-    $0
+for ${1:i} ${2:$$(yas-julia-iteration-keyword-choice)} ${3:1:n}
+    ${4:body}
 end
+$0

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: module ... ... end
+# key: module
+# contributor: hankail05
+# --
+module ${1:name}
+${2:body}
+end
+$0
