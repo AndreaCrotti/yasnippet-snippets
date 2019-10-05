@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: elsif ...
+# group : control structure
+# --
+elsif`(indent-for-tab-command)` ${1:condition}
+  $2

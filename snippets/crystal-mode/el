@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: else ...
+# group : control structure
+# --
+else`(indent-for-tab-command)`
+  $1
