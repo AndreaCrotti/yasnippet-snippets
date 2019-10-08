@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: class ... end
+# key: cls
 # group : definitions
 # --
 class ${1:`(let ((fn (capitalize (file-name-nondirectory

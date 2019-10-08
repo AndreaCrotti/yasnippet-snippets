@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: case ... end
+# key: case
 # group : general
 # --
 case ${1:object}
