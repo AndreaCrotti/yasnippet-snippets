@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: using ...
+# key: using
+# contributor: hankail05
+# --
+using ${1:${2:package}:}$0
