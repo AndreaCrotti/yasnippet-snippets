@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: zip(...) { |...| ... }
+# key: zip
+# group : collections
+# --
+zip(${enums}) { |${row}| $0 }
