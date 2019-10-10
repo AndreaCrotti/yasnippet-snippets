@@ -2,6 +2,8 @@
 # name: constructor
 # key: c
 # --
-public ${1:Class} (${2:args}) {
+public ${1:`(file-name-base
+              (or (buffer-file-name)
+                  (buffer-name)))`}($2) {
        $0
 }
