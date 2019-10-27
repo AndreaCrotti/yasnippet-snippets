@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
-# name: from
+# name: from MOD import SYM
 # key: from
-# group : general
+# group: Header
 # --
-from ${1:lib} import ${2:funs}
+from ${1:module} import ${2:symbol}
+$0
