@@ -1,6 +1,6 @@
 # -*- mode: snippet; require-final-newline: nil -*-
-# name: ipdb trace
-# key: itr
+# name: pdb trace
+# key: pdb
 # group: debug
 # --
-import ipdb; ipdb.set_trace()
+import pdb; pdb.set_trace()
