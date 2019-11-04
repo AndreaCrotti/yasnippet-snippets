@@ -3,6 +3,6 @@
 # key: try
 # --
 try:
-    $1
-except ${2:Exception}:
     $0
+except ${1:Exception}:
+    $2

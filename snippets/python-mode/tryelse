@@ -3,8 +3,8 @@
 # key: try
 # --
 try:
-    $1
-except $2:
-    $3
-else:
     $0
+except $1:
+    $2
+else:
+    $3
