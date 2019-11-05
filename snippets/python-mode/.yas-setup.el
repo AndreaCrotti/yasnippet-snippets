@@ -35,5 +35,4 @@
                  "\n"))))
 
 
-(add-hook 'python-mode-hook
-          '(lambda () (set (make-local-variable 'yas-indent-line) 'fixed)))
+(add-hook 'python-mode-hook #'yasnippet-snippets--fixed-indent)
