@@ -3,4 +3,4 @@
 # key: pudb
 # group: debug
 # --
-import pudb; pu.db
+import pudb; pudb.set_trace()
