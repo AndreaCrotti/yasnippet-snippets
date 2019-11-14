@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
-# name: switch
-# key: switch
+# name: cond
+# key: cond
 # --
 
 (cond (${1:case1} (${2:do-this}))
