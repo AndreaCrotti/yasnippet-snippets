@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Source Block
+# key: src_
+# --
+#+begin_src ${1:language}
+${0:code}
+#+end_src
