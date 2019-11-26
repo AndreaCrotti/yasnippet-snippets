@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: /* @flow */
+# key: flow
+# --
+/* @flow */

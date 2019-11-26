@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: breakpoint
+# key: bp
+# --
+breakpoint
+$0
