@@ -1,9 +1,8 @@
 # -*- mode: snippet -*-
-# name: use
-# key: use_
+# name: strict
+# key: strict
 # contributor: Spenser Truex
 # --
-#!/usr/bin/perl
 use warnings;
 use strict;
 $0
