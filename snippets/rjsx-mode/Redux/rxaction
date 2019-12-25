@@ -6,6 +6,6 @@
 # --
 
 export const ${1:actionName} = (payload) => ({
-  type: ${3:type},
+  type: ${1:$((upcase (s-snake-case yas-text)))},
   payload
 })

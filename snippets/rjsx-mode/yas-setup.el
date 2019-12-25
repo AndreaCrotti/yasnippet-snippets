@@ -5,6 +5,7 @@
 ;;; Code:
 
 (require 'yasnippet)
+(require 's)
 
 (defun yas-jsx-get-class-name-by-file-name ()
   "Return name of class-like construct by `file-name'."

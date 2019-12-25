@@ -5,7 +5,7 @@
 ;; Author: Andrea Crotti <andrea.crotti.0@gmail.com>
 ;; Keywords: snippets
 ;; Version: 0.2
-;; Package-Requires: ((yasnippet "0.8.0"))
+;; Package-Requires: ((yasnippet "0.8.0") (s "1.12.0"))
 ;; Keywords: convenience, snippets
 
 ;;; Commentary:
