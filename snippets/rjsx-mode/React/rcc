@@ -7,7 +7,7 @@
 
 import React, { Component } from 'react'
 
-export default class ${1:${TM_FILENAME_BASE}} extends Component {
+export default class ${1:`(yas-jsx-get-class-name-by-file-name)`} extends Component {
   render() {
     return (
       <div>

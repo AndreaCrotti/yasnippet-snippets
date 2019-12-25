@@ -7,10 +7,8 @@
 
 import React, { memo } from 'react'
 
-export default memo(function ${1:${TM_FILENAME_BASE}}() {
-  return (
-    <div>
-      $0
-    </div>
-  )
-})
+export default memo((props) => (
+  <div>
+    $0
+  </div>
+))

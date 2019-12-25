@@ -8,7 +8,7 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 
-export default class ${1:${TM_FILENAME_BASE}} extends Component {
+export default class ${1:`(yas-jsx-get-class-name-by-file-name)`} extends Component {
   static propTypes = {
     ${2:prop}: ${3:PropTypes}
   }
