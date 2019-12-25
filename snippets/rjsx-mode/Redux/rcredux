@@ -23,12 +23,12 @@ export class ${1:${TM_FILENAME_BASE}} extends Component {
   }
 }
 
-const mapStateToProps = (state) => ({
+const mapStateToProps = (state, ownProps) => ({
   
 })
 
-const mapDispatchToProps = {
+const mapDispatchToProps = (dispatch, ownProps) => ({
   
-}
+})
 
 export default connect(mapStateToProps, mapDispatchToProps)(${1:${TM_FILENAME_BASE}})

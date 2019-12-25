@@ -5,10 +5,16 @@
 # key: reduxmap
 # --
 
-const mapStateToProps = (state) => ({
-  ${1}
+const mapStateToProps = (state, ownProps) => ({
+
 })
 
-const mapDispatchToProps = {
-  
-}
+const mapDispatchToProps = (dispatch, ownProps) => ({
+
+})
+
+const mergeProps = (stateProps, dispatchProps, ownProps) => ({
+  ...ownProps,
+  ...dispatchProps,
+  ...stateProps,
+})
