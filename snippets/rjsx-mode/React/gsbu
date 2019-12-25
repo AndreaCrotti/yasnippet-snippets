@@ -5,6 +5,6 @@
 # key: gsbu
 # --
 
-getSnapshotBeforeUpdate = (prevProps, prevState) => {
+getSnapshotBeforeUpdate(prevProps, prevState) {
   $0
 }
