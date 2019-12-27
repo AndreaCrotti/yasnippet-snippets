@@ -45,7 +45,7 @@
 ;;;###autoload
 (defun yasnippet-snippets-initialize ()
   "Load the `yasnippet-snippets' snippets directory."
-  (add-to-list 'yas-snippet-dirs 'yasnippet-snippets-dir t)
+  (add-to-list 'yas-snippet-dirs yasnippet-snippets-dir t)
   (yas-load-directory yasnippet-snippets-dir t))
 
 (defgroup yasnippet-snippets nil
