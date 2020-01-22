@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: component
+# key: component
+# --
+module ${1:Component} = {
+  [@react.component]
+  let make = (${2:parameters}) => {
+    $0
+  };
+};

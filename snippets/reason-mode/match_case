@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: match case
+# key: |
+# --
+| ${1:Case} => $0
