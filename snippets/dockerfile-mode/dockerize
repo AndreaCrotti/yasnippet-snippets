@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# name: dockerize
+# key: dockerize
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region nil))
+# --
+
+ENV DOCKERIZE_VERSION ${1:v0.6.1}
+
+`(pcase (yas-choose-value "ubuntu" "alpine")
+   ("ubuntu" (concat
+               "RUN wget https://github.com/jwilder/dockerize/releases/download/${DOCKERIZE_VERSION}/dockerize-linux-amd64-${DOCKERIZE_VERSION}.tar.gz && \\\n"
+               "    tar -C /usr/local/bin -xzvf dockerize-linux-amd64-${DOCKERIZE_VERSION}.tar.gz && \\\n"
+               "    rm dockerize-linux-amd64-${DOCKERIZE_VERSION}.tar.gz"))
+   ("alpine" (concat
+               "RUN apk add --no-cache openssl && \\\n"
+               "    wget https://github.com/jwilder/dockerize/releases/download/${DOCKERIZE_VERSION}/dockerize-alpine-linux-amd64-${DOCKERIZE_VERSION}.tar.gz && \\\n"
+               "    tar -C /usr/local/bin -xzvf dockerize-alpine-linux-amd64-${DOCKERIZE_VERSION}.tar.gz && \\\n"
+               "    rm dockerize-alpine-linux-amd64-${DOCKERIZE_VERSION}.tar.gz")))`
