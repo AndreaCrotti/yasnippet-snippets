@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: switch
+# key: switch
+# --
+switch (${1:to_match}) {
+| ${2:matching} => $0
+}

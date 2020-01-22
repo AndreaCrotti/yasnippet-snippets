@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: function
+# key: func
+# --
+(${1:paramters}) -> $0

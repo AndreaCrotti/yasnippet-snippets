@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: module
+# key: module
+# --
+module ${1:M} = {
+  $0
+};
