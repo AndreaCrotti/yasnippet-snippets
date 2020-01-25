@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_key_vault
+# key: r_azurerm_key_vault
+# --
+resource "azurerm_key_vault" "$1" {
+	location = "$2"
+	name = "$3"
+	resource_group_name = "$4"
+	sku {
+		name = ""
+	}
+	tenant_id = "$6"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_azure_dns_server
+# key: r_azure_dns_server
+# --
+resource "azure_dns_server" "$1" {
+	dns_address = "$2"
+	name = "$3"
+}

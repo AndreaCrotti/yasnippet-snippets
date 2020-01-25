@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oci_database_db_versions
+# key: d_oci_database_db_versions
+# --
+data "oci_database_db_versions" "$1" {
+	compartment_id = "$2"
+}

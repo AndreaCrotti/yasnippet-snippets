@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_network_acls
+# key: d_aws_network_acls
+# --
+data "aws_network_acls" "$1" {
+	
+}

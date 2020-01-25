@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: huaweicloud
+# key: huaweicloud
+# --
+provider "huaweicloud" {
+	
+}

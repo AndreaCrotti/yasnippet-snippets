@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: pagerduty
+# key: pagerduty
+# --
+provider "pagerduty" {
+	token = "$1"
+}

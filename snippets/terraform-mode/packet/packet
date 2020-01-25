@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: packet
+# key: packet
+# --
+provider "packet" {
+	auth_token = "$1"
+}

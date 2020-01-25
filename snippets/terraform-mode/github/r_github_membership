@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_github_membership
+# key: r_github_membership
+# --
+resource "github_membership" "$1" {
+	username = "$2"
+}

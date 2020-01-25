@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_ses_domain_identity
+# key: r_aws_ses_domain_identity
+# --
+resource "aws_ses_domain_identity" "$1" {
+	domain = "$2"
+}

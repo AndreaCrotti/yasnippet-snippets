@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_opentelekomcloud_vbs_backup_v2
+# key: r_opentelekomcloud_vbs_backup_v2
+# --
+resource "opentelekomcloud_vbs_backup_v2" "$1" {
+	name = "$2"
+	volume_id = "$3"
+}

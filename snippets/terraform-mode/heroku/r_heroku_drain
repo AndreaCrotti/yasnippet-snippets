@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_heroku_drain
+# key: r_heroku_drain
+# --
+resource "heroku_drain" "$1" {
+	app = "$2"
+	url = "$3"
+}

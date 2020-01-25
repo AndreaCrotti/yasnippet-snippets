@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_packet_reserved_ip_block
+# key: r_packet_reserved_ip_block
+# --
+resource "packet_reserved_ip_block" "$1" {
+	facility = "$2"
+	project_id = "$3"
+	quantity = $4
+}

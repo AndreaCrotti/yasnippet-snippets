@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_pagerduty_service
+# key: r_pagerduty_service
+# --
+resource "pagerduty_service" "$1" {
+	escalation_policy = "$2"
+}

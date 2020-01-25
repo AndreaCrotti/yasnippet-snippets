@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_vpc_endpoint_connection_notification
+# key: r_aws_vpc_endpoint_connection_notification
+# --
+resource "aws_vpc_endpoint_connection_notification" "$1" {
+	connection_events = ["$2"]
+	connection_notification_arn = "$3"
+}

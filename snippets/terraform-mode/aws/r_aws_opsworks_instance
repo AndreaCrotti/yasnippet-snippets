@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_opsworks_instance
+# key: r_aws_opsworks_instance
+# --
+resource "aws_opsworks_instance" "$1" {
+	layer_ids = ["$2"]
+	stack_id = "$3"
+}

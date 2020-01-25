@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_route53_health_check
+# key: r_aws_route53_health_check
+# --
+resource "aws_route53_health_check" "$1" {
+	type = "$2"
+}

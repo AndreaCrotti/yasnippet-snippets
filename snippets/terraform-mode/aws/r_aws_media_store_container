@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_media_store_container
+# key: r_aws_media_store_container
+# --
+resource "aws_media_store_container" "$1" {
+	name = "$2"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_rightscale_subnet
+# key: r_rightscale_subnet
+# --
+resource "rightscale_subnet" "$1" {
+	cidr_block = "$2"
+	cloud_href = "$3"
+	network_href = "$4"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_aws_s3_bucket_object
+# key: d_aws_s3_bucket_object
+# --
+data "aws_s3_bucket_object" "$1" {
+	bucket = "$2"
+	key = "$3"
+}

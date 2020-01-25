@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: azuread
+# key: azuread
+# --
+provider "azuread" {
+	environment = "$1"
+}

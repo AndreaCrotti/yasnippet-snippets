@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_consul_agent_service
+# key: r_consul_agent_service
+# --
+resource "consul_agent_service" "$1" {
+	name = "$2"
+}

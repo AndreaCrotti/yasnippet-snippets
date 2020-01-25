@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_api_gateway_request_validator
+# key: r_aws_api_gateway_request_validator
+# --
+resource "aws_api_gateway_request_validator" "$1" {
+	name = "$2"
+	rest_api_id = "$3"
+}

@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_oci_core_instance_pool
+# key: r_oci_core_instance_pool
+# --
+resource "oci_core_instance_pool" "$1" {
+	compartment_id = "$2"
+	instance_configuration_id = "$3"
+	placement_configurations {
+		availability_domain = ""
+		primary_subnet_id = ""
+	}
+	size = $5
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_vpc_ipv4_cidr_block_association
+# key: r_aws_vpc_ipv4_cidr_block_association
+# --
+resource "aws_vpc_ipv4_cidr_block_association" "$1" {
+	cidr_block = "$2"
+	vpc_id = "$3"
+}

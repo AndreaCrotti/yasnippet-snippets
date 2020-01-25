@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_cloudhsm_v2_cluster
+# key: r_aws_cloudhsm_v2_cluster
+# --
+resource "aws_cloudhsm_v2_cluster" "$1" {
+	hsm_type = "$2"
+	subnet_ids = ["$3"]
+}

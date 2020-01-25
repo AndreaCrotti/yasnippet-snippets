@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_ec2_capacity_reservation
+# key: r_aws_ec2_capacity_reservation
+# --
+resource "aws_ec2_capacity_reservation" "$1" {
+	availability_zone = "$2"
+	instance_count = $3
+	instance_platform = "$4"
+	instance_type = "$5"
+}

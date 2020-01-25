@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_flexibleengine_compute_bms_server_v2
+# key: r_flexibleengine_compute_bms_server_v2
+# --
+resource "flexibleengine_compute_bms_server_v2" "$1" {
+	availability_zone = "$2"
+	name = "$3"
+}

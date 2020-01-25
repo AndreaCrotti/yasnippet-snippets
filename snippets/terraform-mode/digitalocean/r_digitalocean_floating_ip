@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_digitalocean_floating_ip
+# key: r_digitalocean_floating_ip
+# --
+resource "digitalocean_floating_ip" "$1" {
+	region = "$2"
+}

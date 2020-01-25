@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_openstack_db_configuration_v1
+# key: r_openstack_db_configuration_v1
+# --
+resource "openstack_db_configuration_v1" "$1" {
+	datastore {
+		type = ""
+		version = ""
+	}
+	description = "$3"
+	name = "$4"
+	region = "$5"
+}

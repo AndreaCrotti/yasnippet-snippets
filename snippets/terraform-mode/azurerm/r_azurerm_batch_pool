@@ -1,0 +1,17 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_batch_pool
+# key: r_azurerm_batch_pool
+# --
+resource "azurerm_batch_pool" "$1" {
+	account_name = "$2"
+	name = "$3"
+	node_agent_sku_id = "$4"
+	resource_group_name = "$5"
+	storage_image_reference {
+		offer = ""
+		publisher = ""
+		sku = ""
+		version = ""
+	}
+	vm_size = "$7"
+}

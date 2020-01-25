@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_dnat
+# key: r_tencentcloud_dnat
+# --
+resource "tencentcloud_dnat" "$1" {
+	elastic_ip = "$2"
+	elastic_port = "$3"
+	nat_id = "$4"
+	private_ip = "$5"
+	private_port = "$6"
+	protocol = "$7"
+	vpc_id = "$8"
+}

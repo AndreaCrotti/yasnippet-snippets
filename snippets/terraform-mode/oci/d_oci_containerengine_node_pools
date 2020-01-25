@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oci_containerengine_node_pools
+# key: d_oci_containerengine_node_pools
+# --
+data "oci_containerengine_node_pools" "$1" {
+	compartment_id = "$2"
+}

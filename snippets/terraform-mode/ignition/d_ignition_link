@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_ignition_link
+# key: d_ignition_link
+# --
+data "ignition_link" "$1" {
+	filesystem = "$2"
+	path = "$3"
+	target = "$4"
+}

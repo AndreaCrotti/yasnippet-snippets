@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_route_table_attachment
+# key: r_alicloud_route_table_attachment
+# --
+resource "alicloud_route_table_attachment" "$1" {
+	route_table_id = "$2"
+	vswitch_id = "$3"
+}

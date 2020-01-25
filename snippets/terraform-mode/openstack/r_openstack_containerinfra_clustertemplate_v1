@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_openstack_containerinfra_clustertemplate_v1
+# key: r_openstack_containerinfra_clustertemplate_v1
+# --
+resource "openstack_containerinfra_clustertemplate_v1" "$1" {
+	coe = "$2"
+	image = "$3"
+	name = "$4"
+}

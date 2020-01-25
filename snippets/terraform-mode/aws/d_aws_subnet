@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_subnet
+# key: d_aws_subnet
+# --
+data "aws_subnet" "$1" {
+	
+}

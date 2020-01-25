@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_cbs_storage_attachment
+# key: r_tencentcloud_cbs_storage_attachment
+# --
+resource "tencentcloud_cbs_storage_attachment" "$1" {
+	instance_id = "$2"
+	storage_id = "$3"
+}

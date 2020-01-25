@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_security_center_subscription_pricing
+# key: r_azurerm_security_center_subscription_pricing
+# --
+resource "azurerm_security_center_subscription_pricing" "$1" {
+	tier = "$2"
+}

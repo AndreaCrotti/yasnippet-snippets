@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_heroku_cert
+# key: r_heroku_cert
+# --
+resource "heroku_cert" "$1" {
+	app = "$2"
+	certificate_chain = "$3"
+	private_key = "$4"
+}

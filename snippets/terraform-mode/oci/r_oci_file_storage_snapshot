@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_oci_file_storage_snapshot
+# key: r_oci_file_storage_snapshot
+# --
+resource "oci_file_storage_snapshot" "$1" {
+	file_system_id = "$2"
+	name = "$3"
+}

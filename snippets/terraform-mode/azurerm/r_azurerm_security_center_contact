@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_security_center_contact
+# key: r_azurerm_security_center_contact
+# --
+resource "azurerm_security_center_contact" "$1" {
+	alert_notifications = ${2:false}
+	alerts_to_admins = ${3:false}
+	email = "$4"
+	phone = "$5"
+}

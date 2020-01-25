@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_sfn_state_machine
+# key: r_aws_sfn_state_machine
+# --
+resource "aws_sfn_state_machine" "$1" {
+	definition = "$2"
+	name = "$3"
+	role_arn = "$4"
+}

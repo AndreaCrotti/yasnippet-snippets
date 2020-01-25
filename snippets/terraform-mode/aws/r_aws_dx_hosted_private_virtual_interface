@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_aws_dx_hosted_private_virtual_interface
+# key: r_aws_dx_hosted_private_virtual_interface
+# --
+resource "aws_dx_hosted_private_virtual_interface" "$1" {
+	address_family = "$2"
+	bgp_asn = $3
+	connection_id = "$4"
+	name = "$5"
+	owner_account_id = "$6"
+	vlan = $7
+}

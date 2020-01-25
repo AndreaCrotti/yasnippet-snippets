@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_elb_attachment
+# key: r_aws_elb_attachment
+# --
+resource "aws_elb_attachment" "$1" {
+	elb = "$2"
+	instance = "$3"
+}

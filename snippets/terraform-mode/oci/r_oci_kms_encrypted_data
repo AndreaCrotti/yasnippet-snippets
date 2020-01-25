@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_oci_kms_encrypted_data
+# key: r_oci_kms_encrypted_data
+# --
+resource "oci_kms_encrypted_data" "$1" {
+	crypto_endpoint = "$2"
+	key_id = "$3"
+	plaintext = "$4"
+}

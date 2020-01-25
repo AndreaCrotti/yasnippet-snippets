@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_panos_panorama_template_stack
+# key: r_panos_panorama_template_stack
+# --
+resource "panos_panorama_template_stack" "$1" {
+	name = "$2"
+}

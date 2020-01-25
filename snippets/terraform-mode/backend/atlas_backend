@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: atlas_backend
+# key: atlas_backend
+# --
+terraform {
+	backend "atlas" {
+		name = "$2"
+		access_token = "$3"
+	}
+}

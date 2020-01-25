@@ -1,0 +1,30 @@
+# -*- mode: snippet -*-
+# name: d_azurerm_storage_account_sas
+# key: d_azurerm_storage_account_sas
+# --
+data "azurerm_storage_account_sas" "$1" {
+	connection_string = "$2"
+	expiry = "$3"
+	permissions {
+			add = false
+			create = false
+			delete = false
+			list = false
+			process = false
+			read = false
+			update = false
+			write = false
+		}
+	resource_types {
+			container = false
+			object = false
+			service = false
+		}
+	services {
+			blob = false
+			file = false
+			queue = false
+			table = false
+		}
+	start = "$7"
+}

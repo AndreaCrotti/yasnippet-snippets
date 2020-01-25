@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_iam_policy_document
+# key: d_aws_iam_policy_document
+# --
+data "aws_iam_policy_document" "$1" {
+	
+}

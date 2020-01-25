@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_packet_organization
+# key: r_packet_organization
+# --
+resource "packet_organization" "$1" {
+	name = "$2"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_pagerduty_schedule
+# key: d_pagerduty_schedule
+# --
+data "pagerduty_schedule" "$1" {
+	name = "$2"
+}

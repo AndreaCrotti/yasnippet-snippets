@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_packet_capture
+# key: r_azurerm_packet_capture
+# --
+resource "azurerm_packet_capture" "$1" {
+	name = "$2"
+	network_watcher_name = "$3"
+	resource_group_name = "$4"
+	storage_location {
+	
+	}
+	target_resource_id = "$6"
+}

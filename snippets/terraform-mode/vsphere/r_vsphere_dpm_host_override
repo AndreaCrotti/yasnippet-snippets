@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_vsphere_dpm_host_override
+# key: r_vsphere_dpm_host_override
+# --
+resource "vsphere_dpm_host_override" "$1" {
+	compute_cluster_id = "$2"
+	host_system_id = "$3"
+}

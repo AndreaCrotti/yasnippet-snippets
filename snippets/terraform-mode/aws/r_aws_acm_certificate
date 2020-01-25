@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_acm_certificate
+# key: r_aws_acm_certificate
+# --
+resource "aws_acm_certificate" "$1" {
+	
+}

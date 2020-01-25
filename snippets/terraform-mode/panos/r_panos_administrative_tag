@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_panos_administrative_tag
+# key: r_panos_administrative_tag
+# --
+resource "panos_administrative_tag" "$1" {
+	name = "$2"
+}

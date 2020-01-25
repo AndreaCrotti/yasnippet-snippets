@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_heroku_space_vpn_connection
+# key: r_heroku_space_vpn_connection
+# --
+resource "heroku_space_vpn_connection" "$1" {
+	name = "$2"
+	public_ip = "$3"
+	routable_cidrs = ["$4"]
+	space = "$5"
+}

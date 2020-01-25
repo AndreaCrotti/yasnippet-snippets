@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_ses_domain_identity_verification
+# key: r_aws_ses_domain_identity_verification
+# --
+resource "aws_ses_domain_identity_verification" "$1" {
+	domain = "$2"
+}

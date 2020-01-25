@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_linode_nodebalancer
+# key: r_linode_nodebalancer
+# --
+resource "linode_nodebalancer" "$1" {
+	region = "$2"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_vault_kubernetes_auth_backend_role
+# key: r_vault_kubernetes_auth_backend_role
+# --
+resource "vault_kubernetes_auth_backend_role" "$1" {
+	bound_service_account_names = ["$2"]
+	bound_service_account_namespaces = ["$3"]
+	role_name = "$4"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_kinesis_analytics_application
+# key: r_aws_kinesis_analytics_application
+# --
+resource "aws_kinesis_analytics_application" "$1" {
+	name = "$2"
+}

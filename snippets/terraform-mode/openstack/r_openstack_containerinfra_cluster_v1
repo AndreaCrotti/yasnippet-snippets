@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_openstack_containerinfra_cluster_v1
+# key: r_openstack_containerinfra_cluster_v1
+# --
+resource "openstack_containerinfra_cluster_v1" "$1" {
+	cluster_template_id = "$2"
+}

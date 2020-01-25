@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_tls_private_key
+# key: r_tls_private_key
+# --
+resource "tls_private_key" "$1" {
+	algorithm = "$2"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_openstack_objectstorage_object_v1
+# key: r_openstack_objectstorage_object_v1
+# --
+resource "openstack_objectstorage_object_v1" "$1" {
+	container_name = "$2"
+	name = "$3"
+}

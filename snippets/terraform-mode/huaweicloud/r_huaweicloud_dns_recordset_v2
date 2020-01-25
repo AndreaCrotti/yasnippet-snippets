@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_huaweicloud_dns_recordset_v2
+# key: r_huaweicloud_dns_recordset_v2
+# --
+resource "huaweicloud_dns_recordset_v2" "$1" {
+	name = "$2"
+	records = ["$3"]
+	type = "$4"
+	zone_id = "$5"
+}

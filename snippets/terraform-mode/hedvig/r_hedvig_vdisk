@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_hedvig_vdisk
+# key: r_hedvig_vdisk
+# --
+resource "hedvig_vdisk" "$1" {
+	name = "$2"
+	size = $3
+	type = "$4"
+}

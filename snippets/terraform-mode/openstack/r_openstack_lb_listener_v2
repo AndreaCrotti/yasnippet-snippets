@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_openstack_lb_listener_v2
+# key: r_openstack_lb_listener_v2
+# --
+resource "openstack_lb_listener_v2" "$1" {
+	loadbalancer_id = "$2"
+	protocol = "$3"
+	protocol_port = $4
+}

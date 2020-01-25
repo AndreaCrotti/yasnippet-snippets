@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_cloudstack_nic
+# key: r_cloudstack_nic
+# --
+resource "cloudstack_nic" "$1" {
+	network_id = "$2"
+	virtual_machine_id = "$3"
+}

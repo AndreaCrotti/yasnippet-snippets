@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: r_kubernetes_network_policy
+# key: r_kubernetes_network_policy
+# --
+resource "kubernetes_network_policy" "$1" {
+	metadata {
+	
+	}
+	spec {
+		pod_selector {
+		
+		}
+		policy_types = [""]
+	}
+}

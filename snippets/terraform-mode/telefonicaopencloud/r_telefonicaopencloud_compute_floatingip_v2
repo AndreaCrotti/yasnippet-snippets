@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_telefonicaopencloud_compute_floatingip_v2
+# key: r_telefonicaopencloud_compute_floatingip_v2
+# --
+resource "telefonicaopencloud_compute_floatingip_v2" "$1" {
+	pool = "$2"
+}

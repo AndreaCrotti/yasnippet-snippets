@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_azure_storage_queue
+# key: r_azure_storage_queue
+# --
+resource "azure_storage_queue" "$1" {
+	name = "$2"
+	storage_service_name = "$3"
+}

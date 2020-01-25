@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_aws_elb
+# key: r_aws_elb
+# --
+resource "aws_elb" "$1" {
+	listener {
+		instance_port = 1
+		instance_protocol = ""
+		lb_port = 1
+		lb_protocol = ""
+	}
+}

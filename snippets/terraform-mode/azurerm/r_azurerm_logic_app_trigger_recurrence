@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_logic_app_trigger_recurrence
+# key: r_azurerm_logic_app_trigger_recurrence
+# --
+resource "azurerm_logic_app_trigger_recurrence" "$1" {
+	frequency = "$2"
+	interval = $3
+	logic_app_id = "$4"
+	name = "$5"
+}

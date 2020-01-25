@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_ram_login_profile
+# key: r_alicloud_ram_login_profile
+# --
+resource "alicloud_ram_login_profile" "$1" {
+	password = "$2"
+	user_name = "$3"
+}

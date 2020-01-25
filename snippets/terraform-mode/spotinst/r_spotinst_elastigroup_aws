@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_spotinst_elastigroup_aws
+# key: r_spotinst_elastigroup_aws
+# --
+resource "spotinst_elastigroup_aws" "$1" {
+	fallback_to_ondemand = ${2:false}
+	instance_types_ondemand = "$3"
+	instance_types_spot = ["$4"]
+	name = "$5"
+	orientation = "$6"
+	product = "$7"
+	security_groups = ["$8"]
+}

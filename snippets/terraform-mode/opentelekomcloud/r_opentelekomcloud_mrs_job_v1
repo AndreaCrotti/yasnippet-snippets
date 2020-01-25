@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_opentelekomcloud_mrs_job_v1
+# key: r_opentelekomcloud_mrs_job_v1
+# --
+resource "opentelekomcloud_mrs_job_v1" "$1" {
+	cluster_id = "$2"
+	jar_path = "$3"
+	job_name = "$4"
+	job_type = $5
+}

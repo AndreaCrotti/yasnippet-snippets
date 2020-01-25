@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_opentelekomcloud_rts_software_deployment_v1
+# key: d_opentelekomcloud_rts_software_deployment_v1
+# --
+data "opentelekomcloud_rts_software_deployment_v1" "$1" {
+	
+}

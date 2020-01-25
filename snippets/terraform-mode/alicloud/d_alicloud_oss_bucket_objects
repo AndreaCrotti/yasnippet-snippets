@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_alicloud_oss_bucket_objects
+# key: d_alicloud_oss_bucket_objects
+# --
+data "alicloud_oss_bucket_objects" "$1" {
+	bucket_name = "$2"
+}

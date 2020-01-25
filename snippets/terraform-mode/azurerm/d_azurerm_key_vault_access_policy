@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_azurerm_key_vault_access_policy
+# key: d_azurerm_key_vault_access_policy
+# --
+data "azurerm_key_vault_access_policy" "$1" {
+	name = "$2"
+}

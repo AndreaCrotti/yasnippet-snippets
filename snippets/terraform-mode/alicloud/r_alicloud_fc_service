@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_fc_service
+# key: r_alicloud_fc_service
+# --
+resource "alicloud_fc_service" "$1" {
+	
+}

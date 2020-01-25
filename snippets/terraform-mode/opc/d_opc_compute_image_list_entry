@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_opc_compute_image_list_entry
+# key: d_opc_compute_image_list_entry
+# --
+data "opc_compute_image_list_entry" "$1" {
+	image_list = "$2"
+	version = $3
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: cobbler
+# key: cobbler
+# --
+provider "cobbler" {
+	password = "$1"
+	url = "$2"
+	username = "$3"
+}

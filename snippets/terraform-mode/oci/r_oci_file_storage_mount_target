@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_oci_file_storage_mount_target
+# key: r_oci_file_storage_mount_target
+# --
+resource "oci_file_storage_mount_target" "$1" {
+	availability_domain = "$2"
+	compartment_id = "$3"
+	subnet_id = "$4"
+}

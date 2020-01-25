@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_flexibleengine_lb_loadbalancer_v2
+# key: r_flexibleengine_lb_loadbalancer_v2
+# --
+resource "flexibleengine_lb_loadbalancer_v2" "$1" {
+	vip_subnet_id = "$2"
+}

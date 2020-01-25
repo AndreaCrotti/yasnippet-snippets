@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_digitalocean_kubernetes_cluster
+# key: d_digitalocean_kubernetes_cluster
+# --
+data "digitalocean_kubernetes_cluster" "$1" {
+	name = "$2"
+}

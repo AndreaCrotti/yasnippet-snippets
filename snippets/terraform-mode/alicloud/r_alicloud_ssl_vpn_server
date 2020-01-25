@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_ssl_vpn_server
+# key: r_alicloud_ssl_vpn_server
+# --
+resource "alicloud_ssl_vpn_server" "$1" {
+	client_ip_pool = "$2"
+	local_subnet = "$3"
+	vpn_gateway_id = "$4"
+}

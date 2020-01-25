@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_icinga2_user
+# key: r_icinga2_user
+# --
+resource "icinga2_user" "$1" {
+	name = "$2"
+}

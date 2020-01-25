@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: telefonicaopencloud
+# key: telefonicaopencloud
+# --
+provider "telefonicaopencloud" {
+	
+}

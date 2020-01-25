@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_virtual_network_peering
+# key: r_azurerm_virtual_network_peering
+# --
+resource "azurerm_virtual_network_peering" "$1" {
+	name = "$2"
+	remote_virtual_network_id = "$3"
+	resource_group_name = "$4"
+	virtual_network_name = "$5"
+}

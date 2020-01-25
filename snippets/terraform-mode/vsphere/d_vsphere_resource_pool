@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_vsphere_resource_pool
+# key: d_vsphere_resource_pool
+# --
+data "vsphere_resource_pool" "$1" {
+	
+}

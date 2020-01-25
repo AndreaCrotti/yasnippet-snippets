@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: statuscake
+# key: statuscake
+# --
+provider "statuscake" {
+	apikey = "$1"
+	username = "$2"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_circonus_check
+# key: r_circonus_check
+# --
+resource "circonus_check" "$1" {
+	
+}

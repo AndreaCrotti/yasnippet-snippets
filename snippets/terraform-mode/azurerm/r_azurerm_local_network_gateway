@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_local_network_gateway
+# key: r_azurerm_local_network_gateway
+# --
+resource "azurerm_local_network_gateway" "$1" {
+	address_space = ["$2"]
+	gateway_address = "$3"
+	location = "$4"
+	name = "$5"
+	resource_group_name = "$6"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_oci_email_suppression
+# key: r_oci_email_suppression
+# --
+resource "oci_email_suppression" "$1" {
+	compartment_id = "$2"
+	email_address = "$3"
+}

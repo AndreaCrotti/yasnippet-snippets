@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_ecs_cluster
+# key: d_aws_ecs_cluster
+# --
+data "aws_ecs_cluster" "$1" {
+	cluster_name = "$2"
+}

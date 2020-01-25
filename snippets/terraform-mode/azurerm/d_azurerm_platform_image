@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: d_azurerm_platform_image
+# key: d_azurerm_platform_image
+# --
+data "azurerm_platform_image" "$1" {
+	location = "$2"
+	offer = "$3"
+	publisher = "$4"
+	sku = "$5"
+}

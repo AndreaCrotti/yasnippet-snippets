@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_ses_domain_mail_from
+# key: r_aws_ses_domain_mail_from
+# --
+resource "aws_ses_domain_mail_from" "$1" {
+	domain = "$2"
+	mail_from_domain = "$3"
+}

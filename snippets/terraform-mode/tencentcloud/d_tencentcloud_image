@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_tencentcloud_image
+# key: d_tencentcloud_image
+# --
+data "tencentcloud_image" "$1" {
+	
+}

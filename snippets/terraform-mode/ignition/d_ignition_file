@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_ignition_file
+# key: d_ignition_file
+# --
+data "ignition_file" "$1" {
+	filesystem = "$2"
+	path = "$3"
+}

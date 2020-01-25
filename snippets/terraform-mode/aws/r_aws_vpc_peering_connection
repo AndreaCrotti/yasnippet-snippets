@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_vpc_peering_connection
+# key: r_aws_vpc_peering_connection
+# --
+resource "aws_vpc_peering_connection" "$1" {
+	peer_vpc_id = "$2"
+	vpc_id = "$3"
+}

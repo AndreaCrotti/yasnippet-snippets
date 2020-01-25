@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_opc_compute_storage_volume_snapshot
+# key: r_opc_compute_storage_volume_snapshot
+# --
+resource "opc_compute_storage_volume_snapshot" "$1" {
+	volume_name = "$2"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_helm_repository
+# key: r_helm_repository
+# --
+resource "helm_repository" "$1" {
+	name = "$2"
+	url = "$3"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: local_exec
+# key: local_exec
+# --
+provisioner "local-exec" {
+	command = "$1"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_alicloud_dns_groups
+# key: d_alicloud_dns_groups
+# --
+data "alicloud_dns_groups" "$1" {
+	
+}

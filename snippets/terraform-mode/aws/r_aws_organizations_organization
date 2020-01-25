@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_organizations_organization
+# key: r_aws_organizations_organization
+# --
+resource "aws_organizations_organization" "$1" {
+	
+}

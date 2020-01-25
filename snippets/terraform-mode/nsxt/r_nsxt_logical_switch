@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_nsxt_logical_switch
+# key: r_nsxt_logical_switch
+# --
+resource "nsxt_logical_switch" "$1" {
+	transport_zone_id = "$2"
+}

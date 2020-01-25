@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: r_oneandone_loadbalancer
+# key: r_oneandone_loadbalancer
+# --
+resource "oneandone_loadbalancer" "$1" {
+	method = "$2"
+	name = "$3"
+	rules {
+		port_balancer = 1
+		port_server = 1
+		protocol = ""
+		source_ip = ""
+	}
+}

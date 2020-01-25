@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_hedvig_mount
+# key: r_hedvig_mount
+# --
+resource "hedvig_mount" "$1" {
+	controller = "$2"
+	vdisk = "$3"
+}

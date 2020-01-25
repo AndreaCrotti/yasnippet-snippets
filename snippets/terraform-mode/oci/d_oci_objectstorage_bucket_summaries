@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_objectstorage_bucket_summaries
+# key: d_oci_objectstorage_bucket_summaries
+# --
+data "oci_objectstorage_bucket_summaries" "$1" {
+	compartment_id = "$2"
+	namespace = "$3"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oci_database_autonomous_databases
+# key: d_oci_database_autonomous_databases
+# --
+data "oci_database_autonomous_databases" "$1" {
+	compartment_id = "$2"
+}

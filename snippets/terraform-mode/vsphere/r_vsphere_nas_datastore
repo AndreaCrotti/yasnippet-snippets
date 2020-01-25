@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_vsphere_nas_datastore
+# key: r_vsphere_nas_datastore
+# --
+resource "vsphere_nas_datastore" "$1" {
+	host_system_ids = ["$2"]
+	name = "$3"
+	remote_hosts = ["$4"]
+	remote_path = "$5"
+}

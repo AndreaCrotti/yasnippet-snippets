@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_heroku_space
+# key: d_heroku_space
+# --
+data "heroku_space" "$1" {
+	name = "$2"
+}

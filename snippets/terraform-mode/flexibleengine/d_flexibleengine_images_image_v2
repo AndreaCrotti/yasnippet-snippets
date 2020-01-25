@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_flexibleengine_images_image_v2
+# key: d_flexibleengine_images_image_v2
+# --
+data "flexibleengine_images_image_v2" "$1" {
+	
+}

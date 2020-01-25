@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_dns_caa_record
+# key: r_azurerm_dns_caa_record
+# --
+resource "azurerm_dns_caa_record" "$1" {
+	name = "$2"
+	record {
+		flags = 1
+		tag = ""
+		value = ""
+	}
+	resource_group_name = "$4"
+	ttl = $5
+	zone_name = "$6"
+}

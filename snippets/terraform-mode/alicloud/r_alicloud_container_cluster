@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_container_cluster
+# key: r_alicloud_container_cluster
+# --
+resource "alicloud_container_cluster" "$1" {
+	cidr_block = "$2"
+	instance_type = "$3"
+	password = "$4"
+	vswitch_id = "$5"
+}

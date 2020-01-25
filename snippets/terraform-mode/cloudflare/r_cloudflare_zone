@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_cloudflare_zone
+# key: r_cloudflare_zone
+# --
+resource "cloudflare_zone" "$1" {
+	zone = "$2"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oneandone_instance_size
+# key: d_oneandone_instance_size
+# --
+data "oneandone_instance_size" "$1" {
+	
+}

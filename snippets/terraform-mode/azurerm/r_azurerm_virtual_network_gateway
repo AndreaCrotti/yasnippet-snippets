@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_virtual_network_gateway
+# key: r_azurerm_virtual_network_gateway
+# --
+resource "azurerm_virtual_network_gateway" "$1" {
+	ip_configuration {
+		subnet_id = ""
+	}
+	location = "$3"
+	name = "$4"
+	resource_group_name = "$5"
+	sku = "$6"
+	type = "$7"
+}

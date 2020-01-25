@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_cloudstack_static_route
+# key: r_cloudstack_static_route
+# --
+resource "cloudstack_static_route" "$1" {
+	cidr = "$2"
+	gateway_id = "$3"
+}

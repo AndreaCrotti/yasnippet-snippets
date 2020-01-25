@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_mysql_configuration
+# key: r_azurerm_mysql_configuration
+# --
+resource "azurerm_mysql_configuration" "$1" {
+	name = "$2"
+	resource_group_name = "$3"
+	server_name = "$4"
+	value = "$5"
+}

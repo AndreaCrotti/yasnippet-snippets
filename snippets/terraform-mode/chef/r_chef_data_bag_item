@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_chef_data_bag_item
+# key: r_chef_data_bag_item
+# --
+resource "chef_data_bag_item" "$1" {
+	content_json = "$2"
+	data_bag_name = "$3"
+}

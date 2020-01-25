@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_flexibleengine_networking_router_route_v2
+# key: r_flexibleengine_networking_router_route_v2
+# --
+resource "flexibleengine_networking_router_route_v2" "$1" {
+	destination_cidr = "$2"
+	next_hop = "$3"
+	router_id = "$4"
+}

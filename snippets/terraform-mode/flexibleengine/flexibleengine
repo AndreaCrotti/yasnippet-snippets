@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: flexibleengine
+# key: flexibleengine
+# --
+provider "flexibleengine" {
+	auth_url = "$1"
+}

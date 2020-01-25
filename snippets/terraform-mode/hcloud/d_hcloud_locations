@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_hcloud_locations
+# key: d_hcloud_locations
+# --
+data "hcloud_locations" "$1" {
+	
+}

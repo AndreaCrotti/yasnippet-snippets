@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_emr_instance_group
+# key: r_aws_emr_instance_group
+# --
+resource "aws_emr_instance_group" "$1" {
+	cluster_id = "$2"
+	instance_type = "$3"
+}

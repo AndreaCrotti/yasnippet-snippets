@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: vault
+# key: vault
+# --
+provider "vault" {
+	address = "$1"
+	token = "$2"
+}

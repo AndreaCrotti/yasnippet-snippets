@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_licensemanager_association
+# key: r_aws_licensemanager_association
+# --
+resource "aws_licensemanager_association" "$1" {
+	license_configuration_arn = "$2"
+	resource_arn = "$3"
+}

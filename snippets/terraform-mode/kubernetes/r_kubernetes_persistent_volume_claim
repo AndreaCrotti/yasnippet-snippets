@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: r_kubernetes_persistent_volume_claim
+# key: r_kubernetes_persistent_volume_claim
+# --
+resource "kubernetes_persistent_volume_claim" "$1" {
+	metadata {
+	
+	}
+	spec {
+		access_modes = [""]
+		resources {
+		
+		}
+	}
+}

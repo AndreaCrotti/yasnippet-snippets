@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_pagerduty_vendor
+# key: d_pagerduty_vendor
+# --
+data "pagerduty_vendor" "$1" {
+	name = "$2"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_dns
+# key: r_alicloud_dns
+# --
+resource "alicloud_dns" "$1" {
+	name = "$2"
+}

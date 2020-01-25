@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: linode
+# key: linode
+# --
+provider "linode" {
+	token = "$1"
+}

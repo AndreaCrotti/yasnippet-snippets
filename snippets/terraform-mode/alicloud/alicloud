@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: alicloud
+# key: alicloud
+# --
+provider "alicloud" {
+	access_key = "$1"
+	region = "$2"
+	secret_key = "$3"
+}

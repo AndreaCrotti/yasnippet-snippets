@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_clc_public_ip
+# key: r_clc_public_ip
+# --
+resource "clc_public_ip" "$1" {
+		ports {
+
+		}
+	server_id = "$3"
+}

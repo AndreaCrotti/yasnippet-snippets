@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_bigip_ltm_policy
+# key: r_bigip_ltm_policy
+# --
+resource "bigip_ltm_policy" "$1" {
+	controls = ["$2"]
+	name = "$3"
+	requires = ["$4"]
+	rule {
+		name = ""
+	}
+}

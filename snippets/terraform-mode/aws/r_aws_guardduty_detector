@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_guardduty_detector
+# key: r_aws_guardduty_detector
+# --
+resource "aws_guardduty_detector" "$1" {
+	
+}

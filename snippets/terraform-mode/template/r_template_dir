@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_template_dir
+# key: r_template_dir
+# --
+resource "template_dir" "$1" {
+	destination_dir = "$2"
+	source_dir = "$3"
+}

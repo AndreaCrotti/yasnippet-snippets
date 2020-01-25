@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_opsworks_custom_layer
+# key: r_aws_opsworks_custom_layer
+# --
+resource "aws_opsworks_custom_layer" "$1" {
+	name = "$2"
+	short_name = "$3"
+	stack_id = "$4"
+}

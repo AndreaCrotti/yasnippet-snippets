@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_postgresql_schema
+# key: r_postgresql_schema
+# --
+resource "postgresql_schema" "$1" {
+	name = "$2"
+}

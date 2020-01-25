@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_panos_ipsec_tunnel
+# key: r_panos_ipsec_tunnel
+# --
+resource "panos_ipsec_tunnel" "$1" {
+	name = "$2"
+	tunnel_interface = "$3"
+}

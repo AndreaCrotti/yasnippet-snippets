@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_flexibleengine_cts_tracker_v1
+# key: r_flexibleengine_cts_tracker_v1
+# --
+resource "flexibleengine_cts_tracker_v1" "$1" {
+	bucket_name = "$2"
+}

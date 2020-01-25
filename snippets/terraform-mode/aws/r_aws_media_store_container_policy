@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_media_store_container_policy
+# key: r_aws_media_store_container_policy
+# --
+resource "aws_media_store_container_policy" "$1" {
+	container_name = "$2"
+	policy = "$3"
+}

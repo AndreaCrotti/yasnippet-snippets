@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_ram_user
+# key: r_alicloud_ram_user
+# --
+resource "alicloud_ram_user" "$1" {
+	name = "$2"
+}

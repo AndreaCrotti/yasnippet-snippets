@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_cloudstack_template
+# key: r_cloudstack_template
+# --
+resource "cloudstack_template" "$1" {
+	format = "$2"
+	hypervisor = "$3"
+	name = "$4"
+	os_type = "$5"
+	url = "$6"
+}

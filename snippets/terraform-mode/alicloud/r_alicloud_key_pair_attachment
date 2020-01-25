@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_key_pair_attachment
+# key: r_alicloud_key_pair_attachment
+# --
+resource "alicloud_key_pair_attachment" "$1" {
+	instance_ids = ["$2"]
+	key_name = "$3"
+}

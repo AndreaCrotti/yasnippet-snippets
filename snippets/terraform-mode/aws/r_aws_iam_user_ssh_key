@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_iam_user_ssh_key
+# key: r_aws_iam_user_ssh_key
+# --
+resource "aws_iam_user_ssh_key" "$1" {
+	encoding = "$2"
+	public_key = "$3"
+	username = "$4"
+}

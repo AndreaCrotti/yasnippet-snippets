@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_github_repository_webhook
+# key: r_github_repository_webhook
+# --
+resource "github_repository_webhook" "$1" {
+	events = ["$2"]
+	name = "$3"
+	repository = "$4"
+}

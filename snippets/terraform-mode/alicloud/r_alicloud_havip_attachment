@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_havip_attachment
+# key: r_alicloud_havip_attachment
+# --
+resource "alicloud_havip_attachment" "$1" {
+	havip_id = "$2"
+	instance_id = "$3"
+}

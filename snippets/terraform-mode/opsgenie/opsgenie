@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: opsgenie
+# key: opsgenie
+# --
+provider "opsgenie" {
+	api_key = "$1"
+}

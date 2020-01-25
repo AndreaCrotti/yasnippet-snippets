@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: s3_backend
+# key: s3_backend
+# --
+terraform {
+	backend "s3" {
+		bucket = "$2"
+		key = "$3"
+		region = "us-east-1"
+	}
+}

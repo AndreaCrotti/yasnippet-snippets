@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_telefonicaopencloud_blockstorage_volume_v2
+# key: r_telefonicaopencloud_blockstorage_volume_v2
+# --
+resource "telefonicaopencloud_blockstorage_volume_v2" "$1" {
+	size = $2
+}

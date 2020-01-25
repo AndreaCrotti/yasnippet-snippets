@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_skytap_environment
+# key: r_skytap_environment
+# --
+resource "skytap_environment" "$1" {
+	description = "$2"
+	name = "$3"
+	template_id = "$4"
+}

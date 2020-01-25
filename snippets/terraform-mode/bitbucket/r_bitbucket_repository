@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_bitbucket_repository
+# key: r_bitbucket_repository
+# --
+resource "bitbucket_repository" "$1" {
+	name = "$2"
+	owner = "$3"
+}

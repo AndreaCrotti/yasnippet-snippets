@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_network_watcher
+# key: r_azurerm_network_watcher
+# --
+resource "azurerm_network_watcher" "$1" {
+	location = "$2"
+	name = "$3"
+	resource_group_name = "$4"
+}

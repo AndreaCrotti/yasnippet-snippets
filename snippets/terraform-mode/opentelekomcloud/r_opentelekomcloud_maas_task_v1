@@ -1,0 +1,21 @@
+# -*- mode: snippet -*-
+# name: r_opentelekomcloud_maas_task_v1
+# key: r_opentelekomcloud_maas_task_v1
+# --
+resource "opentelekomcloud_maas_task_v1" "$1" {
+	dst_node {
+		ak = ""
+		bucket = ""
+		region = ""
+		sk = ""
+	}
+	enable_kms = ${3:false}
+	src_node {
+		ak = ""
+		bucket = ""
+		object_key = ""
+		region = ""
+		sk = ""
+	}
+	thread_num = $5
+}

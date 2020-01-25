@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_circonus_metric_cluster
+# key: r_circonus_metric_cluster
+# --
+resource "circonus_metric_cluster" "$1" {
+	name = "$2"
+}

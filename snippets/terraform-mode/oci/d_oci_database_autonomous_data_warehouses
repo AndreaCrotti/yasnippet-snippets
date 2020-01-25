@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oci_database_autonomous_data_warehouses
+# key: d_oci_database_autonomous_data_warehouses
+# --
+data "oci_database_autonomous_data_warehouses" "$1" {
+	compartment_id = "$2"
+}

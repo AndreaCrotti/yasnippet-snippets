@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: helm
+# key: helm
+# --
+provider "helm" {
+	home = "$1"
+	host = "$2"
+}

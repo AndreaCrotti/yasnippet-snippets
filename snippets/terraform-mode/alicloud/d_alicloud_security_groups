@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_alicloud_security_groups
+# key: d_alicloud_security_groups
+# --
+data "alicloud_security_groups" "$1" {
+	
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_gamelift_fleet
+# key: r_aws_gamelift_fleet
+# --
+resource "aws_gamelift_fleet" "$1" {
+	build_id = "$2"
+	ec2_instance_type = "$3"
+	name = "$4"
+}

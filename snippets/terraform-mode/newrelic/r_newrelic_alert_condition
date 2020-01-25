@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: r_newrelic_alert_condition
+# key: r_newrelic_alert_condition
+# --
+resource "newrelic_alert_condition" "$1" {
+	entities = [$2]
+	metric = "$3"
+	name = "$4"
+	policy_id = $5
+	term {
+		duration = 1
+		threshold = 1.0
+		time_function = ""
+	}
+	type = "$7"
+}

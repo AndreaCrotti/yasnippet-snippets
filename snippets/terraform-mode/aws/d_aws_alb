@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_alb
+# key: d_aws_alb
+# --
+data "aws_alb" "$1" {
+	
+}

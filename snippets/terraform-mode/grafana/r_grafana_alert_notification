@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_grafana_alert_notification
+# key: r_grafana_alert_notification
+# --
+resource "grafana_alert_notification" "$1" {
+	name = "$2"
+	type = "$3"
+}

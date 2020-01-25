@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_vsphere_distributed_virtual_switch
+# key: d_vsphere_distributed_virtual_switch
+# --
+data "vsphere_distributed_virtual_switch" "$1" {
+	name = "$2"
+}

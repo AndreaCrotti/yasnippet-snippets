@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: consul
+# key: consul
+# --
+provider "consul" {
+	
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_redshift_snapshot_copy_grant
+# key: r_aws_redshift_snapshot_copy_grant
+# --
+resource "aws_redshift_snapshot_copy_grant" "$1" {
+	snapshot_copy_grant_name = "$2"
+}

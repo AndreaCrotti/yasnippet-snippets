@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_aws_lb_listener_rule
+# key: r_aws_lb_listener_rule
+# --
+resource "aws_lb_listener_rule" "$1" {
+	action {
+		type = ""
+	}
+	condition {
+	
+	}
+	listener_arn = "$4"
+}

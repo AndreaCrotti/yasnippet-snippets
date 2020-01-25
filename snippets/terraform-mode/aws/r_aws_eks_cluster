@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_aws_eks_cluster
+# key: r_aws_eks_cluster
+# --
+resource "aws_eks_cluster" "$1" {
+	name = "$2"
+	role_arn = "$3"
+	vpc_config {
+		subnet_ids = [""]
+	}
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_iot_certificate
+# key: r_aws_iot_certificate
+# --
+resource "aws_iot_certificate" "$1" {
+	active = ${2:false}
+	csr = "$3"
+}

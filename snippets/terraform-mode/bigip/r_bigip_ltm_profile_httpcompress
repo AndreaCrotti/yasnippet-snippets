@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_bigip_ltm_profile_httpcompress
+# key: r_bigip_ltm_profile_httpcompress
+# --
+resource "bigip_ltm_profile_httpcompress" "$1" {
+	name = "$2"
+}

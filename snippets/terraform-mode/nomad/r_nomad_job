@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_nomad_job
+# key: r_nomad_job
+# --
+resource "nomad_job" "$1" {
+	jobspec = "$2"
+}

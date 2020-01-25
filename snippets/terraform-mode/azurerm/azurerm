@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: azurerm
+# key: azurerm
+# --
+provider "azurerm" {
+	environment = "$1"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_licensemanager_license_configuration
+# key: r_aws_licensemanager_license_configuration
+# --
+resource "aws_licensemanager_license_configuration" "$1" {
+	license_counting_type = "$2"
+	name = "$3"
+}

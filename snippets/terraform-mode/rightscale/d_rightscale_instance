@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_rightscale_instance
+# key: d_rightscale_instance
+# --
+data "rightscale_instance" "$1" {
+	
+}

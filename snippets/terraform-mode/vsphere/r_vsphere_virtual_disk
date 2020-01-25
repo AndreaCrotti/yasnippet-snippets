@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_vsphere_virtual_disk
+# key: r_vsphere_virtual_disk
+# --
+resource "vsphere_virtual_disk" "$1" {
+	datastore = "$2"
+	size = $3
+	vmdk_path = "$4"
+}

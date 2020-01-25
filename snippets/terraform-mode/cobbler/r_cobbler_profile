@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_cobbler_profile
+# key: r_cobbler_profile
+# --
+resource "cobbler_profile" "$1" {
+	distro = "$2"
+	name = "$3"
+}

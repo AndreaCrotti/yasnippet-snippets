@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oci_load_balancer_shapes
+# key: d_oci_load_balancer_shapes
+# --
+data "oci_load_balancer_shapes" "$1" {
+	compartment_id = "$2"
+}

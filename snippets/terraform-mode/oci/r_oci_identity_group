@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_oci_identity_group
+# key: r_oci_identity_group
+# --
+resource "oci_identity_group" "$1" {
+	description = "$2"
+	name = "$3"
+}

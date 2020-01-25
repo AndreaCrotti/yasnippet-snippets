@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_azure_sql_database_service
+# key: r_azure_sql_database_service
+# --
+resource "azure_sql_database_service" "$1" {
+	database_server_name = "$2"
+	name = "$3"
+}

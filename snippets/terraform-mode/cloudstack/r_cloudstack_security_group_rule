@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_cloudstack_security_group_rule
+# key: r_cloudstack_security_group_rule
+# --
+resource "cloudstack_security_group_rule" "$1" {
+	rule {
+		protocol = ""
+	}
+	security_group_id = "$3"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_emr_cluster
+# key: r_aws_emr_cluster
+# --
+resource "aws_emr_cluster" "$1" {
+	name = "$2"
+	release_label = "$3"
+	service_role = "$4"
+}

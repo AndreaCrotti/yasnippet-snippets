@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_ns1_apikey
+# key: r_ns1_apikey
+# --
+resource "ns1_apikey" "$1" {
+	name = "$2"
+}

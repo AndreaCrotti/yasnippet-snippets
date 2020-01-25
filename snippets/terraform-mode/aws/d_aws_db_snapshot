@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_db_snapshot
+# key: d_aws_db_snapshot
+# --
+data "aws_db_snapshot" "$1" {
+	
+}

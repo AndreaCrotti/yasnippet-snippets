@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_pinpoint_gcm_channel
+# key: r_aws_pinpoint_gcm_channel
+# --
+resource "aws_pinpoint_gcm_channel" "$1" {
+	api_key = "$2"
+	application_id = "$3"
+}

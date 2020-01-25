@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_dx_connection
+# key: r_aws_dx_connection
+# --
+resource "aws_dx_connection" "$1" {
+	bandwidth = "$2"
+	location = "$3"
+	name = "$4"
+}

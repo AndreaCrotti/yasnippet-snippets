@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_vsphere_drs_vm_override
+# key: r_vsphere_drs_vm_override
+# --
+resource "vsphere_drs_vm_override" "$1" {
+	compute_cluster_id = "$2"
+	virtual_machine_id = "$3"
+}

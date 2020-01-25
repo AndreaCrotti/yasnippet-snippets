@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_cloudflare_zone_lockdown
+# key: r_cloudflare_zone_lockdown
+# --
+resource "cloudflare_zone_lockdown" "$1" {
+	configurations {
+		target = ""
+		value = ""
+	}
+	urls = ["$3"]
+}

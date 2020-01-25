@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_rightscale_volume
+# key: d_rightscale_volume
+# --
+data "rightscale_volume" "$1" {
+	cloud_href = "$2"
+}

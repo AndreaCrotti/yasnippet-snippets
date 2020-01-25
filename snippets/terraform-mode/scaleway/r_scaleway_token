@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_scaleway_token
+# key: r_scaleway_token
+# --
+resource "scaleway_token" "$1" {
+	
+}

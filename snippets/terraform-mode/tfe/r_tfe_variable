@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_tfe_variable
+# key: r_tfe_variable
+# --
+resource "tfe_variable" "$1" {
+	category = "$2"
+	key = "$3"
+	value = "$4"
+	workspace_id = "$5"
+}

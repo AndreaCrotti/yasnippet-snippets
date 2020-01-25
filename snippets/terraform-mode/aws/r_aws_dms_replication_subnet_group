@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_dms_replication_subnet_group
+# key: r_aws_dms_replication_subnet_group
+# --
+resource "aws_dms_replication_subnet_group" "$1" {
+	replication_subnet_group_description = "$2"
+	replication_subnet_group_id = "$3"
+	subnet_ids = ["$4"]
+}

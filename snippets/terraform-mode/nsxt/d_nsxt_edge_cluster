@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_nsxt_edge_cluster
+# key: d_nsxt_edge_cluster
+# --
+data "nsxt_edge_cluster" "$1" {
+	
+}

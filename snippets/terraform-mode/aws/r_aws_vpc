@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_vpc
+# key: r_aws_vpc
+# --
+resource "aws_vpc" "$1" {
+	cidr_block = "$2"
+}

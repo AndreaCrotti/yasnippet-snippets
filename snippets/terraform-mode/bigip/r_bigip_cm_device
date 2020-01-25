@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_bigip_cm_device
+# key: r_bigip_cm_device
+# --
+resource "bigip_cm_device" "$1" {
+	configsync_ip = "$2"
+	name = "$3"
+}

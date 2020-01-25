@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_eip_association
+# key: r_aws_eip_association
+# --
+resource "aws_eip_association" "$1" {
+	
+}

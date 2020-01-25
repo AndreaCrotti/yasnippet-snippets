@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_redis_firewall_rule
+# key: r_azurerm_redis_firewall_rule
+# --
+resource "azurerm_redis_firewall_rule" "$1" {
+	end_ip = "$2"
+	name = "$3"
+	redis_cache_name = "$4"
+	resource_group_name = "$5"
+	start_ip = "$6"
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_rancher_certificate
+# key: r_rancher_certificate
+# --
+resource "rancher_certificate" "$1" {
+	cert = "$2"
+	environment_id = "$3"
+	key = "$4"
+	name = "$5"
+}

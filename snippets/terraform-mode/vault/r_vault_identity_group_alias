@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_vault_identity_group_alias
+# key: r_vault_identity_group_alias
+# --
+resource "vault_identity_group_alias" "$1" {
+	canonical_id = "$2"
+	mount_accessor = "$3"
+	name = "$4"
+}

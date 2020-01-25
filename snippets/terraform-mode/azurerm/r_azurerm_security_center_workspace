@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_security_center_workspace
+# key: r_azurerm_security_center_workspace
+# --
+resource "azurerm_security_center_workspace" "$1" {
+	scope = "$2"
+	workspace_id = "$3"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_vault_okta_auth_backend_group
+# key: r_vault_okta_auth_backend_group
+# --
+resource "vault_okta_auth_backend_group" "$1" {
+	group_name = "$2"
+	path = "$3"
+}

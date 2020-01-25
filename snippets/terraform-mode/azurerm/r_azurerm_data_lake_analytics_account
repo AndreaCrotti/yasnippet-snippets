@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_data_lake_analytics_account
+# key: r_azurerm_data_lake_analytics_account
+# --
+resource "azurerm_data_lake_analytics_account" "$1" {
+	default_store_account_name = "$2"
+	location = "$3"
+	name = "$4"
+	resource_group_name = "$5"
+}

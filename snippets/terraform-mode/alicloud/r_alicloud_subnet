@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_subnet
+# key: r_alicloud_subnet
+# --
+resource "alicloud_subnet" "$1" {
+	availability_zone = "$2"
+	cidr_block = "$3"
+	vpc_id = "$4"
+}

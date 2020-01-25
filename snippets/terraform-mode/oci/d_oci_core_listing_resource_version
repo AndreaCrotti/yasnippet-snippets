@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_core_listing_resource_version
+# key: d_oci_core_listing_resource_version
+# --
+data "oci_core_listing_resource_version" "$1" {
+	listing_id = "$2"
+	resource_version = "$3"
+}

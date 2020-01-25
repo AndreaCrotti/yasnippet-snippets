@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: chef_basic
+# key: chef_basic
+# --
+provisioner "chef" {
+	node_name = "$1"
+	run_list = ["cookbook::recipe"]
+	user_name = "$2"
+	user_key = "$3"
+	server_url = "$4"
+}

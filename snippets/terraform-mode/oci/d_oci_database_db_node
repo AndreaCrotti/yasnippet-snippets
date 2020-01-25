@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oci_database_db_node
+# key: d_oci_database_db_node
+# --
+data "oci_database_db_node" "$1" {
+	db_node_id = "$2"
+}

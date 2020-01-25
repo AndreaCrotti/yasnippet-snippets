@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: tencentcloud
+# key: tencentcloud
+# --
+provider "tencentcloud" {
+	region = "$1"
+	secret_id = "$2"
+	secret_key = "$3"
+}

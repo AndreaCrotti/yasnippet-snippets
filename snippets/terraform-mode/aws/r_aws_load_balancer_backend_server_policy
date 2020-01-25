@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_load_balancer_backend_server_policy
+# key: r_aws_load_balancer_backend_server_policy
+# --
+resource "aws_load_balancer_backend_server_policy" "$1" {
+	instance_port = $2
+	load_balancer_name = "$3"
+}

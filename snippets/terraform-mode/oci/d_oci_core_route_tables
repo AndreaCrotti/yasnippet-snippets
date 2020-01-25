@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_core_route_tables
+# key: d_oci_core_route_tables
+# --
+data "oci_core_route_tables" "$1" {
+	compartment_id = "$2"
+	vcn_id = "$3"
+}

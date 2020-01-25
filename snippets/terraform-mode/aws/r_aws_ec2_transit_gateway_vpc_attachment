@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_ec2_transit_gateway_vpc_attachment
+# key: r_aws_ec2_transit_gateway_vpc_attachment
+# --
+resource "aws_ec2_transit_gateway_vpc_attachment" "$1" {
+	subnet_ids = ["$2"]
+	transit_gateway_id = "$3"
+	vpc_id = "$4"
+}

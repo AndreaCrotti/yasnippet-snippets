@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_ses_receipt_rule
+# key: r_aws_ses_receipt_rule
+# --
+resource "aws_ses_receipt_rule" "$1" {
+	name = "$2"
+	rule_set_name = "$3"
+}

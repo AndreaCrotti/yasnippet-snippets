@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_digitalocean_droplet
+# key: r_digitalocean_droplet
+# --
+resource "digitalocean_droplet" "$1" {
+	image = "$2"
+	name = "$3"
+	region = "$4"
+	size = "$5"
+}

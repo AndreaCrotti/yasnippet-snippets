@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_vpc_endpoint_route_table_association
+# key: r_aws_vpc_endpoint_route_table_association
+# --
+resource "aws_vpc_endpoint_route_table_association" "$1" {
+	route_table_id = "$2"
+	vpc_endpoint_id = "$3"
+}

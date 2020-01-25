@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_packet_operating_system
+# key: d_packet_operating_system
+# --
+data "packet_operating_system" "$1" {
+	
+}

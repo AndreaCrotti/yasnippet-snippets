@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_api_gateway_integration
+# key: r_aws_api_gateway_integration
+# --
+resource "aws_api_gateway_integration" "$1" {
+	http_method = "$2"
+	resource_id = "$3"
+	rest_api_id = "$4"
+	type = "$5"
+}

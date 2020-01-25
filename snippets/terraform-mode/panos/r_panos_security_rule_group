@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# name: r_panos_security_rule_group
+# key: r_panos_security_rule_group
+# --
+resource "panos_security_rule_group" "$1" {
+	rule {
+		applications = [""]
+		categories = [""]
+		destination_addresses = [""]
+		destination_zones = [""]
+		hip_profiles = [""]
+		name = ""
+		services = [""]
+		source_addresses = [""]
+		source_users = [""]
+		source_zones = [""]
+	}
+}

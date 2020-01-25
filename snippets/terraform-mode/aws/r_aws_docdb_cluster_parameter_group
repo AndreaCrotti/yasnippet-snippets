@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_docdb_cluster_parameter_group
+# key: r_aws_docdb_cluster_parameter_group
+# --
+resource "aws_docdb_cluster_parameter_group" "$1" {
+	family = "$2"
+}

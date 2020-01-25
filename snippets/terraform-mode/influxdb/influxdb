@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: influxdb
+# key: influxdb
+# --
+provider "influxdb" {
+	
+}

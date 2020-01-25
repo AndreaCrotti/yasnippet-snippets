@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_huaweicloud_networking_router_v2
+# key: r_huaweicloud_networking_router_v2
+# --
+resource "huaweicloud_networking_router_v2" "$1" {
+	
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_opc_compute_ip_address_prefix_set
+# key: r_opc_compute_ip_address_prefix_set
+# --
+resource "opc_compute_ip_address_prefix_set" "$1" {
+	name = "$2"
+}

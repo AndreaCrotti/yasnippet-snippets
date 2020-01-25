@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_elastic_beanstalk_application
+# key: d_aws_elastic_beanstalk_application
+# --
+data "aws_elastic_beanstalk_application" "$1" {
+	name = "$2"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_snat_entry
+# key: r_alicloud_snat_entry
+# --
+resource "alicloud_snat_entry" "$1" {
+	snat_ip = "$2"
+	snat_table_id = "$3"
+	source_vswitch_id = "$4"
+}

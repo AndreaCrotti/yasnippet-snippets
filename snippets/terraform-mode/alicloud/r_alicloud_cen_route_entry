@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_cen_route_entry
+# key: r_alicloud_cen_route_entry
+# --
+resource "alicloud_cen_route_entry" "$1" {
+	cidr_block = "$2"
+	instance_id = "$3"
+	route_table_id = "$4"
+}

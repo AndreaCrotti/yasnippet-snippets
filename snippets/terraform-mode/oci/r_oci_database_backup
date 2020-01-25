@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_oci_database_backup
+# key: r_oci_database_backup
+# --
+resource "oci_database_backup" "$1" {
+	database_id = "$2"
+	display_name = "$3"
+}

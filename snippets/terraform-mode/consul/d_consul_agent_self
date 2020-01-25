@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_consul_agent_self
+# key: d_consul_agent_self
+# --
+data "consul_agent_self" "$1" {
+	
+}

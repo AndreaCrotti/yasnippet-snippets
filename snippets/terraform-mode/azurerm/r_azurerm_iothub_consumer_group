@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_iothub_consumer_group
+# key: r_azurerm_iothub_consumer_group
+# --
+resource "azurerm_iothub_consumer_group" "$1" {
+	eventhub_endpoint_name = "$2"
+	iothub_name = "$3"
+	name = "$4"
+	resource_group_name = "$5"
+}

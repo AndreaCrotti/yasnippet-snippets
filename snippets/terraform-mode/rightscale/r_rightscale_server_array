@@ -1,0 +1,28 @@
+# -*- mode: snippet -*-
+# name: r_rightscale_server_array
+# key: r_rightscale_server_array
+# --
+resource "rightscale_server_array" "$1" {
+	datacenter_policy {
+		datacenter_href = ""
+		max = 1
+		weight = 1
+	}
+	elasticity_params {
+		bounds {
+			max_count = 1
+			min_count = 1
+		}
+		pacing {
+		
+		}
+	}
+	instance {
+		cloud_href = ""
+		image_href = ""
+		instance_type_href = ""
+		name = ""
+	}
+	name = "$5"
+	state = "$6"
+}

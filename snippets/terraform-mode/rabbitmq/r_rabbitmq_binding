@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_rabbitmq_binding
+# key: r_rabbitmq_binding
+# --
+resource "rabbitmq_binding" "$1" {
+	destination = "$2"
+	destination_type = "$3"
+	source = "$4"
+	vhost = "$5"
+}

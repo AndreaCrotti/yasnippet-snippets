@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_forward_entry
+# key: r_alicloud_forward_entry
+# --
+resource "alicloud_forward_entry" "$1" {
+	external_ip = "$2"
+	external_port = "$3"
+	forward_table_id = "$4"
+	internal_ip = "$5"
+	internal_port = "$6"
+	ip_protocol = "$7"
+}

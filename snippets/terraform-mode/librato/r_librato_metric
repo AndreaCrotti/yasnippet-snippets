@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_librato_metric
+# key: r_librato_metric
+# --
+resource "librato_metric" "$1" {
+	name = "$2"
+	type = "$3"
+}

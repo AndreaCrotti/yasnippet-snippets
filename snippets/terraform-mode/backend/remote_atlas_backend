@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: remote_atlas_backend
+# key: remote_atlas_backend
+# --
+data "terraform_remote_state" "$1" {
+	backend = "atlas"
+	config {
+		name = "$2"
+		access_token = "$3"
+	}
+}

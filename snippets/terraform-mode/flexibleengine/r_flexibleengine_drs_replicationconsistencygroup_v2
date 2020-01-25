@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_flexibleengine_drs_replicationconsistencygroup_v2
+# key: r_flexibleengine_drs_replicationconsistencygroup_v2
+# --
+resource "flexibleengine_drs_replicationconsistencygroup_v2" "$1" {
+	priority_station = "$2"
+	replication_ids = ["$3"]
+}

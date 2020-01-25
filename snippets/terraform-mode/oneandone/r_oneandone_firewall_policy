@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_oneandone_firewall_policy
+# key: r_oneandone_firewall_policy
+# --
+resource "oneandone_firewall_policy" "$1" {
+	name = "$2"
+	rules {
+		protocol = ""
+	}
+}

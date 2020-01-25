@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_vsphere_datastore
+# key: d_vsphere_datastore
+# --
+data "vsphere_datastore" "$1" {
+	name = "$2"
+}

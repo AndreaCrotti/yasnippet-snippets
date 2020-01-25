@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_flexibleengine_elb_health
+# key: r_flexibleengine_elb_health
+# --
+resource "flexibleengine_elb_health" "$1" {
+	listener_id = "$2"
+}

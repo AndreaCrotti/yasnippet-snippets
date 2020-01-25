@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_s3_bucket
+# key: r_aws_s3_bucket
+# --
+resource "aws_s3_bucket" "$1" {
+	
+}

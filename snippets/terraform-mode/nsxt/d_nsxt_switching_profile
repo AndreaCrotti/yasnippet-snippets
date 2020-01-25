@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_nsxt_switching_profile
+# key: d_nsxt_switching_profile
+# --
+data "nsxt_switching_profile" "$1" {
+	
+}

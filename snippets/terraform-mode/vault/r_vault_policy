@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_vault_policy
+# key: r_vault_policy
+# --
+resource "vault_policy" "$1" {
+	name = "$2"
+	policy = "$3"
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_subnet
+# key: r_tencentcloud_subnet
+# --
+resource "tencentcloud_subnet" "$1" {
+	availability_zone = "$2"
+	cidr_block = "$3"
+	name = "$4"
+	vpc_id = "$5"
+}

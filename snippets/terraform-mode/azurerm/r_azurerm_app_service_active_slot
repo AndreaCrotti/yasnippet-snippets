@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_app_service_active_slot
+# key: r_azurerm_app_service_active_slot
+# --
+resource "azurerm_app_service_active_slot" "$1" {
+	app_service_name = "$2"
+	app_service_slot_name = "$3"
+	resource_group_name = "$4"
+}

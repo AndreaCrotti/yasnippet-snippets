@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_cs_swarm
+# key: r_alicloud_cs_swarm
+# --
+resource "alicloud_cs_swarm" "$1" {
+	cidr_block = "$2"
+	instance_type = "$3"
+	password = "$4"
+	vswitch_id = "$5"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_nsxt_logical_tier1_router
+# key: r_nsxt_logical_tier1_router
+# --
+resource "nsxt_logical_tier1_router" "$1" {
+	
+}
