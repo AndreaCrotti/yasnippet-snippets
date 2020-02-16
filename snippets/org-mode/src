@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: src
 # key: <src
+# expand-env: ((org-src-tab-acts-natively nil))
 # --
 #+BEGIN_SRC $1
   $0
