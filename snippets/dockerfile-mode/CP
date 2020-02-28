@@ -1,4 +1,4 @@
-# name: cp
+# name: copy
 # key: cp
 # --
 COPY ${1:src} ${2:dest}

@@ -1,4 +1,4 @@
-# name: w
+# name: workdir
 # key: w
 # --
 WORKDIR ${1:path}

@@ -1,4 +1,4 @@
-# name: ent
+# name: entrypoint
 # key: ent
 # --
 ENTRYPOINT ${1:command}

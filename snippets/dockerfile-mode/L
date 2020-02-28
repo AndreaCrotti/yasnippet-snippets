@@ -1,4 +1,4 @@
-# name: l
+# name: label
 # key: l
 # --
 LABEL ${1:label}="${2:value}"

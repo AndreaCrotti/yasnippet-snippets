@@ -1,4 +1,4 @@
-# name: c
+# name: cmd
 # key: c
 # --
 CMD ${1:command}

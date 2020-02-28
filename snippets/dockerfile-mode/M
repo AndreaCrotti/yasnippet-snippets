@@ -1,4 +1,4 @@
-# name: m
+# name: maintainer
 # key: m
 # --
 LABEL maintainer="${1:name}"

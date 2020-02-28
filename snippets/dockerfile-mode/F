@@ -1,4 +1,4 @@
-# name: f
+# name: from
 # key: f
 # --
 FROM ${1:ubuntu}

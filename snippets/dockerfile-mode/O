@@ -1,4 +1,4 @@
-# name: o
+# name: onbuild
 # key: o
 # --
 ONBUILD $1

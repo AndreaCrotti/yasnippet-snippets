@@ -1,4 +1,4 @@
-# name: exp
+# name: expose
 # key: exp
 # --
 EXPOSE ${1:port}
