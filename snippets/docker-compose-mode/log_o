@@ -1,0 +1,5 @@
+# name: log_o
+# key: log_o
+# --
+log_opt:
+	${1:value}

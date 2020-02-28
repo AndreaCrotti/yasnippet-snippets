@@ -1,0 +1,4 @@
+# name: ipv4
+# key: ipv4
+# --
+ipv4_address: ${1:ip}

@@ -1,0 +1,4 @@
+# name: ipc
+# key: ipc
+# --
+ipc: ${1:host}

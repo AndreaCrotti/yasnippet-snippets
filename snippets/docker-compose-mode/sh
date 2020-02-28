@@ -1,0 +1,4 @@
+# name: sh
+# key: sh
+# --
+shm_size: ${1:value}

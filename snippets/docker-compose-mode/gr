@@ -1,0 +1,5 @@
+# name: gr
+# key: gr
+# --
+group_add:
+	- ${1:name}

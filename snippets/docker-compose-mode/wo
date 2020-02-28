@@ -1,0 +1,4 @@
+# name: wo
+# key: wo
+# --
+working_dir: ${1:dir}

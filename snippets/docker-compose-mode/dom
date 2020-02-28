@@ -1,0 +1,4 @@
+# name: dom
+# key: dom
+# --
+domainname: ${1:name}

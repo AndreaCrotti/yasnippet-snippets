@@ -1,0 +1,5 @@
+# name: links
+# key: links
+# --
+links:
+	- ${1:name}

@@ -1,0 +1,4 @@
+# name: f
+# key: f
+# --
+FROM ${1:ubuntu}

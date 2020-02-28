@@ -1,0 +1,4 @@
+# name: rea
+# key: rea
+# --
+read_only: ${1:boolean}

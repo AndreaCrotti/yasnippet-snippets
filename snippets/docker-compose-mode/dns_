@@ -1,0 +1,5 @@
+# name: dns_
+# key: dns_
+# --
+dns_search:
+	- ${1:ip}

@@ -1,0 +1,5 @@
+# name: ul
+# key: ul
+# --
+ulimits:
+	${1:value}

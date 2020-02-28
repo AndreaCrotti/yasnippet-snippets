@@ -1,0 +1,5 @@
+# name: dep
+# key: dep
+# --
+depends_on:
+	${1:value}

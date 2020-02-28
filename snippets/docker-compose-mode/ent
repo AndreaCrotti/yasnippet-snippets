@@ -1,0 +1,4 @@
+# name: ent
+# key: ent
+# --
+entrypoint: ${1:command}

@@ -1,0 +1,5 @@
+# name: cap_a
+# key: cap_a
+# --
+cap_add:
+	- ${1:value}

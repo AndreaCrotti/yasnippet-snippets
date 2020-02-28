@@ -1,0 +1,4 @@
+# name: r
+# key: r
+# --
+RUN ${1:command}

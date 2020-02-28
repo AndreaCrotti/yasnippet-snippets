@@ -1,0 +1,4 @@
+# name: conte
+# key: conte
+# --
+context: ${1:dir}

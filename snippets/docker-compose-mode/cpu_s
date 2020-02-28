@@ -1,0 +1,4 @@
+# name: cpu_s
+# key: cpu_s
+# --
+cpu_shares: ${1:value}

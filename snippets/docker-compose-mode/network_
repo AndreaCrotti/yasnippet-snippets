@@ -1,0 +1,4 @@
+# name: network_
+# key: network_
+# --
+network_mode: ${1:value}

@@ -1,0 +1,5 @@
+# name: ipa
+# key: ipa
+# --
+ipam:
+	${1:value}

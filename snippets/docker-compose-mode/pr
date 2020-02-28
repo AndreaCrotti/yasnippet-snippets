@@ -1,0 +1,4 @@
+# name: pr
+# key: pr
+# --
+privileged: ${1:boolean}

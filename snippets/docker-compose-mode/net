@@ -1,0 +1,4 @@
+# name: net
+# key: net
+# --
+net: ${1:value}

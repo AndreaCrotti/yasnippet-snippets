@@ -1,0 +1,5 @@
+# name: cap_d
+# key: cap_d
+# --
+cap_drop:
+	- ${1:value}

@@ -1,0 +1,4 @@
+# name: tt
+# key: tt
+# --
+tty: ${1:boolean}

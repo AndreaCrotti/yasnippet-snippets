@@ -1,0 +1,4 @@
+# name: std
+# key: std
+# --
+stdin_open: ${1:boolean}

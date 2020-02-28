@@ -1,0 +1,4 @@
+# name: cpus
+# key: cpus
+# --
+cpuset: ${1:value}

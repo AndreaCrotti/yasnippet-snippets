@@ -1,0 +1,5 @@
+# name: env
+# key: env
+# --
+environment:
+	${1:name}: ${2:value}

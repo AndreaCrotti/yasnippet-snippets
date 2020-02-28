@@ -1,0 +1,5 @@
+# name: dn
+# key: dn
+# --
+dns:
+	- ${1:ip}

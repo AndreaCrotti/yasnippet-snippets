@@ -1,0 +1,4 @@
+# name: c
+# key: c
+# --
+CMD ${1:command}

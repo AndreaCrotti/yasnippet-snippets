@@ -1,0 +1,4 @@
+# name: v
+# key: v
+# --
+VOLUME ["${1:path}"]

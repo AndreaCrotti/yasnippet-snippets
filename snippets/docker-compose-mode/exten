@@ -1,0 +1,6 @@
+# name: exten
+# key: exten
+# --
+extends:
+	file: ${1:file}
+	service: ${2:name}

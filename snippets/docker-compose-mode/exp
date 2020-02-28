@@ -1,0 +1,5 @@
+# name: exp
+# key: exp
+# --
+expose:
+	- ${1:port}

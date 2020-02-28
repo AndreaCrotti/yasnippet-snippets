@@ -1,0 +1,4 @@
+# name: com
+# key: com
+# --
+command: ${1:command}

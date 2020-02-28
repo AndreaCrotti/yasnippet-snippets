@@ -1,0 +1,5 @@
+# name: networks
+# key: networks
+# --
+networks:
+	- ${1:value}

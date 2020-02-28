@@ -1,0 +1,4 @@
+# name: log_d
+# key: log_d
+# --
+log_driver: ${1:driver}

@@ -1,0 +1,4 @@
+# name: ipv6
+# key: ipv6
+# --
+ipv6_address: ${1:ip}

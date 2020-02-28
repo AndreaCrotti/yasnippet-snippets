@@ -1,0 +1,4 @@
+# name: cgr
+# key: cgr
+# --
+cgroup_parent: ${1:cgroup}

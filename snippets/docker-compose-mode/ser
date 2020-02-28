@@ -1,0 +1,5 @@
+# name: ser
+# key: ser
+# --
+services:
+	${1:name}

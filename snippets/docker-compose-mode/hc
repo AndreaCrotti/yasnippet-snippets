@@ -1,0 +1,5 @@
+# name: hc
+# key: hc
+# --
+healthcheck:
+	test: ${1:command}

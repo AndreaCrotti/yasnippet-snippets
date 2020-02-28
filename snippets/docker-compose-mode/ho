@@ -1,0 +1,4 @@
+# name: ho
+# key: ho
+# --
+hostname: ${1:name}

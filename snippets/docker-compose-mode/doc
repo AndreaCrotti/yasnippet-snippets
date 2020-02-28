@@ -1,0 +1,4 @@
+# name: doc
+# key: doc
+# --
+dockerfile: ${1:file}

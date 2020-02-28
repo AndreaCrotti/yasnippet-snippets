@@ -1,0 +1,5 @@
+# name: extr
+# key: extr
+# --
+extra_hosts:
+	- ${1:host}:${2:ip}

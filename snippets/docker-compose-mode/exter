@@ -1,0 +1,4 @@
+# name: exter
+# key: exter
+# --
+external: ${1:boolean}

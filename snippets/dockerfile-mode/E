@@ -1,0 +1,4 @@
+# name: e
+# key: e
+# --
+ENV ${1:key} ${2:value}

@@ -1,0 +1,4 @@
+# name: a
+# key: a
+# --
+ADD ${1:src} ${2:dst}

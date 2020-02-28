@@ -1,0 +1,4 @@
+# name: cpu_q
+# key: cpu_q
+# --
+cpu_quota: ${1:value}

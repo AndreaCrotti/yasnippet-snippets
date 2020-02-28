@@ -1,0 +1,4 @@
+# name: res
+# key: res
+# --
+restart: ${1:value}

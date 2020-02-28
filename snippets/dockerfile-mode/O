@@ -1,0 +1,4 @@
+# name: o
+# key: o
+# --
+ONBUILD $1

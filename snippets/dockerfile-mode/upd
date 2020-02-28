@@ -1,0 +1,8 @@
+# name: upd
+# key: upd
+# --
+# update packages
+RUN echo "deb http://archive.ubuntu.com/ubuntu ${1:precise} main universe" > /etc/apt/sources.list; \
+    apt-get update && apt-get -y upgrade; \
+    $2
+    ;rm -rf /var/lib/apt/lists/*

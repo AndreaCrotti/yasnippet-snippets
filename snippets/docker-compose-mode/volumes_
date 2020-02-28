@@ -1,0 +1,5 @@
+# name: volumes_
+# key: volumes_
+# --
+volumes_from:
+	- ${1:name}

@@ -1,0 +1,5 @@
+# name: tm
+# key: tm
+# --
+tmpfs:
+	- ${1:dir}

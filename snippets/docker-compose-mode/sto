@@ -1,0 +1,4 @@
+# name: sto
+# key: sto
+# --
+stop_signal: ${1:signal}

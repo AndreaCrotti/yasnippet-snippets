@@ -1,0 +1,5 @@
+# name: la
+# key: la
+# --
+labels:
+	${1:dns}: ${2:label}

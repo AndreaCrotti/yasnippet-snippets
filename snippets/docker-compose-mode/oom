@@ -1,0 +1,4 @@
+# name: oom
+# key: oom
+# --
+oom_score_adj: ${1:value}

@@ -1,0 +1,7 @@
+# name: logg
+# key: logg
+# --
+logging:
+	driver: ${1:driver}
+	options:
+		${2:value}

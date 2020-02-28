@@ -1,0 +1,5 @@
+# name: volumes
+# key: volumes
+# --
+volumes:
+	- ${1:value}

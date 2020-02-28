@@ -1,0 +1,4 @@
+# name: u
+# key: u
+# --
+USER ${1:name}

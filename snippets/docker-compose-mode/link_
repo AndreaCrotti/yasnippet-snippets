@@ -1,0 +1,5 @@
+# name: link_
+# key: link_
+# --
+link_local_ips:
+	- ${1:ip}

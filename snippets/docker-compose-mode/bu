@@ -1,0 +1,5 @@
+# name: bu
+# key: bu
+# --
+build:
+	${1:value}

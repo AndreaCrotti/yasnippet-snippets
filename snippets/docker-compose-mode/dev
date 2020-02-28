@@ -1,0 +1,5 @@
+# name: dev
+# key: dev
+# --
+devices:
+	- ${1:value}
