@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: "goroutine named function"
+# key: g
+# --
+go ${1:funcName}($0)

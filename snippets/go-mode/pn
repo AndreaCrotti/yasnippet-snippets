@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: "panic"
+# key: pn
+# --
+panic("${0:msg}")

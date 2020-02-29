@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: "http handler function on reciever"
+# key: fumh
+# --
+func (${1:receiver} ${2:type}) ${3:funcName}(${4:w} http.ResponseWriter, ${5:r} *http.Request) {
+    ${0:`yas-selected-text`}
+}

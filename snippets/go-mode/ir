@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: "if error not nil, return err"
+# key: ir
+# --
+if err != nil {
+    return err
+}
+$0

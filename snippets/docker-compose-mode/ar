@@ -1,5 +1,0 @@
-# name: ar
-# key: ar
-# --
-args:
-	${1:name}: ${2:value}

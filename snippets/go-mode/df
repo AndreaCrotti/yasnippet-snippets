@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: "defer"
+# key: df
+# --
+defer ${0:func}()

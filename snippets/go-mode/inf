@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: "full interface "
+# key: inf
+# --
+interface ${1:name} {
+    ${2:/* methods */}
+}

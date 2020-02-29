@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: "defer recover"
+# key: dfr
+# --
+defer func() {
+    if err := recover(); err != nil {
+        ${0:`yas-selected-text`}
+    }
+}()

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: "Marshalable json alias"
+# key: ja
+# --
+type ${1:parentType}Alias $1
+
+func (p *$1) MarshalJSON() ([]byte, error) {
+    return json.Marshal(&struct{ *$1Alias }{(*$1Alias)(p)})
+}
+

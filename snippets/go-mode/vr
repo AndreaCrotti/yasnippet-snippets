@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: "variable initialization"
+# key: vr
+# --
+var ${1:t} ${0:string}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: "if key in a map"
+# key: om
+# --
+if ${1:value}, ok := ${2:map}[${3:key}]; ok == true {
+    ${4:/* code */}
+}
+

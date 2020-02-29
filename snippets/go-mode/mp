@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: "map"
+# key: mp
+# --
+map[${1:string}]${0:int}

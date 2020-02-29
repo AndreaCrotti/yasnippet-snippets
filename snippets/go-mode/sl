@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: "select"
+# key: sl
+# --
+select {
+case ${1:v1} := <-${2:chan1}
+    $3
+default:
+    $0
+}

@@ -1,0 +1,19 @@
+# -*- mode: snippet -*-
+# name: "table test function"
+# key: testt
+# --
+func Test${1:name}(t *testing.T) {
+    tests := []struct {
+        name string
+    }{
+        {
+            name: "${2:test name}",
+        },
+    }
+
+    for _, test := range tests {
+        t.Run(test.name, func(t *testing.T) {
+            ${0:`yas-selected-text`}
+        })
+    }
+}

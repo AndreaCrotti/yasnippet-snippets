@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: "fmt.Printf()"
+# key: pf
+# --
+fmt.Printf("%${1:s}\n", ${2:var})

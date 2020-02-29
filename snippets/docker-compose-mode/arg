@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: args
+# key: arg
+# --
+args:
+	${1:name}: ${2:value}

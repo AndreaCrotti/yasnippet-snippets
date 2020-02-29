@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: "channel"
+# key: ch
+# --
+chan ${0:int}

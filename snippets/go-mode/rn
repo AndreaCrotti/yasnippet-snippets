@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: "range"
+# key: rn
+# --
+range $0

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: "for int loop"
+# key: fori
+# --
+for ${2:i} := 0; $2 < ${1:count}; $2${3:++} {
+    ${0:`yas-selected-text`}
+}

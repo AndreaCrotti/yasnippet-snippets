@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: "case"
+# key: cs
+# --
+case ${1:value}:
+    ${0:`yas-selected-text`}

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: "shorthand variable declaration"
+# key: v
+# --
+$1 := $2

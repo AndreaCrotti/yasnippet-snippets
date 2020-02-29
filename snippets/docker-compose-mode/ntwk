@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: networks
+# key: ntwk
+# --
+networks:
+	- ${1:name}

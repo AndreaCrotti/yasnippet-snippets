@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: "Error handling with errors.Wrap"
+# key: errwr
+# --
+if $1err != nil {
+    return errors.Wrap(err, "$2")
+}

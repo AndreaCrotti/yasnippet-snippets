@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: "goroutine anonymous function"
+# key: ga
+# --
+go func($1 ${2:type}) {
+    ${3:/* code */}
+}($0)

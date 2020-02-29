@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: "variables declaration"
+# key: vars
+# --
+var (
+    $1 $2 = $3
+)

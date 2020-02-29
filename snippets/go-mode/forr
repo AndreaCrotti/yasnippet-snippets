@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: "for range loop"
+# key: forr
+# --
+for ${1:e} := range ${2:collection} {
+    ${0:`yas-selected-text`}
+}

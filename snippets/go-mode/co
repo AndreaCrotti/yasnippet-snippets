@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: "constants with iota"
+# key: co
+# --
+const (
+    ${1:NAME1} = iota
+    ${0:NAME2}
+)

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: "Grouped globals with anonymous struct"
+# key: gg
+# --
+var ${1:var} = struct{
+    ${2:name} ${3:type}
+}{
+    $2: ${4:value},
+}
+

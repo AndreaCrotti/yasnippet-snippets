@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: "fmt.Sprintf"
+# key: ps
+# --
+fmt.Sprintf("%${1:s}", ${2:var})

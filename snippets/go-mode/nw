@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: "new"
+# key: nw
+# --
+new(${0:type})
