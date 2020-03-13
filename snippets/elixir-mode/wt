@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: Miriam Retka (https://github.com/Auralcat)
+# name: wt
+# key: wt
+# --
+with ${1:{:ok, tuple} <- function(arg)}, do
+  $0
+end

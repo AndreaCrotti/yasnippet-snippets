@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# contributor: Miriam Retka (https://github.com/Auralcat)
+# name: wte
+# key: wte
+# --
+with ${1:{:ok, tuple} <- function(arg)}, do
+  $2
+else
+  $0
+end
