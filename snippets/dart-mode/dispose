@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: dispose
-# key: is
+# key: dis
 # group: flutter
 # --
 @override
