@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# name: suppperiodical
+# key: suppperiodical
+# author: Spenser Truex
+# --
+@suppperiodical{ ${title},
+author  = {${author}},
+title   = {${title}},
+journal = {${journal}},
+year    = {${year}}${,
+volume  = {${volume}}}${,
+number  = {${number}}}${,
+pages   = {${pages}}}${,
+month   = {${month}}}${,
+note    = {${note}}}
+}
+
+$0

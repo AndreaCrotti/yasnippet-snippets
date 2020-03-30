@@ -1,20 +1,22 @@
 # -*- mode: snippet -*-
-# name: inbook
-# key: inbook
+# name: mvbook
+# key: mvbook
+# author: Spenser Truex
 # --
-@inbook{ ${title},
+@mvbook{ ${title},
   author    = {${author}},
   title     = {${title}},
-  chapter   = {${chapter}}${,
-  pages     = {${pages}}},
-  publisher = {${publisher}},
-  year      = {${year}},
-  volume    = {${volume}}${,
+  year      = {${year}}${,
+  volume    = {${volume}}}${,
+  editor    = {${editor}}}${,
+  publisher = {${publisher}}}${,
+  number    = {${number}}}${,
   series    = {${series}}}${,
   type      = {${type}}}${,
   address   = {${address}}}${,
   edition   = {${edition}}}${,
   month     = {${month}}}${,
+  isbn      = {${isbn}}}${,
   note      = {${note}}}
 }
 

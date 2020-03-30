@@ -1,0 +1,19 @@
+# -*- mode: snippet -*-
+# name: proceedings
+# key: proceedings
+# author: Spenser Truex
+# --
+@mvproceedings{ ${title},
+title        = {${title}},
+year         = {${year}}${,
+editor       = {${editor}}}${,
+volume       = {${volume}}}${,
+series       = {${series}}}${,
+address      = {${address}}}${,
+month        = {${month}}}${,
+organization = {${organization}}}${,
+publisher    = {${publisher}}}${,
+note         = {${note}}}
+}
+
+$0

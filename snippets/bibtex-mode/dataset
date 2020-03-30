@@ -1,0 +1,17 @@
+# -*- mode: snippet -*-
+# name: dataset
+# key: dataset
+# author: Spenser Truex
+# --
+@dataset{ ${title}
+  title        = {${title}},
+  editor       = {${editor}},
+  year         = {${year}}${,
+  author       = {${author}}}${,
+  volume       = {${volume}}}${,
+  version      = {${version}}}${,
+  publisher    = {${publisher}}}${,
+  organization = {${organization}}}${,
+  note         = {${note}}}
+
+}
