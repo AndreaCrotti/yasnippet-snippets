@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: assignation
+# key: asg
+# --
+${1:variable} <= ${2:value};
