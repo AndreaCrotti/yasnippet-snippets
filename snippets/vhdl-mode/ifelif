@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: ifelif
+# key: ifelif
+# --
+if ${1:cond1} then
+   $0
+elsif ${2:cond2} then
+      
+end if;
