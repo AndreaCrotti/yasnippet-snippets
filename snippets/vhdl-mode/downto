@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: downto
+# key: dto
+# --
+${1:name}(${2:start} downto ${3:end})$0

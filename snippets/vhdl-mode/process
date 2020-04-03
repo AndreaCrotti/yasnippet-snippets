@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: process
+# key: process
+# --
+${1:Name}: process(${2:Sensitivity List})
+begin
+  $0
+end process $1;

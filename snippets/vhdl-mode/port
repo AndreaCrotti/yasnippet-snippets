@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: port
+# key: port
+# --
+port(${1:name}: ${2:IO} ${3:type});

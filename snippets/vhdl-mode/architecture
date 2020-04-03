@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: architecture
+# key: arch
+# --
+architecture ${1:Type} of ${2:Name} is
+begin
+  $0
+end $1;
