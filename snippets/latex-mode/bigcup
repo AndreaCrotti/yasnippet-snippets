@@ -2,4 +2,4 @@
 # name: bigcup
 # key: bigcup
 # --
-\bigcup_{$1}^{$2}$0
+\bigcup${1:\limits}_{$2}^{$3}$0
