@@ -3,4 +3,5 @@
 # name: Console.Write(...);
 # key: cw
 # --
+
 Console.Write(${1:Write});

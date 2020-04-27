@@ -1,0 +1,22 @@
+# -*- mode: snippet -*-
+# contributor : Alejandro Espinoza Esparza <aespinoza@structum.com.mx>
+# name: class ... { ctor dtor }
+# key: classfull
+# --
+
+${5:public} class ${1:Name}
+{
+    /// <summary>
+    /// ${3:Standard Constructor}
+    /// </summary>
+    public $1($2)
+    {
+    }
+
+    /// <summary>
+    /// ${4:Default Destructor}
+    /// </summary>
+    public $1()
+    {
+    }
+}

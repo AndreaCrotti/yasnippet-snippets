@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: switch (...) { default: }
+# key: switch
+# --
+
+switch (${1:switch_on})
+{
+    default: $0
+}

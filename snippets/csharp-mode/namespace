@@ -1,9 +1,9 @@
 # -*- mode: snippet -*-
-# contributor : Alejandro Espinoza Esparza <aespinoza@structum.com.mx>
-# name: namespace .. { ... }
+# name: namespace ... { ... }
 # key: namespace
 # --
-namespace $1
+
+namespace ${1:Namespace}.${2:Type}
 {
-$0
+    $0
 }

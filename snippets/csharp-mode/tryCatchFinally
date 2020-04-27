@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# contributor : Frede Brændstrup <frederikbraendstrup@gmail.com>
+# name: try {...} catch (ex) {...} finally {...}
+# key: trycf
+# --
+
+try
+{
+    $0
+}
+catch (${1:Exception} ex)
+{
+    ${2:Console.WriteLine(ex.ToString());}
+}
+finally
+{
+    $3
+}

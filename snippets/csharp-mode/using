@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
-# contributor : Alejandro Espinoza Esparza <aespinoza@structum.com.mx>
-# name: using ...;
+# name: using namespace.type.method;
 # key: using
 # --
-using $1;
+
+using ${1:Namespace}.${2:Type}.${3:Method};

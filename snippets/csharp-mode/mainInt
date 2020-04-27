@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-# name: ... Main(string[] args) {...}
+# name: ... int Main(string[] args) {...}
 # key: sim
 # --
 

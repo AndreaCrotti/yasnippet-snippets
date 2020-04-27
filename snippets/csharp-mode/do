@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: do {...} while (...)
+# key: do
+# --
+
+do
+{
+    $0
+} while (${1:Predicate});

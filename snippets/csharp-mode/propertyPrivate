@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: property { get; private set; }
+# key: propg
+# --
+
+public ${1:int} ${2:MyProperty} { get; private set; }

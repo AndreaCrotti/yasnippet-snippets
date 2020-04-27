@@ -1,7 +1,14 @@
 # -*- mode: snippet -*-
 # contributor : Frede Brændstrup <frederikbraendstrup@gmail.com>
-# name: Console.ReadLine(...);
-# key: crl
+# name: try {...} finally {...}
+# key: tryf
 # --
 
-Console.ReadLine(${1:Read});
+try
+{
+    $1
+}
+finally
+{
+    $0
+}

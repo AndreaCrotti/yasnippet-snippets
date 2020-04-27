@@ -3,6 +3,7 @@
 # name: foreach { ... }
 # key: fore
 # --
+
 foreach (${1:var} ${2:item} in ${3:list})
 {
     $0

@@ -1,13 +1,14 @@
 # -*- mode: snippet -*-
 # contributor : Frede Brændstrup <frederikbraendstrup@gmail.com>
 # name: try{...} catch (ex) {...}
-# key: tc
+# key: try
 # --
+
 try
 {
-	$0
+    $0
 }
 catch (${1:Exception} ex)
 {
-	${2:Console.WriteLine(ex.ToString());}
+    ${2:Console.WriteLine(ex.ToString());}
 }

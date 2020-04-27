@@ -1,9 +1,1 @@
-# -*- mode: snippet; require-final-newline: nil -*-
-# name: constructor
-# key: c
-# --
-public ${1:`(file-name-base
-              (or (buffer-file-name)
-                  (buffer-name)))`}($2) {
-       $0
-}
+k

@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
-# name: ... Main(string[] args) {...}
-# key: sim
+# name: ...void Main(string[] args) {...}
+# key: svm
 # --
 
 static int Main(string[] args)
