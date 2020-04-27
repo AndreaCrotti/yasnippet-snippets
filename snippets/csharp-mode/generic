@@ -3,7 +3,7 @@
 # key: generic
 # --
 
-public I${1:Generic}<${2:Type}> ${1:Name}()
+public I${3:Generic}<${2:Type}> ${1:Name}()
 {
     ${0:throw new NotImplementedException();}
 }

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: List<...> ...
+# key: list
+# --
+
+List<${2:Type}> ${1:Name}$0;
