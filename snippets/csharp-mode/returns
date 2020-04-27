@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: /// <returns>...</returns>
+# key: returns
+# --
+
+/// <returns>${1:Returns zero.}</returns>

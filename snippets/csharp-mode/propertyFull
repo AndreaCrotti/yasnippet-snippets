@@ -3,10 +3,10 @@
 # key: propfull
 # --
 
-private ${1:int} ${2:_myVar};
+private ${1:Type} ${2:_var};
 
-public $1 ${3:MyProperty}
+public $1 ${3:Name}
 {
-    get { return $2; }
-    set { $2 = value; }
+    get => $2;
+    set => $2 = value;
 }

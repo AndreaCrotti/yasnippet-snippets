@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: for (...) {...}
+# key: for
+# --
+
+for (${1:initializer}; ${2:condition}; ${3:iterator})
+{
+    ${0:body}
+}

@@ -4,4 +4,4 @@
 # key: crl
 # --
 
-Console.ReadLine(${1:Read});
+Console.ReadLine(${1:it});

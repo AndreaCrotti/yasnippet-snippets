@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: [attribute("...")]
+# key: attr
+# --
+
+[${1:Attribute}("${2:xxx.dll}")]

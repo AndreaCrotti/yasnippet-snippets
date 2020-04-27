@@ -1,10 +1,10 @@
 # -*- mode: snippet -*-
 # contributor : Jostein Kjønigsen <jostein@kjonigsen.net>
 # name: foreach { ... }
-# key: fore
+# key: foreach
 # --
 
-foreach (${1:var} ${2:item} in ${3:list})
+foreach (${1:var} ${2:item} in ${3:elements})
 {
-    $0
+    $2 $0
 }

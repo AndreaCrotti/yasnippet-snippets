@@ -1,10 +1,9 @@
 # -*- mode: snippet -*-
-# contributor : Alejandro Espinoza Esparza <aespinoza@structum.com.mx>
-# name: public void Method { ... }
+# name: ... Method(...) { ... }
 # key: method
 # --
 
-${1:public} ${2:void} ${3:Name}($4)
+${1:public} ${2:void} ${3:Name}(${4:Type} ${5:Arg})
 {
     $0
 }

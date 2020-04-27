@@ -3,4 +3,4 @@
 # key: propf
 # --
 
-public ${1:int} ${2:MyProperty} { get; set; } = ${2:value};
+public ${1:int} ${2:Name} { get; set; } = ${2:initialization};

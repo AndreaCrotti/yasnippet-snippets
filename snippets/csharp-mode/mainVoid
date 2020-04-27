@@ -3,8 +3,8 @@
 # key: svm
 # --
 
-static int Main(string[] args)
+static void Main(string[] args)
 {
     $0
-    return ${1:};
+    return;
 }

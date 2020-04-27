@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: #if ... #endif
+# key: #if
+# --
+
+#if ${1:DEBUG}
+    $0
+#endif

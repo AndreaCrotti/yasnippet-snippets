@@ -1,9 +1,9 @@
 # -*- mode: snippet -*-
-# name: class { }
+# name: class {...}
 # key: class
 # --
 
-class ${1:MyClass}
+class ${1:Name}
 {
     $0
 }

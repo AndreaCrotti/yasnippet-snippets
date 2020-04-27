@@ -1,9 +1,12 @@
 # -*- mode: snippet -*-
-# name: switch (...) { default: }
+# name: switch (...) {...}
 # key: switch
 # --
 
-switch (${1:switch_on})
+switch (${1:caseSwitch})
 {
-    default: $0
+    case $0:
+        break;
+    default:
+        break;
 }

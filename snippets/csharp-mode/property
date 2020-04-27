@@ -3,4 +3,4 @@
 # key: prop
 # --
 
-public ${1:int} ${2:MyProperty} { get; set; }
+public ${1:int} ${2:Name} { get; set; }

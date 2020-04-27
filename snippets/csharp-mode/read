@@ -4,4 +4,4 @@
 # key: cr
 # --
 
-Console.Read(${1:Read});
+Console.Read(${1:it});

@@ -14,5 +14,5 @@ catch (${1:Exception} ex)
 }
 finally
 {
-    $3
+
 }

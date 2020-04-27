@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: indexer { get{...[]}; set{[]...}; }
+# key: indexer
+# --
+
+public ${1:T}[] ${2:arr} = new $1[${3:100}]
+
+public $1 this[${4:i}]
+{
+    get { return $2[$4]; }
+    set { $2[$4] = value; }
+}

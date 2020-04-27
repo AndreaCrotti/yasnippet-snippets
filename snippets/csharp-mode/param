@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # contributor : Alejandro Espinoza Esparza <aespinoza@structum.com.mx>
 # name: /// <param name="..."> ... </param>
-# key: comment
+# key: param
 # --
 
-/// <param name="$1">$2</param>
+/// <param name="${1:name}">${2:description}</param>

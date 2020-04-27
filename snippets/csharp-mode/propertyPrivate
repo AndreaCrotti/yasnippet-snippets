@@ -3,4 +3,4 @@
 # key: propg
 # --
 
-public ${1:int} ${2:MyProperty} { get; private set; }
+public ${1:int} ${2:Name} { get; private set; }

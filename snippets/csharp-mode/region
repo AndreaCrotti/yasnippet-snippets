@@ -1,9 +1,8 @@
 # -*- mode: snippet -*-
-# contributor : Alejandro Espinoza Esparza <aespinoza@structum.com.mx>
 # name: #region ... #endregion
 # key: region
 # --
 
-#region $1
+#region ${1:Name definition}
     $0
 #endregion

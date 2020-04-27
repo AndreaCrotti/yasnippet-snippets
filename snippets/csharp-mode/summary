@@ -1,8 +1,9 @@
 # -*- mode: snippet -*-
 # name: /// <summary> ... </summary>
-# key: comment
+# key: summary
 # --
 
 /// <summary>
-/// $1
+/// $0
+/// <paramref name="${1:name}"/>>
 /// </summary>

@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: struct MyStruct {...} ...(){...}
+# key: struct
+# --
+
+readonly struct ${1:Name}
+{
+    public $1()
+    {
+        $0
+    }
+}
