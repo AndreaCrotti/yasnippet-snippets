@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-# name: namespace ... { ... }
+# name: namespace.type { ... }
 # key: namespace
 # --
 

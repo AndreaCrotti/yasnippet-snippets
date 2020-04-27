@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
-# name: property .... { get; set; } = ...;
+# name: Property:  Property: Acessor Type Name { get; set; } = ...;
 # key: propf
 # --
 
-public ${1:int} ${2:Name} { get; set; } = ${2:initialization};
+${1:Acessor} ${1:int} ${2:Name} { get; set; } = ${2:initialization};

@@ -1,21 +1,21 @@
 # -*- mode: snippet -*-
-# name: class ... { ctor dtor }
+# name: Class: ... Name { ctor dtor }
 # key: classfull
 # --
 
-${2:public} class ${1:Name}
+${1:public} class ${2:Name}
 {
     /// <summary>
     /// ${3:Standard Constructor}
     /// </summary>
-    public $1()
+    public $2()
     {
     }
 
     /// <summary>
     /// ${4:Default Destructor}
     /// </summary>
-    public $1()
+    public $2()
     {
     }
 }

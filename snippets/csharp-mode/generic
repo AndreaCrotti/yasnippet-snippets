@@ -1,9 +1,9 @@
 # -*- mode: snippet -*-
-# name: generic I...<...> ... () {...}
+# name: Generic: Acessor IGeneric<Type> Name () {...}
 # key: generic
 # --
 
-public I${3:Generic}<${2:Type}> ${1:Name}()
+${1:Acessor} I${2:Generic}<${3:Type}> ${4:Name}()
 {
     ${0:throw new NotImplementedException();}
 }

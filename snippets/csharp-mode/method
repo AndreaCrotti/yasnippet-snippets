@@ -1,9 +1,9 @@
 # -*- mode: snippet -*-
-# name: ... Method(...) { ... }
+# name: Method: Acessor Type Name(Args) { ... }
 # key: method
 # --
 
-${1:public} ${2:void} ${3:Name}(${4:Type} ${5:Arg})
+${1:Acessor} ${2:Type} ${3:Name}(${4:Type} ${5:Arg})
 {
     $0
 }

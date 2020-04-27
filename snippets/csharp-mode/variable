@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Variable: Acessor Type Name;
+# key: variable
+# --
+
+${1:Acessor} ${2:Type} ${3:Name}$0;

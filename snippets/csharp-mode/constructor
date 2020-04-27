@@ -1,10 +1,10 @@
 # -*- mode: snippet; require-final-newline: nil -*-
 # contributor : Alejandro Espinoza Esparza <aespinoza@structum.com.mx>
-# name: public constructor { ... }
+# name: Constructor: public Name { ... }
 # key: ctor
 # --
 
-public ${1:`(file-name-base (or (buffer-file-name) (buffer-name)))`}($2)
+${1:Acessor} ${2:`(file-name-base (or (buffer-file-name) (buffer-name)))`}($3)
 {
     $0
 }

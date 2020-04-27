@@ -1,9 +1,9 @@
 # -*- mode: snippet -*-
-# name: indexer { get{[]}; set{[]}; }
+# name: Indexer: Acessor T arr{ get{[]}; set{[]}; }
 # key: indexer
 # --
 
-public ${1:T}[] ${2:arr} = new $1[${3:100}]
+${1:Acessor} ${1:T}[] ${2:arr} = new $1[${3:100}]
 
 public $1 this[${4:i}]
 {
