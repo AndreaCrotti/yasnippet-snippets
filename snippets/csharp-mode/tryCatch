@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # contributor : Frede Brændstrup <frederikbraendstrup@gmail.com>
-# name: try{...} catch (ex) {...}
+# name: try{...} catch (... ex) {...}
 # key: try
 # --
 

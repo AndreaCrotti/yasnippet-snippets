@@ -6,5 +6,5 @@
 
 foreach (${1:var} ${2:item} in ${3:elements})
 {
-    $2 $0
+    $0
 }

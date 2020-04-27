@@ -1,5 +1,4 @@
 # -*- mode: snippet -*-
-# contributor : Frede Brændstrup <frederikbraendstrup@gmail.com>
 # name: try {...} finally {...}
 # key: tryf
 # --

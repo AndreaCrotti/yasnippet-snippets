@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # contributor : Alejandro Espinoza Esparza <aespinoza@structum.com.mx>
 # name: /// <exception cref="..."> ... </exception>
-# key: comment
+# key: exception
 # --
 
-/// <exception cref="$1">$2</exception>
+/// <exception cref="${1:member}">${2:description}</exception><exception cref=""></exception>
