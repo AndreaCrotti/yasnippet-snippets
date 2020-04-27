@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-# name: property { get; private set; }
+# name: property ... { get; private set; }
 # key: propg
 # --
 

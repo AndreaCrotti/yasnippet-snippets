@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-# name: struct Name {...} ...(){...}
+# name: struct ... {...} ...(){...}
 # key: struct
 # --
 

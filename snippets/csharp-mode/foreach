@@ -1,6 +1,5 @@
 # -*- mode: snippet -*-
-# contributor : Jostein Kjønigsen <jostein@kjonigsen.net>
-# name: foreach { ... }
+# name: foreach (...) { ... }
 # key: foreach
 # --
 

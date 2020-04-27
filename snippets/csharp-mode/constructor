@@ -1,5 +1,6 @@
 # -*- mode: snippet; require-final-newline: nil -*-
-# name: constructor
+# contributor : Alejandro Espinoza Esparza <aespinoza@structum.com.mx>
+# name: public constructor { ... }
 # key: ctor
 # --
 
