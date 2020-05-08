@@ -2,6 +2,6 @@
 # name: method
 # key: m
 # --
-${1:public} ${2:void} ${3:name}(${4:args}) {
+${1:$$(yas-choose-value '("public" "private" "protected" ""))} ${2:void} ${3:name}(${4:args}) {
             $0
 }
