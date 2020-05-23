@@ -2,4 +2,4 @@
 # name: param
 # key: param
 # --
-@param ${1:paramater} $0
+@param ${1:parameter} $0
