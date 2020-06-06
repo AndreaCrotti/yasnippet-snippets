@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: electronic
+# key: electronic
+# author: Spenser Truex
+# --
+@electronic{ ${title},
+author  = {${author}},
+title   = {${title}},
+year    = {${year}},
+url     = {${url}}${,
+editor  = {${editor}}}${,
+urldate = {${urldate}}}${,
+note    = {${note}}}
+}

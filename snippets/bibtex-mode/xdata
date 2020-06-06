@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: xdata
+# key: xdata
+# author: Spenser Truex
+# --
+@xdata{ ${title},
+  $0
+}

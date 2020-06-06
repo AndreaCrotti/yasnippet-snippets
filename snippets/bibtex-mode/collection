@@ -1,0 +1,22 @@
+# -*- mode: snippet -*-
+# name: collection
+# key: collection
+# author: Spenser Truex
+# --
+@collection{ ${title},
+  editor    = {${editor}},
+  title     = {${title}},
+  year      = {${year}}${,
+  publisher = {${publisher}}}${,
+  volume    = {${volume}}}${,
+  series    = {${series}}}${,
+  type      = {${type}}}${,
+  chapter   = {${chapter}}}${,
+  pages     = {${pages}}}${,
+  address   = {${address}}}${,
+  edition   = {${edition}}}${,
+  month     = {${month}}}${,
+  note      = {${note}}}
+}
+
+$0
