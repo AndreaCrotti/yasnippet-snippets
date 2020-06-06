@@ -8,14 +8,14 @@
 import React, { PureComponent } from 'react'
 import { Text, View } from 'react-native'
 
-export class ${1:${TM_FILENAME_BASE}} extends PureComponent {
+export class ${1:`(yas-jsx-get-class-name-by-file-name)`} extends PureComponent {
   render() {
     return (
       <View>
-        <Text> ${2:textInComponent} </Text>
+        <Text>${2:textInComponent}</Text>
       </View>
     )
   }
 }
 
-export default ${1:${TM_FILENAME_BASE}}
+export default $1

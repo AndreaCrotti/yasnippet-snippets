@@ -8,7 +8,7 @@
 import React, { PureComponent } from 'react'
 import PropTypes from 'prop-types'
 
-export default class ${1:${TM_FILENAME_BASE}} extends PureComponent {
+export default class ${1:`(yas-jsx-get-class-name-by-file-name)`} extends PureComponent {
   static propTypes = {
 
   }
