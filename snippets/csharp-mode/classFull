@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: Class: ... Name { ctor dtor }
-# key: classfull
+# key: class
 # --
 
 ${1:public} class ${2:Name}
