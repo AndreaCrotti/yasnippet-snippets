@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: Property: Acessor Type Name { get; private set; }
-# key: propg
+# key: prop
 # --
 
 ${1:Acessor} ${2:int} ${3:Name} { get; private set; }

@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: Property:  Property: Acessor Type Name { get; set; } = ...;
-# key: propf
+# key: prop
 # --
 
 ${1:Acessor} ${1:int} ${2:Name} { get; set; } = ${2:initialization};

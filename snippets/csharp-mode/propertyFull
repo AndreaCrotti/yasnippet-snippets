@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: Property: _var; Acessor Type Name { get => _var; set => _var = value; }
-# key: propfull
+# key: prop
 # --
 
 private ${1:Type} ${2:_var};
