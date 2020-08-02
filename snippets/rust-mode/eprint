@@ -2,4 +2,4 @@
 # name: eprint!("{}", value);
 # key: eprint
 # --
-eprint!("${1:{}}", $2);
+eprint!("${1:{\}}", $2);
