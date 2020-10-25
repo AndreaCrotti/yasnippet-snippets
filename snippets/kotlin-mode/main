@@ -2,6 +2,6 @@
 # name: main() function
 # key: main
 # --
-fun main(args: Array<string>) {
+fun main(args: Array<String>) {
     $0
 }
