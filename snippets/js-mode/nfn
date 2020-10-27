@@ -6,5 +6,5 @@
 # --
 
 const ${1:name} = (${2:params}) => {
-  ${3}
+  ${3:body}
 }
