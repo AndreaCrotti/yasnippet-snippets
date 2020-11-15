@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# contributor: M. Yas. Davoodeh
+# name: while (...)
+# --
+while (${1:condition}) is (${2:Yes})
+    $0
+endwhile

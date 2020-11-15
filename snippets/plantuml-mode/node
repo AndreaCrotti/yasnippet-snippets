@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# contributor: M. Yas. Davoodeh
+# name: node ... {...}
+# --
+node ${1:Name} ${2:}{
+    $0
+}

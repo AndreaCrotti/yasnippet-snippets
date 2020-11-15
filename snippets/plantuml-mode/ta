@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: M. Yas. Davoodeh
+# name: From -[attr]-> To
+# key: trigger-key
+# condition: t
+# --
+${1:From} -[${2:hidden}]${4:-}> ${3:To}
+

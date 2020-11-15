@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# contributor: M. Yas. Davoodeh
+# name: start and end uml
+# --
+@startuml
+$0
+@enduml

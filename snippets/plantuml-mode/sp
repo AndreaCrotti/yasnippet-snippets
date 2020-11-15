@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# contributor: M. Yas. Davoodeh
+# name: skinparam
+# --
+skinparam ${1:param} {
+    $0
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: M. Yas. Davoodeh
+# name: state ... {...}
+# --
+state ${1:Name} ${2:}{
+    $0
+}
+
