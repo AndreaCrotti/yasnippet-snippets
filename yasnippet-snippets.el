@@ -7,6 +7,7 @@
 ;; Version: 0.2
 ;; Package-Requires: ((yasnippet "0.8.0"))
 ;; Keywords: convenience, snippets
+;; Homepage: https://github.com/AndreaCrotti/yasnippet-snippets
 
 ;;; Commentary:
 
