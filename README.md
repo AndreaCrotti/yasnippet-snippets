@@ -19,7 +19,7 @@ You can install this package from melpa, by first ensuring that you have the mel
 ```lisp
 (require 'package)
 (add-to-list 'package-archives
-             '("melpa" . "http://melpa.milkbox.net/packages/") t)
+             '("melpa" . "http://melpa.org/packages/") t)
 (package-initialize)
 ```
 
