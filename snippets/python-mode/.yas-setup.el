@@ -1,4 +1,5 @@
 (require 'yasnippet)
+(require 'yasnippet-snippets)
 (defvar yas-text)
 
 (defun python-split-args (arg-string)
