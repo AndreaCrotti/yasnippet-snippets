@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: given
+# key: given
+# --
+given ${1:variable} {
+  when ${2:condition} { ${3:block} }
+  when ${4:condition} { ${5:block} }
+  default { ${6:default-block} }
+}

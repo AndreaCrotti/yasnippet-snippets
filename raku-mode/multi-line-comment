@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: multi-line and in-the-middle comments
+# key: co
+# --
+#`($0)

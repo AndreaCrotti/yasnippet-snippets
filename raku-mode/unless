@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: unless
+# key: un
+# --
+unless ${1:condition} {
+  $0
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: for variable
+# key: forv
+# --
+for ${1:list} -> ${2:i} {
+  $0
+}

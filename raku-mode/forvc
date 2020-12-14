@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: for variable is copy
+# key: forvc
+# --
+for ${1:list} -> ${2:i} is copy {
+  $0
+}
+
