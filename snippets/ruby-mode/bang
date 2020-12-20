@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: #!
+# key: #!
+# --
+#!/usr/bin/env ruby
