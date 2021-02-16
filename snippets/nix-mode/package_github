@@ -5,27 +5,33 @@
 { lib
 , stdenv
 , fetchFromGitHub
-$1
+, $1
+, $2
 }:
 
 stdenv.mkDerivation rec {
-  pname = "$2";
-  version = "$3";
+  pname = "$3";
+  version = "$4";
 
   src = fetchFromGitHub {
-    owner = "$4";
-    repo = "$2";
-    rev = "${5:v\$\{version\}}";
-    sha256 = "${6:\$\{lib.fakeSha256\}}";
+    owner = "$5";
+    repo = ${6:pname};
+    rev = "${7:v\$\{version\}}";
+    sha256 = "${8:\$\{lib.fakeSha256\}}";
   };
 
-  nativeBuildInputs = [ ];
-  buildInputs = [ $1 ];
+  nativeBuildInputs = [ ${1:$(replace-regexp-in-string "  *" " "(subst-char-in-string ?, ? yas-text))} ];
+  buildInputs = [
+    ${2:$(replace-regexp-in-string "  *" " "(subst-char-in-string ?, ? yas-text))}
+  ];
 
   meta = with lib; {
-    homepage = "https://${7:github.com/$4/$2}";
-    description = "$8";
-    license = licenses.${9:$$
+    homepage = "https://${9:github.com/$5/$3}";
+    description = "$10";
+    longDescription = ''
+      $11
+    '';
+    license = licenses.${12:$$
   (yas-choose-value '(
     "agpl3"
     "asl20"
@@ -51,26 +57,26 @@ stdenv.mkDerivation rec {
     "ofl"
     "unfree"
   ))};
-    maintainers = with maintainers; [ $10 ];
-    platforms = platforms.${11:$$
+    maintainers = with maintainers; [ $12 ];
+    platforms = platforms.${13:$$
   (yas-choose-value '(
-  "all"
-  "allBut"
-  "arm"
-  "cygwin"
-  "darwin"
-  "freebsd"
-  "gnu"
-  "i686"
-  "illumos"
-  "linux"
-  "mesaPlatforms"
-  "mips"
-  "netbsd"
-  "none"
-  "openbsd"
-  "unix"
-  "x86"
+    "all"
+    "allBut"
+    "arm"
+    "cygwin"
+    "darwin"
+    "freebsd"
+    "gnu"
+    "i686"
+    "illumos"
+    "linux"
+    "mesaPlatforms"
+    "mips"
+    "netbsd"
+    "none"
+    "openbsd"
+    "unix"
+    "x86"
   ))};
   };
 }
