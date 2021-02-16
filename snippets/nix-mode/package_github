@@ -2,7 +2,11 @@
 # name: package github
 # key: pg
 # --
-{ stdenv, fetchFromGitHub$1 }:
+{ lib
+, stdenv
+, fetchFromGitHub
+$1
+}:
 
 stdenv.mkDerivation rec {
   pname = "$2";
@@ -12,56 +16,61 @@ stdenv.mkDerivation rec {
     owner = "$4";
     repo = "$2";
     rev = "${5:v\$\{version\}}";
-    sha256 = "$6";
+    sha256 = "${6:\$\{lib.fakeSha256\}}";
   };
 
+  nativeBuildInputs = [ ];
   buildInputs = [ $1 ];
 
-  meta = with stdenv.lib; {
-    description = "$7";
-    homepage = "https://${8:github.com/$4/$2}";
-
+  meta = with lib; {
+    homepage = "https://${7:github.com/$4/$2}";
+    description = "$8";
     license = licenses.${9:$$
   (yas-choose-value '(
-  "asl20"
-  "bsd2"
-  "bsd3"
-  "free"
-  "gpl2Only"
-  "gpl2Plus"
-  "gpl3Only"
-  "gpl3Plus"
-  "isc"
-  "lgpl21Only"
-  "lgpl21Plus"
-  "lgpl2Only"
-  "lgpl2Plus"
-  "lgpl3Only"
-  "mit"
-  "mpl20"
-  "ofl"
-  "unfree"
+    "agpl3"
+    "asl20"
+    "bsd1"
+    "bsd2"
+    "bsd3"
+    "free"
+    "gpl2"
+    "gpl2Only"
+    "gpl2Plus"
+    "gpl3"
+    "gpl3Only"
+    "gpl3Plus"
+    "isc"
+    "lgpl21Only"
+    "lgpl21Plus"
+    "lgpl2Only"
+    "lgpl2Plus"
+    "lgpl3"
+    "lgpl3Only"
+    "mit"
+    "mpl20"
+    "ofl"
+    "unfree"
   ))};
     maintainers = with maintainers; [ $10 ];
     platforms = platforms.${11:$$
   (yas-choose-value '(
-  "linux"
-  "unix"
   "all"
-  "darwin"
-  "gnu"
-  "freebsd"
-  "openbsd"
-  "netbsd"
-  "cygwin"
-  "illumos"
-  "none"
   "allBut"
-  "mesaPlatforms"
-  "x86"
-  "i686"
   "arm"
+  "cygwin"
+  "darwin"
+  "freebsd"
+  "gnu"
+  "i686"
+  "illumos"
+  "linux"
+  "mesaPlatforms"
   "mips"
+  "netbsd"
+  "none"
+  "openbsd"
+  "unix"
+  "x86"
   ))};
   };
 }

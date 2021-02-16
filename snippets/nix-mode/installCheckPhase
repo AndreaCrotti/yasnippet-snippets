@@ -3,6 +3,8 @@
 # key: ic
 # --
 installCheckPhase= ''
+  runHook preInstallCheck
 $1
+  runHook postInstallCheck
 '';
 $0

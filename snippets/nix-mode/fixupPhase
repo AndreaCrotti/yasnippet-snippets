@@ -2,7 +2,9 @@
 # name: fixPhase
 # key: fp
 # --
-fixPhase= ''
+fixupPhase= ''
+  runHook preFixup
 $1
+  runHook postFixup
 '';
 $0

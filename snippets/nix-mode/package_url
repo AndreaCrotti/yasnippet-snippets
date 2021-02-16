@@ -2,53 +2,73 @@
 # name: package url
 # key: pu
 # --
-{ stdenv, fetchurl$1}:
+{ lib
+, stdenv
+, fetchurl
+$1
+}:
 
 stdenv.mkDerivation rec {
-  version = "$2";
-  name = "$3-\$\{version\}";
+  pname = "$2";
+  version = "$3";
 
   src = fetchurl {
     url = "$4";
-    sha256 = "$5";
+    sha256 = "${5:\$\{lib.fakeSha256\}}";
   };
 
+  nativeBuildInputs = [ ];
   buildInputs = [ $1 ];
 
-  meta = {
-    description = "$6";
-    homepage = https://$7;
-    license = stdenv.lib.licenses.${8:$$
+  meta = with lib; {
+    homepage = "https://$6";
+    description = "$7";
+    license = licenses.${8:$$
   (yas-choose-value '(
     "agpl3"
     "asl20"
+    "bsd1"
     "bsd2"
     "bsd3"
+    "free"
     "gpl2"
+    "gpl2Only"
+    "gpl2Plus"
     "gpl3"
+    "gpl3Only"
+    "gpl3Plus"
+    "isc"
+    "lgpl21Only"
+    "lgpl21Plus"
+    "lgpl2Only"
+    "lgpl2Plus"
     "lgpl3"
+    "lgpl3Only"
     "mit"
+    "mpl20"
+    "ofl"
+    "unfree"
   ))};
-    maintainers = [ stdenv.lib.maintainers.$9 ];
-    platforms = stdenv.lib.platforms.${10:$$
+    maintainers = with maintainers; [ $9 ];
+    platforms = platforms.${10:$$
   (yas-choose-value '(
-  "gnu"
-  "linux"
+  "all"
+  "allBut"
+  "arm"
+  "cygwin"
   "darwin"
   "freebsd"
-  "openbsd"
-  "netbsd"
-  "cygwin"
-  "illumos"
-  "unix"
-  "all"
-  "none"
-  "allBut"
-  "mesaPlatforms"
-  "x86"
+  "gnu"
   "i686"
-  "arm"
+  "illumos"
+  "linux"
+  "mesaPlatforms"
   "mips"
+  "netbsd"
+  "none"
+  "openbsd"
+  "unix"
+  "x86"
   ))};
   };
 }

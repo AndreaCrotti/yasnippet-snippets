@@ -3,6 +3,8 @@
 # key: ch
 # --
 checkPhase= ''
+  runHook preCheck
 $1
+  runHook postCheck
 '';
 $0

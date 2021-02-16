@@ -3,6 +3,8 @@
 # key: bp
 # --
 buildPhase= ''
+  runHook preBuild
 $1
+  runHook postBuild
 '';
 $0
