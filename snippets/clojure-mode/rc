@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: rich comment
+# key: rc
+# --
+(comment
+  $0$>
+  ,)$>
