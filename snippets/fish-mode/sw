@@ -4,5 +4,5 @@
 # --
 switch ${1:condition}
     case ${2:*}
-         ${0}
+         $0
 end
