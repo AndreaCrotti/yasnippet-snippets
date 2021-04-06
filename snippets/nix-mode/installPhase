@@ -3,10 +3,12 @@
 # key: ip
 # --
 installPhase= ''
+  runHook preInstall
 ${1:    mkdir -p \$out/bin
     for f in \$(find . -executable -type f);
     do
       cp \$f \$out/bin/
     done}
+  runHook postInstall
 '';
 $0
