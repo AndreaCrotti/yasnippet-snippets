@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: multi
+# key: multi
+# --
+multi ${1:subrutine}${2:(${3:args})} {
+  $0
+}
