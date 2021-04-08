@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# contributor: M. Yas. Davoodeh
+# name: !pragma useVerticalIf on
+# --
+!pragma useVerticalIf on

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# contributor: M. Yas. Davoodeh
+# name: Up -down-> Down
+# --
+${1:Up} -down${3:-}> ${2:Down}

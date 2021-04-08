@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: M. Yas. Davoodeh
+# name: elseif (...) is (...) ...
+# --
+elseif (${1:condition}) is (${2:Yes})
+    $0

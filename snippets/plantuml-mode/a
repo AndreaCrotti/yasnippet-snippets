@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# contributor: M. Yas. Davoodeh
+# name: {abstract}
+# --
+{abstract} $0

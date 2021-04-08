@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# contributor: M. Yas. Davoodeh
+# name: package ... {...}
+# --
+package ${1:Name} <<${2:Rectangle}>> ${3:}{
+    $0
+}

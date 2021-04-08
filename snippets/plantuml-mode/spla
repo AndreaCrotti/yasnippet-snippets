@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: M. Yas. Davoodeh
+# name: split again
+# --
+split again
+    $0

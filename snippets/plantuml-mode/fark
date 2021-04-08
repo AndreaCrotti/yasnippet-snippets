@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: M. Yas. Davoodeh
+# name: fork again
+# --
+fork again
+    $0

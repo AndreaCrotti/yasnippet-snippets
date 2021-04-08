@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: M. Yas. Davoodeh
+# name: else (...)
+# --
+else ${1:(No)}
+    $0

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: M. Yas. Davoodeh
+# name: frame
+# --
+frame ${1:Name} ${2:}{
+    $0
+}
+
