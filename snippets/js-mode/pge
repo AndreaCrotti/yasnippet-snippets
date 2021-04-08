@@ -6,5 +6,5 @@
 # --
 
 get ${1:propertyName}() {
-  return this.${0}
+  return this.${2:propertyName}
 }

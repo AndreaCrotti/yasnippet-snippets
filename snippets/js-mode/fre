@@ -6,5 +6,5 @@
 # --
 
 ${1:array}.forEach(${2:currentItem} => {
-  ${0}
+  $0
 })
