@@ -1,0 +1,19 @@
+# -*- mode: snippet -*-
+# name: r_aws_codebuild_project
+# key: r_aws_codebuild_project
+# --
+resource "aws_codebuild_project" "$1" {
+	artifacts {
+		type = ""
+	}
+	environment {
+		compute_type = ""
+		image = ""
+		type = ""
+	}
+	name = "$4"
+	service_role = "$5"
+	source {
+		type = ""
+	}
+}

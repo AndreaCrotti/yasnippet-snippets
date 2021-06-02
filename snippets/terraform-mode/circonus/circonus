@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: circonus
+# key: circonus
+# --
+provider "circonus" {
+	key = "$1"
+}

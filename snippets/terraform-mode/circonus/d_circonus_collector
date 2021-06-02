@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_circonus_collector
+# key: d_circonus_collector
+# --
+data "circonus_collector" "$1" {
+	
+}

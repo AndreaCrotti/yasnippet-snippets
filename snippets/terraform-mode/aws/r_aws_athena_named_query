@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_athena_named_query
+# key: r_aws_athena_named_query
+# --
+resource "aws_athena_named_query" "$1" {
+	database = "$2"
+	name = "$3"
+	query = "$4"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_azurerm_network_interface
+# key: d_azurerm_network_interface
+# --
+data "azurerm_network_interface" "$1" {
+	name = "$2"
+	resource_group_name = "$3"
+}

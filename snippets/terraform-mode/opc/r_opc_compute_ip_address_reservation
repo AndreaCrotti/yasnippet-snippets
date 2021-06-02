@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_opc_compute_ip_address_reservation
+# key: r_opc_compute_ip_address_reservation
+# --
+resource "opc_compute_ip_address_reservation" "$1" {
+	ip_address_pool = "$2"
+	name = "$3"
+}

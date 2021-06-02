@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_vpc_dhcp_options_association
+# key: r_aws_vpc_dhcp_options_association
+# --
+resource "aws_vpc_dhcp_options_association" "$1" {
+	dhcp_options_id = "$2"
+	vpc_id = "$3"
+}

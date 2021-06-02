@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_route
+# key: r_azurerm_route
+# --
+resource "azurerm_route" "$1" {
+	address_prefix = "$2"
+	name = "$3"
+	next_hop_type = "$4"
+	resource_group_name = "$5"
+	route_table_name = "$6"
+}

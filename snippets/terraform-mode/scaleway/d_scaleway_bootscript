@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_scaleway_bootscript
+# key: d_scaleway_bootscript
+# --
+data "scaleway_bootscript" "$1" {
+	
+}

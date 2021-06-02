@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_firewall
+# key: r_azurerm_firewall
+# --
+resource "azurerm_firewall" "$1" {
+	ip_configuration {
+		name = ""
+		subnet_id = ""
+	}
+	location = "$3"
+	name = "$4"
+	resource_group_name = "$5"
+}

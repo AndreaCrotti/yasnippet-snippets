@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_vsphere_host_port_group
+# key: r_vsphere_host_port_group
+# --
+resource "vsphere_host_port_group" "$1" {
+	host_system_id = "$2"
+	name = "$3"
+	virtual_switch_name = "$4"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_azurerm_app_service_plan
+# key: d_azurerm_app_service_plan
+# --
+data "azurerm_app_service_plan" "$1" {
+	name = "$2"
+	resource_group_name = "$3"
+}

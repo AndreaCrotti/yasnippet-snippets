@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_panos_license_api_key
+# key: r_panos_license_api_key
+# --
+resource "panos_license_api_key" "$1" {
+	key = "$2"
+}

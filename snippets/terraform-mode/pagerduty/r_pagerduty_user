@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_pagerduty_user
+# key: r_pagerduty_user
+# --
+resource "pagerduty_user" "$1" {
+	email = "$2"
+	name = "$3"
+}

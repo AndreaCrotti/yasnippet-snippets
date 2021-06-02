@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: dme
+# key: dme
+# --
+provider "dme" {
+	akey = "$1"
+	skey = "$2"
+	usesandbox = ${3:false}
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_network_interface
+# key: r_alicloud_network_interface
+# --
+resource "alicloud_network_interface" "$1" {
+	security_groups = ["$2"]
+	vswitch_id = "$3"
+}

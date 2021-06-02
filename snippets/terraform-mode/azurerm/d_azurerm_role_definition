@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_azurerm_role_definition
+# key: d_azurerm_role_definition
+# --
+data "azurerm_role_definition" "$1" {
+	role_definition_id = "$2"
+	scope = "$3"
+}

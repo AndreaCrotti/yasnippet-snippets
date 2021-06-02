@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_flexibleengine_lb_pool_v2
+# key: r_flexibleengine_lb_pool_v2
+# --
+resource "flexibleengine_lb_pool_v2" "$1" {
+	lb_method = "$2"
+	protocol = "$3"
+}

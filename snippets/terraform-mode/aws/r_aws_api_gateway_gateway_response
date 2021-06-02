@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_api_gateway_gateway_response
+# key: r_aws_api_gateway_gateway_response
+# --
+resource "aws_api_gateway_gateway_response" "$1" {
+	response_type = "$2"
+	rest_api_id = "$3"
+}

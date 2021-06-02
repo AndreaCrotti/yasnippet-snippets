@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_ns1_notifylist
+# key: r_ns1_notifylist
+# --
+resource "ns1_notifylist" "$1" {
+	name = "$2"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_rancher_host
+# key: r_rancher_host
+# --
+resource "rancher_host" "$1" {
+	environment_id = "$2"
+	hostname = "$3"
+	name = "$4"
+}

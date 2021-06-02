@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_azurerm_virtual_machine
+# key: d_azurerm_virtual_machine
+# --
+data "azurerm_virtual_machine" "$1" {
+	name = "$2"
+	resource_group_name = "$3"
+}

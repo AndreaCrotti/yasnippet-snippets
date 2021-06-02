@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_random_string
+# key: r_random_string
+# --
+resource "random_string" "$1" {
+	length = $2
+}

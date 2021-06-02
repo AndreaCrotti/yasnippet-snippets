@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_firewall_network_rule_collection
+# key: r_azurerm_firewall_network_rule_collection
+# --
+resource "azurerm_firewall_network_rule_collection" "$1" {
+	action = "$2"
+	azure_firewall_name = "$3"
+	name = "$4"
+	priority = $5
+	resource_group_name = "$6"
+	rule {
+		destination_addresses = [""]
+		destination_ports = [""]
+		name = ""
+		protocols = [""]
+		source_addresses = [""]
+	}
+}

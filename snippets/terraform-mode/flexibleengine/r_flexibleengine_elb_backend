@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_flexibleengine_elb_backend
+# key: r_flexibleengine_elb_backend
+# --
+resource "flexibleengine_elb_backend" "$1" {
+	address = "$2"
+	listener_id = "$3"
+	server_id = "$4"
+}

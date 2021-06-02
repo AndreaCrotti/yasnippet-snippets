@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_rabbitmq_vhost
+# key: r_rabbitmq_vhost
+# --
+resource "rabbitmq_vhost" "$1" {
+	name = "$2"
+}

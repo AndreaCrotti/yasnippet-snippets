@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_rightscale_deployment
+# key: r_rightscale_deployment
+# --
+resource "rightscale_deployment" "$1" {
+	name = "$2"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_vcd_firewall_rules
+# key: r_vcd_firewall_rules
+# --
+resource "vcd_firewall_rules" "$1" {
+	default_action = "$2"
+	edge_gateway = "$3"
+}

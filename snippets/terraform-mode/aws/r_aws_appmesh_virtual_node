@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_aws_appmesh_virtual_node
+# key: r_aws_appmesh_virtual_node
+# --
+resource "aws_appmesh_virtual_node" "$1" {
+	mesh_name = "$2"
+	name = "$3"
+	spec {
+	
+	}
+}

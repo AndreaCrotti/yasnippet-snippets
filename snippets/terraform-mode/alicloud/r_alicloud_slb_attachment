@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_slb_attachment
+# key: r_alicloud_slb_attachment
+# --
+resource "alicloud_slb_attachment" "$1" {
+	instance_ids = ["$2"]
+	load_balancer_id = "$3"
+}

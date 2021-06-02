@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_db_option_group
+# key: r_aws_db_option_group
+# --
+resource "aws_db_option_group" "$1" {
+	engine_name = "$2"
+	major_engine_version = "$3"
+}

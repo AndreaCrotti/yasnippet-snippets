@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_aws_api_gateway_method_settings
+# key: r_aws_api_gateway_method_settings
+# --
+resource "aws_api_gateway_method_settings" "$1" {
+	method_path = "$2"
+	rest_api_id = "$3"
+	settings {
+	
+	}
+	stage_name = "$5"
+}

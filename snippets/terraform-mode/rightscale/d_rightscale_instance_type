@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_rightscale_instance_type
+# key: d_rightscale_instance_type
+# --
+data "rightscale_instance_type" "$1" {
+	cloud_href = "$2"
+}

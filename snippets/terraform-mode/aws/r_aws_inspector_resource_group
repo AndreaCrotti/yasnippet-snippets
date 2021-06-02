@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_inspector_resource_group
+# key: r_aws_inspector_resource_group
+# --
+resource "aws_inspector_resource_group" "$1" {
+	tags {
+
+	}
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: chef
+# key: chef
+# --
+provider "chef" {
+	client_name = "$1"
+	server_url = "$2"
+}

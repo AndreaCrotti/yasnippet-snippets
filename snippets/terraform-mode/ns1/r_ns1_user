@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_ns1_user
+# key: r_ns1_user
+# --
+resource "ns1_user" "$1" {
+	email = "$2"
+	name = "$3"
+	username = "$4"
+}

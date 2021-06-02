@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: grafana
+# key: grafana
+# --
+provider "grafana" {
+	auth = "$1"
+	url = "$2"
+}

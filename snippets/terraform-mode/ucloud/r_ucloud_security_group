@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_ucloud_security_group
+# key: r_ucloud_security_group
+# --
+resource "ucloud_security_group" "$1" {
+	rules {
+		port_range = ""
+	}
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_subnet
+# key: r_azurerm_subnet
+# --
+resource "azurerm_subnet" "$1" {
+	address_prefix = "$2"
+	name = "$3"
+	resource_group_name = "$4"
+	virtual_network_name = "$5"
+}

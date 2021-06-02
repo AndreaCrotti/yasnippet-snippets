@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_cloudstack_network_acl
+# key: r_cloudstack_network_acl
+# --
+resource "cloudstack_network_acl" "$1" {
+	name = "$2"
+	vpc_id = "$3"
+}

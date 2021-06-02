@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_ec2_transit_gateway
+# key: d_aws_ec2_transit_gateway
+# --
+data "aws_ec2_transit_gateway" "$1" {
+	
+}

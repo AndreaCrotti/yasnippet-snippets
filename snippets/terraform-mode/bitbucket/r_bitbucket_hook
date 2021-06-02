@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_bitbucket_hook
+# key: r_bitbucket_hook
+# --
+resource "bitbucket_hook" "$1" {
+	description = "$2"
+	events = ["$3"]
+	owner = "$4"
+	repository = "$5"
+	url = "$6"
+}

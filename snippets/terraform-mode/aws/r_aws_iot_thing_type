@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_iot_thing_type
+# key: r_aws_iot_thing_type
+# --
+resource "aws_iot_thing_type" "$1" {
+	name = "$2"
+}

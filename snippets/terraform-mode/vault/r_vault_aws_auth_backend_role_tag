@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_vault_aws_auth_backend_role_tag
+# key: r_vault_aws_auth_backend_role_tag
+# --
+resource "vault_aws_auth_backend_role_tag" "$1" {
+	role = "$2"
+}

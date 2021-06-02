@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_shared_image_version
+# key: r_azurerm_shared_image_version
+# --
+resource "azurerm_shared_image_version" "$1" {
+	gallery_name = "$2"
+	image_name = "$3"
+	location = "$4"
+	managed_image_id = "$5"
+	name = "$6"
+	resource_group_name = "$7"
+	target_region {
+		name = ""
+		regional_replica_count = 1
+	}
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_cen_bandwidth_package
+# key: r_alicloud_cen_bandwidth_package
+# --
+resource "alicloud_cen_bandwidth_package" "$1" {
+	bandwidth = $2
+	geographic_region_ids = ["$3"]
+}

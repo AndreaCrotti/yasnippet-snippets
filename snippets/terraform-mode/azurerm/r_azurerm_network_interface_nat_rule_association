@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_network_interface_nat_rule_association
+# key: r_azurerm_network_interface_nat_rule_association
+# --
+resource "azurerm_network_interface_nat_rule_association" "$1" {
+	ip_configuration_name = "$2"
+	nat_rule_id = "$3"
+	network_interface_id = "$4"
+}

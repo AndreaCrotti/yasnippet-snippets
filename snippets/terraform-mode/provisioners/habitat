@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: habitat
+# key: habitat
+# --
+provisioner "habitat" {
+	peer = "$1"
+	use_sudo = true
+	service_type = "systemd"
+
+	service {
+		name = "core/redis"
+			topology = "leader"
+			user_toml = "${file("conf/redis.toml")}"
+	}
+}

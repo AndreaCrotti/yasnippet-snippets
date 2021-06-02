@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_flexibleengine_lb_certificate_v2
+# key: r_flexibleengine_lb_certificate_v2
+# --
+resource "flexibleengine_lb_certificate_v2" "$1" {
+	certificate = "$2"
+	private_key = "$3"
+}

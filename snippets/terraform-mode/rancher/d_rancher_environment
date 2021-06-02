@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_rancher_environment
+# key: d_rancher_environment
+# --
+data "rancher_environment" "$1" {
+	name = "$2"
+}

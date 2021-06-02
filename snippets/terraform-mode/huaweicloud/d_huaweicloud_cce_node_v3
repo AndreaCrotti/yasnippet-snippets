@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_huaweicloud_cce_node_v3
+# key: d_huaweicloud_cce_node_v3
+# --
+data "huaweicloud_cce_node_v3" "$1" {
+	cluster_id = "$2"
+}

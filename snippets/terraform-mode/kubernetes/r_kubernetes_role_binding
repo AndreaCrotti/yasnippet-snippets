@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# name: r_kubernetes_role_binding
+# key: r_kubernetes_role_binding
+# --
+resource "kubernetes_role_binding" "$1" {
+	metadata {
+	
+	}
+	role_ref {
+		api_group = ""
+		kind = ""
+		name = ""
+	}
+	subject {
+		kind = ""
+		name = ""
+	}
+}

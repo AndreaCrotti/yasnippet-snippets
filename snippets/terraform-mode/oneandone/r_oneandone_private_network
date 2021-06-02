@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_oneandone_private_network
+# key: r_oneandone_private_network
+# --
+resource "oneandone_private_network" "$1" {
+	name = "$2"
+}

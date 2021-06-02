@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_metric_alertrule
+# key: r_azurerm_metric_alertrule
+# --
+resource "azurerm_metric_alertrule" "$1" {
+	aggregation = "$2"
+	location = "$3"
+	metric_name = "$4"
+	name = "$5"
+	operator = "$6"
+	period = "$7"
+	resource_group_name = "$8"
+	resource_id = "$9"
+	threshold = $10
+}

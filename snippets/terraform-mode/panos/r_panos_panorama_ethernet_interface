@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_panos_panorama_ethernet_interface
+# key: r_panos_panorama_ethernet_interface
+# --
+resource "panos_panorama_ethernet_interface" "$1" {
+	mode = "$2"
+	name = "$3"
+	template = "$4"
+}

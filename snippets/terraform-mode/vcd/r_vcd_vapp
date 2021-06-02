@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_vcd_vapp
+# key: r_vcd_vapp
+# --
+resource "vcd_vapp" "$1" {
+	name = "$2"
+}

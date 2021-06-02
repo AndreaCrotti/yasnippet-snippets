@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_subnet
+# key: r_aws_subnet
+# --
+resource "aws_subnet" "$1" {
+	cidr_block = "$2"
+	vpc_id = "$3"
+}

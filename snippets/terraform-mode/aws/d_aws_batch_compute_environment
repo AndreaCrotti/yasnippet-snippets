@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_batch_compute_environment
+# key: d_aws_batch_compute_environment
+# --
+data "aws_batch_compute_environment" "$1" {
+	compute_environment_name = "$2"
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_openstack_lb_l7rule_v2
+# key: r_openstack_lb_l7rule_v2
+# --
+resource "openstack_lb_l7rule_v2" "$1" {
+	compare_type = "$2"
+	l7policy_id = "$3"
+	type = "$4"
+	value = "$5"
+}
