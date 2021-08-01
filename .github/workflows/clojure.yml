@@ -13,7 +13,5 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Install dependencies
-      run: lein deps
-    - name: Run tests
-      run: lein test
+    - name: generate html report
+      run: cd report && lein run

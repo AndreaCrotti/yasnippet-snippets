@@ -3,6 +3,7 @@
   :dependencies [[org.clojure/clojure "1.10.0"]
                  [hiccup "1.0.5"]]
 
+  :main core
   :uberjar-name "report.jar"
   :min-lein-version "2.8.1"
   :source-paths ["src"]

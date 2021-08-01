@@ -104,5 +104,8 @@
         (println "Writing to " s)
         (spit s (str/join "\n" (cons mode-line content)))))))
 
+(defn -main [& args]
+  (gen-html "../snippets"))
+
 (comment
   (gen-html "../snippets"))
