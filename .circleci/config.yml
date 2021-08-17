@@ -8,7 +8,7 @@ jobs:
   build:
     docker:
       # specify the version you desire here
-      - image: circleci/clojure:lein-2.9.5
+      - image: circleci/clojure:openjdk-11-lein-2.9.5
 
     working_directory: ~/yasnippet-snippets/report
 
