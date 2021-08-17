@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
-# name:unless
-# key:unless
+# name: unless
+# key: unless
 # binding: direct-keybinding
 # --
 (unless ${1:condition}

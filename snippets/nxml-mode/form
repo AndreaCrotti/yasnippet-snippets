@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
-# contributor : Anders Bach Nielsen <abachn@abachn.net>
-# name:<form method="..." action="..."></form>
+# key: form
+# name: form
 # --
 <form method="$1" action="$2">
   $0

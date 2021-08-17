@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-# name : case
+# name: case
 # key: case
 # --
 case ${1:cond} in

@@ -22,25 +22,28 @@
 
 (defn mode-files
   [mode-dir]
-  (filter #(.isFile %)
-          (file-seq (io/file mode-dir))))
+  (->> (io/file mode-dir)
+       file-seq
+       (filter #(and (.isFile %) (not (.startsWith (.getName %) "."))))))
 
 (defn parse-mode
   [mode-dir]
   (for [f (mode-files mode-dir)]
+    ;; directories should be excluded from here ideally?
     {:filename (.getName (io/file mode-dir f))
-     :name (extract-keyword f "name")
-     :key (or (extract-keyword f "key")
-              (extract-keyword f "name"))
-     :group (extract-keyword f "group")
-     :desc (extract-keyword f "desc")}))
+     :name     (extract-keyword f "name")
+     ;; FIXME: I think this is not correct, it uses the filename actually?
+     :key      (or (extract-keyword f "key")
+                   (extract-keyword f "name"))
+     :group    (extract-keyword f "group")
+     :desc     (extract-keyword f "desc")}))
 
 (defn parse-everything
   [snippets-dir]
   (into {}
         (remove nil?)
         (for [d (file-seq (io/file snippets-dir))]
-          (when (.isDirectory d)
+          (when (and (not= (.getPath d) snippets-dir) (.isDirectory d))
             {(.getName d) (parse-mode d)}))))
 
 (defn store-to-edn
@@ -109,3 +112,15 @@
 
 (comment
   (gen-html "../snippets"))
+
+(comment
+  (def all-modes (all-modes "../snippets"))
+  (doseq [[mode ss] all-modes]
+    (do
+      (print "mode =" mode)
+      (let [grouped
+            (->> (group-by :name ss)
+                 (filter #(> (count (second %)) 1)))]
+        (doseq [[g vs] grouped]
+          (when (pos? (count vs))
+            (println g (map :filename vs))))))))

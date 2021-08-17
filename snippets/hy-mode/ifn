@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
-# name:ifn
-# key:ifn
+# name: ifn
+# key: ifn
 # binding: direct-keybinding
 # --
 (if-not ${1:condition}
