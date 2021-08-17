@@ -21,7 +21,7 @@ jobs:
       - checkout
       - restore_cache:
           keys:
-            - v1-dependencies-{{ checksum "project.clj" }}
+            - v1-dependencies-{{ checksum "report/project.clj" }}
             # fallback to using the latest cache if no exact match is found
             - v1-dependencies-
 
@@ -30,7 +30,7 @@ jobs:
       - save_cache:
           paths:
             - ~/.m2
-          key: v1-dependencies-{{ checksum "project.clj" }}
+          key: v1-dependencies-{{ checksum "report/project.clj" }}
 
       # run tests!
       - run: lein test
