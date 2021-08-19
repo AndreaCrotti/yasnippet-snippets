@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: test
-# key: at
+# key: test
 # contributor : @atotto
 # --
 func Test${1:Feature}(t *testing.T) {
