@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-# name: do
+# name: for
 # key: for
 # --
 (dotimes (${1:var} ${2:count-form})

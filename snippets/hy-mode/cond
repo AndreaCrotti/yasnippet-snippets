@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
-# name:cond
-# key:cond
+# name: cond
+# key: cond
 # binding: direct-keybinding
 # --
 (cond

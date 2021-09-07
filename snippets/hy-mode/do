@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
-# name:do
-# key:do
+# name: do
+# key: do
 # binding: direct-keybinding
 # --
 (do $0)

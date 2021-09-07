@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-# contributor : Jimmy Wu <frozenthrone88@gmail.com>
-# name:<script type="text/javascript" src="..."></script>
+# key: script
+# name: script src
 # --
 <script type="text/javascript" src="$1"></script>

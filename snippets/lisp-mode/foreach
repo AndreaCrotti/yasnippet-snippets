@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-# name: do
+# name: foreach
 # key: foreach
 # --
 (dolist (${1:var} ${2:list-form})

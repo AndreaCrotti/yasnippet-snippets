@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-# name : select
+# name: select
 # key: select
 # --
 select ${1:var} in ${2:stuff}; do
