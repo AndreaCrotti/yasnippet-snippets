@@ -4,7 +4,7 @@
 
 ;; Author: Andrea Crotti <andrea.crotti.0@gmail.com>
 ;; Keywords: snippets
-;; Version: 0.2
+;; Version: 1.0
 ;; Package-Requires: ((yasnippet "0.8.0"))
 ;; Keywords: convenience, snippets
 ;; Homepage: https://github.com/AndreaCrotti/yasnippet-snippets
