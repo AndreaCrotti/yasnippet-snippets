@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: dockerfile-image-name
+# key: dockerfile-image-name
+# --
+## -*- dockerfile-image-name: "$1" -*-
