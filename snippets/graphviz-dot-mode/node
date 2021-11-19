@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: New node
+# key: node
+# --
+${1:name} [label="${2:$1}", shape=${3:square$$(yas-choose-value '(
+	  "box" "polygon" "ellipse" "oval" "circle" "point" "egg"
+	  "triangle" "plaintext" "plain" "diamond" "trapezium" "parallelogram"
+	  "house" "pentagon" "hexagon" "septagon" "octagon" "doublecircle"
+	  "doubleoctagon" "tripleoctagon" "invtriangle" "invtrapezium"
+	  "invhouse" "Mdiamond" "Msquare" "Mcircle" "rect" "rectangle"
+	  "square" "star" "none" "underline" "cylinder" "note" "tab"
+	  "folder" "box3d" "component" "promoter" "cds" "terminator"
+	  "utr" "primersite" "restrictionsite" "fivepoverhang" "threepoverhang"
+	  "noverhang" "assembly" "signature" "insulator" "ribosite" "rnastab"
+	  "proteasesite" "proteinstab" "rpromoter" "rarrow" "larrow" "lpromoter"))}]
+$0

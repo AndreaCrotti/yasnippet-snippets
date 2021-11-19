@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: Subgraph template
+# key: subgraph
+# group : init
+# --
+subgraph cluster_${1:graphname} {
+	 color = ${2:$$(yas-choose-value '(red green blue))};
+	 label = "${3:$1}";
+         $0
+}
