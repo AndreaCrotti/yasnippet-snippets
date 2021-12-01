@@ -4,14 +4,14 @@
 # key: digraph
 # --
 digraph ${1:G} {
-	splines=${9:$$(yas-choose-value '("none" "false" "polyline" "curved" "ortho" "true"))};
+	splines=true;
 
 	// Nodes
-	${2:shortName} [label="${3:$2}", shape=${4:square$$(yas-choose-value '( "square" "rectangle" "circle" "ellipse" "triangle" "plaintext" "point" "diamond" "pentagon" "hexagon" "septagon" "octagon" "egg" "trapezium" "parallelogram" "house" "doublecircle" "doubleoctagon" "tripleoctagon" "invtriangle" "invtrapezium" "invhouse" "Mdiamond" "Msquare" "Mcircle" "none" "note" "tab" "folder" "box3d"))}]
+	${2:shortName} [label="${3:$2}", shape=square];
 	$0
 	// Connections
-	${5:F1} -> $2${6:[label="${7:connection_label}"]}
+	${4:F1} -> $2$[label="${5:connection_label}"]
 	
 	// Ranks
-	{ rank=${8:$$(yas-choose-value '("same" "min" "max"))}; $2; };
+	{ rank=${6:$$(yas-choose-value '("same" "min" "max"))}; $2; };
 }

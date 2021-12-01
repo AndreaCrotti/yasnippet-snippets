@@ -1,7 +1,0 @@
-# -*- mode: snippet -*-
-# name: splines
-# key: spline
-# group : init
-# --
-splines=${1:true$$(yas-choose-value '("none" "false" "polyline" "curved" "ortho" "true"))};
-$0
