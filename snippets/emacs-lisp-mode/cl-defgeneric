@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: contrapunctus (tilde.team/~contrapunctus)
+# name: cl-defgeneric
+# key: dg
+# --
+(cl-defgeneric ${1:name} (${2:args})
+  "${3:docstring}"
+  $0)

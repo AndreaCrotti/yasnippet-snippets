@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: contrapunctus (tilde.team/~contrapunctus)
+# name: defclass
+# key: dc
+# --
+(defclass ${1:name} (${2:superclasses})
+  (${3:slots})
+  :documentation "${0:docstring}")

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# contributor: contrapunctus (tilde.team/~contrapunctus)
+# name: cl-defmethod
+# key: dm
+# --
+(cl-defmethod ${1:name} (${2:args})
+  $0)
