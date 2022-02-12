@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: func
+# key: func
+# --
+func ${1:name}(${2:arguments}): ${3:return type} =
+  $0

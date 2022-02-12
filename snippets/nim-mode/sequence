@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: seq
+# key: seq
+# --
+seq[${1:type}]$0

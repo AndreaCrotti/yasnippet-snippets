@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: block
+# key: block
+# --
+block ${1:name}:
+  $0
