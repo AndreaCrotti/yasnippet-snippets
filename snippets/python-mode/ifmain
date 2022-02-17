@@ -1,6 +1,10 @@
 # -*- mode: snippet -*-
 # name: ifmain
 # key: ifm
+# expand-env: ((yas/indent-line 'fixed))
 # --
+def $1:
+    $0pass
+
 if __name__ == '__main__':
     ${1:main()}
