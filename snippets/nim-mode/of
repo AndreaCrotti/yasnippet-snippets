@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: of
+# key: of
+# --
+of ${1:value}:
+  $0

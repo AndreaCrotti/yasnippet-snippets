@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: iterator
+# key: iterator
+# --
+iterator ${1:name}(${2:arguments}): ${3:return type}$0
