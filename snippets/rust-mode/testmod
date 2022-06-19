@@ -8,6 +8,6 @@ mod ${1:tests} {
 
     #[test]
     fn ${2:test_name}() {
-       $0
+        $0
     }
 }

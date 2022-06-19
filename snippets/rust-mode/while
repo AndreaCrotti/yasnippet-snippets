@@ -3,5 +3,5 @@
 # key: while
 # --
 while ${1:expression} {
-      $0
+    $0
 }

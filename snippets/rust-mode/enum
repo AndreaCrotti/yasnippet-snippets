@@ -3,5 +3,5 @@
 # key: enum
 # --
 enum ${1:Type} {
-     $0
+    $0
 }

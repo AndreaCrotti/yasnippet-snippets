@@ -3,5 +3,5 @@
 # key: struct
 # --
 struct ${1:TypeName} {
-       $0
+    $0
 }

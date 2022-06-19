@@ -3,5 +3,5 @@
 # key: spawn
 # --
 spawn(proc() {
-      $0
+    $0
 });

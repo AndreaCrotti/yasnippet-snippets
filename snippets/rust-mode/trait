@@ -3,5 +3,5 @@
 # key: trait
 # --
 trait ${1:Type} {
-      $0
+    $0
 }
