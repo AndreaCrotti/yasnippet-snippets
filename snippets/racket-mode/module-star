@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: (module* ... ... ...)
+# key: module*
+# --
+(module* ${1:id} ${2:module-path}
+  $0)
