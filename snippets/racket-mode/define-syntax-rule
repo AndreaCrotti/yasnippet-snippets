@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: (define-syntax-rule (... ...) ...)
+# key: define-syntax-rule
+# --
+(define-syntax-rule (${1:id} ${2:pattern}) $0)
