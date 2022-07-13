@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: (syntax-rules (...) [(... ...) ...]...)
+# key: syntax-rules
+# --
+(syntax-rules (${1:literal-id}$2)
+  [(${3:id} ${4:pattern}) ${5:template}]$6)
