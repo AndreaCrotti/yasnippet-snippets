@@ -50,8 +50,7 @@
   ;; value, so that yasnippet will automatically find the directory
   ;; after this package is updated (i.e., moves directory).
   (add-to-list 'yas-snippet-dirs 'yasnippet-snippets-dir t)
-  (yas--load-snippet-dirs)
-  (yas-load-directory yasnippet-snippets-dir t))
+  (yas--load-snippet-dirs))
 
 (defgroup yasnippet-snippets nil
   "Options for yasnippet setups.
