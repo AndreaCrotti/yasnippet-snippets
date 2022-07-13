@@ -4,7 +4,7 @@
 # --
 impl From<${1:From}> for ${2:Type} {
     fn from(source: $1) -> Self {
-       $0
-       Self { }
+        $0
+        Self { }
     }
 }

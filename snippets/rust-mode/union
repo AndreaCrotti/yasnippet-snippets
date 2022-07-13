@@ -3,5 +3,5 @@
 # key: union
 # --
 union ${1:Type} {
-     $0
+    $0
 }

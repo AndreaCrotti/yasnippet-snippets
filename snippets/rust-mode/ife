@@ -3,7 +3,7 @@
 # key: ife
 # --
 if ${1:expression} {
-   $0
+    $0
 } else {
-   
+    
 }
