@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributor: M. Yas. Davoodeh
+# name: entity
+# --
+entity ${1:Name} {
+    id : integer <<generated>>
+    --
+    $0
+}

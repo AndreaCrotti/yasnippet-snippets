@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# contributor: M. Yas. Davoodeh
+# name: cloud ... {...}
+# --
+cloud ${1:Name} ${2:}{
+    $0
+}

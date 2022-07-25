@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# contributor: M. Yas. Davoodeh
+# name: From - To
+# --
+${1:From} ${2:--} ${3:To}

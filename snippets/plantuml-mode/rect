@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# contributor: M. Yas. Davoodeh
+# name: rectangle ... {...}
+# --
+rectangle ${1:Name} ${2:}{
+    $0
+}
