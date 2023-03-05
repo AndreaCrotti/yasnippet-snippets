@@ -1,0 +1,6 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: return the formatted string
+# key: sprintf
+# contributor: Adriano Martinez <uberkael@gmail.com>
+# --
+sprintf("${1:%s\n}", ${2:expr-list})

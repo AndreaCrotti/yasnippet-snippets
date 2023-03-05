@@ -1,0 +1,6 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: system time
+# key: syst
+# contributor: Adriano Martinez <uberkael@gmail.com>
+# --
+systime()

@@ -1,0 +1,6 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: gsub
+# key: gsub
+# contributor: Adriano Martinez <uberkael@gmail.com>
+# --
+gsub(${1:regex}, ${2:replace}${3:, optdest})

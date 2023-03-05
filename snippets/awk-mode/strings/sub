@@ -1,0 +1,6 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: substitute first match
+# key: sub
+# contributor: Adriano Martinez <uberkael@gmail.com>
+# --
+sub(${1:regex}, ${2:substitute}${3:, opt_target})

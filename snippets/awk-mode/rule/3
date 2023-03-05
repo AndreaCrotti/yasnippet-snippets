@@ -1,0 +1,6 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: ?: operator
+# key: 3
+# contributor: Adriano Martinez <uberkael@gmail.com>
+# --
+${1:if_expr1} ? ${2:then_expr2} : ${3:else_expr3}

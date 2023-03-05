@@ -1,0 +1,6 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: find s matching r
+# key: match
+# contributor: Adriano Martinez <uberkael@gmail.com>
+# --
+match(${1:string}, ${2:regex}${3:, opt_array})

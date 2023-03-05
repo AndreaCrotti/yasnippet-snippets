@@ -1,0 +1,6 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: length
+# key: length
+# contributor: Adriano Martinez <uberkael@gmail.com>
+# --
+length(${1:string})

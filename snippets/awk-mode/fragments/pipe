@@ -1,0 +1,5 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: write on a pipe
+# key: pipe
+# --
+| ${1:command}

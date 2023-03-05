@@ -1,0 +1,5 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: exit
+# key: exit
+# --
+exit ${1:expression}

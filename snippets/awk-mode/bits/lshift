@@ -1,0 +1,5 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: a shifted left by N bits
+# key: lshift
+# --
+lshift(${1:a}, ${2:N})

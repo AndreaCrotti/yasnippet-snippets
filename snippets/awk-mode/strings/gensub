@@ -1,0 +1,6 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: gensub
+# key: gensub
+# contributor: Adriano Martinez <uberkael@gmail.com>
+# --
+gensub(${1:regex}, ${2:replace}, ${3:g or num}${4:, opt_target})

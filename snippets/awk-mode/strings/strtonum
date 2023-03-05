@@ -1,0 +1,5 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: strtonum, octal or hex
+# key: strtonum
+# --
+strtonum(${1:string})

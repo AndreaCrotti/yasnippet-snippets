@@ -1,0 +1,6 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: square root
+# key: sqrt
+# contributor: Adriano Martinez <uberkael@gmail.com>
+# --
+sqrt(${1:num})

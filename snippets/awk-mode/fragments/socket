@@ -1,0 +1,5 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: send data to a coprocess/socket
+# key: socket
+# --
+|& ${1:command}

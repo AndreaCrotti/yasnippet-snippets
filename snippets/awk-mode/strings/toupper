@@ -1,0 +1,6 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: upper case
+# key: toupper
+# contributor: Adriano Martinez <uberkael@gmail.com>
+# --
+toupper(${1:string})

@@ -1,0 +1,6 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: atan of y/x in radians
+# key: atan2
+# contributor: Adriano Martinez <uberkael@gmail.com>
+# --
+atan2(${1:y}, ${2:x})

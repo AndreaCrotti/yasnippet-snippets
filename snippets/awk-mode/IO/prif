@@ -1,0 +1,6 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: printf
+# key: prif
+# contributor: Adriano Martinez <uberkael@gmail.com>
+# --
+printf "${1:fmt}", ${2:expr-list}${3: >file}

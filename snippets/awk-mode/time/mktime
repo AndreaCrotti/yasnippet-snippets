@@ -1,0 +1,5 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: make time stamp
+# key: mktime
+# --
+mktime("${1:YYYY} ${2:MM} ${3:DD} ${4:HH} ${5:MM} ${6:SS}${7: opt_DST}"${8:, utc}) # 0 or 1 (UTC)

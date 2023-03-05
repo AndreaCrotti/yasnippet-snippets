@@ -1,0 +1,6 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: bitwise AND
+# key: and
+# contributor: Adriano Martinez <uberkael@gmail.com>
+# --
+and(${1:a}, ${2:b}${3:, z})

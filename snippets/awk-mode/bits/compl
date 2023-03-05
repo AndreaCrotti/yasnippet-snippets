@@ -1,0 +1,5 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: bitwise complement
+# key: compl
+# --
+compl(${1:a})

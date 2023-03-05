@@ -1,0 +1,6 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: index
+# key: index
+# contributor: Adriano Martinez <uberkael@gmail.com>
+# --
+index(${1:string}, ${2:string_to_search})

@@ -1,0 +1,5 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: asorti
+# key: asorti
+# --
+asorti(${1:src_array}${2:, dst_array, how})

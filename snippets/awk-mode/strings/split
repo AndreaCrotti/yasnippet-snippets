@@ -1,0 +1,6 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: split s into a [using regex]
+# key: split
+# contributor: Adriano Martinez <uberkael@gmail.com>
+# --
+split(${1:string}, ${2:array}${3:, opt_regex, opt_seperators})

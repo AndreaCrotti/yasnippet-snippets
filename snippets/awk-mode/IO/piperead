@@ -1,0 +1,10 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: command | getline
+# key:  piperead
+# contributor: Adriano Martinez <uberkael@gmail.com>
+# --
+command="$1" # a command that produces output
+while (command |${2:&} getline ${3:var}) {
+  print $3$0
+}
+close (commad)

@@ -1,0 +1,5 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: return type of x
+# key: typeof
+# --
+typeof(${1:x})

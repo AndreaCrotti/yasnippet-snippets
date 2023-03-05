@@ -1,0 +1,6 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: truncate to integer
+# key: int
+# contributor: Adriano Martinez <uberkael@gmail.com>
+# --
+int(${1:num})

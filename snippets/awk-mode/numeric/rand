@@ -1,0 +1,6 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: random number, 0 ≤ N < 1
+# key: rand
+# contributor: Adriano Martinez <uberkael@gmail.com>
+# --
+rand()

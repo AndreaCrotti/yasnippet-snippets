@@ -1,0 +1,6 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: sub string
+# key: substr
+# contributor: Adriano Martinez <uberkael@gmail.com>
+# --
+substr(${1:string}, ${2:start}, ${3:opt_length})

@@ -1,0 +1,8 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: BEGINFILE
+# key: BF
+# contributor: Adriano Martinez <uberkael@gmail.com>
+# --
+BEGINFILE {
+  $0
+}

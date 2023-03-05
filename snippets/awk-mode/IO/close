@@ -1,0 +1,6 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: close
+# key: close
+# contributor: Adriano Martinez <uberkael@gmail.com>
+# --
+close(${1:file}${2:, how})

@@ -1,0 +1,10 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: function
+# key: func
+# contributor: Adriano Martinez <uberkael@gmail.com>
+# --
+# $0
+function ${1:name}(${2:vars}) {
+  $3
+  return $4
+}

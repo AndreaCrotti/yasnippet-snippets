@@ -1,0 +1,6 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: format timestamp
+# key: strftime
+# contributor: Adriano Martinez <uberkael@gmail.com>
+# --
+strftime(${1:"%Y-%m-%d %H:%M:%S"}${2:, systime(), utc}) # 0 or 1 (UTC)

@@ -1,0 +1,6 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: print [expr-list] [>file]
+# key: pri
+# contributor: Adriano Martinez <uberkael@gmail.com>
+# --
+print ${1:expr-list}${2: >file}

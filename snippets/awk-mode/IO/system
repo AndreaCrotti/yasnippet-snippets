@@ -1,0 +1,6 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: execute system command
+# key: system
+# contributor: Adriano Martinez <uberkael@gmail.com>
+# --
+system("${1:command}")

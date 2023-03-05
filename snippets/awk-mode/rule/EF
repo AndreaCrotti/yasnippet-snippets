@@ -1,0 +1,8 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: ENDFILE
+# key: EF
+# contributor: Adriano Martinez <uberkael@gmail.com>
+# --
+ENDFILE {
+  $0
+}

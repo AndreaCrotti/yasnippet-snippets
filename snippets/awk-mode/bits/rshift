@@ -1,0 +1,5 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: a shifted right by N bits
+# key: rshift
+# --
+rshift(${1:a}, ${2:N})

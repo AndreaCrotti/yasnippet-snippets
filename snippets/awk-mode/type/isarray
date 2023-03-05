@@ -1,0 +1,6 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: is array?
+# key: isarray
+# contributor: Adriano Martinez <uberkael@gmail.com>
+# --
+isarray(${1:array})

@@ -1,0 +1,7 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: PROCINFO short modes
+# key: PROCINFO
+# key: procinfo
+# contributor: Adriano Martinez <uberkael@gmail.com>
+# --
+PROCINFO["@${1:ind/val}_${2:num/str/type}_${3:asc/des}"]

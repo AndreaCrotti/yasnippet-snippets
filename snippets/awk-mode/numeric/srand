@@ -1,0 +1,6 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: seed random generator
+# key: srand
+# contributor: Adriano Martinez <uberkael@gmail.com>
+# --
+srand(${1:expr}) # Use local time when no argument

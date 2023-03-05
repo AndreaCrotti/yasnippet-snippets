@@ -1,0 +1,6 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: exponential function
+# key: exp
+# contributor: Adriano Martinez <uberkael@gmail.com>
+# --
+exp(${1:num})

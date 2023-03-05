@@ -1,0 +1,6 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: cos in radians
+# key: cos
+# contributor: Adriano Martinez <uberkael@gmail.com>
+# --
+cos(${1:num})

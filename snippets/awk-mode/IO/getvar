@@ -1,0 +1,5 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: getline var [<file]
+# key: getvar
+# --
+getline ${1:var}${2: <file}

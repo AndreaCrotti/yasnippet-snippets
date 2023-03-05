@@ -1,0 +1,5 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: file append
+# key: append
+# --
+>> ${1:file}

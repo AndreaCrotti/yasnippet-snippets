@@ -1,0 +1,5 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: fflush
+# key: fflush
+# --
+fflush(${1:file})

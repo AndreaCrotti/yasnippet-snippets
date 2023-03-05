@@ -1,0 +1,6 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: lower case
+# key: tolower
+# contributor: Adriano Martinez <uberkael@gmail.com>
+# --
+tolower(${1:string})

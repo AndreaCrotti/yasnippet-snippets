@@ -1,0 +1,6 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: bitwise XOR
+# key: xor
+# contributor: Adriano Martinez <uberkael@gmail.com>
+# --
+xor(${1:a}, ${2:b}${3:, z})
