@@ -1,6 +1,0 @@
-# -*- mode: snippet -*-
-# name: unicode_literals
-# key: fu
-# group: future
-# --
-from __future__ import unicode_literals
