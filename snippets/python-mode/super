@@ -1,7 +1,0 @@
-# -*- mode: snippet -*-
-# name: super()
-# key: super
-# group: definitions
-# --
-super`(yas-snips-snippet-super-form)`(${1:`(yas-snips-snippet-super-arguments)`})
-$0
