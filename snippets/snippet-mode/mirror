@@ -1,5 +1,6 @@
-# name : ${n:$(...)} mirror
-# key : $m
+# -*- mode: snippet -*-
+# name: ${n:$(...)} mirror
+# key: $m
 # contributor : joaotavora
 # key: mirror
 # --

@@ -1,0 +1,41 @@
+# Clojure CircleCI 2.0 configuration file
+#
+# Check https://circleci.com/docs/2.0/language-clojure/ for more details
+#
+version: 2.1
+
+jobs:
+  build:
+    docker:
+      # specify the version you desire here
+      - image: circleci/clojure:openjdk-11-lein-2.9.5
+
+    working_directory: ~/yasnippet-snippets/report
+
+    environment:
+      LEIN_ROOT: "true"
+      # Customize the JVM maximum heap limit
+      JVM_OPTS: -Xmx3200m
+
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ checksum "report/project.clj" }}
+            # fallback to using the latest cache if no exact match is found
+            - v1-dependencies-
+
+      - run: cd report && lein deps
+
+      - save_cache:
+          paths:
+            - ~/.m2
+          key: v1-dependencies-{{ checksum "report/project.clj" }}
+
+      # run tests!
+      - run: cd report && lein test
+
+workflows:
+  build:
+    jobs:
+      - build

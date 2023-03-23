@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: google_organization_iam_policy
+# key: goog_organization_iam_policy
+# --
+
+resource "google_organization_iam_policy" "${1:name}" {
+  org_id      = "${2:org_id}"
+  policy_data = "${3:policy_data}"
+}
+

@@ -2,53 +2,79 @@
 # name: package url
 # key: pu
 # --
-{ stdenv, fetchurl$1}:
+{ lib
+, stdenv
+, fetchurl
+$1
+$2
+}:
 
 stdenv.mkDerivation rec {
-  version = "$2";
-  name = "$3-\$\{version\}";
+  pname = "$3";
+  version = "$4";
 
   src = fetchurl {
-    url = "$4";
-    sha256 = "$5";
+    url = "$5";
+    sha256 = "${6:\$\{lib.fakeSha256\}}";
   };
 
-  buildInputs = [ $1 ];
+  nativeBuildInputs = [ ${1:$(replace-regexp-in-string "  *" " "(subst-char-in-string ?, ? yas-text))} ];
+  buildInputs = [
+    ${2:$(replace-regexp-in-string "  *" " "(subst-char-in-string ?, ? yas-text))}
+  ];
 
-  meta = {
-    description = "$6";
-    homepage = https://$7;
-    license = stdenv.lib.licenses.${8:$$
+  meta = with lib; {
+    homepage = "https://$7";
+    description = "$8";
+    longDescription = ''
+      $9
+    '';
+    license = licenses.${10:$$
   (yas-choose-value '(
     "agpl3"
     "asl20"
+    "bsd1"
     "bsd2"
     "bsd3"
+    "free"
     "gpl2"
+    "gpl2Only"
+    "gpl2Plus"
     "gpl3"
+    "gpl3Only"
+    "gpl3Plus"
+    "isc"
+    "lgpl21Only"
+    "lgpl21Plus"
+    "lgpl2Only"
+    "lgpl2Plus"
     "lgpl3"
+    "lgpl3Only"
     "mit"
+    "mpl20"
+    "ofl"
+    "unfree"
   ))};
-    maintainers = [ stdenv.lib.maintainers.$9 ];
-    platforms = stdenv.lib.platforms.${10:$$
+    maintainers = with maintainers; [ $11 ];
+    platforms = platforms.${12:$$
   (yas-choose-value '(
-  "gnu"
-  "linux"
-  "darwin"
-  "freebsd"
-  "openbsd"
-  "netbsd"
-  "cygwin"
-  "illumos"
-  "unix"
-  "all"
-  "none"
-  "allBut"
-  "mesaPlatforms"
-  "x86"
-  "i686"
-  "arm"
-  "mips"
+    "all"
+    "allBut"
+    "arm"
+    "cygwin"
+    "darwin"
+    "freebsd"
+    "gnu"
+    "i686"
+    "illumos"
+    "linux"
+    "mesaPlatforms"
+    "mips"
+    "netbsd"
+    "none"
+    "openbsd"
+    "unix"
+    "x86"
   ))};
   };
 }

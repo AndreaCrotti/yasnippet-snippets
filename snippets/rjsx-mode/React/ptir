@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# uuid: 7fcf75fb-2d69-4d9d-af72-9667d13831d8
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: propTypeInstanceOfRequired
+# key: ptir
+# --
+
+PropTypes.instanceOf($0).isRequired,

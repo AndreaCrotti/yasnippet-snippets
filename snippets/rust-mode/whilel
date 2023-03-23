@@ -3,5 +3,5 @@
 # key: whilel
 # --
 while let ${1:pattern} = ${2:expression} {
-      $0
+    $0
 }

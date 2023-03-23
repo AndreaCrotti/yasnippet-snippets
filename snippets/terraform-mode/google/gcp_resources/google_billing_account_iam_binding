@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: google_billing_account_iam_binding
+# key: goog_billing_account_iam_binding
+# --
+
+resource "google_billing_account_iam_binding" "${1:name}" {
+  billing_account_id = "${2:billing_account_id}"
+  role               = "${3:role}"
+  members            = [
+  "user:${4:user}",
+  ]
+}
+

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: google_dataproc_cluster
+# key: goog_dataproc_cluster
+# --
+
+resource "google_dataproc_cluster" "${1:name}" {
+  name = "${2:name}"
+}
+

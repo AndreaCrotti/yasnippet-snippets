@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: elsif ...
+# key: esi
+# group : control structure
+# --
+elsif`(indent-for-tab-command)` ${1:condition}
+  $2

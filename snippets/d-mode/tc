@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: try … catch …
+# key: tc
+# --
+try
+{
+  $0
+}
+catch (${1:Exception} e)
+{
+  $2
+}

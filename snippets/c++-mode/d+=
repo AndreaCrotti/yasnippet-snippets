@@ -2,4 +2,4 @@
 # name: d+=
 # key: d+=
 # --
-${1:MyClass}& operator+=(${2:const $1 &});
+${1:Name}& operator+=(${2:const $1 &});

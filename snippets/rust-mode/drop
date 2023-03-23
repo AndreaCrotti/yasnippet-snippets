@@ -3,7 +3,7 @@
 # key: drop
 # --
 impl Drop for ${1:Type} {
-     fn drop(&mut self) {
-          $0
-      }
+    fn drop(&mut self) {
+        $0
+    }
 }

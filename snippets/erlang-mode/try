@@ -1,4 +1,5 @@
-#name : try ... of ... catch after end
+# -*- mode: snippet -*-
+# name: try ... of ... catch after end
 # --
 try $1 of
     $0

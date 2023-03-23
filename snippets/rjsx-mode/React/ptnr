@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# uuid: 8fdab8f9-bce1-4f0f-8b9a-3d2f3d674b39
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: propTypeNumberRequired
+# key: ptnr
+# --
+
+PropTypes.number.isRequired,

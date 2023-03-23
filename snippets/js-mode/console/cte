@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# uuid: 9dd0d1c8-f4e8-4d16-8ca1-4ce72e7936cb
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: console.timeEnd
+# key: cte
+# group: console
+# --
+
+console.timeEnd('${1:object}')

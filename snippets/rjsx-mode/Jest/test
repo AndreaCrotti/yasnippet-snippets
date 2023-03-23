@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# uuid: 190f78b4-17ec-429e-aaf1-3231726ca580
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: testBlock
+# key: test
+# --
+
+test('should $1', () => {
+  $0
+})

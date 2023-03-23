@@ -1,6 +1,7 @@
-#contributor: Xah Lee (XahLee.org)
-#name: buffer-file-name
-#key: buffer-file-name
-#key: bfn
+# -*- mode: snippet -*-
+# contributor: Xah Lee (XahLee.org)
+# name: buffer-file-name
+# key: buffer-file-name
+# key: bfn
 # --
 (buffer-file-name)

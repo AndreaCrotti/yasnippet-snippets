@@ -1,8 +1,0 @@
-# -*- mode: snippet; require-final-newline: nil -*-
-# name: Promise
-# key: prom
-# group: es6
-# --
-new Promise((resolve, reject) => {
-  $0
-});

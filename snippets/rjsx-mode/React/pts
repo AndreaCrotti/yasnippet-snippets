@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# uuid: 00414dbf-83ff-4777-949f-79e94d32f661
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: propTypeString
+# key: pts
+# --
+
+PropTypes.string,

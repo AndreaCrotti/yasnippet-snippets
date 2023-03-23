@@ -1,4 +1,5 @@
-#contributor : rejeep <johan.rejeep@gmail.com>
-#name : padding-left: ...
+# -*- mode: snippet -*-
+# contributor : rejeep <johan.rejeep@gmail.com>
+# name: padding-left: ...
 # --
 padding-left: $1;

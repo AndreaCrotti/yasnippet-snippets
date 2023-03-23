@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# uuid: 5fa22440-fa5b-4f3e-98d5-9abe8c68fd5b
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: reactClassCompoment
+# key: rcc
+# --
+
+import React, { Component } from 'react'
+
+export default class ${1:`(yas-jsx-get-class-name-by-file-name)`} extends Component {
+  render() {
+    return (
+      <div>
+        $0
+      </div>
+    )
+  }
+}

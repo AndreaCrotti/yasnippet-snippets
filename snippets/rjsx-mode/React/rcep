@@ -1,0 +1,25 @@
+# -*- mode: snippet -*-
+# uuid: 5792fd46-6659-42c4-9c71-d7ca7d72a2a0
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: reactClassExportComponentWithPropTypes
+# key: rcep
+# --
+
+import React, { Component } from 'react'
+import PropTypes from 'prop-types'
+
+export class ${1:`(yas-jsx-get-class-name-by-file-name)`} extends Component {
+  static propTypes = {
+
+  }
+
+  render() {
+    return (
+      <div>
+        $0
+      </div>
+    )
+  }
+}
+
+export default $1

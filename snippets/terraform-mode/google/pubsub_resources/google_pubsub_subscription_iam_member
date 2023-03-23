@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: google_pubsub_subscription_iam_member
+# key: goog_pubsub_subscription_iam_member
+# --
+
+resource "google_pubsub_subscription_iam_member" "${1:name}" {
+  subscription = "${2:subscription}"
+  role         = "${3:role}"
+  member       = "user:${4:user}"
+}
+

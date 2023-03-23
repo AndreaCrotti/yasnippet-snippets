@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: google_folder_iam_policy
+# key: goog_folder_iam_policy
+# --
+
+resource "google_folder_iam_policy" "${1:name}" {
+  folder      = "${2:folder}"
+  policy_data = "${3:policy_data}"
+}
+

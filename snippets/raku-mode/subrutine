@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Subrutine
+# key: sub
+# --
+sub ${1:subrutine}${2:(${3:args})} {
+  $0
+}

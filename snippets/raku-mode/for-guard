@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: for-guard
+# key: forg
+# --
+$0 for ${1:list}

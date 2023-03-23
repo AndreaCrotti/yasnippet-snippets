@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# uuid: bf1ecbad-63d0-4f2d-a28f-f1f76d4da162
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: propTypeElementRequired
+# key: ptelr
+# --
+
+PropTypes.element.isRequired,

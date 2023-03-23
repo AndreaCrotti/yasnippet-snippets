@@ -1,5 +1,6 @@
-#contributor: Xah Lee (XahLee.org)
-#name: memq
-#key: memq
+# -*- mode: snippet -*-
+# contributor: Xah Lee (XahLee.org)
+# name: memq
+# key: memq
 # --
 (memq ${1:element} ${2:list})

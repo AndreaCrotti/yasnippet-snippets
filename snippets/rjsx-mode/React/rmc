@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# uuid: 6847343b-1efa-4db0-9b9a-2c9aaa4217c7
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: reactFunctionMemoComponent
+# key: rmc
+# --
+
+import React, { memo } from 'react'
+
+export default memo((props) => (
+  <div>
+    $0
+  </div>
+))

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# uuid: 33c4817a-b813-4326-8c37-383a6b731f0a
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: import PropTypes
+# key: impt
+# --
+
+import PropTypes from 'prop-types'

@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-# name: transform
+# name: string to lower case
 # key: lwr
 # --
 std::transform(std::begin(${1:container}), std::end($1), std::begin($1), [](char c) {

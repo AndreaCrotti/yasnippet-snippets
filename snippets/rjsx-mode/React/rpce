@@ -1,0 +1,20 @@
+# -*- mode: snippet -*-
+# uuid: 295423f2-7029-42d3-ba82-8c5edfda37ce
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: reactClassExportPureComponent
+# key: rpce
+# --
+
+import React, { PureComponent } from 'react'
+
+export class ${1:`(yas-jsx-get-class-name-by-file-name)`} extends PureComponent {
+  render() {
+    return (
+      <div>
+        $0
+      </div>
+    )
+  }
+}
+
+export default $1

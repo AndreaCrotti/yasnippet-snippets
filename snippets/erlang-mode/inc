@@ -1,4 +1,5 @@
-#name : -include("...").
+# -*- mode: snippet -*-
+# name: -include("...").
 # --
 -include("$1").
 $0

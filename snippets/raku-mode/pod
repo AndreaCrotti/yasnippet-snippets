@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: Pod
+# key: pod
+# --
+=begin ${1:comment}
+ 
+$0
+ 
+=end $1

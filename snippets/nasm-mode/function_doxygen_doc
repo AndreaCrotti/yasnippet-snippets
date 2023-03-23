@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: Assembly Function Doc
+# key: doxy
+# group : doxygen
+# contributor : Dan Pitic <dpitic@gmail.com>
+# --
+;;
+;; @brief      ${1:function description}
+;;
+;; @details    ${2:detailed description}
+;;
+;; @param      ${3:param}
+;;
+;; @return     ${4:return}
+;;

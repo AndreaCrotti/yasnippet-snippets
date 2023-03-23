@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# uuid: 5f377808-588a-48a1-8da3-fcabfcea78e6
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: propTypeFuncRequired
+# key: ptfr
+# --
+
+PropTypes.func.isRequired,

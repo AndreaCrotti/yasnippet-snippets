@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# uuid: a654de53-26a1-4694-9da7-cc4b906d50fa
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: reduxSelector
+# key: rxselect
+# --
+
+import { createSelector } from 'reselect'
+
+export const ${1:selectorName} = state => state.${2:selector}

@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: try … catch … finally
+# key: tcf
+# --
+try
+{
+  $0
+}
+catch (${1:Exception} e)
+{
+  $2
+}
+finally
+{
+  $3
+}

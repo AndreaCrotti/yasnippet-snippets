@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# uuid: a274faf6-2964-4a22-adf7-1715d3b4a153
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: reduxConst
+# key: rxconst
+# --
+
+export const ${1:constantName} = '${1:constantName}'

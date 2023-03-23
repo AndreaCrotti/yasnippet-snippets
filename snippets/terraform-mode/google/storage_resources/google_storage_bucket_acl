@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: google_storage_bucket_acl
+# key: goog_storage_bucket_acl
+# --
+
+resource "google_storage_bucket_acl" "${1:name}" {
+  bucket = "${2:bucket}"
+}
+

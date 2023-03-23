@@ -1,6 +1,6 @@
-# -*- mode: snippet -*-
-# name: pdb.set_trace()
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: pdb trace
 # key: pdb
-# group: Debug
+# group: debug
 # --
 import pdb; pdb.set_trace()

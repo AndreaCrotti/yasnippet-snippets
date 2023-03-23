@@ -1,4 +1,5 @@
-#contributor: Li Zhu <http://www.zhuli.name>
-#name : complex
+# -*- mode: snippet -*-
+# contributor: Li Zhu <http://www.zhuli.name>
+# name: complex
 # --
 complex $0

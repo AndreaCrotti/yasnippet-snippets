@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: google_compute_backend_service_data
+# key: goog_compute_backend_service_data
+# --
+
+data "google_compute_backend_service" "${1:name}" {
+  name = "${2:name}"
+}
+

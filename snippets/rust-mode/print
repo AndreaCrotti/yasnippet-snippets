@@ -2,4 +2,4 @@
 # name: print!("{}", value);
 # key: print
 # --
-print!("${1:{}}", $2);
+print!("${1:{\}}", $2);

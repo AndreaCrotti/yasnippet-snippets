@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: untilg
+# key: untilg
+# --
+$0 until ${1:condition};

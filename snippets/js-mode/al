@@ -1,4 +1,4 @@
 # -*- mode: snippet -*-
-#name : alert
+# name: alert
 # --
 alert($0);

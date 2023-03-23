@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# uuid: f33474db-1dd4-402b-852a-2c486d464213
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: createContext
+# key: rcontext
+# --
+
+const ${1:contextName} = React.createContext()

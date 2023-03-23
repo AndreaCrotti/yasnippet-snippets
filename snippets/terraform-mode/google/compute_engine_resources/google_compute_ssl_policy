@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: google_compute_ssl_policy
+# key: goog_compute_ssl_policy
+# --
+
+resource "google_compute_ssl_policy" "${1:name}" {
+  name = "${2:name}"
+}
+

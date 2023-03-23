@@ -2,6 +2,6 @@
 # name: export
 # key: <ex
 # --
-#+BEGIN_EXPORT ${1:type}
+#+begin_export ${1:type}
 $0
-#+END_EXPORT
+#+end_export

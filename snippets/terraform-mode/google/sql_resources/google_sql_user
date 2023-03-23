@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: google_sql_user
+# key: goog_sql_user
+# --
+
+resource "google_sql_user" "${1:name}" {
+  name     = "${2:name}"
+  instance = "${3:instance}"
+  password = "${4:changeme}"
+}
+

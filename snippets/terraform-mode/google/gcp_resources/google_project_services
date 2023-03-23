@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: google_project_services
+# key: goog_project_services
+# --
+
+resource "google_project_services" "${1:name}" {
+  services = ["${2:service}"]
+}
+

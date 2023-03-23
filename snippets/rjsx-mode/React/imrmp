@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# uuid: c226a4f1-847a-4fe5-acb4-01489ff3883f
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: import React, { memo } & PropTypes
+# key: imrmp
+# --
+
+import React, { memo } from 'react'
+import PropTypes from 'prop-types'

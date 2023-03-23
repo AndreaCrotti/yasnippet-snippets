@@ -1,0 +1,20 @@
+# -*- mode: snippet -*-
+# uuid: 32f4d017-7d51-4d41-a954-91e2eaf493c5
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: mappingToProps
+# key: reduxmap
+# --
+
+const mapStateToProps = (state, ownProps) => ({
+
+})
+
+const mapDispatchToProps = (dispatch, ownProps) => ({
+
+})
+
+const mergeProps = (stateProps, dispatchProps, ownProps) => ({
+  ...ownProps,
+  ...dispatchProps,
+  ...stateProps,
+})

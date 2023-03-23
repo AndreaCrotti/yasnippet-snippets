@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: google_compute_region_disk
+# key: goog_compute_region_disk
+# --
+
+resource "google_compute_region_disk" "${1:name}" {
+  name          = "${2:name}"
+  replica_zones = ["${3:replica_zones}"]
+}
+

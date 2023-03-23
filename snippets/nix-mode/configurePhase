@@ -3,6 +3,8 @@
 # key: cp
 # --
 configurePhase= ''
+  runHook preConfigure
 $1
+  runHook postConfigure
 '';
 $0

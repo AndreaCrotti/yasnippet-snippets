@@ -2,5 +2,4 @@
 # name: style
 # key: <st
 # --
-#+STYLE: <link rel="stylesheet" type="text/css" href="$1" />
-$0
+#+style: <link rel="stylesheet" type="text/css" href="$1" />

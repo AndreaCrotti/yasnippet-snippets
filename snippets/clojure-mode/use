@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name: use
 # key: use
 # expand-env: ((yas-triggers-in-field nil))

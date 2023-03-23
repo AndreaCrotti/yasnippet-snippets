@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: google_runtimeconfig_config
+# key: goog_runtimeconfig_config
+# --
+
+resource "google_runtimeconfig_config" "${1:name}" {
+  name = "${2:name}"
+}
+

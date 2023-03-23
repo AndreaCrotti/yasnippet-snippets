@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# uuid: b3a74dbd-aecf-4a5d-b2ae-5181ece57838
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: import React, { PureComponent }
+# key: imrpc
+# --
+
+import React, { PureComponent } from 'react'

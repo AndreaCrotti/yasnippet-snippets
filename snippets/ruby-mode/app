@@ -1,5 +1,6 @@
-#name : if __FILE__ == $PROGRAM_NAME ... end
-#group : general
+# -*- mode: snippet -*-
+# name: if __FILE__ == $PROGRAM_NAME ... end
+# group : general
 # --
 if __FILE__ == $PROGRAM_NAME
   $0

@@ -1,6 +1,7 @@
-#contributor: Xah Lee (XahLee.org)
-#name: not
-#key: not
-#key: n
+# -*- mode: snippet -*-
+# contributor: Xah Lee (XahLee.org)
+# name: not
+# key: not
+# key: n
 # --
 (not $0)

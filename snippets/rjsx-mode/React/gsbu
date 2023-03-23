@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# uuid: 6a682f76-d7e3-4983-bf11-735fa7143113
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: getSnapshotBeforeUpdate
+# key: gsbu
+# --
+
+getSnapshotBeforeUpdate(prevProps, prevState) {
+  $0
+}

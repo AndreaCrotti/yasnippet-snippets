@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: google_compute_region_instance_group_manager
+# key: goog_compute_region_instance_group_manager
+# --
+
+resource "google_compute_region_instance_group_manager" "${1:name}" {
+  name               = "${2:name}"
+  base_instance_name = "${3:base_instance_name}"
+  region             = "${4:region}"
+}
+

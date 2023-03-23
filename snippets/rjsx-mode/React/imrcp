@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# uuid: 93c2e805-e6f9-4fc1-b664-3fd35d288574
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: import React, { Component } & PropTypes
+# key: imrcp
+# --
+
+import React, { Component } from 'react'
+import PropTypes from 'prop-types'

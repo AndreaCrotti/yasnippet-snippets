@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: google_sql_database
+# key: goog_sql_database
+# --
+
+resource "google_sql_database" "${1:name}" {
+  name     = "${2:name}"
+  instance = "${3:instance}"
+}
+

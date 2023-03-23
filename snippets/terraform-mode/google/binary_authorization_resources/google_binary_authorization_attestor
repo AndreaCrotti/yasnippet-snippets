@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: google_binary_authorization_attestor
+# key: goog_binary_authorization_attestor
+# --
+
+resource "google_binary_authorization_attestor" "${1:name}" {
+  name = "${2:name}"
+  attestation_authority_note {
+    note_reference = "${3:note_name}"
+  }
+}
+

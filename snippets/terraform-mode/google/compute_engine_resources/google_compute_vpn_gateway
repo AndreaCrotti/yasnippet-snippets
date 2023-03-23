@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: google_compute_vpn_gateway
+# key: goog_compute_vpn_gateway
+# --
+
+resource "google_compute_vpn_gateway" "${1:name}" {
+  name    = "${2:name}"
+  network = "${3:network}"
+}
+

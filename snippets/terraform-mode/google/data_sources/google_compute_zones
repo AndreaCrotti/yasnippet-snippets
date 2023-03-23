@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: google_compute_zones
+# key: goog_compute_zones
+# --
+
+data "google_compute_zones" "${1:name}" {}
+

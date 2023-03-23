@@ -1,4 +1,5 @@
-#name : map { |...| ... }
-#group : collections
+# -*- mode: snippet -*-
+# name: map { |...| ... }
+# group : collections
 # --
 map { |${e}| $0 }

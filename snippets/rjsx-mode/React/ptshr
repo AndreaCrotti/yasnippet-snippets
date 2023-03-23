@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# uuid: 51708c90-2ba2-4ed4-bda9-e99e71ec3eeb
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: propTypeShapeRequired
+# key: ptshr
+# --
+
+PropTypes.shape({
+  $0
+}).isRequired,

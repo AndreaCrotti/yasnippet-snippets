@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: google_compute_region_autoscaler
+# key: goog_compute_region_autoscaler
+# --
+
+resource "google_compute_region_autoscaler" "${1:name}" {
+  name   = "${2:name}"
+  target = "${3:target}"
+
+  autoscaling_policy = {
+    max_replicas = ${4:max_replicas}
+    min_replicas = ${5:min_replicas}
+  }
+}
+

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: google_compute_forwarding_rule
+# key: goog_compute_forwarding_rule
+# --
+
+resource "google_compute_forwarding_rule" "${1:name}" {
+  name = "${2:name}"
+}
+

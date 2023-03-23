@@ -1,6 +1,7 @@
-#contributor: Xah Lee (XahLee.org)
-#name: point
-#key: point
-#key: p
+# -*- mode: snippet -*-
+# contributor: Xah Lee (XahLee.org)
+# name: point
+# key: point
+# key: p
 # --
 (point)

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: def
+# key: def
+# binding: direct-keybinding
+# --
+(defn ${1:function-name} [${2:arg}]
+  $0)

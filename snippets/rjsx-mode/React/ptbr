@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# uuid: dbde6c9f-ee5e-4011-9408-a8893b9f3286
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: propTypeBoolRequired
+# key: ptbr
+# --
+
+PropTypes.bool.isRequired,

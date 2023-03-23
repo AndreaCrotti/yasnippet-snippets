@@ -2,4 +2,4 @@
 # name: dynamic_casting
 # key: cast
 # --
-check_and_cast<${1:Type} *>(${2:msg});
+check_and_cast<${1:Name} *>(${2:msg});

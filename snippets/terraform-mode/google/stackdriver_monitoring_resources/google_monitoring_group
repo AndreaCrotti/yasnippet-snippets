@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: google_monitoring_group
+# key: goog_monitoring_group
+# --
+
+resource "google_monitoring_group" "${1:name}" {
+  display_name = "${2:display_name}"
+  filter       = "${3:filter}"
+}
+

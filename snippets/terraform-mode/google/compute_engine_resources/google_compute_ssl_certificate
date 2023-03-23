@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: google_compute_ssl_certificate
+# key: goog_compute_ssl_certificate
+# --
+
+resource "google_compute_ssl_certificate" "${1:name}" {
+  private_key = "${file('${2:path}')}"
+  certificate = "${file('${3:path}')}"
+}
+

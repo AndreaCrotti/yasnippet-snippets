@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-# name: Title
+# name: title
 # key: <ti
 # --
-#+TITLE: ${1:What the hell}
+#+title: $0

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: funca
+# key: afun
+# --
+Future<${1:Type}> ${2:Name}($3) async {
+  $0
+}

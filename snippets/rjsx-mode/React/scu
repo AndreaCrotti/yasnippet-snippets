@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# uuid: 0f6de3c7-5374-445d-a82e-d01364b53f04
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: shouldComponentUpdate
+# key: scu
+# --
+
+shouldComponentUpdate(nextProps, nextState) {
+  $0
+}

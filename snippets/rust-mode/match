@@ -3,5 +3,5 @@
 # key: match
 # --
 match ${1:expression} {
-      $0
+    $0
 }

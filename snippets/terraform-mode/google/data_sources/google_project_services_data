@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: google_project_services_data
+# key: goog_project_services_data
+# --
+
+data "google_project_services" "${1:name}" {
+  project = "${2:project_id}"
+}
+

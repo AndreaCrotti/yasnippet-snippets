@@ -1,0 +1,19 @@
+# -*- mode: snippet -*-
+# uuid: d30232be-9660-4736-9fdc-4e50559db3d1
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: reactNativePureComponent
+# key: rnpc
+# --
+
+import React, { PureComponent } from 'react'
+import { Text, View } from 'react-native'
+
+export default class ${1:`(yas-jsx-get-class-name-by-file-name)`} extends PureComponent {
+  render() {
+    return (
+      <View>
+        <Text>${2:textInComponent}</Text>
+      </View>
+    )
+  }
+}

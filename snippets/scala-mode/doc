@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 #Author : Anders Bach Nielsen <andersbach.nielsen@epfl.ch>
-#name : /** ... */
+# name: /** ... */
 # key: doc
 # --
 /**

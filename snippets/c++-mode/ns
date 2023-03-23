@@ -1,4 +1,5 @@
-#name : namespace ...
+# -*- mode: snippet -*-
+# name: namespace ...
 # key: ns
 # --
 namespace 

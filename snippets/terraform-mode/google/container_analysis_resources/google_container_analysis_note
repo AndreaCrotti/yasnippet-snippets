@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: google_container_analysis_note
+# key: goog_container_analysis_note
+# --
+
+resource "google_container_analysis_note" "${1:name}" {
+  name = "${2:name}"
+  attestation_authority {
+    hint {
+      human_readable_name = "${3:human_readable_name}"
+    }
+  }
+}
+

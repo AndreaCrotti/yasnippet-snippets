@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# uuid: 006ec5e1-f229-4989-b8b2-fe1da1aab907
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: console.info
+# key: cin
+# group: console
+# --
+
+console.info(${1:object})

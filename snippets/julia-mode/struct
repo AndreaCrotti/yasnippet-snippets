@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: struct ... end
+# key: struct
+# contributor: hankail05
+# --
+struct ${1:name}
+    ${2:body}
+end
+$0

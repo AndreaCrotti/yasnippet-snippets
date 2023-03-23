@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: built_value
+# key: blt
+# group: dart
+# --
+abstract class ${1:Name} implements Built<$1, $1Builder> {
+  factory $1([void Function($1Builder) updates]) = _$$1;
+  $1._();
+
+  $0
+}

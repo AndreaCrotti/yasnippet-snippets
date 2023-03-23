@@ -1,4 +1,5 @@
-#contributor: Li Zhu <http://www.zhuli.name>
-#name : parameter
+# -*- mode: snippet -*-
+# contributor: Li Zhu <http://www.zhuli.name>
+# name: parameter
 # --
 parameter $0

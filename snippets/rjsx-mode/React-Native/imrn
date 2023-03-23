@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# uuid: 1eff0de2-eeb3-457f-b935-7a733a03d378
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: reactNativeImport
+# key: imrn
+# --
+
+import { ${1:moduleName} } from 'react-native'

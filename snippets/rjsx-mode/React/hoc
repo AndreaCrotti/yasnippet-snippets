@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# uuid: 0fccd0f9-2e0c-46e3-88e4-699b6adb680e
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: hocComponent
+# key: hoc
+# --
+
+import React from 'react'
+import PropTypes from 'prop-types'
+
+export default (WrappedComponent) => {
+  const hocComponent = ({ ...props }) => <WrappedComponent {...props} />
+
+  hocComponent.propTypes = {
+  }
+
+  return hocComponent
+}

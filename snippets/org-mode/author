@@ -2,4 +2,4 @@
 # name: author
 # key: <au
 # --
-#+AUTHOR: $1
+#+author: $0

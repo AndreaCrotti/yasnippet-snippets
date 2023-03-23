@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: google_compute_route
+# key: goog_compute_route
+# --
+
+resource "google_compute_route" "${1:name}" {
+  name        = "${2:name}"
+  dest_range  = "${3:0.0.0.0/32}"
+  network     = "${4:network_name}"
+}
+

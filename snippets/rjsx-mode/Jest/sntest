@@ -1,0 +1,21 @@
+# -*- mode: snippet -*-
+# uuid: fae867ad-ec86-4eff-bb90-a9bb07040eb7
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: setupReactNativeTest
+# key: sntest
+# --
+
+import 'react-native'
+import React from 'react'
+import renderer from 'react-test-renderer'
+
+import ${1:${TM_FILENAME_BASE}} from '../${1:${TM_FILENAME_BASE}}'
+
+describe('<${1:${TM_FILENAME_BASE}} />', () => {
+  const defaultProps = {}
+  const wrapper = renderer.create(<${1:${TM_FILENAME_BASE}} {...defaultProps} />)
+
+  test('render', () => {
+    expect(wrapper).toMatchSnapshot()
+  })
+})

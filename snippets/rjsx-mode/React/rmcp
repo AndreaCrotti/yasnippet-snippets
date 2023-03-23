@@ -1,0 +1,21 @@
+# -*- mode: snippet -*-
+# uuid: ba569173-16e1-4d9d-9205-96dc0832455f
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: reactFunctionMemoComponentWithPropTypes
+# key: rmcp
+# --
+
+import React, { memo } from 'react'
+import PropTypes from 'prop-types'
+
+const ${1:`(yas-jsx-get-class-name-by-file-name)`} = memo((props) => (
+  <div>
+    $0
+  </div>
+))
+
+$1.propTypes = {
+
+}
+
+export default $1

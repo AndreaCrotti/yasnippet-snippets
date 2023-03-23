@@ -1,10 +1,8 @@
 # -*- mode: snippet -*-
 # name: __new__
-# key: _new
-# group: Special methods
+# key: new
+# group: dunder methods
 # --
-def __new__(cls${1:, args}):
-    """$2
-
-    """
-    ${1:$(yas-snips-snippet-init-assignments yas-text)}
+def __new__(mcs, name, bases, dct):
+    $0
+    return type.__new__(mcs, name, bases, dct)

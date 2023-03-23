@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: entity
+# key: ent
+# --
+entity ${1:Name} is
+    $0
+end $1;

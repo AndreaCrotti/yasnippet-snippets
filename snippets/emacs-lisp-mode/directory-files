@@ -1,6 +1,7 @@
-#contributor: Xah Lee (XahLee.org)
-#name: directory-files
-#key: directory-files
-#key: df
+# -*- mode: snippet -*-
+# contributor: Xah Lee (XahLee.org)
+# name: directory-files
+# key: directory-files
+# key: df
 # --
 (directory-files ${1:directory}${2: full}${3: match}${4: nosort})

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# uuid: d1b4eeda-bb83-4aa0-ba21-d0d89671947f
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: emptyState
+# key: est
+# --
+
+state = {
+  $1
+}

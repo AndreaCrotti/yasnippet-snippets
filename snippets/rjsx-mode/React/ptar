@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# uuid: a67e2217-054e-441c-90cb-514317ce7147
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: propTypeArrayRequired
+# key: ptar
+# --
+
+PropTypes.array.isRequired,

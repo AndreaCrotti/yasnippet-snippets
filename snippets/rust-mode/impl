@@ -3,5 +3,5 @@
 # key: impl
 # --
 impl ${1:Type} {
-     $0
+    $0
 }

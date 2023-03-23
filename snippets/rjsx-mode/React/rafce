@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# uuid: 65be124a-71d0-4fd9-975a-08d6ec6f9c58
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: reactArrowFunctionExportComponent
+# key: rafce
+# --
+
+import React from 'react'
+
+const ${1:`(yas-jsx-get-class-name-by-file-name)`} = (props) => {
+  return (
+    <div>
+      $0
+    </div>
+  )
+}
+
+export default $1

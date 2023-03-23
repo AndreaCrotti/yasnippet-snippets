@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: google_container_cluster_data
+# key: goog_container_cluster_data
+# --
+
+data "google_container_cluster" "${1:name}" {
+  name   = "${2:name}"
+  zone   = "${3:zone}"
+}
+

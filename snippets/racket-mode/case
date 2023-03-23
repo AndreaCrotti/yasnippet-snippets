@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: (case ... [... ...]...)
+# key: case
+# --
+(case ${1:expression} [${2:datum} $0])

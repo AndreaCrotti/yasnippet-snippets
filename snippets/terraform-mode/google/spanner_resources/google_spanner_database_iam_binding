@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: google_spanner_database_iam_binding
+# key: goog_spanner_database_iam_binding
+# --
+
+resource "google_spanner_database_iam_binding" "${1:name}" {
+  instance = "${2:instance}"
+  database = "${3:database}"
+  role     = "${4:role}"
+  members  = [
+    "user:${5:user}",
+  ]
+}
+

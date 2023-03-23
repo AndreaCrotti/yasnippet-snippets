@@ -1,0 +1,17 @@
+# -*- mode: snippet -*-
+# name: google_compute_instance
+# key: goog_compute_instance
+# --
+
+resource "google_compute_instance" "${1:name}" {
+  name         = "${2:instance_name}"
+  machine_type = "${3:machine_type}"
+  zone         = "${4:zone}"
+
+  boot_disk {
+  }
+
+  network_interface {
+  }
+}
+

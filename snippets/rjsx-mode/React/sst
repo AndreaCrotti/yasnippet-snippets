@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# uuid: 28f6e070-6384-471f-95bf-24fbb77d4d51
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: componentSetStateObject
+# key: sst
+# --
+
+this.setState({$0})

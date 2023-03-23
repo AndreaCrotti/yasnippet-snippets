@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: google_logging_billing_account_sink
+# key: goog_logging_billing_account_sink
+# --
+
+resource "google_logging_billing_account_sink" "${1:name}" {
+  name            = "${2:name}"
+  billing_account = "${3:billing_account}"
+  destination     = "${4:destination}"
+}
+

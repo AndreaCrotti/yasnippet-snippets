@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: google_project_organization_policy
+# key: goog_project_organization_policy
+# --
+
+resource "google_project_organization_policy" "${1:name}" {
+  project    = "${2:project}"
+  constraint = "${3:constraint}"
+}
+

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: google_folder
+# key: goog_folder
+# --
+
+resource "google_folder" "${1:name}" {
+  display_name = "${2:display_name}"
+  parent       = "${3:parent}"
+}
+

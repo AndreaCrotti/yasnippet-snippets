@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: google_storage_bucket_object
+# key: goog_storage_bucket_object
+# --
+
+resource "google_storage_bucket_object" "${1:name}" {
+  name   = "${2:name}"
+  bucket = "${3:bucket}"
+}
+

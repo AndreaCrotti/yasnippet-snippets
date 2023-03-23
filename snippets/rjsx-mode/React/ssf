@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# uuid: 0f0e900a-8cf8-4fc6-a03d-75e73bb21f48
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: componentSetStateFunc
+# key: ssf
+# --
+
+this.setState((state, props) => { return { $0 }})

@@ -2,4 +2,4 @@
 # name: d_operator>>
 # key: >>
 # --
-friend std::istream& operator>>(std::istream&, const ${1:Class}&);
+friend std::istream& operator>>(std::istream&, const ${1:Name}&);

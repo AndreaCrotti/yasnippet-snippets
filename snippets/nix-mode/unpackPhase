@@ -3,6 +3,8 @@
 # key: up
 # --
 unpackPhase = ''
+  runHook preUnpack
   $1
+  runHook postUnpack
 '';
 $0

@@ -1,0 +1,24 @@
+# -*- mode: snippet -*-
+# name: suppcollection
+# key: suppcollection
+# author: Spenser Truex
+# --
+@suppcollection{ ${title},
+author    = {${author}},
+title     = {${title}},
+booktitle = {${booktitle}},
+publisher = {${publisher}},
+year      = {${year}}${,
+editor    = {${editor}}}${,
+volume    = {${volume}}}${,
+series    = {${series}}}${,
+type      = {${type}}}${,
+chapter   = {${chapter}}}${,
+pages     = {${pages}}}${,
+address   = {${address}}}${,
+edition   = {${edition}}}${,
+month     = {${month}}}${,
+note      = {${note}}}
+}
+
+$0

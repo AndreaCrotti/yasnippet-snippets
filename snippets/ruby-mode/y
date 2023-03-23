@@ -1,4 +1,5 @@
-#name : :yields: arguments (rdoc)
-#group : general
+# -*- mode: snippet -*-
+# name: :yields: arguments (rdoc)
+# group : general
 # --
 :yields: $0

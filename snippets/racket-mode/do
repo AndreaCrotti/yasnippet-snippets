@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: (do ([... ... ...]...) (... ...) ...)
+# key: do
+# --
+(do ([${1:name} ${2:init} ${3:step}]$4)
+    (${5:stop-predicate} ${6:finish})
+  $0)

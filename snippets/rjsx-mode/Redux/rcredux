@@ -1,0 +1,34 @@
+# -*- mode: snippet -*-
+# uuid: c948b832-8ff1-41b2-a256-ce629dcd4dbe
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: reactClassCompomentRedux
+# key: rcredux
+# --
+
+import React, { Component } from 'react'
+import PropTypes from 'prop-types'
+import { connect } from 'react-redux'
+
+export class ${1:`(yas-jsx-get-class-name-by-file-name)`} extends Component {
+  static propTypes = {
+    ${2:prop}: ${3:PropTypes}
+  }
+
+  render() {
+    return (
+      <div>
+        $0
+      </div>
+    )
+  }
+}
+
+const mapStateToProps = (state, ownProps) => ({
+  
+})
+
+const mapDispatchToProps = (dispatch, ownProps) => ({
+  
+})
+
+export default connect(mapStateToProps, mapDispatchToProps)($1)

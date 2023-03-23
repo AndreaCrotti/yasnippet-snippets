@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: google_organization
+# key: goog_organization
+# --
+
+data "google_organization" "${1:name}" {
+}
+

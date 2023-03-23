@@ -1,4 +1,5 @@
-#name : times { |n| ... }
-#group : control structure
+# -*- mode: snippet -*-
+# name: times { |n| ... }
+# group : control structure
 # --
 times { |${n}| $0 }

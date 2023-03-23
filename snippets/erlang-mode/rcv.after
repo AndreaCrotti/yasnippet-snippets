@@ -1,4 +1,5 @@
-#name : receive after ... -> ... end
+# -*- mode: snippet -*-
+# name: receive after ... -> ... end
 # --
 receive
 after

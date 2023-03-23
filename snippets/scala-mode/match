@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 #Author : Jonas Bonèr <jonas@jonasboner.com>
-#name : cc match { .. }
+# name: cc match { .. }
 # key: match
 # --
 ${1:cc} match {

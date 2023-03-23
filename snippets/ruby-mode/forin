@@ -1,5 +1,6 @@
-#name : for ... in ...; ... end
-#group : control structure
+# -*- mode: snippet -*-
+# name: for ... in ...; ... end
+# group : control structure
 # --
 for ${1:element} in ${2:collection}
   $0

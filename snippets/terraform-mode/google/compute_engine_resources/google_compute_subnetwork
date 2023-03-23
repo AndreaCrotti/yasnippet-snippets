@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: google_compute_subnetwork
+# key: goog_compute_subnetwork
+# --
+
+resource "google_compute_subnetwork" "${1:name}" {
+  name          = "${2:name}"
+  ip_cidr_range = "${3:0.0.0.0/32}"
+  network       = "${4:network}"
+}
+

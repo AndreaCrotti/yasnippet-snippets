@@ -1,5 +1,6 @@
-#contributor : Alejandro Espinoza Esparza <aespinoza@structum.com.mx>
-#name : class ... { ... }
+# -*- mode: snippet -*-
+# contributor : Alejandro Espinoza Esparza <aespinoza@structum.com.mx>
+# name: class ... { ... }
 # key: class
 # --
 ${5:public} class ${1:Name}
@@ -14,7 +15,7 @@ ${5:public} class ${1:Name}
 
     /// <summary>
     /// ${4:Default Destructor}
-    /// </summary>    
+    /// </summary>
     public ~$1()
     {
     }

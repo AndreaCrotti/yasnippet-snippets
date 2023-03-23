@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: google_cloudfunctions_function_data
+# key: goog_cloudfunctions_function_data
+# --
+
+data "google_cloudfunctions_function" "${1:name}" {
+  name = "${2:name}"
+}
+

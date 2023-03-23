@@ -2,6 +2,6 @@
 # name: verse
 # key: <v
 # --
-#+BEGIN_VERSE
+#+begin_verse
 $0
-#+END_VERSE
+#+end_verse

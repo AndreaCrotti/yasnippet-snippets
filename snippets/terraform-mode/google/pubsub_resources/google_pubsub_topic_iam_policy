@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: google_pubsub_topic_iam_policy
+# key: goog_pubsub_topic_iam_policy
+# --
+
+resource "google_pubsub_topic_iam_policy" "${1:name}" {
+  topic       = "${2:topic}"
+  policy_data = "${3:policy_data}"
+}
+

@@ -1,0 +1,40 @@
+# -*- mode: snippet -*-
+# -*- coding: utf-8 -*-
+# name: docstring function
+# contributor: Andrea Giugliano
+# key: docfun
+# inspired by a snippet by Tibor Simko et al.
+# --
+/**
+ * $1
+ * ${3:$
+    (let* ((indent
+            (concat "\n * "))
+           (args
+            (mapconcat
+             '(lambda (x)
+                (if (not (string= (nth 0 x) ""))
+                    ;; in Scala I get a separator : for the type
+                    (let ((par-type (mapcar 'string-trim (split-string (nth 0 x) ":")))) (concat "@param " (first par-type) indent "@tparam " (second par-type) indent))
+                    ))
+             (mapcar
+              '(lambda (x)
+                 (mapcar
+                  '(lambda (x)
+                     (replace-regexp-in-string "[[:blank:]]*$" ""
+                      (replace-regexp-in-string "^[[:blank:]]*" "" x)))
+                  x))
+              (mapcar '(lambda (x) (split-string x "="))
+                      (split-string yas-text ",")))
+             indent)))
+      (if (string= args "")
+          (concat indent "@return: " indent "@rtype: " indent (make-string 3 34))
+        (mapconcat
+         'identity
+         (list "" args )
+         indent)))
+    }
+ * @return ${4:$(yas-text)}
+ *
+ **/
+def ${2:name}($3): $4 = $0

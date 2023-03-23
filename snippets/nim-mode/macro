@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: macro
+# key: macro
+# --
+macro ${1:name}(${2:arguments}): ${3:return type} =
+  $0

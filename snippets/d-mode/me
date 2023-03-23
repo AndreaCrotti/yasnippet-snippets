@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: method … { … }
+# key: method
+# --
+/++
+ + $2
+ +/
+${1:void} ${2:method}(${3:args})
+{
+	$0
+}

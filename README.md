@@ -1,12 +1,11 @@
 # Yasnippet official snippet collections
 
 [![MELPA Stable](https://stable.melpa.org/packages/yasnippet-snippets-badge.svg)](https://stable.melpa.org/#/yasnippet-snippets)
+[![NonGNU ELPA](https://elpa.nongnu.org/nongnu/yasnippet-snippets.svg)](https://elpa.nongnu.org/nongnu/yasnippet-snippets.svg)
 [![MELPA](https://melpa.org/packages/yasnippet-snippets-badge.svg)](https://melpa.org/#/yasnippet-snippets)
 
-[![Join the chat at https://gitter.im/AndreaCrotti/yasnippet-snippets](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/AndreaCrotti/yasnippet-snippets?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
-
 This repository contains the official collection of snippets for [yasnippet](http://github.com/capitaomorte/yasnippet).
+
 
 # How to install
 
@@ -17,7 +16,7 @@ You can install this package from melpa, by first ensuring that you have the mel
 ```lisp
 (require 'package)
 (add-to-list 'package-archives
-             '("melpa" . "http://melpa.milkbox.net/packages/") t)
+             '("melpa" . "http://melpa.org/packages/") t)
 (package-initialize)
 ```
 
@@ -27,6 +26,10 @@ Once that is done, then just refresh the packages and install it with.
 * <kbd>M-x package-install yasnippet-snippets</kbd>
 
 Now all the snippets will load automatically, as soon as yasnippet loads.
+
+## On Debian ≥10 and derivatives such as Ubuntu ≥ 18.10
+
+`sudo apt install elpa-yasnippet-snippets`
 
 # Contributing
 

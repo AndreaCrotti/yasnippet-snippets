@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: google_kms_key_ring_iam_policy
+# key: goog_kms_key_ring_iam_policy
+# --
+
+resource "google_kms_key_ring_iam_policy" "${1:name}" {
+  key_ring_id = "${2:key_ring}"
+  policy_data = "${3:policy_data}"
+}
+

@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: google_pubsub_topic_iam_binding
+# key: goog_pubsub_topic_iam_binding
+# --
+
+resource "google_pubsub_topic_iam_binding" "${1:name}" {
+  topic   = "${2:topic}"
+  role    = "${3:role}"
+  members = [
+    "user:${4:user}",
+  ]
+}
+

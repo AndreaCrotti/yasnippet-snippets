@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: google_kms_key_ring
+# key: goog_kms_key_ring
+# --
+
+resource "google_kms_key_ring" "${1:name}" {
+  name     = "${2:name}"
+  location = "${3:location}"
+}
+

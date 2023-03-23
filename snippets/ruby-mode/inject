@@ -1,4 +1,5 @@
-#name : inject(...) { |...| ... }
-#group : collections
+# -*- mode: snippet -*-
+# name: inject(...) { |...| ... }
+# group : collections
 # --
 inject(${1:0}) { |${2:injection}, ${3:element}| $0 }

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: google_bigquery_table
+# key: goog_bigquery_table
+# --
+
+resource "google_bigquery_table" "${1:name}" {
+  dataset_id = "${2:dataset_id}"
+  table_id   = "${3:table_id}"
+}
+

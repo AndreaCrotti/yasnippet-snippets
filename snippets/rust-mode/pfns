@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: pub fn name(&self) -> Type  { ... }
+# key: pfns
+# --
+pub fn ${1:name}(${2:&self}) -> ${3:Type} {
+    $0
+}

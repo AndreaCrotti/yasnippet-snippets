@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: google_folder_data
+# key: goog_folder_data
+# --
+
+data "google_folder" "${1:name}" {
+  folder = "${2:folder}"
+}
+

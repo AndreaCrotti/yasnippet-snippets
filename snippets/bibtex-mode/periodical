@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: periodical
+# key: periodical
+# author: Spenser Truex
+# --
+@periodical{ ${title}
+editor     = {${editor}},
+title      = {${title}},
+year       = {${year}}${,
+issue      = {${issue}}}${,
+issuetitle = {${issuetitle}}}${,
+url        = {${url}}}${,
+urldate    = {${urldate}}}${,
+issn       = {${issn}}}${,
+note       = {${note}}}
+}

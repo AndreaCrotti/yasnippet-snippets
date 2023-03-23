@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# uuid: 9a5dfef3-2b52-4c8e-bad1-3493599e10d9
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: reduxAction
+# key: rxaction
+# --
+
+export const ${1:actionName} = (payload) => ({
+  type: ${1:$((yas-snake-case yas-text))},
+  payload
+})

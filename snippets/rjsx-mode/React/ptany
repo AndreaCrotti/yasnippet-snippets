@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# uuid: 08932a85-31e3-4763-a210-7147d1c960e1
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: propTypeAny
+# key: ptany
+# --
+
+PropTypes.any,

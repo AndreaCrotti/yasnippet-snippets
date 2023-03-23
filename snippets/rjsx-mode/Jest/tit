@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# uuid: 96dcd16f-ee34-4832-8637-6610819df6ba
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: itBlock
+# key: tit
+# --
+
+it('should $1', () => {
+  $0
+})

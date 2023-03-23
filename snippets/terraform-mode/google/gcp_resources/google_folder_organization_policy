@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: google_folder_organization_policy
+# key: goog_folder_organization_policy
+# --
+
+resource "google_folder_organization_policy" "${1:name}" {
+  folder     = "${2:folder}"
+  constraint = "${3:constraint}"
+}

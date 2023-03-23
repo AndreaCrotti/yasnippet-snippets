@@ -2,7 +2,7 @@
 # name: module
 # key: mod
 # --
-class ${1:Class} : public cSimpleModule
+class ${1:Name} : public cSimpleModule
 {
    $0
 }

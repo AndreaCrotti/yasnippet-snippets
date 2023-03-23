@@ -2,6 +2,6 @@
 # name: center
 # key: <c
 # --
-#+BEGIN_CENTER
+#+begin_center
 $0
-#+END_CENTER
+#+end_center

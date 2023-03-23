@@ -1,0 +1,21 @@
+# -*- mode: snippet -*-
+# uuid: 27262af6-b8a7-4165-bbfb-815f62eb3d4f
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: reactNativeComponentExport
+# key: rnce
+# --
+
+import React, { Component } from 'react'
+import { Text, View } from 'react-native'
+
+export class ${1:`(yas-jsx-get-class-name-by-file-name)`} extends Component {
+  render() {
+    return (
+      <View>
+        <Text>${2:textInComponent}</Text>
+      </View>
+    )
+  }
+}
+
+export default $1

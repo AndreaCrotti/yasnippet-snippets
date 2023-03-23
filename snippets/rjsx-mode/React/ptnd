@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# uuid: 9902d633-c968-4215-835a-3e229678ea02
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: propTypeNode
+# key: ptnd
+# --
+
+PropTypes.node,

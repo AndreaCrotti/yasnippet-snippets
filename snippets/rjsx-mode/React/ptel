@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# uuid: 106b9955-0b26-4442-aebe-e69629a43856
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: propTypeElement
+# key: ptel
+# --
+
+PropTypes.element,

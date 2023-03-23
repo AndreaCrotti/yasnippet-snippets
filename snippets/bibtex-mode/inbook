@@ -12,7 +12,7 @@
   volume    = {${volume}}${,
   series    = {${series}}}${,
   type      = {${type}}}${,
-  address   = {${addre}ss}}${,
+  address   = {${address}}}${,
   edition   = {${edition}}}${,
   month     = {${month}}}${,
   note      = {${note}}}

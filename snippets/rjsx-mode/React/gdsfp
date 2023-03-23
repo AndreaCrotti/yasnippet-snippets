@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# uuid: 3eeec841-9d3b-4e5c-93af-f478ffacc3f1
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: getDerivedStateFromProps
+# key: gdsfp
+# --
+
+static getDerivedStateFromProps(nextProps, prevState) {
+  $0
+}

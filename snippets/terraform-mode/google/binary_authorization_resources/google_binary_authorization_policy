@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: google_binary_authorization_policy
+# key: goog_binary_authorization_policy
+# --
+
+resource "google_binary_authorization_policy" "${1:name}" {
+  default_admission_rule {
+    evaluation_mode = "${2:evaluation_mode}"
+    enforcement_mode = "${3:enforcement_mode}"
+  }
+}
+

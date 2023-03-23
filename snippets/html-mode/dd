@@ -1,5 +1,6 @@
-#contributor : Rodrigo Setti <rodrigosetti@gmail.com>
-#name : <dd> ... </dd>
-#group : list
+# -*- mode: snippet -*-
+# contributor : Rodrigo Setti <rodrigosetti@gmail.com>
+# name: <dd> ... </dd>
+# group : list
 # --
 <dd>$1</dd>

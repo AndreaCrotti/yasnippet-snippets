@@ -1,4 +1,5 @@
-#name : attr_accessor ...
-#group : definitions
+# -*- mode: snippet -*-
+# name: attr_accessor ...
+# group : definitions
 # --
 attr_accessor :

@@ -2,4 +2,4 @@
 # name: d_operator[]_const
 # key: c[
 # --
-const ${1:Type}& operator[](${2:int index}) const;
+const ${1:Name}& operator[](${2:int index}) const;

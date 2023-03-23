@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# uuid: ffd28ce2-1575-4e26-9e12-65c23d3f9ca2
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: componentProps
+# key: props
+# --
+
+this.props.$0

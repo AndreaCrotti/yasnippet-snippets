@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: google_storage_notification
+# key: goog_storage_notification
+# --
+
+resource "google_storage_notification" "${1:name}" {
+  bucket         = "${2:bucket}"
+  payload_format = "${3:payload}"
+  topic          = "${4:topic}"
+}
+

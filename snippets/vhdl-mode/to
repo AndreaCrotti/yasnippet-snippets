@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: to
+# key: to
+# --
+${1:name}(${2:start} to ${3:end})$0
