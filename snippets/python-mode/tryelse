@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: tryelse
-# key: try
+# key: tryelse
 # --
 try:
     $0
