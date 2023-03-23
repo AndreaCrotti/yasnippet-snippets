@@ -3,5 +3,5 @@
 # key: _get
 # group: Special methods
 # --
-def __get__(self, instance, owner):
+def __get__(self, instance, owner=None):
     return $0
