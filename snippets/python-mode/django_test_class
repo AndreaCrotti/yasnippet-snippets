@@ -1,6 +1,6 @@
 # -*- mode: snippet; require-final-newline: nil -*-
 # name: django_test_class
-# key: tcs
+# key: dtcs
 # group: testing
 # --
 class ${1:Model}Test(TestCase):
