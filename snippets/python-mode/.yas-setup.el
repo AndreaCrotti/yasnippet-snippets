@@ -43,5 +43,3 @@ First group should give the argument name.")
                  (list "\nParameters\n----------" formatted-params
                        "\nReturns\n-------" formatted-ret)
                  "\n"))))
-
-(add-hook 'python-mode-hook #'yasnippet-snippets--fixed-indent)
