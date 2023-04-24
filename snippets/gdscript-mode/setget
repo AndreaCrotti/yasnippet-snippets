@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: setget
+# key: vsg
+# group: definitions
+# --
+var ${1:variable} = ${2:value} setget ${3:setterfunc}, ${4:getterfunc}

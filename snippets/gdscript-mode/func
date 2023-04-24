@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: func
+# key: f
+# group: definitions
+# --
+func ${1:func_name} (${2:param}):
+    ${0:pass}

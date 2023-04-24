@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: static_func
+# key: sf
+# group: definitions
+# --
+static func ${1:func_name} (${2:param}):
+    ${0:pass}
