@@ -28,4 +28,5 @@ declare license "${4:$$
     "MPL-2.0"
     "Unlicense"
   ))}";
+declare copyright "${5:starting year} - ${6:`(format-time-string "%Y")`$0}, ${7:$3}";
 $0
