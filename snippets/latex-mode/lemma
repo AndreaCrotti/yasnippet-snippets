@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: lemma
+# key: lem
+# --
+\begin{lem}[${2:title}]
+  \label{lem:${1:label}}
+  $0
+\end{lem}
