@@ -3,4 +3,4 @@
 # key: <vi
 # --
 
-[[${1:link of the video}][file:${2:link of the image}]
+[[${1:link to the video}][file:${2:link of the image}]
