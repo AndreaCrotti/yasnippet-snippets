@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# contributor: Teo Parashkevov <theo.parashkevov@gmail.com>
+# name: Class General (No-Docstring)
+# key: class_general
+# group: class
+# --
+class $1:
+    def __init__(self):
+        pass
+
+    def __del__(self):
+        pass
