@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: Teo Parashkevov <theo.parashkevov@gmail.com>
+# name: [File] Open File Debug (Function)
+# key: open_file_debug
+# group: file
+# --
+with open('$1', 'a+') as __file:
+    __file.write($0)
