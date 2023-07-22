@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# contributor: Teo Parashkevov <theo.parashkevov@gmail.com>
+# name: Class General (With-Docstring)
+# key: class_general_doc
+# group: class
+# --
+class $1:
+    """TO-DO Docstring."""
+    def __init__(self):
+        """TO-DO Docstring."""
+        pass
+
+    def __del__(self):
+        """TO-DO Docstring."""
+        pass
