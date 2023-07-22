@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# contributor: Teo Parashkevov <theo.parashkevov@gmail.com>
+# name: TO_DO Docstring
+# key: to_do_doc
+# group: doc
+# --
+"""TO-DO $1."""
