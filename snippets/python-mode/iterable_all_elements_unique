@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: Teo Parashkevov <theo.parashkevov@gmail.com>
+# name: [Iterable] All elements Unique (Function)
+# key: iterable_all_elements_unique
+# group: iterable
+# --
+def all_elements_unique(iter):
+    return len(iter) == len(set(iter))
