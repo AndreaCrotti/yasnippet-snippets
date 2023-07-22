@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# contributor: Teo Parashkevov <theo.parashkevov@gmail.com>
+# name: [File] File exists (Variable)
+# key: file_exists
+# group: file
+# --
+file_exists = os.path.isfile("$1")
