@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# contributor: Teo Parashkevov <theo.parashkevov@gmail.com>
+# name: [String] Is Anagram (Function)
+# key: is_anagram
+# group: string 
+# --
+from collections import Counter
+
+def is_anagram(first_str, second_str):
+    return Counter(first_str) == Counter(second_str)
