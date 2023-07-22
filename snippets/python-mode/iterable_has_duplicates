@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: Teo Parashkevov <theo.parashkevov@gmail.com>
+# name: [Iterable] Has Duplicates (Function)
+# key: iterable_has_duplicates
+# group: iterable
+# --
+def has_duplicates(iter):
+    return len(iter) != len(set(iter))
