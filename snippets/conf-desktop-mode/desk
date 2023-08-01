@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: current-date
+# key: desk
+# contributor : Yilkal Argaw <yilkalargawworkneh@gmail.com>
+# --
+[Desktop Entry]
+Encoding=${1:UTF-8}
+Version=${2:1.0}
+Type=${3:Application}
+NoDisplay=${4:false}
+Terminal=${5:false}
+Exec=${}
+Name=${}
+Icon=${}
+Comment=${}
+Categories=${}
