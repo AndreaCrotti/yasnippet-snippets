@@ -1,4 +1,3 @@
-# -*- mode: snippet -*-
 # -*- coding: utf-8 -*-
 # name: ns
 # key: ns
@@ -11,13 +10,13 @@
 		    nil))))
        (let* ((p (buffer-file-name))
 	      (p2 (cl-first
-		   (cl-remove-if-not #'(lambda (x) x)
+		   (cl-remove-if-not (lambda (x) x)
 				     (mapcar
-				      #'(lambda (pfx)
+				      (lambda (pfx)
 					 (try-src-prefix p pfx))
 				      '("/src/cljs/" "/src/clj/" "/src/" "/test/")))))
 	      (p3 (file-name-sans-extension p2))
-	      (p4 (mapconcat #'(lambda (x) x)
+	      (p4 (mapconcat (lambda (x) x)
 			     (split-string p3 "/")
 			     ".")))
 	 (replace-regexp-in-string "_" "-" p4)))`)

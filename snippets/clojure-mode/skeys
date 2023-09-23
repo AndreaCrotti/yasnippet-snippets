@@ -1,0 +1,4 @@
+# name: skeys
+# key: skeys
+# --
+(s/keys :$0 $1)
