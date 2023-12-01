@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: enum
+# key: enum
+# --
+${1:name} :: enum {
+${0: $(indent-according-to-mode)}
+}

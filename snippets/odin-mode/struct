@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: struct
+# key: struct
+# --
+${1:name} :: struct {
+${0: $(indent-according-to-mode)}
+}

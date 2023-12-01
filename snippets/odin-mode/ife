@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: if else
+# key: ife
+# --
+if ${1: $(if (and (not yas-modified-p) yas-moving-away-p) (yas-skip-and-clear-field) nil)}; ${2: } {
+	$3
+} else $0

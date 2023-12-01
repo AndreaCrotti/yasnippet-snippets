@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: union
+# key: union
+# --
+${1:name} :: union {
+${0: $(indent-according-to-mode)}
+}
