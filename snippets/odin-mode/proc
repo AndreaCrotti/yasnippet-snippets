@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: proc
+# key: pr
+# --
+${1:name} :: proc($2) -> $3 {
+${0: $(indent-according-to-mode)}
+}

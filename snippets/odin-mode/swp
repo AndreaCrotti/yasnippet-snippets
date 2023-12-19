@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: partial switch
+# key: swp
+# --
+#partial switch $1;$2 {
+${0: $(indent-according-to-mode)}
+}

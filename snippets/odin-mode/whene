@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: when else
+# key: whene
+# --
+when $1 {
+${2: $(indent-according-to-mode)}
+} else {
+${0: $(indent-according-to-mode)}
+}

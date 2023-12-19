@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: for do
+# key: fd
+# --
+for $1; $2; $3 do ${0: $(indent-according-to-mode)}
