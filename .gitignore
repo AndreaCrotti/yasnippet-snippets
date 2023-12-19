@@ -1,3 +1,5 @@
 **/.yas-compiled-snippets.el
 /report/target/
 /report/.nrepl-port
+/.clj-kondo/
+/.lsp/
