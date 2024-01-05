@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: corollary
+# key: corr
+# --
+\begin{cor}[${2:title}]
+  \label{cor:${1:label}}
+  $0
+\end{cor}
