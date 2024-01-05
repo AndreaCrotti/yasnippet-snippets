@@ -7,13 +7,26 @@ declare version "${2:0.1}";
 declare author "$3";
 declare license "${4:$$
   (yas-choose-value '(
-    "AGPLv3"
-    "Apache"
-    "BSD 2-clause"
-    "BSD 3-clause"
-    "GPLv2"
-    "GPLv3"
-    "LGPLv3"
+    "AGPL-3.0-only"
+    "AGPL-3.0-or-later"
+    "Apache-2.0"
+    "BSD-2-Clause"
+    "BSD-3-Clause"
+    "CC-BY-4.0"
+    "CC0-1.0"
+    "EPL-2.0"
+    "GPL-2.0-only"
+    "GPL-2.0-or-later"
+    "GPL-3.0-only"
+    "GPL-3.0-or-later"
+    "ISC"
+    "LGPL-2.1-only"
+    "LGPL-2.1-or-later"
+    "LGPL-3.0-only"
+    "LGPL-3.0-or-later"
     "MIT"
+    "MPL-2.0"
+    "Unlicense"
   ))}";
+declare copyright "${5:starting year} - ${6:`(format-time-string "%Y")`$0}, ${7:$3}";
 $0
