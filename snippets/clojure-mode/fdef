@@ -1,0 +1,6 @@
+# name: fdef
+# key: fdef
+# --
+(s/fdef $1$>
+        :args (s/cat $2)$>
+        :ret $0)$>
