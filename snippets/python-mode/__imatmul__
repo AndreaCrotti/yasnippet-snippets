@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: __imatmul__
+# key: _imatmul
+# group: Special methods
+# --
+def __imatmul__(self, other):
+    return $0

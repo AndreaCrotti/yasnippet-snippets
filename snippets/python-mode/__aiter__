@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: __aiter__
+# key: _aiter
+# group: Special methods
+# --
+def __aiter__(self):
+    return $0
