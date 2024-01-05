@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: try
 # key: try
+# expand-env: ((yas-indent-line 'fixed))
 # --
 try:
     $0

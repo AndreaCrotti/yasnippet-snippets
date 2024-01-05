@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # name: __new__
-# key: new
-# group: dunder methods
+# key: _new
+# group: Special methods
 # --
 def __new__(mcs, name, bases, dct):
     $0

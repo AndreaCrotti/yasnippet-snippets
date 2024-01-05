@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # contributor: Mads D. Kristensen <madsdk@gmail.com>
 # name: prop
+# expand-env: ((yas-indent-line 'fixed))
 # --
 def ${1:foo}():
     doc = """${2:Doc string}"""
