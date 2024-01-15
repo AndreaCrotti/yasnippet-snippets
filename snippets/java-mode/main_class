@@ -7,6 +7,6 @@ class `(file-name-nondirectory (file-name-sans-extension (buffer-file-name)))`
 {
 public static void main(String[] args)
 {
-$0
+$> $0
 }
 }
