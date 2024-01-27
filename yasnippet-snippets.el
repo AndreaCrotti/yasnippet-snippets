@@ -1,4 +1,4 @@
-;;; yasnippet-snippets.el --- Collection of yasnippet snippets
+;;; yasnippet-snippets.el --- Collection of yasnippet snippets -*- lexical-binding: t -*-
 
 ;; Copyright (C) 2017 Andrea Crotti
 

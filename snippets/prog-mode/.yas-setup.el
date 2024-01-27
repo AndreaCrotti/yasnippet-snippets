@@ -1,3 +1,4 @@
+;;; -*- lexical-binding: t -*-
 (require 'yasnippet)
 
 ;; whitespace removing functions from Magnar Sveen ;;;;;;;;;;;;;;;;;;;;;;;;;;;;

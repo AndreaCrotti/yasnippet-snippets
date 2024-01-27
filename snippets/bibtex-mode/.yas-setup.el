@@ -1,3 +1,4 @@
+;;; -*- lexical-binding: t -*-
 (require 'yasnippet)
 (require 'yasnippet-snippets)
 

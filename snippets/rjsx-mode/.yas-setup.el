@@ -1,4 +1,4 @@
-;;; .yas-setup.el --- Yasnippet helper functions for JSX snippets
+;;; .yas-setup.el --- Yasnippet helper functions for JSX snippets -*- lexical-binding: t -*-
 
 ;;; Commentary:
 
