@@ -29,8 +29,9 @@
   (yas-s-trim comment-start))
 
 (defun yas-trimmed-comment-end ()
-  "This function returns `comment-end' trimmed by whitespaces if `comment-end' is not empty.
-Otherwise the reversed output of function `yas-trimmed-comment-start' is returned."
+  "This function returns `comment-end' trimmed by whitespaces if
+`comment-end' is not empty. Otherwise the reversed output of
+function `yas-trimmed-comment-start' is returned."
   (if (eq (length comment-end) 0)
       (yas-string-reverse (yas-trimmed-comment-start))
     (yas-s-trim comment-end)))
