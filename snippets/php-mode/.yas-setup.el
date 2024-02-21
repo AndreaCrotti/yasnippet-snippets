@@ -1,4 +1,4 @@
-;;; .yas-setup.el --- Yasnippet helper functions for PHP snippets
+;;; .yas-setup.el --- Yasnippet helper functions for PHP snippets -*- lexical-binding: t -*-
 
 ;;; Commentary:
 

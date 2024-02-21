@@ -1,3 +1,4 @@
+;;; -*- lexical-binding: t -*-
 (require 'yasnippet)
 
 (defun yas-c++-class-name (str)
