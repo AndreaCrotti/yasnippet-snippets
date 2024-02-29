@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: match
+# key: match
+# group: control structure
+# --
+match ${1:expression}:
+    ${2:pattern}:
+        ${3:pass}

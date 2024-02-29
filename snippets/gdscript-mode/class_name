@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: class_name
+# key: clsn
+# group: object oriented
+# --
+class_name ${1:Item} = ${2:"res://icons/item.png"}

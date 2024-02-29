@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: var
+# key: var
+# group: definitions
+# --
+var ${1:name} = $0
