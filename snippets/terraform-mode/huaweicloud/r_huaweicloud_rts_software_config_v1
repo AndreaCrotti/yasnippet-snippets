@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_huaweicloud_rts_software_config_v1
+# key: r_huaweicloud_rts_software_config_v1
+# --
+resource "huaweicloud_rts_software_config_v1" "$1" {
+	name = "$2"
+}

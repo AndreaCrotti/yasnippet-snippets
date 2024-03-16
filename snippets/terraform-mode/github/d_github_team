@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_github_team
+# key: d_github_team
+# --
+data "github_team" "$1" {
+	slug = "$2"
+}

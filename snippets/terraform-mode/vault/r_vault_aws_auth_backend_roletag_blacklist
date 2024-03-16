@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_vault_aws_auth_backend_roletag_blacklist
+# key: r_vault_aws_auth_backend_roletag_blacklist
+# --
+resource "vault_aws_auth_backend_roletag_blacklist" "$1" {
+	backend = "$2"
+}

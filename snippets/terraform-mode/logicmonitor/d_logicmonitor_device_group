@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_logicmonitor_device_group
+# key: d_logicmonitor_device_group
+# --
+data "logicmonitor_device_group" "$1" {
+	
+}

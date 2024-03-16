@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# name: r_aws_glue_security_configuration
+# key: r_aws_glue_security_configuration
+# --
+resource "aws_glue_security_configuration" "$1" {
+	encryption_configuration {
+		cloudwatch_encryption {
+		
+		}
+		job_bookmarks_encryption {
+		
+		}
+		s3_encryption {
+		
+		}
+	}
+	name = "$3"
+}

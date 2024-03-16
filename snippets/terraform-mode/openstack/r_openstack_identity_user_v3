@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_openstack_identity_user_v3
+# key: r_openstack_identity_user_v3
+# --
+resource "openstack_identity_user_v3" "$1" {
+	
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_vsphere_custom_attribute
+# key: d_vsphere_custom_attribute
+# --
+data "vsphere_custom_attribute" "$1" {
+	name = "$2"
+}

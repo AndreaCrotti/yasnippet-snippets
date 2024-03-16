@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_wafregional_web_acl_association
+# key: r_aws_wafregional_web_acl_association
+# --
+resource "aws_wafregional_web_acl_association" "$1" {
+	resource_arn = "$2"
+	web_acl_id = "$3"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_vpc
+# key: d_aws_vpc
+# --
+data "aws_vpc" "$1" {
+	
+}

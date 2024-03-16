@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_oci_identity_tag
+# key: r_oci_identity_tag
+# --
+resource "oci_identity_tag" "$1" {
+	description = "$2"
+	name = "$3"
+	tag_namespace_id = "$4"
+}

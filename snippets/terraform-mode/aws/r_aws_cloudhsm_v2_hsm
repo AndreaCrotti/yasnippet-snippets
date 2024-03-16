@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_cloudhsm_v2_hsm
+# key: r_aws_cloudhsm_v2_hsm
+# --
+resource "aws_cloudhsm_v2_hsm" "$1" {
+	cluster_id = "$2"
+}

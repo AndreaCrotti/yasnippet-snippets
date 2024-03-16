@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: postgresql
+# key: postgresql
+# --
+provider "postgresql" {
+	
+}

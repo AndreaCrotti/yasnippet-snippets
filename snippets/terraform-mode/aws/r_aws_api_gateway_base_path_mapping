@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_api_gateway_base_path_mapping
+# key: r_aws_api_gateway_base_path_mapping
+# --
+resource "aws_api_gateway_base_path_mapping" "$1" {
+	api_id = "$2"
+	domain_name = "$3"
+}

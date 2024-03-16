@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_automation_account
+# key: r_azurerm_automation_account
+# --
+resource "azurerm_automation_account" "$1" {
+	location = "$2"
+	name = "$3"
+	resource_group_name = "$4"
+	sku {
+	
+	}
+}

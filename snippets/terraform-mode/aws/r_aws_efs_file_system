@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_efs_file_system
+# key: r_aws_efs_file_system
+# --
+resource "aws_efs_file_system" "$1" {
+	
+}

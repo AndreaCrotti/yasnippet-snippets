@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_dns_a_record_set
+# key: d_dns_a_record_set
+# --
+data "dns_a_record_set" "$1" {
+	host = "$2"
+}

@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_cloudstack_private_gateway
+# key: r_cloudstack_private_gateway
+# --
+resource "cloudstack_private_gateway" "$1" {
+	acl_id = "$2"
+	gateway = "$3"
+	ip_address = "$4"
+	netmask = "$5"
+	vlan = "$6"
+	vpc_id = "$7"
+}

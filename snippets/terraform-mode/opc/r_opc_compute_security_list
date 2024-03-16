@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_opc_compute_security_list
+# key: r_opc_compute_security_list
+# --
+resource "opc_compute_security_list" "$1" {
+	name = "$2"
+}

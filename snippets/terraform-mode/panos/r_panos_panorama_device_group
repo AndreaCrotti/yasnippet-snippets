@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_panos_panorama_device_group
+# key: r_panos_panorama_device_group
+# --
+resource "panos_panorama_device_group" "$1" {
+	name = "$2"
+}

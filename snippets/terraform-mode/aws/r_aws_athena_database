@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_athena_database
+# key: r_aws_athena_database
+# --
+resource "aws_athena_database" "$1" {
+	bucket = "$2"
+	name = "$3"
+}

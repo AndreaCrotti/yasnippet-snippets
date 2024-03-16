@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_lb_ssl_negotiation_policy
+# key: r_aws_lb_ssl_negotiation_policy
+# --
+resource "aws_lb_ssl_negotiation_policy" "$1" {
+	lb_port = $2
+	load_balancer = "$3"
+	name = "$4"
+}

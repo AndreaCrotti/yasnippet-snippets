@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_netlify_hook
+# key: r_netlify_hook
+# --
+resource "netlify_hook" "$1" {
+	data {
+
+	}
+	event = "$3"
+	site_id = "$4"
+	type = "$5"
+}

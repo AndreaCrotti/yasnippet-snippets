@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_globalaccelerator_accelerator
+# key: r_aws_globalaccelerator_accelerator
+# --
+resource "aws_globalaccelerator_accelerator" "$1" {
+	name = "$2"
+}

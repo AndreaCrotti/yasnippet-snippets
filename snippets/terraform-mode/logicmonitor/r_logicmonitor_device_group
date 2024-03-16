@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_logicmonitor_device_group
+# key: r_logicmonitor_device_group
+# --
+resource "logicmonitor_device_group" "$1" {
+	name = "$2"
+}

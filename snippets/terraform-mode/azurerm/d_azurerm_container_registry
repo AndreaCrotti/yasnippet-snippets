@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_azurerm_container_registry
+# key: d_azurerm_container_registry
+# --
+data "azurerm_container_registry" "$1" {
+	name = "$2"
+	resource_group_name = "$3"
+}

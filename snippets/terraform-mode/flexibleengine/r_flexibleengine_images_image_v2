@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_flexibleengine_images_image_v2
+# key: r_flexibleengine_images_image_v2
+# --
+resource "flexibleengine_images_image_v2" "$1" {
+	container_format = "$2"
+	disk_format = "$3"
+	name = "$4"
+}

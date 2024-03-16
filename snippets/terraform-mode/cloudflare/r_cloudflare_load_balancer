@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_cloudflare_load_balancer
+# key: r_cloudflare_load_balancer
+# --
+resource "cloudflare_load_balancer" "$1" {
+	default_pool_ids = ["$2"]
+	fallback_pool_id = "$3"
+	name = "$4"
+	zone = "$5"
+}

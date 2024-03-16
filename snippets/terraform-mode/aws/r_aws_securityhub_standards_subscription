@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_securityhub_standards_subscription
+# key: r_aws_securityhub_standards_subscription
+# --
+resource "aws_securityhub_standards_subscription" "$1" {
+	standards_arn = "$2"
+}

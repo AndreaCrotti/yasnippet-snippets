@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_nutanix_category_key
+# key: r_nutanix_category_key
+# --
+resource "nutanix_category_key" "$1" {
+	name = "$2"
+}

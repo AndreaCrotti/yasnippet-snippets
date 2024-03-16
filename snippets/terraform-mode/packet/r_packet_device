@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_packet_device
+# key: r_packet_device
+# --
+resource "packet_device" "$1" {
+	billing_cycle = "$2"
+	facility = "$3"
+	hostname = "$4"
+	operating_system = "$5"
+	plan = "$6"
+	project_id = "$7"
+}

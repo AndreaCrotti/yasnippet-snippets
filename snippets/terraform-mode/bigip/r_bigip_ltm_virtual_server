@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_bigip_ltm_virtual_server
+# key: r_bigip_ltm_virtual_server
+# --
+resource "bigip_ltm_virtual_server" "$1" {
+	destination = "$2"
+	name = "$3"
+	port = $4
+}

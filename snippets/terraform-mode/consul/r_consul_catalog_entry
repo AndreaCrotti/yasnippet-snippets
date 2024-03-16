@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_consul_catalog_entry
+# key: r_consul_catalog_entry
+# --
+resource "consul_catalog_entry" "$1" {
+	address = "$2"
+	node = "$3"
+}

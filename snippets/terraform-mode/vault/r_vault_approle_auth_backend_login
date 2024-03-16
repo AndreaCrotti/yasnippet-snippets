@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_vault_approle_auth_backend_login
+# key: r_vault_approle_auth_backend_login
+# --
+resource "vault_approle_auth_backend_login" "$1" {
+	role_id = "$2"
+}

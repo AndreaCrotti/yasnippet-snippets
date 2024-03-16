@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_linode_nodebalancer_node
+# key: r_linode_nodebalancer_node
+# --
+resource "linode_nodebalancer_node" "$1" {
+	address = "$2"
+	config_id = $3
+	label = "$4"
+	nodebalancer_id = $5
+}

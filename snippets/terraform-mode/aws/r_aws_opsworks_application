@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_opsworks_application
+# key: r_aws_opsworks_application
+# --
+resource "aws_opsworks_application" "$1" {
+	name = "$2"
+	stack_id = "$3"
+	type = "$4"
+}

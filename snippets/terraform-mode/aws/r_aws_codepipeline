@@ -1,0 +1,22 @@
+# -*- mode: snippet -*-
+# name: r_aws_codepipeline
+# key: r_aws_codepipeline
+# --
+resource "aws_codepipeline" "$1" {
+	artifact_store {
+		location = ""
+		type = ""
+	}
+	name = "$3"
+	role_arn = "$4"
+	stage {
+		action {
+			category = ""
+			name = ""
+			owner = ""
+			provider = ""
+			version = ""
+		}
+		name = ""
+	}
+}

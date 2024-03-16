@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: r_huaweicloud_dms_instance_v1
+# key: r_huaweicloud_dms_instance_v1
+# --
+resource "huaweicloud_dms_instance_v1" "$1" {
+	available_zones = ["$2"]
+	engine = "$3"
+	name = "$4"
+	product_id = "$5"
+	security_group_id = "$6"
+	storage_space = $7
+	subnet_id = "$8"
+	vpc_id = "$9"
+}

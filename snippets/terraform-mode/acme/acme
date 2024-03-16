@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: acme
+# key: acme
+# --
+provider "acme" {
+	server_url = "$1"
+}

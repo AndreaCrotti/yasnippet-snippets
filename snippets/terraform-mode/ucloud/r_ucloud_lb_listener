@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_ucloud_lb_listener
+# key: r_ucloud_lb_listener
+# --
+resource "ucloud_lb_listener" "$1" {
+	load_balancer_id = "$2"
+	protocol = "$3"
+}

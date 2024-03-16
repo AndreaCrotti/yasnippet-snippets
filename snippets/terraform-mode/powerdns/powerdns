@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: powerdns
+# key: powerdns
+# --
+provider "powerdns" {
+	api_key = "$1"
+	server_url = "$2"
+}

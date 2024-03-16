@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_brightbox_database_server
+# key: r_brightbox_database_server
+# --
+resource "brightbox_database_server" "$1" {
+	allow_access = ["$2"]
+}

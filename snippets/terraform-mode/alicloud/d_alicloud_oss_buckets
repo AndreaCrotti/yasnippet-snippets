@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_alicloud_oss_buckets
+# key: d_alicloud_oss_buckets
+# --
+data "alicloud_oss_buckets" "$1" {
+	
+}

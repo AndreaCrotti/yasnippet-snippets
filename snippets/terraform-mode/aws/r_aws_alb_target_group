@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_alb_target_group
+# key: r_aws_alb_target_group
+# --
+resource "aws_alb_target_group" "$1" {
+	
+}

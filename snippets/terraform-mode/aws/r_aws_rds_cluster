@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_rds_cluster
+# key: r_aws_rds_cluster
+# --
+resource "aws_rds_cluster" "$1" {
+	
+}

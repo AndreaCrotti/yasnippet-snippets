@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_http
+# key: d_http
+# --
+data "http" "$1" {
+	url = "$2"
+}

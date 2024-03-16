@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_rightscale_cwf_process
+# key: r_rightscale_cwf_process
+# --
+resource "rightscale_cwf_process" "$1" {
+	source = "$2"
+}

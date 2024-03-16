@@ -1,0 +1,20 @@
+# -*- mode: snippet -*-
+# name: r_huaweicloud_mls_instance
+# key: r_huaweicloud_mls_instance
+# --
+resource "huaweicloud_mls_instance" "$1" {
+	flavor = "$2"
+	mrs_cluster {
+		id = ""
+	}
+	name = "$4"
+	network {
+		available_zone = ""
+		network_id = ""
+		public_ip {
+			bind_type = ""
+		}
+		vpc_id = ""
+	}
+	version = "$6"
+}

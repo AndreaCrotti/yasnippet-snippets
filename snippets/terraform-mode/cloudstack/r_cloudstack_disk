@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_cloudstack_disk
+# key: r_cloudstack_disk
+# --
+resource "cloudstack_disk" "$1" {
+	name = "$2"
+	zone = "$3"
+}

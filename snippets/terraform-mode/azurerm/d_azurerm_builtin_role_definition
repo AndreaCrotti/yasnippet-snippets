@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_azurerm_builtin_role_definition
+# key: d_azurerm_builtin_role_definition
+# --
+data "azurerm_builtin_role_definition" "$1" {
+	name = "$2"
+}

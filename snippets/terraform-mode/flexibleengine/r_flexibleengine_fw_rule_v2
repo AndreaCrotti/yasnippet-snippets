@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_flexibleengine_fw_rule_v2
+# key: r_flexibleengine_fw_rule_v2
+# --
+resource "flexibleengine_fw_rule_v2" "$1" {
+	action = "$2"
+	protocol = "$3"
+}

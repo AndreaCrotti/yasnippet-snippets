@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_app_service_plan
+# key: r_azurerm_app_service_plan
+# --
+resource "azurerm_app_service_plan" "$1" {
+	location = "$2"
+	name = "$3"
+	resource_group_name = "$4"
+	sku {
+		size = ""
+		tier = ""
+	}
+}

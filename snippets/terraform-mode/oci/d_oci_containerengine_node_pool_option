@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oci_containerengine_node_pool_option
+# key: d_oci_containerengine_node_pool_option
+# --
+data "oci_containerengine_node_pool_option" "$1" {
+	node_pool_option_id = "$2"
+}

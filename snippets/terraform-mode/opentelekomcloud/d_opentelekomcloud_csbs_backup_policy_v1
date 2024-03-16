@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_opentelekomcloud_csbs_backup_policy_v1
+# key: d_opentelekomcloud_csbs_backup_policy_v1
+# --
+data "opentelekomcloud_csbs_backup_policy_v1" "$1" {
+	
+}

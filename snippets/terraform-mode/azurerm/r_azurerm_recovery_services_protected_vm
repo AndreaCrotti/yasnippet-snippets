@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_recovery_services_protected_vm
+# key: r_azurerm_recovery_services_protected_vm
+# --
+resource "azurerm_recovery_services_protected_vm" "$1" {
+	backup_policy_id = "$2"
+	recovery_vault_name = "$3"
+	resource_group_name = "$4"
+	source_vm_id = "$5"
+}

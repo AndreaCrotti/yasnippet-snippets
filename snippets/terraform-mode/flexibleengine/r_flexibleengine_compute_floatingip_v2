@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_flexibleengine_compute_floatingip_v2
+# key: r_flexibleengine_compute_floatingip_v2
+# --
+resource "flexibleengine_compute_floatingip_v2" "$1" {
+	pool = "$2"
+}

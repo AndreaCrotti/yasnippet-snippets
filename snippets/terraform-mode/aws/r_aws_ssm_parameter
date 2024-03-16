@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_ssm_parameter
+# key: r_aws_ssm_parameter
+# --
+resource "aws_ssm_parameter" "$1" {
+	name = "$2"
+	type = "$3"
+	value = "$4"
+}

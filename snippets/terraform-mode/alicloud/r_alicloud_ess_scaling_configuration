@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_ess_scaling_configuration
+# key: r_alicloud_ess_scaling_configuration
+# --
+resource "alicloud_ess_scaling_configuration" "$1" {
+	image_id = "$2"
+	instance_type = "$3"
+	scaling_group_id = "$4"
+	security_group_id = "$5"
+}

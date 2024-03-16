@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_config_configuration_aggregator
+# key: r_aws_config_configuration_aggregator
+# --
+resource "aws_config_configuration_aggregator" "$1" {
+	name = "$2"
+}

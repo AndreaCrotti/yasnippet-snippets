@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_oci_core_dhcp_options
+# key: r_oci_core_dhcp_options
+# --
+resource "oci_core_dhcp_options" "$1" {
+	compartment_id = "$2"
+	options {
+		type = ""
+	}
+	vcn_id = "$4"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_availability_zones
+# key: d_aws_availability_zones
+# --
+data "aws_availability_zones" "$1" {
+	
+}

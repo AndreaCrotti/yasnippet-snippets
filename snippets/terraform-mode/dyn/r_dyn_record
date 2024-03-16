@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_dyn_record
+# key: r_dyn_record
+# --
+resource "dyn_record" "$1" {
+	type = "$2"
+	value = "$3"
+	zone = "$4"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: remote_exec
+# key: remote_exec
+# --
+provisioner "remote-exec" {
+	inline = [
+		"$1"
+	]
+}

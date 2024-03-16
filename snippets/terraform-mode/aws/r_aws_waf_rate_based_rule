@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_waf_rate_based_rule
+# key: r_aws_waf_rate_based_rule
+# --
+resource "aws_waf_rate_based_rule" "$1" {
+	metric_name = "$2"
+	name = "$3"
+	rate_key = "$4"
+	rate_limit = $5
+}

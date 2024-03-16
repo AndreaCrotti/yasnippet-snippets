@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_cloudstack_vpn_customer_gateway
+# key: r_cloudstack_vpn_customer_gateway
+# --
+resource "cloudstack_vpn_customer_gateway" "$1" {
+	cidr = "$2"
+	esp_policy = "$3"
+	gateway = "$4"
+	ike_policy = "$5"
+	ipsec_psk = "$6"
+	name = "$7"
+}

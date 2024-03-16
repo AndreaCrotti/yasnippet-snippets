@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_inspector_rules_packages
+# key: d_aws_inspector_rules_packages
+# --
+data "aws_inspector_rules_packages" "$1" {
+	
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_gitlab_project_membership
+# key: r_gitlab_project_membership
+# --
+resource "gitlab_project_membership" "$1" {
+	access_level = "$2"
+	project_id = "$3"
+	user_id = $4
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_opc_compute_ip_network_exchange
+# key: r_opc_compute_ip_network_exchange
+# --
+resource "opc_compute_ip_network_exchange" "$1" {
+	name = "$2"
+}

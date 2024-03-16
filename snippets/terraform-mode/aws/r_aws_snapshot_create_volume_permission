@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_snapshot_create_volume_permission
+# key: r_aws_snapshot_create_volume_permission
+# --
+resource "aws_snapshot_create_volume_permission" "$1" {
+	account_id = "$2"
+	snapshot_id = "$3"
+}

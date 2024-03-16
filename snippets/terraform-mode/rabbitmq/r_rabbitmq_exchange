@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_rabbitmq_exchange
+# key: r_rabbitmq_exchange
+# --
+resource "rabbitmq_exchange" "$1" {
+	name = "$2"
+	settings {
+		type = ""
+	}
+}
