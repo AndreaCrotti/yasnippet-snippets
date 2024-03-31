@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # name: electronic
 # key: electronic
-# author: Spenser Truex
+# contributor: Spenser Truex
 # --
 @electronic{ ${title},
 author  = {${author}},

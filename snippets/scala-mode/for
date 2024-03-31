@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-#Author : Sam Halliday
+# contributor: Sam Halliday
 # name: for { x <- xs } yield
 # key: for
 # --

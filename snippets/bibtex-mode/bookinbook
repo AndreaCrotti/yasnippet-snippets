@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # name: bookinbook
 # key: bookinbook
-# author: Spenser Truex
+# contributor: Spenser Truex
 # --
 @bookinbook{ ${title},
 author    = {${author}},

@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-#Author : Anders Bach Nielsen <andersbach.nielsen@epfl.ch>
+# contributor: Anders Bach Nielsen <andersbach.nielsen@epfl.ch>
 # name: object name extends App
 # key: app
 # --
