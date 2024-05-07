@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # name: collection
 # key: collection
-# author: Spenser Truex
+# contributor: Spenser Truex
 # --
 @collection{ ${title},
   editor    = {${editor}},

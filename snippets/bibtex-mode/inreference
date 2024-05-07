@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # name: inreference
 # key: inreference
-# author: Spenser Truex
+# contributor: Spenser Truex
 # --
 @inreference{ ${title},
 author    = {${author}},

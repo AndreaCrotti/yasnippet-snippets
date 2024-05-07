@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # name: mvbook
 # key: mvbook
-# author: Spenser Truex
+# contributor: Spenser Truex
 # --
 @mvbook{ ${title},
   author    = {${author}},

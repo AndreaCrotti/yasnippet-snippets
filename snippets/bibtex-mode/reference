@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # name: reference
 # key: reference
-# author: Spenser Truex
+# contributor: Spenser Truex
 # --
 @reference{ ${title},
 editor    = {${editor}},

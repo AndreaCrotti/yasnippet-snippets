@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # name: dataset
 # key: dataset
-# author: Spenser Truex
+# contributor: Spenser Truex
 # --
 @dataset{ ${title}
   title        = {${title}},

@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-#Author : Sam Halliday
+# contributor: Sam Halliday
 # name: case class T(arg: A)
 # key: cc
 # --
