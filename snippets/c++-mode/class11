@@ -4,17 +4,19 @@
 # group: c++11
 # uuid: d7c41f87-9b8a-479d-bb12-89f4cbdd46a7
 # contributor: Ved Vyas
-# desc: Snippet for C++11 classes based on c++-mode/class. Allows for Rule of
-# [0, All]. A choice between ";", " = default;", and " = delete;" is presented
-# for each method. The methods and some of the optional keywords/specifiers are
-# exposed as fields that users can easily skip-and-clear.
-# Hackish query-replace-regexp to renumber non-mirror fields in the region
-# between public and protected (can use N as a field number in the snippet):
-# \${[0-9N]*:\([^\$]\) -> ${\,(+ 2 \#):\1
-# References:
-# 1. http://en.cppreference.com/w/cpp/language/rule_of_three#Rule_of_five
-# 2. https://en.wikipedia.org/wiki/Rule_of_three_%28C%2B%2B_programming%29#Example_in_C.2B.2B
-# 3. http://stackoverflow.com/a/4782927
+#
+## Snippet for C++11 classes based on c++-mode/class. Allows for Rule of
+## [0, All]. A choice between ";", " = default;", and " = delete;" is presented
+## for each method. The methods and some of the optional keywords/specifiers are
+## exposed as fields that users can easily skip-and-clear.
+## Hackish query-replace-regexp to renumber non-mirror fields in the region
+## between public and protected (can use N as a field number in the snippet):
+## \${[0-9N]*:\([^\$]\) -> ${\,(+ 2 \#):\1
+##
+## References
+## 1. http://en.cppreference.com/w/cpp/language/rule_of_three#Rule_of_five
+## 2. https://en.wikipedia.org/wiki/Rule_of_three_%28C%2B%2B_programming%29#Example_in_C.2B.2B
+## 3. http://stackoverflow.com/a/4782927
 # --
 class ${1:Name}
 {
