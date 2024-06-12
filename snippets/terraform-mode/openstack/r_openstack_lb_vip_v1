@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_openstack_lb_vip_v1
+# key: r_openstack_lb_vip_v1
+# --
+resource "openstack_lb_vip_v1" "$1" {
+	name = "$2"
+	pool_id = "$3"
+	port = $4
+	protocol = "$5"
+	subnet_id = "$6"
+}

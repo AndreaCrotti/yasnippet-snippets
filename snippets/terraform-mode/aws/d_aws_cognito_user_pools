@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_cognito_user_pools
+# key: d_aws_cognito_user_pools
+# --
+data "aws_cognito_user_pools" "$1" {
+	name = "$2"
+}

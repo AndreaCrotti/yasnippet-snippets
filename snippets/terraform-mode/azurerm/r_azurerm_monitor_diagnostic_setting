@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_monitor_diagnostic_setting
+# key: r_azurerm_monitor_diagnostic_setting
+# --
+resource "azurerm_monitor_diagnostic_setting" "$1" {
+	name = "$2"
+	target_resource_id = "$3"
+}

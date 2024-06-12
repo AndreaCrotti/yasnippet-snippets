@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: vsphere
+# key: vsphere
+# --
+provider "vsphere" {
+	password = "$1"
+	user = "$2"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_iam_instance_profile
+# key: r_aws_iam_instance_profile
+# --
+resource "aws_iam_instance_profile" "$1" {
+	
+}

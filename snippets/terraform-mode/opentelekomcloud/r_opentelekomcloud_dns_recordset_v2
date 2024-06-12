@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_opentelekomcloud_dns_recordset_v2
+# key: r_opentelekomcloud_dns_recordset_v2
+# --
+resource "opentelekomcloud_dns_recordset_v2" "$1" {
+	name = "$2"
+	records = ["$3"]
+	type = "$4"
+	zone_id = "$5"
+}

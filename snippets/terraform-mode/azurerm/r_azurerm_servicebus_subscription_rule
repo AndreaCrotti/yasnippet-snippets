@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_servicebus_subscription_rule
+# key: r_azurerm_servicebus_subscription_rule
+# --
+resource "azurerm_servicebus_subscription_rule" "$1" {
+	filter_type = "$2"
+	name = "$3"
+	namespace_name = "$4"
+	resource_group_name = "$5"
+	subscription_name = "$6"
+	topic_name = "$7"
+}

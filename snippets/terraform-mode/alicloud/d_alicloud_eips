@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_alicloud_eips
+# key: d_alicloud_eips
+# --
+data "alicloud_eips" "$1" {
+	
+}

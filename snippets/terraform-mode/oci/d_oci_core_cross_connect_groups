@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oci_core_cross_connect_groups
+# key: d_oci_core_cross_connect_groups
+# --
+data "oci_core_cross_connect_groups" "$1" {
+	compartment_id = "$2"
+}

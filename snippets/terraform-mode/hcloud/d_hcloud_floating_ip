@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_hcloud_floating_ip
+# key: d_hcloud_floating_ip
+# --
+data "hcloud_floating_ip" "$1" {
+	
+}

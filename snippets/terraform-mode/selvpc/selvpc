@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: selvpc
+# key: selvpc
+# --
+provider "selvpc" {
+	token = "$1"
+}

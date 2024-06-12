@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_opc_storage_object
+# key: r_opc_storage_object
+# --
+resource "opc_storage_object" "$1" {
+	container = "$2"
+	name = "$3"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_ucloud_images
+# key: d_ucloud_images
+# --
+data "ucloud_images" "$1" {
+	
+}

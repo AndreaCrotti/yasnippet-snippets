@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_linode_domain
+# key: r_linode_domain
+# --
+resource "linode_domain" "$1" {
+	domain = "$2"
+	type = "$3"
+}

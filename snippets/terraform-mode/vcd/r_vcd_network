@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_vcd_network
+# key: r_vcd_network
+# --
+resource "vcd_network" "$1" {
+	edge_gateway = "$2"
+	gateway = "$3"
+	name = "$4"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: oci
+# key: oci
+# --
+provider "oci" {
+	region = "$1"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_ovh_iploadbalancing
+# key: d_ovh_iploadbalancing
+# --
+data "ovh_iploadbalancing" "$1" {
+	
+}

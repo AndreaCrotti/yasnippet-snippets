@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: github
+# key: github
+# --
+provider "github" {
+	organization = "$1"
+	token = "$2"
+}

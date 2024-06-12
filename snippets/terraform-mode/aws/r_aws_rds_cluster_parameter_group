@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_rds_cluster_parameter_group
+# key: r_aws_rds_cluster_parameter_group
+# --
+resource "aws_rds_cluster_parameter_group" "$1" {
+	family = "$2"
+}

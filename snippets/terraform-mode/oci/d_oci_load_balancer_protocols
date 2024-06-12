@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oci_load_balancer_protocols
+# key: d_oci_load_balancer_protocols
+# --
+data "oci_load_balancer_protocols" "$1" {
+	compartment_id = "$2"
+}

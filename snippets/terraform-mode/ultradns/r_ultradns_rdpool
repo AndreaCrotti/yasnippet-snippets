@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_ultradns_rdpool
+# key: r_ultradns_rdpool
+# --
+resource "ultradns_rdpool" "$1" {
+	name = "$2"
+	rdata = ["$3"]
+	zone = "$4"
+}

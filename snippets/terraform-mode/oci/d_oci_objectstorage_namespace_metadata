@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oci_objectstorage_namespace_metadata
+# key: d_oci_objectstorage_namespace_metadata
+# --
+data "oci_objectstorage_namespace_metadata" "$1" {
+	namespace = "$2"
+}

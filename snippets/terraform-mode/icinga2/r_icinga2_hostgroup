@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_icinga2_hostgroup
+# key: r_icinga2_hostgroup
+# --
+resource "icinga2_hostgroup" "$1" {
+	display_name = "$2"
+	name = "$3"
+}

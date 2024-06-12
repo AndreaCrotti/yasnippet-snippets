@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: nsxt
+# key: nsxt
+# --
+provider "nsxt" {
+	
+}

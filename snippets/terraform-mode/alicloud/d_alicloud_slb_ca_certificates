@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_alicloud_slb_ca_certificates
+# key: d_alicloud_slb_ca_certificates
+# --
+data "alicloud_slb_ca_certificates" "$1" {
+	
+}

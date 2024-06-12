@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_waf_ipset
+# key: r_aws_waf_ipset
+# --
+resource "aws_waf_ipset" "$1" {
+	name = "$2"
+}

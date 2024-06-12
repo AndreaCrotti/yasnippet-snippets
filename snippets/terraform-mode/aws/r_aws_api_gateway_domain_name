@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_api_gateway_domain_name
+# key: r_aws_api_gateway_domain_name
+# --
+resource "aws_api_gateway_domain_name" "$1" {
+	domain_name = "$2"
+}

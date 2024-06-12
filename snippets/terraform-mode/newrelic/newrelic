@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: newrelic
+# key: newrelic
+# --
+provider "newrelic" {
+	api_key = "$1"
+}

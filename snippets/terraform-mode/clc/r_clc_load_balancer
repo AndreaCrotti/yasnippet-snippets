@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_clc_load_balancer
+# key: r_clc_load_balancer
+# --
+resource "clc_load_balancer" "$1" {
+	data_center = "$2"
+	description = "$3"
+	name = "$4"
+}

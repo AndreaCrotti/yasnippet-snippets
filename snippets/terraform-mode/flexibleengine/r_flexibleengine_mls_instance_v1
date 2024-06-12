@@ -1,0 +1,20 @@
+# -*- mode: snippet -*-
+# name: r_flexibleengine_mls_instance_v1
+# key: r_flexibleengine_mls_instance_v1
+# --
+resource "flexibleengine_mls_instance_v1" "$1" {
+	flavor = "$2"
+	mrs_cluster {
+		id = ""
+	}
+	name = "$4"
+	network {
+		available_zone = ""
+		public_ip {
+			bind_type = ""
+		}
+		subnet_id = ""
+		vpc_id = ""
+	}
+	version = "$6"
+}

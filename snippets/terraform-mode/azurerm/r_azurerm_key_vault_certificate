@@ -1,0 +1,22 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_key_vault_certificate
+# key: r_azurerm_key_vault_certificate
+# --
+resource "azurerm_key_vault_certificate" "$1" {
+	certificate_policy {
+		issuer_parameters {
+			name = ""
+		}
+		key_properties {
+			exportable = false
+			key_size = 1
+			key_type = ""
+			reuse_key = false
+		}
+		secret_properties {
+			content_type = ""
+		}
+	}
+	name = "$3"
+	vault_uri = "$4"
+}

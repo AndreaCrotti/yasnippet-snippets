@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_azurerm_azuread_application
+# key: d_azurerm_azuread_application
+# --
+data "azurerm_azuread_application" "$1" {
+	
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: remote_swift_backend
+# key: remote_swift_backend
+# --
+data "terraform_remote_state" "$1" {
+	backend = "swift"
+	config {
+		path = "$2"
+	}
+}

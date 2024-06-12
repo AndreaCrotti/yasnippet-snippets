@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_cdn_domain
+# key: r_alicloud_cdn_domain
+# --
+resource "alicloud_cdn_domain" "$1" {
+	cdn_type = "$2"
+	domain_name = "$3"
+}

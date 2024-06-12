@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_docker_network
+# key: r_docker_network
+# --
+resource "docker_network" "$1" {
+	name = "$2"
+}

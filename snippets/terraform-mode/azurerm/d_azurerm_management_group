@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_azurerm_management_group
+# key: d_azurerm_management_group
+# --
+data "azurerm_management_group" "$1" {
+	group_id = "$2"
+}

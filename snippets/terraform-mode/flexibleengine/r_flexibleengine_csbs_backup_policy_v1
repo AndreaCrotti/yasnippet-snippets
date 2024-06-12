@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: r_flexibleengine_csbs_backup_policy_v1
+# key: r_flexibleengine_csbs_backup_policy_v1
+# --
+resource "flexibleengine_csbs_backup_policy_v1" "$1" {
+	name = "$2"
+	resource {
+		id = ""
+		name = ""
+		type = ""
+	}
+	scheduled_operation {
+		operation_type = ""
+		trigger_pattern = ""
+	}
+}

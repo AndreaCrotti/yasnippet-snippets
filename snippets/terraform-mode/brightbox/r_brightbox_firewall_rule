@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_brightbox_firewall_rule
+# key: r_brightbox_firewall_rule
+# --
+resource "brightbox_firewall_rule" "$1" {
+	firewall_policy = "$2"
+}

@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_container_cluster_instance
+# key: r_tencentcloud_container_cluster_instance
+# --
+resource "tencentcloud_container_cluster_instance" "$1" {
+	bandwidth = $2
+	bandwidth_type = "$3"
+	cluster_id = "$4"
+	cpu = $5
+	is_vpc_gateway = $6
+	mem = $7
+	root_size = $8
+	storage_size = $9
+	subnet_id = "$10"
+	zone_id = "$11"
+}

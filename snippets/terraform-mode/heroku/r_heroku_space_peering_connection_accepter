@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_heroku_space_peering_connection_accepter
+# key: r_heroku_space_peering_connection_accepter
+# --
+resource "heroku_space_peering_connection_accepter" "$1" {
+	space = "$2"
+	vpc_peering_connection_id = "$3"
+}

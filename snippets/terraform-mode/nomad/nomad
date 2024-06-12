@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: nomad
+# key: nomad
+# --
+provider "nomad" {
+	address = "$1"
+}

@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_opentelekomcloud_elb_listener
+# key: r_opentelekomcloud_elb_listener
+# --
+resource "opentelekomcloud_elb_listener" "$1" {
+	backend_port = $2
+	backend_protocol = "$3"
+	lb_algorithm = "$4"
+	loadbalancer_id = "$5"
+	protocol = "$6"
+	protocol_port = $7
+}

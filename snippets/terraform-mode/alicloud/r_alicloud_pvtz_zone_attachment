@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_pvtz_zone_attachment
+# key: r_alicloud_pvtz_zone_attachment
+# --
+resource "alicloud_pvtz_zone_attachment" "$1" {
+	zone_id = "$2"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_oci_core_cpe
+# key: r_oci_core_cpe
+# --
+resource "oci_core_cpe" "$1" {
+	compartment_id = "$2"
+	ip_address = "$3"
+}

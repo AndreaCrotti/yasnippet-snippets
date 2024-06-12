@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_mysql_grant
+# key: r_mysql_grant
+# --
+resource "mysql_grant" "$1" {
+	database = "$2"
+}

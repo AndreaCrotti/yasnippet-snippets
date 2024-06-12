@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_vault_okta_auth_backend_user
+# key: r_vault_okta_auth_backend_user
+# --
+resource "vault_okta_auth_backend_user" "$1" {
+	path = "$2"
+	username = "$3"
+}

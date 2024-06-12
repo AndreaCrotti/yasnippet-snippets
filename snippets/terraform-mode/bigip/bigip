@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: bigip
+# key: bigip
+# --
+provider "bigip" {
+	address = "$1"
+	password = "$2"
+	username = "$3"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_bigip_ltm_persistence_profile_cookie
+# key: r_bigip_ltm_persistence_profile_cookie
+# --
+resource "bigip_ltm_persistence_profile_cookie" "$1" {
+	defaults_from = "$2"
+	name = "$3"
+}

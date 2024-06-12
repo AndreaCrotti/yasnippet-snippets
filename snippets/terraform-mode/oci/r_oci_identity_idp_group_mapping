@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_oci_identity_idp_group_mapping
+# key: r_oci_identity_idp_group_mapping
+# --
+resource "oci_identity_idp_group_mapping" "$1" {
+	group_id = "$2"
+	identity_provider_id = "$3"
+	idp_group_name = "$4"
+}

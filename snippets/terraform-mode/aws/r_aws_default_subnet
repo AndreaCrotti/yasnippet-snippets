@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_default_subnet
+# key: r_aws_default_subnet
+# --
+resource "aws_default_subnet" "$1" {
+	availability_zone = "$2"
+}

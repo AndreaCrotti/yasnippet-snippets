@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_vault_audit
+# key: r_vault_audit
+# --
+resource "vault_audit" "$1" {
+	options = ["$2"]
+	type = "$3"
+}

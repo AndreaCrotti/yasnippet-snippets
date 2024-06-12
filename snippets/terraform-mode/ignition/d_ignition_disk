@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_ignition_disk
+# key: d_ignition_disk
+# --
+data "ignition_disk" "$1" {
+	device = "$2"
+}
