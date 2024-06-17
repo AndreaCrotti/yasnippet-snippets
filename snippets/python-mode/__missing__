@@ -3,5 +3,5 @@
 # key: _missing
 # group: Special methods
 # --
-def __missing__(self):
+def __missing__(self, key):
     return $0
