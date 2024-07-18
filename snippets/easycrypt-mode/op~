@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: op
+# key:
+# --
+op $1 ($2 : $3) = $4

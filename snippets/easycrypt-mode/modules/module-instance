@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: module-instance
+# key: module-instance
+# --
+module $1 = $2($3).

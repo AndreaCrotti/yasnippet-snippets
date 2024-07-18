@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# key: from Jasmin
+# group: misc
+# name: from jasmin
+# --
+from Jasmin require import $1.

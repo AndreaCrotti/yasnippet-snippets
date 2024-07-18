@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: alias1
+# key: alias1
+# --
+alias{1} $1 $2 = $3

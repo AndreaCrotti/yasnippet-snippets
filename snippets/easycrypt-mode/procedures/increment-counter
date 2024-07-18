@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: increment-counter
+# key: inc-counter
+# --
+$1 <- $1 + 1;

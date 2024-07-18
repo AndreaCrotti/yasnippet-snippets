@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: op-barebones
+# key: op-barebones
+# --
+op $1 = $2.

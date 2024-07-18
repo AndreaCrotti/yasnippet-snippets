@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: theory
+# key: theory
+# --
+theory $1.
+
+
+end $1.

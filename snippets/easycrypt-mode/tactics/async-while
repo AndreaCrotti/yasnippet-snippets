@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: async-while
+# key: async-while
+# --
+async while
+     [ (fun r => $1), ($2) ]
+     [ (fun r => $3), ($2) ]
+        ($4) ($5)
+     :
+     ($6).

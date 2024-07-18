@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: rcondf2
+# key: rcondf2
+# --
+rcondf{2} $1

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# key: exs
+# group: misc
+# name: exists
+# --
+exists ($1 : $2).

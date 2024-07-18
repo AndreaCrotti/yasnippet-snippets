@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: move-lemma-args
+# key: move-lemma-args
+# --
+move: ($1 $2)

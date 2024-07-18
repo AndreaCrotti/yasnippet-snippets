@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: op-axiomatized
+# key: op-axiomatized
+# --
+op $1 = $2 axiomatized by $3.

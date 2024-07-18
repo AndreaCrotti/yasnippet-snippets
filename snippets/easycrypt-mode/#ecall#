@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: ecall
+# key: 
+# --
+ecall ($1).

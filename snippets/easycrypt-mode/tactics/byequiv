@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: byequiv
+# key: byequiv
+# --
+byequiv (_ : $1 ==> $2)

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: module
+# key: module
+# --
+module $1 = {
+
+}.

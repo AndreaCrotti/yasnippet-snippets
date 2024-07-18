@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: unroll-while
+# key: unroll
+# --
+unroll for{$1} ^while

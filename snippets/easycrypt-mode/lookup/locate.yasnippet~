@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# key: l
+# group: lookup
+# name: locate
+# --
+locate $1.

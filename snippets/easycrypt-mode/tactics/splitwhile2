@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: splitwhile2
+# key: splitwhile2
+# --
+splitwhile{2} $1 : ($2)

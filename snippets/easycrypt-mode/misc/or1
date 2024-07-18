@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: or1
+# key: or1
+# --
+$1 \/ $2

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: call-invar
+# key: call-invar
+# --
+call (_: $1)

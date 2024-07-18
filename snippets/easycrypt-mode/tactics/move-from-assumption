@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: move-from-assumption
+# key: move-from-assumption
+# --
+move : $1.

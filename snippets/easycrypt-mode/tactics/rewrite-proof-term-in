@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: rewrite-proof-term-in
+# key: rewrite-proof-term-to
+# --
+rewrite /$1 in $2

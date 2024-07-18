@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: rewrite-lemma-forwards-args
+# key:
+# --
+rewrite ($1 $2).

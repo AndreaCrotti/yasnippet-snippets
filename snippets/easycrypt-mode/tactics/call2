@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: call2
+# key: call2
+# --
+call{2} (_ : $1 ==> $2)

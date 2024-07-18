@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: conseq2-invar
+# key: conseq2-invar
+# --
+conseq{2} ($1)

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: probability
+# key: probability
+# --
+Pr[$1 @ &$2 : $3]

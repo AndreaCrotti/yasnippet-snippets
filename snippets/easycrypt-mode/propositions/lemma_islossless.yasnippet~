@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# key: lemma
+# group: propositions
+# name: lemma
+# expand-env: ((yas-indent-line 'fixed))
+# --
+lemma $1 :
+  $2.
+proof.
+
+qed.

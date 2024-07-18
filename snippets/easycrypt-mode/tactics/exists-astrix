@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: exists-astrix
+# key: exists-astreix
+# --
+exists* ($1)

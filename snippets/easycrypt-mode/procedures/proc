@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: proc
+# key: proc
+# --
+proc $1($2 : $3) : $4 = {
+
+    return $5;
+}

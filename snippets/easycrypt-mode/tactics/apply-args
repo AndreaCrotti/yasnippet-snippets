@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: apply-args
+# key: apply-args
+# --
+apply ($1 $2).

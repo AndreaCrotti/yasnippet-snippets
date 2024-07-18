@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: have-write-left-eq
+# key: have-left-eq
+# --
+have <-: ($1) = ($2).

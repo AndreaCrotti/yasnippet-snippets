@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: have-introduce
+# key: have-introduce
+# --
+have $1: $2.

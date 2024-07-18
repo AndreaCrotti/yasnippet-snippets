@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: do-n-times
+# key: do-n-times
+# --
+do $1! ($2).

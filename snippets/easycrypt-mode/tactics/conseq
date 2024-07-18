@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: conseq
+# key: conseq
+# --
+conseq (_ : $1 ==> $2)

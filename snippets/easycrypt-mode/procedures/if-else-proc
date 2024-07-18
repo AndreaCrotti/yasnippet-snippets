@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: if-else-proc
+# key: if-else-proc
+# --
+if ($1){
+
+    } else {
+
+}

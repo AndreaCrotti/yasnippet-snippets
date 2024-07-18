@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: fusion
+# key: fusion
+# --
+fusion $1!$2 @ $3, $4

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: lastn
+# key: lastn
+# --
+τ1; last $1 $2

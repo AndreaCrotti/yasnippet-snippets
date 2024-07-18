@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: have-write-left
+# key: have-left
+# --
+have <-: $1.

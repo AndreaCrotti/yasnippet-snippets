@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# key: P
+# group: lookup
+# name: print
+# --
+print $1.
+$0

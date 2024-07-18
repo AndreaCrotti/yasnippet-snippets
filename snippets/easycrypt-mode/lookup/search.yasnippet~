@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# key: S
+# group: lookup
+# name: search
+# --
+search $1.
+$0

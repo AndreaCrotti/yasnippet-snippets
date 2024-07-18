@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: elim-var
+# key: elim-var
+# --
+elim: $1

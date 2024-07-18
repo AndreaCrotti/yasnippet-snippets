@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: cfold
+# key: cfold
+# --
+cfold $1

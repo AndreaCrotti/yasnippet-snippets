@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: inline
+# key: inline
+# --
+inline {$1} ($2).

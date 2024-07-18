@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: clone-import
+# key: clone-import
+# --
+clone import $1 as $2 with

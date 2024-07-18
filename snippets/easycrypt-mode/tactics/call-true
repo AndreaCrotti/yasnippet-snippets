@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: call-true
+# key: call-trye
+# --
+call (_: true)

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: proc-up-to-bad
+# key: proc-up-to-bad
+# --
+proc $1 ($2)

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: hint-simplify
+# key: hint
+# --
+hint simplify $1.

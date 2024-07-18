@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: abstract-theory
+# key: abstract-theory
+# --
+abstract theory $1.
+
+
+end $1.

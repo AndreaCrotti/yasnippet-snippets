@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: module-with-return
+# key: module-with-return
+# --
+module $1 : $2 = {
+
+}.

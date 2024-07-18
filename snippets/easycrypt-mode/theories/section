@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: section
+# key: section
+# --
+section.
+
+end section.

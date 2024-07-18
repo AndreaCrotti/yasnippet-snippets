@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: rewrite-lemma-backwards-args
+# key: rewrite-lemma-backwards-args
+# --
+rewrite -($1 $1)

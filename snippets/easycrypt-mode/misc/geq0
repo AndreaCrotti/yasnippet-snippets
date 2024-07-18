@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: ge0
+# key: ge0
+# --
+0 <= $1

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: pose
+# key: pose
+# --
+pose $1 = $2.

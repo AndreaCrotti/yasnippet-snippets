@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: apply-in
+# key: apply-in
+# --
+apply $1 in $2

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: elim-proof-term
+# key: elim-proof-term
+# --
+elim /$1

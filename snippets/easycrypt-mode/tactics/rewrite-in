@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: rewrite-in
+# key: rewrite-in
+# --
+rewrite $1 in $2

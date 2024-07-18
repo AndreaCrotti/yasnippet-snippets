@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: new-var
+# key: new-var
+# --
+var $1 : $2;

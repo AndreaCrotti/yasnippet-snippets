@@ -1,0 +1,8 @@
+
+# -*- mode: snippet -*-
+# key: axi
+# group: propositions
+# name: axiom
+# expand-env: ((yas-indent-line 'fixed))
+# --
+declare $1

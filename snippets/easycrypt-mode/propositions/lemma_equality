@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: lemma-equality
+# key: lemma-equality
+# --
+lemma  $1 :
+  ($2) = ($3).
+proof.
+$4
+qed.

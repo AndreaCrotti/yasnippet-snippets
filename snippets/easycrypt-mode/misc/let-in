@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: let-in
+# key: let
+# --
+let $1 in $2

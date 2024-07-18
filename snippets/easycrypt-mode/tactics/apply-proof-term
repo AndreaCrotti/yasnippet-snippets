@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: apply-proof-term
+# key: apply-proof-term
+# --
+apply /$1

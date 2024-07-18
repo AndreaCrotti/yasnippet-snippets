@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: clone-include
+# key: clone-include
+# --
+clone include $1

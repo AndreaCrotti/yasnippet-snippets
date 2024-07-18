@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: bypr
+# key: bypr
+# --
+bypr ($1){1} ($2){2}

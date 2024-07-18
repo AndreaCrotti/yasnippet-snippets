@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: rnd1
+# key: rnd1
+# --
+rnd {1}

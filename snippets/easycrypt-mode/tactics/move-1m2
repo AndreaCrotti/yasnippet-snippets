@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: move-1m2
+# key: move-1m2
+# --
+move => &1 &m &2 $1

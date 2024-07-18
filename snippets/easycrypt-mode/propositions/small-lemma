@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: small-lemma
+# key: small-lemma
+# --
+lemma $1 : $2 by $3.

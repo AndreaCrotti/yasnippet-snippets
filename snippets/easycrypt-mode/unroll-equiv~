@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: unroll-equiv
+# key:
+# --
+unroll {$1} $2

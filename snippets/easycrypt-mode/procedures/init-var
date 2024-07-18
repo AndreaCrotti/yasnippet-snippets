@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: init-var
+# key: init-var
+# --
+$1 <- witness;

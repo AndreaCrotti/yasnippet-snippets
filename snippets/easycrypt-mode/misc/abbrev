@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: abbrev
+# key: abbrev
+# --
+abbrev $1 = $2.

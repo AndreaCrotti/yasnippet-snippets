@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: rename-as
+# key: rename-as
+# --
+rename "$1" as "$2"

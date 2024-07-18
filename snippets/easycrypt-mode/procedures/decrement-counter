@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: decrement-counter
+# key: dec-counter
+# --
+$1 <- $1 - 1;

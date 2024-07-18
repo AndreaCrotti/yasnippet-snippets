@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: call2-true-true
+# key: call2-true-true
+# --
+call{2} (_ : true ==> true)

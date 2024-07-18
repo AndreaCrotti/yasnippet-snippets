@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: byphoare
+# key: nyphoare
+# --
+byphoare (_ : $1 ==> $2)

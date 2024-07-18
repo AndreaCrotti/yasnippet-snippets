@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: fission
+# key: fission
+# --
+fission $1!$2 @ $3, $4

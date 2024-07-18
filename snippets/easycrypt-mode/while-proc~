@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: while-proc
+# key:
+# --
+while ($1)
+{
+
+}

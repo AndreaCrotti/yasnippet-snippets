@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: new-comment
+# key: new-comment
+# --
+(* $1 *)

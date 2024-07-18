@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: move-hr
+# key: move-hr
+# --
+move => &hr $1

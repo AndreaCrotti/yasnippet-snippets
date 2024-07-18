@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: last-n-first
+# key: last-n-first
+# --
+$1; last $2 first

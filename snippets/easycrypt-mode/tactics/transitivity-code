@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: transitivity-code
+# key: transitivity-code
+# --
+transitivity{$1} {$2;}
+      ($2 ==> $3)
+      ($4 ==> $5).
