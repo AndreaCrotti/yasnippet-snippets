@@ -2,5 +2,6 @@
 # key: require import
 # group: misc
 # name: require
+# expand-env: ((yas-indent-line 'fixed))
 # --
 require import $1.

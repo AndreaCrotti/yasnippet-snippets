@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: tactics
+# name: comment
+# key: comment
+# expand-env: ((yas-indent-line 'fixed))
+# --
+(* $1 *)

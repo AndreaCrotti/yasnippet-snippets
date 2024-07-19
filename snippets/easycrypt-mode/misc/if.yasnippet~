@@ -2,5 +2,6 @@
 # key: if
 # group: misc
 # name: if
+# expand-env: ((yas-indent-line 'fixed))
 # --
 if $1 then $2 else $0

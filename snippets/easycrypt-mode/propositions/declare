@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# key: declare
+# group: propositions
+# name: declare
+# expand-env: ((yas-indent-line 'fixed))
+# --
+declare $1

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# key: pred
+# group: misc
+# name: pred
+# expand-env: ((yas-indent-line 'fixed))
+# --
+pred $1 = $2.

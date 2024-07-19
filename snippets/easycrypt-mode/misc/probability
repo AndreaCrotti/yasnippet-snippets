@@ -1,6 +1,8 @@
 # -*- mode: snippet -*-
 # contributor: João Diogo Duarte
+# group: tactics
 # name: probability
 # key: probability
+# expand-env: ((yas-indent-line 'fixed))
 # --
-Pr[$1 @ &$2 : $3]
+Pr[$1]

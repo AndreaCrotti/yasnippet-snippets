@@ -2,5 +2,6 @@
 # key: fa
 # group: misc
 # name: forall
+# expand-env: ((yas-indent-line 'fixed))
 # --
 forall ($1 : $2), $0

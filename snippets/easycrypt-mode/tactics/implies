@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # contributor: João Diogo Duarte
+# group: tactics
 # name: implies
-# key: =
+# key: implies
 # --
 $1 => $2

@@ -2,6 +2,7 @@
 # key: lemma hoare
 # group: propositions
 # name: lemma hoare
+# expand-env: ((yas-indent-line 'fixed))
 # --
 lemma $1 :
   hoare [

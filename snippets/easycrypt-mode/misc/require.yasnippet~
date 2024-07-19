@@ -2,5 +2,6 @@
 # key: im
 # group: misc
 # name: import
+# expand-env: ((yas-indent-line 'fixed))
 # --
 import $1.

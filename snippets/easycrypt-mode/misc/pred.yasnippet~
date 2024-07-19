@@ -2,5 +2,6 @@
 # key: pr
 # group: misc
 # name: pred
+# expand-env: ((yas-indent-line 'fixed))
 # --
 pred $1 = $2.

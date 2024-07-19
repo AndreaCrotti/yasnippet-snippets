@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# key: hoare
+# group: propositions
+# name: hoare
+# expand-env: ((yas-indent-line 'fixed))
+# --
+hoare $1 : $2 :
+      $3
+      ==>
+      $4.
+proof.
+
+qed.

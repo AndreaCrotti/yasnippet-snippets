@@ -1,7 +1,9 @@
 # -*- mode: snippet -*-
 # contributor: João Diogo Duarte
+# group: tactics
 # name: async-while
 # key: async-while
+# expand-env: ((yas-indent-line 'fixed))
 # --
 async while
      [ (fun r => $1), ($2) ]

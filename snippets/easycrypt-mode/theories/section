@@ -1,7 +1,9 @@
 # -*- mode: snippet -*-
 # contributor: João Diogo Duarte
+# group: theories
 # name: section
 # key: section
+# expand-env: ((yas-indent-line 'fixed))
 # --
 section.
 

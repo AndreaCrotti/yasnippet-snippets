@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: tactics
+# name: inline1
+# key: inline1
+# expand-env: ((yas-indent-line 'fixed))
+# --
+inline{1} ($1).

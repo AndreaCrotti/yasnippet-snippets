@@ -1,7 +1,9 @@
 # -*- mode: snippet -*-
 # contributor: João Diogo Duarte
+# group: tactics
 # name: while
 # key: while
+# expand-env: ((yas-indent-line 'fixed))
 # --
 while(
 

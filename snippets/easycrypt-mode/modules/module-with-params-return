@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: modules
+# name: module-with-params-return
+# key: module-with-params-return
+# expand-env: ((yas-indent-line 'fixed))
+# --
+module $1 ($2: $3) : $4 {
+
+}.

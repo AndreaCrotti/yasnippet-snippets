@@ -2,5 +2,6 @@
 # key: exs
 # group: misc
 # name: exists
+# expand-env: ((yas-indent-line 'fixed))
 # --
 exists ($1 : $2).
