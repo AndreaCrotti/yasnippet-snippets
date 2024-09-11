@@ -1,6 +1,0 @@
-# -*- mode: snippet -*-
-# contributor: João Diogo Duarte
-# name: smt
-# key: smt
-# --
-$1 => $2

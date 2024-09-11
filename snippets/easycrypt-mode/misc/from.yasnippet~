@@ -1,7 +1,0 @@
-# -*- mode: snippet -*-
-# key: fr
-# group: misc
-# name: from
-# expand-env: ((yas-indent-line 'fixed))
-# --
-from $1 require import $2.

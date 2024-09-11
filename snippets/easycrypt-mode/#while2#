@@ -1,6 +1,0 @@
-# -*- mode: snippet -*-
-# contributor: João Diogo Duarte
-# name: while2
-# key: 
-# --
-while{2} ($1)

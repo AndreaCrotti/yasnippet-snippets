@@ -1,7 +1,0 @@
-# -*- mode: snippet -*-
-# key: from Jasmin
-# group: misc
-# name: from jasmin
-# expand-env: ((yas-indent-line 'fixed))
-# --
-from Jasmin require import $1.

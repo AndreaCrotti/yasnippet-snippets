@@ -1,6 +1,0 @@
-# -*- mode: snippet -*-
-# contributor: João Diogo Duarte
-# name: ecall-wp
-# key: ecall-wp
-# --
-ecall ($1 4); wp.

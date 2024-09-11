@@ -1,6 +1,0 @@
-# -*- mode: snippet -*-
-# contributor: João Diogo Duarte
-# name: conseq-phoare
-# key:
-# --
-conseq $1 ($2 $3)

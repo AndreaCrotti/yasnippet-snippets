@@ -1,6 +1,0 @@
-# -*- mode: snippet -*-
-# contributor: João Diogo Duarte
-# name: rcondt-equiv
-# key:
-# --
-rcondt {$1} $2

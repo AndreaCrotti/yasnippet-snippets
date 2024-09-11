@@ -1,8 +1,0 @@
-# -*- mode: snippet -*-
-# contributor: João Diogo Duarte
-# group: procedures
-# name: sample
-# key: sample
-# expand-env: ((yas-indent-line 'fixed))
-# --
-$1 <$ $2;
