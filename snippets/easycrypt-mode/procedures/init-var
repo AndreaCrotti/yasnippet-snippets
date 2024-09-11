@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: procedures
+# name: init-var
+# key: init-var
+# expand-env: ((yas-indent-line 'fixed))
+# --
+$1 <- witness;

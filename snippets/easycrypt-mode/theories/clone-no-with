@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: clone-no-with
+# key: clone-no-with
+# --
+clone $1 as $2.

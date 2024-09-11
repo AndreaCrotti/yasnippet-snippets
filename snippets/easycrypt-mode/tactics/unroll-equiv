@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: tactics
+# name: unroll-equiv
+# key: unroll-prog
+# expand-env: ((yas-indent-line 'fixed))
+# --
+unroll {$1} $2

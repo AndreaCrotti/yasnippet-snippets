@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: tactics
+# name: byphoare
+# key: nyphoare
+# expand-env: ((yas-indent-line 'fixed))
+# --
+byphoare (_ : $1 ==> $2)

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: tactics
+# name: rewrite-crush
+# key: rewrite-crush
+# expand-env: ((yas-indent-line 'fixed))
+# --
+rewrite $1 => />.

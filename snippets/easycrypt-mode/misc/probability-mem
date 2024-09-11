@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: tactics
+# name: probability-memory
+# key: probability-memory
+# expand-env: ((yas-indent-line 'fixed))
+# --
+Pr[$1 @ &$2 : $3]

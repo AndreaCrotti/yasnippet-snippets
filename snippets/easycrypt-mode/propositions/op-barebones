@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: op-barebones
+# key: op-barebones
+# expand-env: ((yas-indent-line 'fixed))
+# --
+op $1 = $2.

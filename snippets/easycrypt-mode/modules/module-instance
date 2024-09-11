@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: modules
+# name: module-instance
+# key: module-instance
+# expand-env: ((yas-indent-line 'fixed))
+# --
+module $1 = $2($3).

@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# key: lemma-phoare
+# group: propositions
+# name: lemma-phoare
+# expand-env: ((yas-indent-line 'fixed))
+# --
+lemma $1 :
+  phoare [
+      $2
+      ==>
+      $3
+  ] = 1%r.
+proof.
+
+qed.

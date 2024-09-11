@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: tactics
+# name: fission
+# key: fission
+# expand-env: ((yas-indent-line 'fixed))
+# --
+fission $1!$2 @ $3, $4

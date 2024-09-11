@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: procedures
+# name: proc
+# key: proc
+# expand-env: ((yas-indent-line 'fixed))
+# --
+proc $1($2 : $3) : $4 = {
+
+    return $5;
+}

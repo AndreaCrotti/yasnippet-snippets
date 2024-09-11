@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: tactics
+# name: ge0
+# key: ge0
+# expand-env: ((yas-indent-line 'fixed))
+# --
+0 <= $1

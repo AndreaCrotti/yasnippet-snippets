@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# key: lemma-hoare
+# group: propositions
+# name: lemma-hoare
+# expand-env: ((yas-indent-line 'fixed))
+# --
+lemma $1 :
+  hoare [
+      $2
+      ==>
+      $3
+  ].
+proof.
+
+qed.

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: tactics
+# name: ecall-wp
+# key: ecall-wp
+# expand-env: ((yas-indent-line 'fixed))
+# --
+ecall ($1); wp.

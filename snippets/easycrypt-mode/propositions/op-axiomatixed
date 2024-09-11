@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: op-axiomatized
+# key: op-axiomatized
+# expand-env: ((yas-indent-line 'fixed))
+# --
+op $1 = $2 axiomatized by $3.

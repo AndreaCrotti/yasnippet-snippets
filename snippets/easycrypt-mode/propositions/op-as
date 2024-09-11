@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: op-as
+# key: op-as
+# expand-env: ((yas-indent-line 'fixed))
+# --
+op $1 : {$2 | $3} as $4.

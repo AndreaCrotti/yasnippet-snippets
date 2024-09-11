@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: tactics
+# name: repeat-from-to
+# key: repeat-from-to
+# expand-env: ((yas-indent-line 'fixed))
+# --
+[$1..$2]!$3

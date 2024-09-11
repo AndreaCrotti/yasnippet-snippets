@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: tactics
+# name: rewrite-lemma-backwards-args
+# key: rewrite-lemma-backwards-args
+# expand-env: ((yas-indent-line 'fixed))
+# --
+rewrite -($1 $2)

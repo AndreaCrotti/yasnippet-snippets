@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: procedures
+# name: proc-no-return
+# key: proc-no-return
+# expand-env: ((yas-indent-line 'fixed))
+# --
+proc $1 ($2: $3) = {
+
+}

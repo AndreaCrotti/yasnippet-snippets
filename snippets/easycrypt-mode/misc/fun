@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: tactics
+# name: fun
+# key: fun
+# expand-env: ((yas-indent-line 'fixed))
+# --
+fun ($1) => $2

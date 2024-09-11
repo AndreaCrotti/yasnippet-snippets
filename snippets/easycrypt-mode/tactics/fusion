@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: tactics
+# name: fusion
+# key: fusion
+# expand-env: ((yas-indent-line 'fixed))
+# --
+fusion $1!$2 @ $3, $4

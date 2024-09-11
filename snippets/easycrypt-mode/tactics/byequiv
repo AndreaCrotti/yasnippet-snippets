@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: tactics
+# name: byequiv
+# key: byequiv
+# expand-env: ((yas-indent-line 'fixed))
+# --
+byequiv (_ : $1 ==> $2)

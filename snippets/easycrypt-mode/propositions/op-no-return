@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: op-no-return
+# key: op-no-return
+# expand-env: ((yas-indent-line 'fixed))
+# --
+op $1 ($2: $3) = $4.

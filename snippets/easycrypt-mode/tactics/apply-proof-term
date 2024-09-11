@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: tactics
+# name: apply-proof-term
+# key: apply-proof-term
+# expand-env: ((yas-indent-line 'fixed))
+# --
+apply /$1

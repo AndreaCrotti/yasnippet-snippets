@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: tactics
+# name: bypr
+# key: bypr
+# expand-env: ((yas-indent-line 'fixed))
+# --
+bypr ($1){1} ($2){2}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: tactics
+# name: dosplit
+# key: dosplit
+# expand-env: ((yas-indent-line 'fixed))
+# --
+do split.
+    + $1
