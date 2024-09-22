@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_gitlab_project
+# key: r_gitlab_project
+# --
+resource "gitlab_project" "$1" {
+	name = "$2"
+}

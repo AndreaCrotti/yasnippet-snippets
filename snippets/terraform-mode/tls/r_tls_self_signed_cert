@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_tls_self_signed_cert
+# key: r_tls_self_signed_cert
+# --
+resource "tls_self_signed_cert" "$1" {
+	allowed_uses = ["$2"]
+	key_algorithm = "$3"
+	private_key_pem = "$4"
+	subject {
+	
+	}
+	validity_period_hours = $6
+}

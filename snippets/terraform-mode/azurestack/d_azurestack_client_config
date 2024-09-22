@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_azurestack_client_config
+# key: d_azurestack_client_config
+# --
+data "azurestack_client_config" "$1" {
+	
+}

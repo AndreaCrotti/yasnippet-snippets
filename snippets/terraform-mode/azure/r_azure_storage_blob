@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azure_storage_blob
+# key: r_azure_storage_blob
+# --
+resource "azure_storage_blob" "$1" {
+	name = "$2"
+	size = $3
+	storage_container_name = "$4"
+	storage_service_name = "$5"
+	type = "$6"
+}

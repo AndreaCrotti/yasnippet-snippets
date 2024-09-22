@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_network_acl_rule
+# key: r_aws_network_acl_rule
+# --
+resource "aws_network_acl_rule" "$1" {
+	network_acl_id = "$2"
+	protocol = "$3"
+	rule_action = "$4"
+	rule_number = $5
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_huaweicloud_vpc_v1
+# key: r_huaweicloud_vpc_v1
+# --
+resource "huaweicloud_vpc_v1" "$1" {
+	cidr = "$2"
+	name = "$3"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_lightsail_key_pair
+# key: r_aws_lightsail_key_pair
+# --
+resource "aws_lightsail_key_pair" "$1" {
+	
+}

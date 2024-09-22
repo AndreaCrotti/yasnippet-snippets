@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_monitor_log_profile
+# key: r_azurerm_monitor_log_profile
+# --
+resource "azurerm_monitor_log_profile" "$1" {
+	categories = ["$2"]
+	locations = ["$3"]
+	name = "$4"
+	retention_policy {
+		enabled = false
+	}
+}

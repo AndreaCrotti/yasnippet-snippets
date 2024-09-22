@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_vpn_gateway
+# key: d_aws_vpn_gateway
+# --
+data "aws_vpn_gateway" "$1" {
+	
+}

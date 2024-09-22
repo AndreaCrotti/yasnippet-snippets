@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_ovh_vrack_publiccloud_attachment
+# key: r_ovh_vrack_publiccloud_attachment
+# --
+resource "ovh_vrack_publiccloud_attachment" "$1" {
+	project_id = "$2"
+	vrack_id = "$3"
+}

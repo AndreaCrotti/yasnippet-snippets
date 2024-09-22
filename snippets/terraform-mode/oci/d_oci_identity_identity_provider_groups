@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oci_identity_identity_provider_groups
+# key: d_oci_identity_identity_provider_groups
+# --
+data "oci_identity_identity_provider_groups" "$1" {
+	identity_provider_id = "$2"
+}

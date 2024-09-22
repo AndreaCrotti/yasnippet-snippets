@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_local_file
+# key: r_local_file
+# --
+resource "local_file" "$1" {
+	content = "$2"
+	filename = "$3"
+}

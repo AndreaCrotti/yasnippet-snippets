@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_opc_compute_vnic_set
+# key: r_opc_compute_vnic_set
+# --
+resource "opc_compute_vnic_set" "$1" {
+	name = "$2"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azure_local_network_connection
+# key: r_azure_local_network_connection
+# --
+resource "azure_local_network_connection" "$1" {
+	address_space_prefixes = ["$2"]
+	name = "$3"
+	vpn_gateway_address = "$4"
+}

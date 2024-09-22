@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_api_gateway_authorizer
+# key: r_aws_api_gateway_authorizer
+# --
+resource "aws_api_gateway_authorizer" "$1" {
+	name = "$2"
+	rest_api_id = "$3"
+}

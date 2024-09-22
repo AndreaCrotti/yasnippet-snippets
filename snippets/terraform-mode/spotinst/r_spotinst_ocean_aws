@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_spotinst_ocean_aws
+# key: r_spotinst_ocean_aws
+# --
+resource "spotinst_ocean_aws" "$1" {
+	security_groups = ["$2"]
+	subnet_ids = ["$3"]
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_opentelekomcloud_vpc_peering_connection_v2
+# key: r_opentelekomcloud_vpc_peering_connection_v2
+# --
+resource "opentelekomcloud_vpc_peering_connection_v2" "$1" {
+	name = "$2"
+	peer_vpc_id = "$3"
+	vpc_id = "$4"
+}

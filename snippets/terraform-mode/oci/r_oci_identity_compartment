@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_oci_identity_compartment
+# key: r_oci_identity_compartment
+# --
+resource "oci_identity_compartment" "$1" {
+	description = "$2"
+	name = "$3"
+}

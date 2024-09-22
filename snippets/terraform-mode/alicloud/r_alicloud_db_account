@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_db_account
+# key: r_alicloud_db_account
+# --
+resource "alicloud_db_account" "$1" {
+	instance_id = "$2"
+	name = "$3"
+	password = "$4"
+}

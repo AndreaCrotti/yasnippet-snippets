@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_sqs_queue_policy
+# key: r_aws_sqs_queue_policy
+# --
+resource "aws_sqs_queue_policy" "$1" {
+	policy = "$2"
+	queue_url = "$3"
+}

@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: r_azurestack_lb_nat_pool
+# key: r_azurestack_lb_nat_pool
+# --
+resource "azurestack_lb_nat_pool" "$1" {
+	backend_port = $2
+	frontend_ip_configuration_name = "$3"
+	frontend_port_end = $4
+	frontend_port_start = $5
+	loadbalancer_id = "$6"
+	name = "$7"
+	protocol = "$8"
+	resource_group_name = "$9"
+}

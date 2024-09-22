@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_vpc_endpoint
+# key: d_aws_vpc_endpoint
+# --
+data "aws_vpc_endpoint" "$1" {
+	
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_cloudflare_firewall_rule
+# key: r_cloudflare_firewall_rule
+# --
+resource "cloudflare_firewall_rule" "$1" {
+	action = "$2"
+	filter_id = "$3"
+}

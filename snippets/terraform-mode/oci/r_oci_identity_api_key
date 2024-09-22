@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_oci_identity_api_key
+# key: r_oci_identity_api_key
+# --
+resource "oci_identity_api_key" "$1" {
+	key_value = "$2"
+	user_id = "$3"
+}

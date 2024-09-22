@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oci_load_balancer_hostnames
+# key: d_oci_load_balancer_hostnames
+# --
+data "oci_load_balancer_hostnames" "$1" {
+	load_balancer_id = "$2"
+}

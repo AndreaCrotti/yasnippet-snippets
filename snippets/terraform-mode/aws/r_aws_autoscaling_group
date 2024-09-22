@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_autoscaling_group
+# key: r_aws_autoscaling_group
+# --
+resource "aws_autoscaling_group" "$1" {
+	max_size = $2
+	min_size = $3
+}

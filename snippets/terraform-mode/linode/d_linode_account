@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_linode_account
+# key: d_linode_account
+# --
+data "linode_account" "$1" {
+	
+}

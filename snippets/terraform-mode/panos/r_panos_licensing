@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_panos_licensing
+# key: r_panos_licensing
+# --
+resource "panos_licensing" "$1" {
+	auth_codes = ["$2"]
+}

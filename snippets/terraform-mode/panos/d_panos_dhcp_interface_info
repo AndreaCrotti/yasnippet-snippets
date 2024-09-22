@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_panos_dhcp_interface_info
+# key: d_panos_dhcp_interface_info
+# --
+data "panos_dhcp_interface_info" "$1" {
+	interface = "$2"
+}

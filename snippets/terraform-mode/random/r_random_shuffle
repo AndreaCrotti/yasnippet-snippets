@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_random_shuffle
+# key: r_random_shuffle
+# --
+resource "random_shuffle" "$1" {
+	input = ["$2"]
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_neptune_subnet_group
+# key: r_aws_neptune_subnet_group
+# --
+resource "aws_neptune_subnet_group" "$1" {
+	subnet_ids = ["$2"]
+}

@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_aws_ssm_resource_data_sync
+# key: r_aws_ssm_resource_data_sync
+# --
+resource "aws_ssm_resource_data_sync" "$1" {
+	name = "$2"
+	s3_destination {
+		bucket_name = ""
+		region = ""
+	}
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_instances
+# key: d_aws_instances
+# --
+data "aws_instances" "$1" {
+	
+}

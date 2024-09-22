@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_opentelekomcloud_dms_queue_v1
+# key: r_opentelekomcloud_dms_queue_v1
+# --
+resource "opentelekomcloud_dms_queue_v1" "$1" {
+	name = "$2"
+}

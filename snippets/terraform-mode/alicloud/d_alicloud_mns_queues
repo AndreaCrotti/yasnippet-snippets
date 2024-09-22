@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_alicloud_mns_queues
+# key: d_alicloud_mns_queues
+# --
+data "alicloud_mns_queues" "$1" {
+	
+}

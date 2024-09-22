@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_iam_user_login_profile
+# key: r_aws_iam_user_login_profile
+# --
+resource "aws_iam_user_login_profile" "$1" {
+	pgp_key = "$2"
+	user = "$3"
+}

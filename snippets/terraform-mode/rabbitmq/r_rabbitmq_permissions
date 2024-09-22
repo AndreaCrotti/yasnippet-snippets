@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_rabbitmq_permissions
+# key: r_rabbitmq_permissions
+# --
+resource "rabbitmq_permissions" "$1" {
+	permissions {
+		configure = ""
+		read = ""
+		write = ""
+	}
+	user = "$3"
+}

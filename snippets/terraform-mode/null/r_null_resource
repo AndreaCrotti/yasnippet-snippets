@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_null_resource
+# key: r_null_resource
+# --
+resource "null_resource" "$1" {
+	
+}

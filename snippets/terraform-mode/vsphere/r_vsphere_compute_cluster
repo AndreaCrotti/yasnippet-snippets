@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_vsphere_compute_cluster
+# key: r_vsphere_compute_cluster
+# --
+resource "vsphere_compute_cluster" "$1" {
+	datacenter_id = "$2"
+	name = "$3"
+}

@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_scaleway_security_group_rule
+# key: r_scaleway_security_group_rule
+# --
+resource "scaleway_security_group_rule" "$1" {
+	action = "$2"
+	direction = "$3"
+	ip_range = "$4"
+	protocol = "$5"
+	security_group = "$6"
+}

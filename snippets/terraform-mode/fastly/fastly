@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: fastly
+# key: fastly
+# --
+provider "fastly" {
+	
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_glue_connection
+# key: r_aws_glue_connection
+# --
+resource "aws_glue_connection" "$1" {
+	connection_properties {
+
+	}
+	name = "$3"
+}

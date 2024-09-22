@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_nat_gateway
+# key: r_tencentcloud_nat_gateway
+# --
+resource "tencentcloud_nat_gateway" "$1" {
+	assigned_eip_set = ["$2"]
+	bandwidth = $3
+	max_concurrent = $4
+	name = "$5"
+	vpc_id = "$6"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_cloud9_environment_ec2
+# key: r_aws_cloud9_environment_ec2
+# --
+resource "aws_cloud9_environment_ec2" "$1" {
+	instance_type = "$2"
+	name = "$3"
+}

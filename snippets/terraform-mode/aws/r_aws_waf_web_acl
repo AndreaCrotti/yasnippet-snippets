@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_aws_waf_web_acl
+# key: r_aws_waf_web_acl
+# --
+resource "aws_waf_web_acl" "$1" {
+	default_action {
+		type = ""
+	}
+	metric_name = "$3"
+	name = "$4"
+}

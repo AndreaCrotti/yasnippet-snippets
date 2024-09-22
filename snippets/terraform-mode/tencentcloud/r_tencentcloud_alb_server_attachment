@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_alb_server_attachment
+# key: r_tencentcloud_alb_server_attachment
+# --
+resource "tencentcloud_alb_server_attachment" "$1" {
+	backends {
+		instance_id = ""
+		port = 1
+	}
+	listener_id = "$3"
+	loadbalancer_id = "$4"
+}

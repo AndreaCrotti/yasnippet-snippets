@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_aws_datasync_location_nfs
+# key: r_aws_datasync_location_nfs
+# --
+resource "aws_datasync_location_nfs" "$1" {
+	on_prem_config {
+		agent_arns = [""]
+	}
+	server_hostname = "$3"
+	subdirectory = "$4"
+}

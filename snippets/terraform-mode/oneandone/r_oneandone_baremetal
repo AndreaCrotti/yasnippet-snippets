@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_oneandone_baremetal
+# key: r_oneandone_baremetal
+# --
+resource "oneandone_baremetal" "$1" {
+	image = "$2"
+	name = "$3"
+}

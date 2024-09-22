@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oci_objectstorage_namespace
+# key: d_oci_objectstorage_namespace
+# --
+data "oci_objectstorage_namespace" "$1" {
+	
+}

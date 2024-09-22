@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_key_pair
+# key: r_tencentcloud_key_pair
+# --
+resource "tencentcloud_key_pair" "$1" {
+	key_name = "$2"
+}

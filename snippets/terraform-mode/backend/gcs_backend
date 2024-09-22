@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: gcs_backend
+# key: gcs_backend
+# --
+terraform {
+	backend "gcs" {
+		bucket = "$2"
+		path = "$3"
+		project = "$4"
+	}
+}

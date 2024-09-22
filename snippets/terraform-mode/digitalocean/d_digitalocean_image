@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_digitalocean_image
+# key: d_digitalocean_image
+# --
+data "digitalocean_image" "$1" {
+	
+}
