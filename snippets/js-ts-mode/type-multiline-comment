@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: type-multiline-comment
+# key: *ty
+# condition: (and (fboundp 'treesit-node-at) (let ((node (treesit-node-at (point)))) (and node (string= (treesit-node-type node) "comment"))))
+# --
+* @type {${type}}

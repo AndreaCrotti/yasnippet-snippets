@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# uuid: 45f3a8b4-7ed0-4d80-aa77-1cf79339b6b6
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: exportDefaultFunction
+# key: edf
+# --
+
+export default (${1:params}) => {
+  $0
+}

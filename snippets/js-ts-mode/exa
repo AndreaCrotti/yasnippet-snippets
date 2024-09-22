@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# uuid: 1391f808-8044-4878-b551-9f129330507c
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: exportAs
+# key: exa
+# --
+
+export { ${2:originalName} as ${3:alias} } from '${1:module}'$0

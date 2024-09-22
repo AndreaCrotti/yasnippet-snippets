@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# uuid: 7c3ddd59-68e7-456c-a906-4241cdaeaf9e
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: importAs
+# key: ima
+# --
+
+import { ${2:originalName} as ${3:alias} } from '${1:module}'$0
