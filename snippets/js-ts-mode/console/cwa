@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# uuid: 3d8fde97-df25-4515-a8e9-5096db21cfb7
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: console.warn
+# key: cwa
+# group: console
+# --
+
+console.warn(${1:object})
