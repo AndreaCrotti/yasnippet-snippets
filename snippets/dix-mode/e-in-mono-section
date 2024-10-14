@@ -3,7 +3,7 @@
 # key: <e
 # condition: (dix-enclosing-is-mono-section)
 # binding: direct-keybinding
-#TODO: remove suffix from <i> after leaving <par>
+# TODO, remove suffix from <i> after leaving <par>
 # --
 <e lm="${1:`(dix-yas-prev-lemma)`}"> <i>${1:$(dix-yas-lm-to-i)}</i> <par n="${3:$$(dix-yas-choose-pdname)}"/></e>
 $0
