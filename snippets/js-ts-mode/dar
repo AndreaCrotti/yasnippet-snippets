@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# uuid: 1867e4d6-1042-422e-b114-174969b9325e
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: destructingArray
+# key: dar
+# --
+
+const [${1:propertyName}] = ${2:arrayToDestruct}
