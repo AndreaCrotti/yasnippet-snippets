@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_acm_certificate
+# key: d_aws_acm_certificate
+# --
+data "aws_acm_certificate" "$1" {
+	domain = "$2"
+}

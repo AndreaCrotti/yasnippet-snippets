@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_wafregional_regex_pattern_set
+# key: r_aws_wafregional_regex_pattern_set
+# --
+resource "aws_wafregional_regex_pattern_set" "$1" {
+	name = "$2"
+}

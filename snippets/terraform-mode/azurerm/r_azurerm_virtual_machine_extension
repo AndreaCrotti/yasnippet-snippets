@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_virtual_machine_extension
+# key: r_azurerm_virtual_machine_extension
+# --
+resource "azurerm_virtual_machine_extension" "$1" {
+	location = "$2"
+	name = "$3"
+	publisher = "$4"
+	resource_group_name = "$5"
+	type = "$6"
+	type_handler_version = "$7"
+	virtual_machine_name = "$8"
+}

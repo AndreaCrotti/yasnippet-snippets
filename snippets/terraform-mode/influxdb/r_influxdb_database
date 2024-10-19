@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_influxdb_database
+# key: r_influxdb_database
+# --
+resource "influxdb_database" "$1" {
+	name = "$2"
+}

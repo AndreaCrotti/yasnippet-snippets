@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_brightbox_cloudip
+# key: r_brightbox_cloudip
+# --
+resource "brightbox_cloudip" "$1" {
+	
+}

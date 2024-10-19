@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_ucloud_disk_attachment
+# key: r_ucloud_disk_attachment
+# --
+resource "ucloud_disk_attachment" "$1" {
+	availability_zone = "$2"
+	disk_id = "$3"
+	instance_id = "$4"
+}

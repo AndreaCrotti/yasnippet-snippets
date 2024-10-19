@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_securityhub_account
+# key: r_aws_securityhub_account
+# --
+resource "aws_securityhub_account" "$1" {
+	
+}

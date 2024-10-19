@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_flexibleengine_lb_member_v2
+# key: r_flexibleengine_lb_member_v2
+# --
+resource "flexibleengine_lb_member_v2" "$1" {
+	address = "$2"
+	pool_id = "$3"
+	protocol_port = $4
+	subnet_id = "$5"
+}

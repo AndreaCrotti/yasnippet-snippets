@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_azurerm_monitor_log_profile
+# key: d_azurerm_monitor_log_profile
+# --
+data "azurerm_monitor_log_profile" "$1" {
+	name = "$2"
+}

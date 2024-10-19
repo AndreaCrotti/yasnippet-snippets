@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: azurestack
+# key: azurestack
+# --
+provider "azurestack" {
+	
+}

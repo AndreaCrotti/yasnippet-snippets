@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_tencentcloud_vpc
+# key: d_tencentcloud_vpc
+# --
+data "tencentcloud_vpc" "$1" {
+	
+}

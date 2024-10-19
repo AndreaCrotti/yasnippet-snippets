@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_lambda_layer_version
+# key: r_aws_lambda_layer_version
+# --
+resource "aws_lambda_layer_version" "$1" {
+	layer_name = "$2"
+}

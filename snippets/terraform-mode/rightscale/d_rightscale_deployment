@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_rightscale_deployment
+# key: d_rightscale_deployment
+# --
+data "rightscale_deployment" "$1" {
+	
+}

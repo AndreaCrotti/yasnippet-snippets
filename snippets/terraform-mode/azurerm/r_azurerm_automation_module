@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_automation_module
+# key: r_azurerm_automation_module
+# --
+resource "azurerm_automation_module" "$1" {
+	automation_account_name = "$2"
+	module_link {
+		uri = ""
+	}
+	name = "$4"
+	resource_group_name = "$5"
+}

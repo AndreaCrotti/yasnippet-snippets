@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: http
+# key: http
+# --
+provider "http" {
+	
+}

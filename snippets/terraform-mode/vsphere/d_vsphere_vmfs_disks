@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_vsphere_vmfs_disks
+# key: d_vsphere_vmfs_disks
+# --
+data "vsphere_vmfs_disks" "$1" {
+	host_system_id = "$2"
+}

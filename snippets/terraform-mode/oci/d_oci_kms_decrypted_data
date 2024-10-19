@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_oci_kms_decrypted_data
+# key: d_oci_kms_decrypted_data
+# --
+data "oci_kms_decrypted_data" "$1" {
+	ciphertext = "$2"
+	crypto_endpoint = "$3"
+	key_id = "$4"
+}

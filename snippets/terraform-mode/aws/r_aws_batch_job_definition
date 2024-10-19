@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_batch_job_definition
+# key: r_aws_batch_job_definition
+# --
+resource "aws_batch_job_definition" "$1" {
+	name = "$2"
+	type = "$3"
+}

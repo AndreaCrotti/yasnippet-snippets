@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_linode_region
+# key: d_linode_region
+# --
+data "linode_region" "$1" {
+	id = "$2"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_glue_catalog_table
+# key: r_aws_glue_catalog_table
+# --
+resource "aws_glue_catalog_table" "$1" {
+	database_name = "$2"
+	name = "$3"
+}

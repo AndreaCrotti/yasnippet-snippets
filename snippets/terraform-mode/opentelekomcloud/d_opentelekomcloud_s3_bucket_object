@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_opentelekomcloud_s3_bucket_object
+# key: d_opentelekomcloud_s3_bucket_object
+# --
+data "opentelekomcloud_s3_bucket_object" "$1" {
+	bucket = "$2"
+	key = "$3"
+}

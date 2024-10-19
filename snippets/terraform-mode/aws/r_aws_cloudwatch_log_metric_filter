@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: r_aws_cloudwatch_log_metric_filter
+# key: r_aws_cloudwatch_log_metric_filter
+# --
+resource "aws_cloudwatch_log_metric_filter" "$1" {
+	log_group_name = "$2"
+	metric_transformation {
+		name = ""
+		namespace = ""
+		value = ""
+	}
+	name = "$4"
+	pattern = "$5"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_mysql_user
+# key: r_mysql_user
+# --
+resource "mysql_user" "$1" {
+	user = "$2"
+}

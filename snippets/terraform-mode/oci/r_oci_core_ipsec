@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_oci_core_ipsec
+# key: r_oci_core_ipsec
+# --
+resource "oci_core_ipsec" "$1" {
+	compartment_id = "$2"
+	cpe_id = "$3"
+	drg_id = "$4"
+}

@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: r_flexibleengine_as_group_v1
+# key: r_flexibleengine_as_group_v1
+# --
+resource "flexibleengine_as_group_v1" "$1" {
+	networks {
+		id = ""
+	}
+	scaling_group_name = "$3"
+	security_groups {
+		id = ""
+	}
+	vpc_id = "$5"
+}

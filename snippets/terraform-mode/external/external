@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: external
+# key: external
+# --
+provider "external" {
+	
+}

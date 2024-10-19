@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_vpn_connection
+# key: r_alicloud_vpn_connection
+# --
+resource "alicloud_vpn_connection" "$1" {
+	customer_gateway_id = "$2"
+	local_subnet = ["$3"]
+	remote_subnet = ["$4"]
+	vpn_gateway_id = "$5"
+}

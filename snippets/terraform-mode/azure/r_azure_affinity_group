@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azure_affinity_group
+# key: r_azure_affinity_group
+# --
+resource "azure_affinity_group" "$1" {
+	label = "$2"
+	location = "$3"
+	name = "$4"
+}

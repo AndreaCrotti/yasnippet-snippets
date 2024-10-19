@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_network_interface
+# key: r_aws_network_interface
+# --
+resource "aws_network_interface" "$1" {
+	subnet_id = "$2"
+}

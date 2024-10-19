@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_api_gateway_app_attachment
+# key: r_alicloud_api_gateway_app_attachment
+# --
+resource "alicloud_api_gateway_app_attachment" "$1" {
+	api_id = "$2"
+	app_id = "$3"
+	group_id = "$4"
+	stage_name = "$5"
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_flexibleengine_vpc_route_v2
+# key: r_flexibleengine_vpc_route_v2
+# --
+resource "flexibleengine_vpc_route_v2" "$1" {
+	destination = "$2"
+	nexthop = "$3"
+	type = "$4"
+	vpc_id = "$5"
+}

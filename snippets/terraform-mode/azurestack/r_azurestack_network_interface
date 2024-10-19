@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: r_azurestack_network_interface
+# key: r_azurestack_network_interface
+# --
+resource "azurestack_network_interface" "$1" {
+	ip_configuration {
+		name = ""
+		private_ip_address_allocation = ""
+		subnet_id = ""
+	}
+	location = "$3"
+	name = "$4"
+	resource_group_name = "$5"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_rancher_registry
+# key: r_rancher_registry
+# --
+resource "rancher_registry" "$1" {
+	environment_id = "$2"
+	name = "$3"
+	server_address = "$4"
+}

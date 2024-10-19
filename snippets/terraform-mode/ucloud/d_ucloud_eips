@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_ucloud_eips
+# key: d_ucloud_eips
+# --
+data "ucloud_eips" "$1" {
+	
+}

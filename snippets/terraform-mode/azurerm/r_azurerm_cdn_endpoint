@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_cdn_endpoint
+# key: r_azurerm_cdn_endpoint
+# --
+resource "azurerm_cdn_endpoint" "$1" {
+	location = "$2"
+	name = "$3"
+	origin {
+		host_name = ""
+		name = ""
+	}
+	profile_name = "$5"
+	resource_group_name = "$6"
+}

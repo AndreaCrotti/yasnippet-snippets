@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_nomad_quota_specification
+# key: r_nomad_quota_specification
+# --
+resource "nomad_quota_specification" "$1" {
+	limits {
+		region = ""
+		region_limit {
+		
+		}
+	}
+	name = "$3"
+}

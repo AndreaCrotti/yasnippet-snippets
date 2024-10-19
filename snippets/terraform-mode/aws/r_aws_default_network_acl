@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_default_network_acl
+# key: r_aws_default_network_acl
+# --
+resource "aws_default_network_acl" "$1" {
+	default_network_acl_id = "$2"
+}

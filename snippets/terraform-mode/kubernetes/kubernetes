@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: kubernetes
+# key: kubernetes
+# --
+provider "kubernetes" {
+	
+}

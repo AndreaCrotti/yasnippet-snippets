@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_panos_tunnel_interface
+# key: r_panos_tunnel_interface
+# --
+resource "panos_tunnel_interface" "$1" {
+	name = "$2"
+}

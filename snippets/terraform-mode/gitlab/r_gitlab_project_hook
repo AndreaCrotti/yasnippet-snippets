@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_gitlab_project_hook
+# key: r_gitlab_project_hook
+# --
+resource "gitlab_project_hook" "$1" {
+	project = "$2"
+	url = "$3"
+}

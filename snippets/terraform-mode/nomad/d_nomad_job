@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_nomad_job
+# key: d_nomad_job
+# --
+data "nomad_job" "$1" {
+	job_id = "$2"
+}

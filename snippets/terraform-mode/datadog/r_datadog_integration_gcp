@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_datadog_integration_gcp
+# key: r_datadog_integration_gcp
+# --
+resource "datadog_integration_gcp" "$1" {
+	client_email = "$2"
+	client_id = "$3"
+	private_key = "$4"
+	private_key_id = "$5"
+	project_id = "$6"
+}

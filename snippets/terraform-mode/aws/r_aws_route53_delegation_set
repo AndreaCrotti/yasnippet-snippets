@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_route53_delegation_set
+# key: r_aws_route53_delegation_set
+# --
+resource "aws_route53_delegation_set" "$1" {
+	
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_github_repositories
+# key: d_github_repositories
+# --
+data "github_repositories" "$1" {
+	query = "$2"
+}

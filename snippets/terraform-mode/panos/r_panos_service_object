@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_panos_service_object
+# key: r_panos_service_object
+# --
+resource "panos_service_object" "$1" {
+	destination_port = "$2"
+	name = "$3"
+	protocol = "$4"
+}

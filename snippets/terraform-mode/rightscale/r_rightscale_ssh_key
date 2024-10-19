@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_rightscale_ssh_key
+# key: r_rightscale_ssh_key
+# --
+resource "rightscale_ssh_key" "$1" {
+	cloud_href = "$2"
+	name = "$3"
+}

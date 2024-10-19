@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_openstack_sharedfilesystem_sharenetwork_v2
+# key: d_openstack_sharedfilesystem_sharenetwork_v2
+# --
+data "openstack_sharedfilesystem_sharenetwork_v2" "$1" {
+	
+}

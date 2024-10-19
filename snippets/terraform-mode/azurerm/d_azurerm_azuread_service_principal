@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_azurerm_azuread_service_principal
+# key: d_azurerm_azuread_service_principal
+# --
+data "azurerm_azuread_service_principal" "$1" {
+	
+}

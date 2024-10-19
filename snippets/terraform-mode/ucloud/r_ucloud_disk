@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_ucloud_disk
+# key: r_ucloud_disk
+# --
+resource "ucloud_disk" "$1" {
+	availability_zone = "$2"
+	disk_size = $3
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_storage_queue
+# key: r_azurerm_storage_queue
+# --
+resource "azurerm_storage_queue" "$1" {
+	name = "$2"
+	resource_group_name = "$3"
+	storage_account_name = "$4"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_swf_domain
+# key: r_aws_swf_domain
+# --
+resource "aws_swf_domain" "$1" {
+	workflow_execution_retention_period_in_days = "$2"
+}

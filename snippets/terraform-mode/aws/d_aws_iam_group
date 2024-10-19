@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_iam_group
+# key: d_aws_iam_group
+# --
+data "aws_iam_group" "$1" {
+	group_name = "$2"
+}

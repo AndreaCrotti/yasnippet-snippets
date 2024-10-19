@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_panos_system_info
+# key: d_panos_system_info
+# --
+data "panos_system_info" "$1" {
+	
+}

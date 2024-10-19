@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_random_integer
+# key: r_random_integer
+# --
+resource "random_integer" "$1" {
+	max = $2
+	min = $3
+}

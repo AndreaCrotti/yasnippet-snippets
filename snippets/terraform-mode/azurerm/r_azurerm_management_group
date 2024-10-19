@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_management_group
+# key: r_azurerm_management_group
+# --
+resource "azurerm_management_group" "$1" {
+	
+}

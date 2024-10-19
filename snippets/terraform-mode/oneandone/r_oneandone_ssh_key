@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_oneandone_ssh_key
+# key: r_oneandone_ssh_key
+# --
+resource "oneandone_ssh_key" "$1" {
+	name = "$2"
+}

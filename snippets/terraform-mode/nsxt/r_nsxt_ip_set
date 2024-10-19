@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_nsxt_ip_set
+# key: r_nsxt_ip_set
+# --
+resource "nsxt_ip_set" "$1" {
+	
+}

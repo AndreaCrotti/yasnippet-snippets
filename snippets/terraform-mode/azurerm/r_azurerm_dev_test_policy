@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_dev_test_policy
+# key: r_azurerm_dev_test_policy
+# --
+resource "azurerm_dev_test_policy" "$1" {
+	evaluator_type = "$2"
+	lab_name = "$3"
+	name = "$4"
+	policy_set_name = "$5"
+	resource_group_name = "$6"
+	threshold = "$7"
+}
