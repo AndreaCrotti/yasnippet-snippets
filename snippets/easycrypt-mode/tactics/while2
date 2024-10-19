@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: tactics
+# name: while2
+# key:
+# --
+while{2} ($1)

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# key: P
+# group: lookup
+# name: print
+# expand-env: ((yas-indent-line 'fixed))
+# --
+print $1.

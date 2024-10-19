@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: tactics
+# name: last-first
+# key: last-first
+# expand-env: ((yas-indent-line 'fixed))
+# --
+$1; last first

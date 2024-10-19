@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: tactics
+# name: alias-with1
+# key: alias-with1
+# expand-env: ((yas-indent-line 'fixed))
+# --
+alias{1} $1 with $2

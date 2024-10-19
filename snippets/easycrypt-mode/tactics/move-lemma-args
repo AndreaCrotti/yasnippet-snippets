@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: tactics
+# name: move-lemma-args
+# key: move-lemma-args
+# expand-env: ((yas-indent-line 'fixed))
+# --
+move: ($1 $2)

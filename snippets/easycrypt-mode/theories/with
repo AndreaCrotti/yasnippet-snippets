@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: theories
+# name: with
+# key: with
+# expand-env: ((yas-indent-line 'fixed))
+# --
+with $1 => $2

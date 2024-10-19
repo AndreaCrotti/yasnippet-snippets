@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# key: from
+# group: misc
+# name: from
+# --
+from $1 require import $2.

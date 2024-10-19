@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# key: phoare
+# group: propositions
+# name: phoare
+# expand-env: ((yas-indent-line 'fixed))
+# --
+phoare :
+  [   $1
+      ==>
+      $2
+  ] = 1%r.
+proof.
+
+qed.

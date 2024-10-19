@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: procedures
+# name: new-var
+# key: new-var
+# expand-env: ((yas-indent-line 'fixed))
+# --
+var $1 : $2;

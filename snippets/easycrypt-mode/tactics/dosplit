@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: dosplit
+# key: dosplit
+# --
+do split.
+    + $1

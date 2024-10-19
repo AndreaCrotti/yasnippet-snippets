@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: cfold_from_to1
+# key: cfold_from_to1
+# --
+cfold{1} $1 ! $2

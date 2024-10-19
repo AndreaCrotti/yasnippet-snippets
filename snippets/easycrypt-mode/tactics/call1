@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: tactics
+# name: call1
+# key: call1
+# expand-env: ((yas-indent-line 'fixed))
+# --
+call{1} (_ : $1 ==> $2)

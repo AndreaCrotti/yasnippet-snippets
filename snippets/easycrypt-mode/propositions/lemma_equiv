@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# key: lemma-equiv
+# group: propositions
+# name: lemma-equiv
+# expand-env: ((yas-indent-line 'fixed))
+# --
+lemma $1 :
+  equiv [
+      $2 ~ $3
+      $4
+      ==>
+      $5
+  ].
+proof.
+
+qed.

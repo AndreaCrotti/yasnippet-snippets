@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: tactics
+# name: rewrite
+# key: rewrite
+# expand-env: ((yas-indent-line 'fixed))
+# --
+rewrite $1

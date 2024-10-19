@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: tactics
+# name: conseq1-invar
+# key: conseq1-invar
+# expand-env: ((yas-indent-line 'fixed))
+# --
+conseq{1} ($1)

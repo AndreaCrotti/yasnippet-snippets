@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: tactics
+# name: have-define
+# key: have-define
+# expand-env: ((yas-indent-line 'fixed))
+# --
+have := $1.

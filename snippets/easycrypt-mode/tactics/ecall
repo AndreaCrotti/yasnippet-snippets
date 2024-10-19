@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: tactics
+# name: ecall
+# key: ecall
+# expand-env: ((yas-indent-line 'fixed))
+# --
+ecall ($1).

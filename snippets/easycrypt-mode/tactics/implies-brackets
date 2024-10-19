@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: tactics
+# name: implies-brackets
+# key: implies-brackets
+# --
+($1 => $2)

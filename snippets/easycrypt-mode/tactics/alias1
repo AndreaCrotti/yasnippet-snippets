@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: tactics
+# name: alias1
+# key: alias1
+# expand-env: ((yas-indent-line 'fixed))
+# --
+alias{1} $1 $2 = $3

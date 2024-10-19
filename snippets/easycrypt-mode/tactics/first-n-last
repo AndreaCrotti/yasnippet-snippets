@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: tactics
+# name: first-n-last
+# key:
+# --
+$1; first $2 last

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: modules
+# name: module-type
+# key: module-type
+# expand-env: ((yas-indent-line 'fixed))
+# --
+module type $1 = {
+
+}.

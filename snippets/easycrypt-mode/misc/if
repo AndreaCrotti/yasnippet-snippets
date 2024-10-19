@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: tactics
+# name: if
+# key: if
+# expand-env: ((yas-indent-line 'fixed))
+# --
+if $1 then $2 else $3

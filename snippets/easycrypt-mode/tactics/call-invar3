@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: tactics
+# name: call-invar3
+# key: call-invar3
+# expand-env: ((yas-indent-line 'fixed))
+# --
+call (_: $1, $2, $3)

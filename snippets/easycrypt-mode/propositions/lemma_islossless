@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# key: lemma-islossless
+# group: propositions
+# name: lemma-islossless
+# expand-env: ((yas-indent-line 'fixed))
+# --
+lemma $1 : islossless
+  $2.
+proof.
+
+qed.

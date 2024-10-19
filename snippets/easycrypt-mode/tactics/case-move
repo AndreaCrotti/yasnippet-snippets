@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: tactics
+# name: case-move
+# key: case-move
+# expand-env: ((yas-indent-line 'fixed))
+# --
+case: ($1{1}) => $2
