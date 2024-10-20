@@ -4,6 +4,5 @@
 # contributor: hankail05
 # --
 let ${1:x = 0}
-    ${2:body}
-end
-$0
+    $0
+end

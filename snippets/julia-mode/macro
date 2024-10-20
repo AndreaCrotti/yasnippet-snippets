@@ -4,6 +4,5 @@
 # contributor: hankail05
 # --
 macro ${1:macro}(${2:args})
-    ${3:body}
-end
-$0
+    $0
+end
