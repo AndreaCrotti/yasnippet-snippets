@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: import
+# key: import
+# --
+
+import {
+  to = "${1:to}"
+  id = "${2:id}"
+}
