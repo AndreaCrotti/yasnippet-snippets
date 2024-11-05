@@ -52,15 +52,20 @@ Groups:
   "Split python argument string ARG-STRING.
 
 The result is a list ((name, type, default), ...) of argument names, types and
-default values."
-  (mapcar (lambda (x)           ; organize output
-            (when (string-match python-split-arg-regex x)
-              (list
-               (match-string-no-properties 1 x) ; name
-               (match-string-no-properties 3 x) ; type
-               (match-string-no-properties 5 x) ; default
-               )))
-          (split-string arg-string python-split-arg-separator t)))
+default values.  An argument named `self` is omitted."
+  (remove
+   nil
+   (mapcar (lambda (x)           ; organize output
+             (when (and
+                    (not (equal "self" x))
+                    (string-match python-split-arg-regex x)
+                    )
+               (list
+                (match-string-no-properties 1 x) ; name
+                (match-string-no-properties 3 x) ; type
+                (match-string-no-properties 5 x) ; default
+                )))
+           (split-string arg-string python-split-arg-separator t))))
 
 (defun python-args-to-docstring ()
   "Return docstring format for the python arguments in yas-text."
@@ -106,6 +111,14 @@ default values."
                  '("bar" "int" "2")
                  '("baz" "Optional[My_Type]" nil)
                  '("foobar" nil nil)))
+  ))
+
+(ert-deftest test-argument-self ()
+  "If an argument is called `self`, it must be omitted"
+  (should (equal
+           (python-split-args "self, _foo=\"this\"")
+           (list '("_foo" nil "\"this\"")
+                 ))
   ))
 
 ;; For manual testing and development:
