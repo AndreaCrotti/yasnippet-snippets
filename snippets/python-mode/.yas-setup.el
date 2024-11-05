@@ -19,8 +19,25 @@
 (require 'yasnippet)
 (defvar yas-text)
 
-(defvar python-split-arg-arg-regex
-  "\\([[:alnum:]*]+\\)\\(:[[:blank:]]*\\([][:alpha:][]*\\)\\)?\\([[:blank:]]*=[[:blank:]]*\\([[:alnum:]]*\\)\\)?"
+(defvar yas-python-regex-identifier "[[:alnum:]_]+" "Simplified Python identifier.")
+(defvar yas-python-regex-quoted-or-identifier (concat
+                                               "\\("
+                                               yas-python-regex-identifier
+                                               "\\)"
+                                               "\\|" "\".*\""
+                                               "\\|" "'.*'"
+                                               )
+  "Simplified Python identifier or quoted string.
+Does not work well with multiple or escaped quotes")
+
+(defvar python-split-arg-regex
+  (concat
+   "\\(" yas-python-regex-identifier "\\)"     ; name
+   "\\(:[[:blank:]]*\\([][:alpha:]_[]*\\)\\)?" ; type
+   "\\([[:blank:]]*=[[:blank:]]*\\("
+   yas-python-regex-quoted-or-identifier       ; default
+   "\\)\\)?"
+   )
 "Regular expression matching an argument of a python function.
 Groups:
 - 1: the argument name
@@ -37,7 +54,7 @@ Groups:
 The result is a list ((name, type, default), ...) of argument names, types and
 default values."
   (mapcar (lambda (x)           ; organize output
-            (when (string-match python-split-arg-arg-regex x)
+            (when (string-match python-split-arg-regex x)
               (list
                (match-string-no-properties 1 x) ; name
                (match-string-no-properties 3 x) ; type
@@ -84,10 +101,10 @@ default values."
 (ert-deftest test-split ()
   "For starters, only test a single string for expected output."
   (should (equal
-           (python-split-args "foo=3, bar: int = 2, baz: Optional[MyType], foobar")
-           (list '("foo" nil "3")
+           (python-split-args "_foo='this', bar: int = 2, baz: Optional[My_Type], foobar")
+           (list '("_foo" nil "'this'")
                  '("bar" "int" "2")
-                 '("baz" "Optional[MyType]" nil)
+                 '("baz" "Optional[My_Type]" nil)
                  '("foobar" nil nil)))
   ))
 
@@ -95,6 +112,12 @@ default values."
 
 ;; (setq yas-text "foo=3, bar: int = 2, baz: Optional[MyType], foobar")
 ;; (split-string yas-text python-split-arg-separator t)
+;;
+;; (save-match-data
+;;   (setq my-string "_foo: my_bar = 'this'")
+;;   (string-match python-split-arg-regex my-string)
+;;   (match-string 5 my-string)
+;;   )
 ;;
 ;; (python-split-args yas-text)
 ;; (python-args-to-docstring)
