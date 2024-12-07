@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: uv-script
+# key: uv
+# --
+#!/usr/bin/uv run
+# /// script
+# dependencies = [
+# $1
+# ]
+# ///
+$0
