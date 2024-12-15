@@ -2,4 +2,4 @@
 # name: function
 # key: func
 # --
-(${1:paramters}) -> $0
+(${1:paramters}) => $0
