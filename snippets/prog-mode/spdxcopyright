@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: Antero Mejr <mail@antr.me>
+# name: spdxcopyright
+# key: spc
+# --
+`(yas-trimmed-add-comment)` SPDX-FileCopyrightText: $0`comment-end`
