@@ -1,0 +1,66 @@
+# -*- mode: snippet -*-
+# name: main
+# key: trigger-key
+# condition: t
+# --
+
+module Main exposing (main)
+
+import Browser exposing (Document, UrlRequest, application)
+import Browser.Navigation as Nav
+import Html
+import Url exposing (Url)
+
+
+type alias Model =
+    { key : Nav.Key
+    , url : Url
+    }
+
+
+init : () -> Url -> Nav.Key -> ( Model, Cmd Msg )
+init _ url key =
+    ( Model key url, Cmd.none )
+
+
+main =
+    application
+        { init = init
+        , view = view
+        , update = update
+        , subscriptions = subscriptions
+        , onUrlChange = UrlChanged
+        , onUrlRequest = UrlRequested
+        }
+
+
+subscriptions : Model -> Sub Msg
+subscriptions _ =
+    Sub.none
+
+
+type Msg
+    = UrlChanged Url
+    | UrlRequested UrlRequest
+
+
+update : Msg -> Model -> ( Model, Cmd Msg )
+update msg model =
+    case msg of
+        UrlChanged newUrl ->
+            ( { model | url = newUrl }, Cmd.none )
+
+        UrlRequested urlRequest ->
+            case urlRequest of
+                Browser.Internal url ->
+                    ( model, Nav.pushUrl model.key (Url.toString url) )
+
+                Browser.External href ->
+                    ( model, Nav.load href )
+
+
+view : Model -> Document Msg
+view model =
+    { title = "Elm App"
+    , body = [ Html.p [] [ Html.text "hello, world" ] ]
+    }
