@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# key: S
+# group: lookup
+# name: search
+# expand-env: ((yas-indent-line 'fixed))
+# --
+search $1.

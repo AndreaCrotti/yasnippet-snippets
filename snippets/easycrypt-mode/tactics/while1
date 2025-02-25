@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: tactics
+# name: while1
+# key: while1
+# expand-env: ((yas-indent-line 'fixed))
+# --
+while{1} ($1)

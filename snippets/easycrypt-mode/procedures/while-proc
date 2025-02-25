@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: procedures
+# name: while-proc
+# key: while-proc
+# expand-env: ((yas-indent-line 'fixed))
+# --
+while ($1)
+{
+
+}

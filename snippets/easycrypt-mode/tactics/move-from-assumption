@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: tactics
+# name: move-from-assumption
+# key: move-from-assumption
+# expand-env: ((yas-indent-line 'fixed))
+# --
+move : $1.

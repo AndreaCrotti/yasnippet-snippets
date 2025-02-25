@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: tactics
+# name: abbrev
+# key: abbrev
+# expand-env: ((yas-indent-line 'fixed))
+# --
+abbrev $1 = $2.

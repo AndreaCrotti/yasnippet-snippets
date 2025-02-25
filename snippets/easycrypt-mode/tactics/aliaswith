@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: aliaswith
+# key: aliaswith
+# --
+alias $1 with $2

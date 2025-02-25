@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: tactics
+# name: move-hr
+# key: move-hr
+# expand-env: ((yas-indent-line 'fixed))
+# --
+move => &hr $1

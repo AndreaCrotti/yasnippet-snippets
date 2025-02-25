@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: tactics
+# name: apply-in
+# key: apply-in
+# expand-env: ((yas-indent-line 'fixed))
+# --
+apply $1 in $2

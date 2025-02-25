@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: tactics
+# name: bad-smt
+# key: bad-smt
+# expand-env: ((yas-indent-line 'fixed))
+# --
+smt.

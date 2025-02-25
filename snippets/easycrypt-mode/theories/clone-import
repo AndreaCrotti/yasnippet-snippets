@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: theories
+# name: clone-import
+# key: clone-import
+# expand-env: ((yas-indent-line 'fixed))
+# --
+clone import $1 as $2 with

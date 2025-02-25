@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: tactics
+# name: sim
+# key: sim
+# expand-env: ((yas-indent-line 'fixed))
+# --
+sim ($1) / ($2) : ($3)

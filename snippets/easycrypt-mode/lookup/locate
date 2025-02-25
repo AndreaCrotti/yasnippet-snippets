@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# key: L
+# group: lookup
+# name: locate
+# expand-env: ((yas-indent-line 'fixed))
+# --
+locate $1.

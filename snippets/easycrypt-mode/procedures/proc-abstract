@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: procedures
+# name: proc-abstract
+# key: proc-abstract
+# expand-env: ((yas-indent-line 'fixed))
+# --
+proc $1($2: $3) : $4

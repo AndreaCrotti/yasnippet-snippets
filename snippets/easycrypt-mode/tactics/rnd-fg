@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: tactics
+# name: rnd-fg
+# key: rnd-fg
+# expand-env: ((yas-indent-line 'fixed))
+# --
+rnd ($1) ($2)

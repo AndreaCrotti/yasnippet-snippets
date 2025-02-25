@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: theories
+# name: clone-include
+# key: clone-include
+# expand-env: ((yas-indent-line 'fixed))
+# --
+clone include $1

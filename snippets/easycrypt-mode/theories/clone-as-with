@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: theories
+# name: clone-as-with
+# key: clone-as-with
+# expand-env: ((yas-indent-line 'fixed))
+# --
+clone $1 as $2 with

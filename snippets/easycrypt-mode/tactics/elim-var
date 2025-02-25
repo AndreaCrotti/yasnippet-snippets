@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: tactics
+# name: elim-var
+# key: elim-var
+# expand-env: ((yas-indent-line 'fixed))
+# --
+elim: $1

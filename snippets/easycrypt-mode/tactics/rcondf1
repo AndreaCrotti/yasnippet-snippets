@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: tactics
+# name: rcondf1
+# key: rcondf1
+# expand-env: ((yas-indent-line 'fixed))
+# --
+rcondf{1} $1

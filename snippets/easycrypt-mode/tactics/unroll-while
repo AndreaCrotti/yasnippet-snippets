@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: tactics
+# name: unroll-while
+# key: unroll
+# expand-env: ((yas-indent-line 'fixed))
+# --
+unroll for{$1} ^while

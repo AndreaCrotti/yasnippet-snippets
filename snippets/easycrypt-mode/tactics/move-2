@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: tactics
+# name: move-2
+# key: move-2
+# expand-env: ((yas-indent-line 'fixed))
+# --
+move => &2 $1

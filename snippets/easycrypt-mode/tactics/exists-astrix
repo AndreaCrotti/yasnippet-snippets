@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: tactics
+# name: exists-astrix
+# key: exists-astreix
+# expand-env: ((yas-indent-line 'fixed))
+# --
+exists* ($1)

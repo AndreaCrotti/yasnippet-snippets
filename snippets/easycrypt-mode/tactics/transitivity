@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: tactics
+# name: transitivity
+# key: transitivity
+# expand-env: ((yas-indent-line 'fixed))
+# --
+transitivity $1
+    ($2 ==> $3)
+    ($4 ==> $5).

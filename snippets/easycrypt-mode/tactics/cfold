@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: tactics
+# name: cfold
+# key: cfold
+# expand-env: ((yas-indent-line 'fixed))
+# --
+cfold $1

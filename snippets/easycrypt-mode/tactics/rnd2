@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: tactics
+# name: rnd2
+# key: rnd2
+# --
+rnd{2}

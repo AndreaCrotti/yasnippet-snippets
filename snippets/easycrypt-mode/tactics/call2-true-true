@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: tactics
+# name: call2-true-true
+# key: call2-true-true
+# expand-env: ((yas-indent-line 'fixed))
+# --
+call{2} (_ : true ==> true)

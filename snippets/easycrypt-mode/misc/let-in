@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: tactics
+# name: let-in
+# key: let-in
+# expand-env: ((yas-indent-line 'fixed))
+# --
+let $1 in $2

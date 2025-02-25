@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# key: require-import
+# group: misc
+# name: require-import
+# expand-env: ((yas-indent-line 'fixed))
+# --
+require import $1.

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: procedures
+# name: decrement-counter
+# key: decrement-counter
+# expand-env: ((yas-indent-line 'fixed))
+# --
+$1 <- $1 - 1;

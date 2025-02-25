@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: tactics
+# name: have-write-right
+# key: have-write-right
+# expand-env: ((yas-indent-line 'fixed))
+# --
+have ->: $1.

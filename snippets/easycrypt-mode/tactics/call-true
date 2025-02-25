@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: tactics
+# name: call-true
+# key: call-true
+# expand-env: ((yas-indent-line 'fixed))
+# --
+call (_: true)

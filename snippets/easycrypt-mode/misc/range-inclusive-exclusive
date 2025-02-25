@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: tactics
+# name: range-inclusive-exclusive
+# key: range-inclusive-exclusive
+# expand-env: ((yas-indent-line 'fixed))
+# --
+$1 <= $2 < $3

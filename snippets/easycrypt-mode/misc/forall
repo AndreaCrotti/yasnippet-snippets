@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: tactics
+# name: forall
+# key: forall
+# expand-env: ((yas-indent-line 'fixed))
+# --
+forall ($1: $2), $3

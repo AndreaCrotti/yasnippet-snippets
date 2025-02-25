@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: procedures
+# name: proc-call
+# key: proc-call
+# expand-env: ((yas-indent-line 'fixed))
+# --
+$1 <@ $2;

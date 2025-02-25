@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: procedures
+# name: if-else-proc
+# key: if-else-proc
+# expand-env: ((yas-indent-line 'fixed))
+# --
+if ($1){
+
+    } else {
+
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: tactics
+# name: proc-up-to-bad
+# key: proc-up-to-bad
+# expand-env: ((yas-indent-line 'fixed))
+# --
+proc $1 ($2)

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# name: small-lemma
+# key: small-lemma
+# expand-env: ((yas-indent-line 'fixed))
+# --
+lemma $1 : $2 by $3.

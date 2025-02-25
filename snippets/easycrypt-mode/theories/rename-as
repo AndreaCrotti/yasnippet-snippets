@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: theories
+# name: rename-as
+# key: rename-as
+# expand-env: ((yas-indent-line 'fixed))
+# --
+rename "$1" as "$2"

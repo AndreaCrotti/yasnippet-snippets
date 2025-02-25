@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: João Diogo Duarte
+# group: tactics
+# name: splitwhile2
+# key: splitwhile2
+# expand-env: ((yas-indent-line 'fixed))
+# --
+splitwhile{2} $1 : ($2)
