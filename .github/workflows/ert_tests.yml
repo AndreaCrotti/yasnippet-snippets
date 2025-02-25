@@ -1,0 +1,37 @@
+name: Emacs ERT Tests
+
+on:
+  pull_request:
+    branches: [master]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        emacs-version:
+          - 27.2
+          - 28.2
+          - 29.1
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Setup Emacs
+      uses: purcell/setup-emacs@master
+      with:
+        version: ${{ matrix.emacs-version }}
+
+    - name: Install dependencies
+      run: |
+        emacs --batch --eval '(package-initialize)' \
+        --eval '(package-refresh-contents)'
+        --val '(package-install yasnippet-snippets)'
+
+    # - name: Run ERT tests
+    #   run: |
+    #     emacs -batch \
+    #           -l ert \
+    #           -l ./test/test-helper.el \
+    #           -l ./your-test-file.el \
+    #           -f ert-run-tests-batch-and-exit

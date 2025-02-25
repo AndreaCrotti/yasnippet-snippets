@@ -13,5 +13,11 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+    - name: Install Clojure
+      uses: DeLaGuardo/setup-clojure@master
+      with:
+        lein: latest
+        tools-deps: latest
+
     - name: generate html report
       run: cd report && lein run
