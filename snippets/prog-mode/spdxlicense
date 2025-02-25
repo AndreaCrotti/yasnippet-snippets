@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: Antero Mejr <mail@antr.me>
+# name: spdxlicense
+# key: spl
+# --
+`(yas-trimmed-add-comment)` SPDX-License-Identifier: $0`comment-end`

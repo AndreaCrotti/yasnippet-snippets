@@ -29,6 +29,13 @@
   "This function returns `comment-start' trimmed by whitespaces."
   (yas-s-trim comment-start))
 
+(defun yas-trimmed-add-comment ()
+  "This function returns `comment-start' trimmed by whitespaces. It uses
+`comment-add' to determine how many comment symbols to insert."
+  (yas-s-trim (apply #'concat (mapcar (lambda (x)
+                                        comment-start)
+                                      (number-sequence 0 comment-add)))))
+
 (defun yas-trimmed-comment-end ()
   "This function returns `comment-end' trimmed by whitespaces if
 `comment-end' is not empty. Otherwise the reversed output of
