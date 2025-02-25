@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# uuid: dcbcd0f7-7827-4f81-9777-809540ef5c10
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: console.count
+# key: cco
+# group: console
+# --
+
+console.count(${1:label})
