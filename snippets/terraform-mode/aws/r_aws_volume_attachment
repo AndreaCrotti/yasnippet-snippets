@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_volume_attachment
+# key: r_aws_volume_attachment
+# --
+resource "aws_volume_attachment" "$1" {
+	device_name = "$2"
+	instance_id = "$3"
+	volume_id = "$4"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_opentelekomcloud_compute_secgroup_v2
+# key: r_opentelekomcloud_compute_secgroup_v2
+# --
+resource "opentelekomcloud_compute_secgroup_v2" "$1" {
+	description = "$2"
+	name = "$3"
+}

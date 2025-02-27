@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_appautoscaling_policy
+# key: r_aws_appautoscaling_policy
+# --
+resource "aws_appautoscaling_policy" "$1" {
+	name = "$2"
+	resource_id = "$3"
+	scalable_dimension = "$4"
+	service_namespace = "$5"
+}

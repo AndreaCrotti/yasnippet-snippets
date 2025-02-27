@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_rundeck_project
+# key: r_rundeck_project
+# --
+resource "rundeck_project" "$1" {
+	name = "$2"
+	resource_model_source {
+		config {
+
+		}
+		type = ""
+	}
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_github_organization_project
+# key: r_github_organization_project
+# --
+resource "github_organization_project" "$1" {
+	name = "$2"
+}

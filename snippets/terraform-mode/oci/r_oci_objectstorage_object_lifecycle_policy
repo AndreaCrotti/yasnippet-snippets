@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_oci_objectstorage_object_lifecycle_policy
+# key: r_oci_objectstorage_object_lifecycle_policy
+# --
+resource "oci_objectstorage_object_lifecycle_policy" "$1" {
+	bucket = "$2"
+	namespace = "$3"
+}

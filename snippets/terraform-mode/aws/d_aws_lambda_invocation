@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_aws_lambda_invocation
+# key: d_aws_lambda_invocation
+# --
+data "aws_lambda_invocation" "$1" {
+	function_name = "$2"
+	input = "$3"
+}

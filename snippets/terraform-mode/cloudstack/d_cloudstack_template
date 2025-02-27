@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: d_cloudstack_template
+# key: d_cloudstack_template
+# --
+data "cloudstack_template" "$1" {
+	filter {
+			name = ""
+			value = ""
+		}
+	template_filter = "$3"
+}

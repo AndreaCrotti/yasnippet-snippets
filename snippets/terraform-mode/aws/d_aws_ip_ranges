@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_ip_ranges
+# key: d_aws_ip_ranges
+# --
+data "aws_ip_ranges" "$1" {
+	services = ["$2"]
+}

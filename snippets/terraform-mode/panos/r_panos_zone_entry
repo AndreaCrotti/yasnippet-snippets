@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_panos_zone_entry
+# key: r_panos_zone_entry
+# --
+resource "panos_zone_entry" "$1" {
+	interface = "$2"
+	zone = "$3"
+}

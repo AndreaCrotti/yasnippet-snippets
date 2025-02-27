@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_ssm_activation
+# key: r_aws_ssm_activation
+# --
+resource "aws_ssm_activation" "$1" {
+	iam_role = "$2"
+}

@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_dns_srv_record
+# key: r_azurerm_dns_srv_record
+# --
+resource "azurerm_dns_srv_record" "$1" {
+	name = "$2"
+	record {
+		port = 1
+		priority = 1
+		target = ""
+		weight = 1
+	}
+	resource_group_name = "$4"
+	ttl = $5
+	zone_name = "$6"
+}

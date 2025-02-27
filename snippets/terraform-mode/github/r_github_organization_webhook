@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_github_organization_webhook
+# key: r_github_organization_webhook
+# --
+resource "github_organization_webhook" "$1" {
+	events = ["$2"]
+	name = "$3"
+}

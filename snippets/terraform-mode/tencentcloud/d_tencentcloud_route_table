@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_tencentcloud_route_table
+# key: d_tencentcloud_route_table
+# --
+data "tencentcloud_route_table" "$1" {
+	route_table_id = "$2"
+}

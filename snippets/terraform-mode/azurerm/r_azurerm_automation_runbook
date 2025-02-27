@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_automation_runbook
+# key: r_azurerm_automation_runbook
+# --
+resource "azurerm_automation_runbook" "$1" {
+	account_name = "$2"
+	location = "$3"
+	log_progress = ${4:false}
+	log_verbose = ${5:false}
+	name = "$6"
+	publish_content_link {
+		uri = ""
+	}
+	resource_group_name = "$8"
+	runbook_type = "$9"
+}

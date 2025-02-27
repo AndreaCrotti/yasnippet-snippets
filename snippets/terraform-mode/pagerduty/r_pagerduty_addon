@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_pagerduty_addon
+# key: r_pagerduty_addon
+# --
+resource "pagerduty_addon" "$1" {
+	name = "$2"
+	src = "$3"
+}

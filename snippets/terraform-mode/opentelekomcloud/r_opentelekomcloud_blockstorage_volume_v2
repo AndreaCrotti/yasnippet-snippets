@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_opentelekomcloud_blockstorage_volume_v2
+# key: r_opentelekomcloud_blockstorage_volume_v2
+# --
+resource "opentelekomcloud_blockstorage_volume_v2" "$1" {
+	size = $2
+}

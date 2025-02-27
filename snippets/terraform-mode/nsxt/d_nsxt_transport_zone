@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_nsxt_transport_zone
+# key: d_nsxt_transport_zone
+# --
+data "nsxt_transport_zone" "$1" {
+	
+}

@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_cloudflare_spectrum_application
+# key: r_cloudflare_spectrum_application
+# --
+resource "cloudflare_spectrum_application" "$1" {
+	dns {
+		name = ""
+		type = ""
+	}
+	origin_port = $3
+	protocol = "$4"
+	zone_id = "$5"
+}

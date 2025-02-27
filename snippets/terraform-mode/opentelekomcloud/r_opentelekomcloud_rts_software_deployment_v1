@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_opentelekomcloud_rts_software_deployment_v1
+# key: r_opentelekomcloud_rts_software_deployment_v1
+# --
+resource "opentelekomcloud_rts_software_deployment_v1" "$1" {
+	config_id = "$2"
+	server_id = "$3"
+}

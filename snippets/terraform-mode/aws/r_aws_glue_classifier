@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_glue_classifier
+# key: r_aws_glue_classifier
+# --
+resource "aws_glue_classifier" "$1" {
+	name = "$2"
+}

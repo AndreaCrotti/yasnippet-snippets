@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_circonus_worksheet
+# key: r_circonus_worksheet
+# --
+resource "circonus_worksheet" "$1" {
+	title = "$2"
+}

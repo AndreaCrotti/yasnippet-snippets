@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Variable with Default
+# key: vard
+# --
+variable "$1" {
+	default = "$2"
+}

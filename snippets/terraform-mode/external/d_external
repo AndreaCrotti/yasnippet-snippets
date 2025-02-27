@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_external
+# key: d_external
+# --
+data "external" "$1" {
+	program = ["$2"]
+}

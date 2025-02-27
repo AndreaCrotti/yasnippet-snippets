@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oci_identity_regions
+# key: d_oci_identity_regions
+# --
+data "oci_identity_regions" "$1" {
+	
+}

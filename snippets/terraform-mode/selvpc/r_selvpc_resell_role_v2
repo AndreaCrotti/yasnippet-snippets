@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_selvpc_resell_role_v2
+# key: r_selvpc_resell_role_v2
+# --
+resource "selvpc_resell_role_v2" "$1" {
+	project_id = "$2"
+	user_id = "$3"
+}

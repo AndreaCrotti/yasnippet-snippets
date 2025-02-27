@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Data source
+# key: da
+# --
+data "$1" "$2" {
+	$3
+}

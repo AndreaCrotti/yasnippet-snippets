@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_bigip_ltm_node
+# key: r_bigip_ltm_node
+# --
+resource "bigip_ltm_node" "$1" {
+	address = "$2"
+	name = "$3"
+}

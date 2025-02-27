@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_key_pair
+# key: r_alicloud_key_pair
+# --
+resource "alicloud_key_pair" "$1" {
+	
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_skytap_template
+# key: d_skytap_template
+# --
+data "skytap_template" "$1" {
+	name = "$2"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_eip_association
+# key: r_tencentcloud_eip_association
+# --
+resource "tencentcloud_eip_association" "$1" {
+	eip_id = "$2"
+}

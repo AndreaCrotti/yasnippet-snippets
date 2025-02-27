@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: aws
+# key: aws
+# --
+provider "aws" {
+	region = "$1"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_azurerm_monitor_action_group
+# key: d_azurerm_monitor_action_group
+# --
+data "azurerm_monitor_action_group" "$1" {
+	name = "$2"
+	resource_group_name = "$3"
+}

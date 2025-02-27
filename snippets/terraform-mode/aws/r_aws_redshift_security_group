@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_redshift_security_group
+# key: r_aws_redshift_security_group
+# --
+resource "aws_redshift_security_group" "$1" {
+	ingress {
+	
+	}
+	name = "$3"
+}

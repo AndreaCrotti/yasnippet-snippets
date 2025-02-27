@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_packet_project
+# key: r_packet_project
+# --
+resource "packet_project" "$1" {
+	name = "$2"
+}

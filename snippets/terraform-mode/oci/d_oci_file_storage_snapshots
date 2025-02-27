@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oci_file_storage_snapshots
+# key: d_oci_file_storage_snapshots
+# --
+data "oci_file_storage_snapshots" "$1" {
+	file_system_id = "$2"
+}

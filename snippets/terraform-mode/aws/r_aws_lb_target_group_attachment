@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_lb_target_group_attachment
+# key: r_aws_lb_target_group_attachment
+# --
+resource "aws_lb_target_group_attachment" "$1" {
+	target_group_arn = "$2"
+	target_id = "$3"
+}

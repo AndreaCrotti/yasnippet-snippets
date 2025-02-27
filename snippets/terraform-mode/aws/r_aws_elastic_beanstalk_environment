@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_elastic_beanstalk_environment
+# key: r_aws_elastic_beanstalk_environment
+# --
+resource "aws_elastic_beanstalk_environment" "$1" {
+	application = "$2"
+	name = "$3"
+}

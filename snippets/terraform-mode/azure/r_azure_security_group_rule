@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: r_azure_security_group_rule
+# key: r_azure_security_group_rule
+# --
+resource "azure_security_group_rule" "$1" {
+	action = "$2"
+	destination_address_prefix = "$3"
+	destination_port_range = "$4"
+	name = "$5"
+	priority = $6
+	protocol = "$7"
+	security_group_names = ["$8"]
+	source_address_prefix = "$9"
+	source_port_range = "$10"
+	type = "$11"
+}

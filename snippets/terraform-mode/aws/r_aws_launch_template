@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_launch_template
+# key: r_aws_launch_template
+# --
+resource "aws_launch_template" "$1" {
+	
+}

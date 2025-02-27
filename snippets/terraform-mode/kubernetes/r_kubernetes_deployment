@@ -1,0 +1,19 @@
+# -*- mode: snippet -*-
+# name: r_kubernetes_deployment
+# key: r_kubernetes_deployment
+# --
+resource "kubernetes_deployment" "$1" {
+	metadata {
+	
+	}
+	spec {
+		template {
+			metadata {
+		
+		}
+			spec {
+		
+		}
+		}
+	}
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_azurerm_batch_pool
+# key: d_azurerm_batch_pool
+# --
+data "azurerm_batch_pool" "$1" {
+	account_name = "$2"
+	name = "$3"
+	resource_group_name = "$4"
+}

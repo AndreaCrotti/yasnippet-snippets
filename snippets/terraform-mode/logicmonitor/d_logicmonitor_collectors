@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_logicmonitor_collectors
+# key: d_logicmonitor_collectors
+# --
+data "logicmonitor_collectors" "$1" {
+	
+}

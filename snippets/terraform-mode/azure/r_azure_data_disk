@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_azure_data_disk
+# key: r_azure_data_disk
+# --
+resource "azure_data_disk" "$1" {
+	lun = $2
+	virtual_machine = "$3"
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: ucloud
+# key: ucloud
+# --
+provider "ucloud" {
+	private_key = "$1"
+	project_id = "$2"
+	public_key = "$3"
+	region = "$4"
+}

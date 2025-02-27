@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_ots_instance
+# key: r_alicloud_ots_instance
+# --
+resource "alicloud_ots_instance" "$1" {
+	name = "$2"
+}

@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_aws_datasync_location_efs
+# key: r_aws_datasync_location_efs
+# --
+resource "aws_datasync_location_efs" "$1" {
+	ec2_config {
+		security_group_arns = [""]
+		subnet_arn = ""
+	}
+	efs_file_system_arn = "$3"
+}

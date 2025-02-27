@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_clc_load_balancer_pool
+# key: r_clc_load_balancer_pool
+# --
+resource "clc_load_balancer_pool" "$1" {
+	data_center = "$2"
+	load_balancer = "$3"
+		nodes {
+
+		}
+	port = $5
+}

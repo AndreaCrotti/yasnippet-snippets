@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_oci_dns_zone
+# key: r_oci_dns_zone
+# --
+resource "oci_dns_zone" "$1" {
+	compartment_id = "$2"
+	name = "$3"
+	zone_type = "$4"
+}

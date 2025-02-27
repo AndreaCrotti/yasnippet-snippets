@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_ram_resource_share
+# key: r_aws_ram_resource_share
+# --
+resource "aws_ram_resource_share" "$1" {
+	name = "$2"
+}

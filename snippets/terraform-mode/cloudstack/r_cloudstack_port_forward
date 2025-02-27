@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_cloudstack_port_forward
+# key: r_cloudstack_port_forward
+# --
+resource "cloudstack_port_forward" "$1" {
+	forward {
+		private_port = 1
+		protocol = ""
+		public_port = 1
+		virtual_machine_id = ""
+	}
+	ip_address_id = "$3"
+}

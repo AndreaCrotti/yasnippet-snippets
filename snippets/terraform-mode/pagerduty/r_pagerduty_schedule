@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_pagerduty_schedule
+# key: r_pagerduty_schedule
+# --
+resource "pagerduty_schedule" "$1" {
+	layer {
+		rotation_turn_length_seconds = 1
+		rotation_virtual_start = ""
+		start = ""
+		users = [""]
+	}
+	time_zone = "$3"
+}

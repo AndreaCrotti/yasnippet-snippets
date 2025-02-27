@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_pagerduty_user
+# key: d_pagerduty_user
+# --
+data "pagerduty_user" "$1" {
+	email = "$2"
+}

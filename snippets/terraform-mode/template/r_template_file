@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_template_file
+# key: r_template_file
+# --
+resource "template_file" "$1" {
+	
+}

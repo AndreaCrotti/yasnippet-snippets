@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_elastictranscoder_preset
+# key: r_aws_elastictranscoder_preset
+# --
+resource "aws_elastictranscoder_preset" "$1" {
+	container = "$2"
+}

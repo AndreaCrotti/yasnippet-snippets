@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_github_user_ssh_key
+# key: r_github_user_ssh_key
+# --
+resource "github_user_ssh_key" "$1" {
+	key = "$2"
+	title = "$3"
+}

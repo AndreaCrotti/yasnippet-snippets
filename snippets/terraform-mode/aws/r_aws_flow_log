@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_flow_log
+# key: r_aws_flow_log
+# --
+resource "aws_flow_log" "$1" {
+	traffic_type = "$2"
+}

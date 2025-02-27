@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_nsxt_dhcp_relay_service
+# key: r_nsxt_dhcp_relay_service
+# --
+resource "nsxt_dhcp_relay_service" "$1" {
+	dhcp_relay_profile_id = "$2"
+}

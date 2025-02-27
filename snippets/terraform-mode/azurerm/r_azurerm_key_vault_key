@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_key_vault_key
+# key: r_azurerm_key_vault_key
+# --
+resource "azurerm_key_vault_key" "$1" {
+	key_opts = ["$2"]
+	key_size = $3
+	key_type = "$4"
+	name = "$5"
+	vault_uri = "$6"
+}
