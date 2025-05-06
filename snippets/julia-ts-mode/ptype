@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: primitive type ... end
+# key: ptype
+# contributor: hankail05
+# --
+primitive type ${1:${2:type} <: ${3:supertype}} ${4:bits} end$0

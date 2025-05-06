@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: async fn name(&self) -> Type  { ... }
+# key: afns
+# --
+async fn ${1:name}(${2:&self}) -> ${3:Type}  {
+    $0
+}

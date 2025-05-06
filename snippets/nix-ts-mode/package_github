@@ -1,0 +1,82 @@
+# -*- mode: snippet -*-
+# name: package github
+# key: pg
+# --
+{ lib
+, stdenv
+, fetchFromGitHub
+, $1
+, $2
+}:
+
+stdenv.mkDerivation rec {
+  pname = "$3";
+  version = "$4";
+
+  src = fetchFromGitHub {
+    owner = "$5";
+    repo = ${6:pname};
+    rev = "${7:v\$\{version\}}";
+    sha256 = "${8:\$\{lib.fakeSha256\}}";
+  };
+
+  nativeBuildInputs = [ ${1:$(replace-regexp-in-string "  *" " "(subst-char-in-string ?, ? yas-text))} ];
+  buildInputs = [
+    ${2:$(replace-regexp-in-string "  *" " "(subst-char-in-string ?, ? yas-text))}
+  ];
+
+  meta = with lib; {
+    homepage = "https://${9:github.com/$5/$3}";
+    description = "$10";
+    longDescription = ''
+      $11
+    '';
+    license = licenses.${12:$$
+  (yas-choose-value '(
+    "agpl3"
+    "asl20"
+    "bsd1"
+    "bsd2"
+    "bsd3"
+    "free"
+    "gpl2"
+    "gpl2Only"
+    "gpl2Plus"
+    "gpl3"
+    "gpl3Only"
+    "gpl3Plus"
+    "isc"
+    "lgpl21Only"
+    "lgpl21Plus"
+    "lgpl2Only"
+    "lgpl2Plus"
+    "lgpl3"
+    "lgpl3Only"
+    "mit"
+    "mpl20"
+    "ofl"
+    "unfree"
+  ))};
+    maintainers = with maintainers; [ $12 ];
+    platforms = platforms.${13:$$
+  (yas-choose-value '(
+    "all"
+    "allBut"
+    "arm"
+    "cygwin"
+    "darwin"
+    "freebsd"
+    "gnu"
+    "i686"
+    "illumos"
+    "linux"
+    "mesaPlatforms"
+    "mips"
+    "netbsd"
+    "none"
+    "openbsd"
+    "unix"
+    "x86"
+  ))};
+  };
+}

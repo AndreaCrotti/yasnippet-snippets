@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: function(...) ... end
+# key: fun
+# contributor: hankail05
+# --
+function ${1:fun}(${2:args})
+    $0
+end

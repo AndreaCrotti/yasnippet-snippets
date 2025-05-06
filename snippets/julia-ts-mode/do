@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: do ... ... end
+# key: do
+# contributor: hankail05
+# --
+do ${1:x}
+    $0
+end

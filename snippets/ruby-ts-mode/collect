@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: collect { |...| ... }
+# group : collections
+# --
+collect { |${e}| $0 }

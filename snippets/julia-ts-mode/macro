@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: macro(...) ... end
+# key: macro
+# contributor: hankail05
+# --
+macro ${1:macro}(${2:args})
+    $0
+end

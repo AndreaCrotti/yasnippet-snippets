@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# uuid: 6ead1d1a-bf84-4a3d-94fb-59ad97d55414
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: setTimeOut
+# key: sto
+# --
+
+setTimeout(() => {
+  ${2}
+}, ${1:delayInms})

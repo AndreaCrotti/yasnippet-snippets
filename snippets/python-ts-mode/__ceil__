@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: __ceil__
+# key: _ceil
+# group: Special methods
+# --
+def __ceil__(self):
+    return $0

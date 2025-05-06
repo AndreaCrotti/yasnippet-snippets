@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: doCheck
+# key: dc
+# --
+doCheck = ${1:$$(yas-auto-next
+                  (yas-choose-value
+                  '("stdenv.buildPlatform.canExecute stdenv.hostPlatform;"
+                    "false;")))}

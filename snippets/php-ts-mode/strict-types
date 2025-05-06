@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# contributor: USAMI Kenta <tadsan@zonu.me>
+# name: declare(strict_types=1)
+# key: strict_types
+# group: definitions
+# --
+declare(strict_types=1);

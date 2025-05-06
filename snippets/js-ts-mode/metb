@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# uuid: b8f2656b-94d0-40fc-baf2-d335073ecd54
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: bound method
+# key: metb
+# --
+
+${1:methodName} = (${2:params}) => {
+  $0
+}

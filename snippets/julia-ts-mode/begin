@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: begin ... end
+# key: begin
+# contributor: hankail05
+# --
+begin
+    $0
+end

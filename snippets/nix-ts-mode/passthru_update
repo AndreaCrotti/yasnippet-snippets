@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: passthru_update
+# key: pu
+# --
+passthru.updateScript = nix-update-script { };

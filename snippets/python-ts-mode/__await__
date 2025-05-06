@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: __await__
+# key: _await
+# group: Special methods
+# --
+def __await__(self):
+    $0
