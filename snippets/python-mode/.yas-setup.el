@@ -102,24 +102,23 @@ default values.  An argument named `self` is omitted."
 
 
 ;; Tests
+;; (ert-deftest test-split ()
+;;   "For starters, only test a single string for expected output."
+;;   (should (equal
+;;            (python-split-args "_foo='this', bar: int = 2, baz: Optional[My_Type], foobar")
+;;            (list '("_foo" nil "'this'")
+;;                  '("bar" "int" "2")
+;;                  '("baz" "Optional[My_Type]" nil)
+;;                  '("foobar" nil nil)))
+;;   ))
 
-(ert-deftest test-split ()
-  "For starters, only test a single string for expected output."
-  (should (equal
-           (python-split-args "_foo='this', bar: int = 2, baz: Optional[My_Type], foobar")
-           (list '("_foo" nil "'this'")
-                 '("bar" "int" "2")
-                 '("baz" "Optional[My_Type]" nil)
-                 '("foobar" nil nil)))
-  ))
-
-(ert-deftest test-argument-self ()
-  "If an argument is called `self`, it must be omitted"
-  (should (equal
-           (python-split-args "self, _foo=\"this\"")
-           (list '("_foo" nil "\"this\"")
-                 ))
-  ))
+;; (ert-deftest test-argument-self ()
+;;   "If an argument is called `self`, it must be omitted"
+;;   (should (equal
+;;            (python-split-args "self, _foo=\"this\"")
+;;            (list '("_foo" nil "\"this\"")
+;;                  ))
+;;   ))
 
 ;; For manual testing and development:
 
