@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: __missing__
+# key: _missing
+# group: Special methods
+# --
+def __missing__(self, key):
+    return $0

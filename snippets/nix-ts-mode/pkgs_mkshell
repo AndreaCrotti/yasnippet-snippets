@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: pkgs_mkshell
+# key: pms
+# --
+pkgs.${1:$$(yas-auto-next (yas-choose-value '("mkShell" "mkShellNoCC")))} {
+  inputsFrom = [ $3 ];
+
+  packages = [ $2 ];
+
+  shellHook = ''
+  $4
+  '';
+}$0

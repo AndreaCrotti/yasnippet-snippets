@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor : Frede Brændstrup <frederikbraendstrup@gmail.com>
+# name: Console.Read(...);
+# key: cr
+# --
+Console.Read(${1:Read});

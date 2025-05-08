@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: fixPhase
+# key: fp
+# --
+fixupPhase= ''
+  runHook preFixup
+$1
+  runHook postFixup
+'';
+$0

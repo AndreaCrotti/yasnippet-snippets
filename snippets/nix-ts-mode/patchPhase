@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: patchPhase
+# key: pp
+# --
+patchPhase = ''
+  runHook prePatch
+  $1
+  runHook postPatch
+'';
+$0

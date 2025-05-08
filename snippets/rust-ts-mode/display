@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: impl Display for Type { fn fmt (...) }
+# key: display
+# --
+impl Display for ${1:Type} {
+    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
+        write!(f, "$0")
+    }
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: let ... ... end
+# key: let
+# contributor: hankail05
+# --
+let ${1:x = 0}
+    $0
+end

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: abstract type ... end
+# key: atype
+# contributor: hankail05
+# --
+abstract type ${1:${2:type} <: ${3:supertype}} end$0

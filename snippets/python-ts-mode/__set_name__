@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: __set_name__
+# key: _set_name
+# group: Special methods
+# --
+def __set_name__(self, owner, name):
+    $0

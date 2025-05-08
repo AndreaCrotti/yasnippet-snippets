@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Inspect value
+# key: i
+# --
+IO.inspect($1, label: "$1")$0

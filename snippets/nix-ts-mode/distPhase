@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: distPhase
+# key: dp
+# --
+distPhase= ''
+  runHook preDist
+$1
+  runHook postDist
+'';
+$0

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: __rand__
+# key: _rand
+# group: Special methods
+# --
+def __rand__(self, other):
+    return $0

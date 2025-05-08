@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: __aenter__
+# key: _aenter
+# group: Special methods
+# --
+async def __aenter__(self):
+    $0
+    return self

@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# contributor: takeo obara<bararararatty@gmail.com>
+# name: enum
+# key: enum
+# group : definitions
+# --
+enum ${1:Name}${2:: type} {
+    case: ${3:One};
+    case: ${4:Two};
+$0
+}

@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: pdb trace
+# key: pdb
+# group: debug
+# --
+breakpoint()

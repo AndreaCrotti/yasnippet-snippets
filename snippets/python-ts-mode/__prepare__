@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: __prepare__
+# key: _prepare
+# group: Special methods
+# --
+def __prepare__(name, bases, **kwds):
+    return ${0:\{\}}

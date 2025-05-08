@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: Header 3
+# contributor: Peng Deng <dengpeng@gmail.com>
+# key: h3
+# --
+### ${1:Header 3} ###
+
+$0

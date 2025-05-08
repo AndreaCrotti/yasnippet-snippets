@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: lambda
+# key: lambda
+# --
+[${1:capture clause}](${2:parameters}) {
+    $0
+}

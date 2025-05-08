@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: callPackage
+# key: ca
+# --
+  $1 = callPackage ../$2/$1 { };
+$0

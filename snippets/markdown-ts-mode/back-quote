@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Inline Code
+# contributor: Peng Deng <dengpeng@gmail.com>
+# key: `
+# --
+\`${1:Code}\` $0

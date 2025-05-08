@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: pub async fn name() -> Type { ... }
+# key: pafnr
+# --
+pub async fn ${1:name}($2) -> ${3:Type} {
+    $0
+}

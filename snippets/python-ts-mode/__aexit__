@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: __aexit__
+# key: _aexit
+# group: Special methods
+# --
+async def __aexit__(self, exc_type, exc_value, traceback):
+    $0

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: include Comparable; def <=> ... end
+# group : definitions
+# --
+include Comparable
+
+def <=> other
+  $0
+end

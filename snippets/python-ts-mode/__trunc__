@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: __trunc__
+# key: _trunc
+# group: Special methods
+# --
+def __trunc__(self):
+    return $0

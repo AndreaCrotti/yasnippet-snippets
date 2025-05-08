@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: with-open
+# key: wo
+# group : control structure
+# contributor: Quazgar
+# --
+with open(${1:"filename"}${2:, encoding="${3:utf-8}"}${4:, mode="${5:w}"}) as ${6:myfile}:
+    $0

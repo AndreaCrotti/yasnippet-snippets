@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: __new__
+# key: _new
+# group: Special methods
+# --
+def __new__(mcs, name, bases, dct):
+    $0
+    return type.__new__(mcs, name, bases, dct)

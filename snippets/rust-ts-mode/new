@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: pub fn new() { ... }
+# key: new
+# --
+pub fn new($1) -> ${2:Name} {
+    $2 { ${3} }
+}
