@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_opsworks_haproxy_layer
+# key: r_aws_opsworks_haproxy_layer
+# --
+resource "aws_opsworks_haproxy_layer" "$1" {
+	stack_id = "$2"
+	stats_password = "$3"
+}

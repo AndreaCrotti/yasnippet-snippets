@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_panos_vlan_interface
+# key: r_panos_vlan_interface
+# --
+resource "panos_vlan_interface" "$1" {
+	name = "$2"
+}

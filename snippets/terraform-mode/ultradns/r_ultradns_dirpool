@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_ultradns_dirpool
+# key: r_ultradns_dirpool
+# --
+resource "ultradns_dirpool" "$1" {
+	description = "$2"
+	name = "$3"
+	rdata {
+		host = ""
+	}
+	type = "$5"
+	zone = "$6"
+}

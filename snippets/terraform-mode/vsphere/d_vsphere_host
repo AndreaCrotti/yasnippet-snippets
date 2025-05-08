@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_vsphere_host
+# key: d_vsphere_host
+# --
+data "vsphere_host" "$1" {
+	datacenter_id = "$2"
+}

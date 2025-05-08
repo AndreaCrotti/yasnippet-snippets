@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_rightscale_network
+# key: d_rightscale_network
+# --
+data "rightscale_network" "$1" {
+	
+}

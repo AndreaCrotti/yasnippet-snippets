@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_selvpc_resell_vrrp_subnet_v2
+# key: r_selvpc_resell_vrrp_subnet_v2
+# --
+resource "selvpc_resell_vrrp_subnet_v2" "$1" {
+	master_region = "$2"
+	project_id = "$3"
+	slave_region = "$4"
+}

@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_app_service_slot
+# key: r_azurerm_app_service_slot
+# --
+resource "azurerm_app_service_slot" "$1" {
+	app_service_name = "$2"
+	app_service_plan_id = "$3"
+	location = "$4"
+	name = "$5"
+	resource_group_name = "$6"
+}

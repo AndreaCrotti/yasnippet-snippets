@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_tfe_team_access
+# key: r_tfe_team_access
+# --
+resource "tfe_team_access" "$1" {
+	access = "$2"
+	team_id = "$3"
+	workspace_id = "$4"
+}

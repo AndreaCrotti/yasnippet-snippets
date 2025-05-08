@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_pagerduty_extension
+# key: r_pagerduty_extension
+# --
+resource "pagerduty_extension" "$1" {
+	extension_objects = ["$2"]
+	extension_schema = "$3"
+}

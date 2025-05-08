@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_icinga2_notification
+# key: r_icinga2_notification
+# --
+resource "icinga2_notification" "$1" {
+	command = "$2"
+	hostname = "$3"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_ssm_document
+# key: r_aws_ssm_document
+# --
+resource "aws_ssm_document" "$1" {
+	content = "$2"
+	document_type = "$3"
+	name = "$4"
+}

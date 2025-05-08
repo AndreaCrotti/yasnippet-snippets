@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_bigip_ltm_virtual_address
+# key: r_bigip_ltm_virtual_address
+# --
+resource "bigip_ltm_virtual_address" "$1" {
+	name = "$2"
+}

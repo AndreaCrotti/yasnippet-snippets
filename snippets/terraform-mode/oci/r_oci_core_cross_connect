@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_oci_core_cross_connect
+# key: r_oci_core_cross_connect
+# --
+resource "oci_core_cross_connect" "$1" {
+	compartment_id = "$2"
+	location_name = "$3"
+	port_speed_shape_name = "$4"
+}

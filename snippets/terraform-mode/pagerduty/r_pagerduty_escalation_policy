@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_pagerduty_escalation_policy
+# key: r_pagerduty_escalation_policy
+# --
+resource "pagerduty_escalation_policy" "$1" {
+	name = "$2"
+	rule {
+		escalation_delay_in_minutes = 1
+		target {
+			id = ""
+		}
+	}
+}

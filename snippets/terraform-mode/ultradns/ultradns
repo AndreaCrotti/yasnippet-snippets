@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: ultradns
+# key: ultradns
+# --
+provider "ultradns" {
+	password = "$1"
+	username = "$2"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_ami
+# key: r_aws_ami
+# --
+resource "aws_ami" "$1" {
+	name = "$2"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_oci_core_route_table
+# key: r_oci_core_route_table
+# --
+resource "oci_core_route_table" "$1" {
+	compartment_id = "$2"
+	vcn_id = "$3"
+}

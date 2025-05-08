@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_route
+# key: r_aws_route
+# --
+resource "aws_route" "$1" {
+	route_table_id = "$2"
+}

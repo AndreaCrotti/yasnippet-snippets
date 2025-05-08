@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_lb
+# key: r_aws_lb
+# --
+resource "aws_lb" "$1" {
+	
+}

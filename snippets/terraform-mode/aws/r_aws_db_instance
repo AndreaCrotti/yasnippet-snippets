@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_db_instance
+# key: r_aws_db_instance
+# --
+resource "aws_db_instance" "$1" {
+	instance_class = "$2"
+}

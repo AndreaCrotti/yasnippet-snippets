@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_elastic_beanstalk_configuration_template
+# key: r_aws_elastic_beanstalk_configuration_template
+# --
+resource "aws_elastic_beanstalk_configuration_template" "$1" {
+	application = "$2"
+	name = "$3"
+}

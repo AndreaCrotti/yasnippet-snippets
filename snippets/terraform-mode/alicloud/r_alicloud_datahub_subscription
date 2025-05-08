@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_datahub_subscription
+# key: r_alicloud_datahub_subscription
+# --
+resource "alicloud_datahub_subscription" "$1" {
+	project_name = "$2"
+	topic_name = "$3"
+}

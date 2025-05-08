@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_chef_environment
+# key: r_chef_environment
+# --
+resource "chef_environment" "$1" {
+	name = "$2"
+}

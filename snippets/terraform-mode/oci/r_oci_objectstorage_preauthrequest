@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_oci_objectstorage_preauthrequest
+# key: r_oci_objectstorage_preauthrequest
+# --
+resource "oci_objectstorage_preauthrequest" "$1" {
+	access_type = "$2"
+	bucket = "$3"
+	name = "$4"
+	namespace = "$5"
+	time_expires = "$6"
+}

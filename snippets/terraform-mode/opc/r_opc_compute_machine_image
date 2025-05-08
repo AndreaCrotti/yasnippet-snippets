@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_opc_compute_machine_image
+# key: r_opc_compute_machine_image
+# --
+resource "opc_compute_machine_image" "$1" {
+	account = "$2"
+	file = "$3"
+	name = "$4"
+}

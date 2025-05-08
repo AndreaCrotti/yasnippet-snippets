@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_shared_image
+# key: r_azurerm_shared_image
+# --
+resource "azurerm_shared_image" "$1" {
+	gallery_name = "$2"
+	identifier {
+		offer = ""
+		publisher = ""
+		sku = ""
+	}
+	location = "$4"
+	name = "$5"
+	os_type = "$6"
+	resource_group_name = "$7"
+}

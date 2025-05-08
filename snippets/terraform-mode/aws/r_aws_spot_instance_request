@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_spot_instance_request
+# key: r_aws_spot_instance_request
+# --
+resource "aws_spot_instance_request" "$1" {
+	ami = "$2"
+	instance_type = "$3"
+}

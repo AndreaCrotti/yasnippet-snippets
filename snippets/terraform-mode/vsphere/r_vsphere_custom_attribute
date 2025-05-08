@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_vsphere_custom_attribute
+# key: r_vsphere_custom_attribute
+# --
+resource "vsphere_custom_attribute" "$1" {
+	name = "$2"
+}

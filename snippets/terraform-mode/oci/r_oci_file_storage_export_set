@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_oci_file_storage_export_set
+# key: r_oci_file_storage_export_set
+# --
+resource "oci_file_storage_export_set" "$1" {
+	mount_target_id = "$2"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_rundeck_private_key
+# key: r_rundeck_private_key
+# --
+resource "rundeck_private_key" "$1" {
+	key_material = "$2"
+	path = "$3"
+}

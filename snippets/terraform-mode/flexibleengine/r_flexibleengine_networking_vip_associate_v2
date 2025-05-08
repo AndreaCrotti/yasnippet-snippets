@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_flexibleengine_networking_vip_associate_v2
+# key: r_flexibleengine_networking_vip_associate_v2
+# --
+resource "flexibleengine_networking_vip_associate_v2" "$1" {
+	port_ids = ["$2"]
+	vip_id = "$3"
+}

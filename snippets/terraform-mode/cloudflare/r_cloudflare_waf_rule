@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_cloudflare_waf_rule
+# key: r_cloudflare_waf_rule
+# --
+resource "cloudflare_waf_rule" "$1" {
+	mode = "$2"
+	rule_id = "$3"
+	zone = "$4"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_drds_instance
+# key: r_alicloud_drds_instance
+# --
+resource "alicloud_drds_instance" "$1" {
+	description = "$2"
+	instance_series = "$3"
+	specification = "$4"
+}

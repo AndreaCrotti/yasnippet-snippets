@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_log_analytics_solution
+# key: r_azurerm_log_analytics_solution
+# --
+resource "azurerm_log_analytics_solution" "$1" {
+	location = "$2"
+	plan {
+		product = ""
+		publisher = ""
+	}
+	resource_group_name = "$4"
+	solution_name = "$5"
+	workspace_name = "$6"
+	workspace_resource_id = "$7"
+}

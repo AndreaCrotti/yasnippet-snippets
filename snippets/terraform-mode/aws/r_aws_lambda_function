@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_lambda_function
+# key: r_aws_lambda_function
+# --
+resource "aws_lambda_function" "$1" {
+	function_name = "$2"
+	handler = "$3"
+	role = "$4"
+	runtime = "$5"
+}

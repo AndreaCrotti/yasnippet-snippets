@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_elastic_beanstalk_solution_stack
+# key: d_aws_elastic_beanstalk_solution_stack
+# --
+data "aws_elastic_beanstalk_solution_stack" "$1" {
+	name_regex = "$2"
+}

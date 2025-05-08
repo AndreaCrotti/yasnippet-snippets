@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_nutanix_virtual_machine
+# key: r_nutanix_virtual_machine
+# --
+resource "nutanix_virtual_machine" "$1" {
+	name = "$2"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_opc_compute_ip_association
+# key: r_opc_compute_ip_association
+# --
+resource "opc_compute_ip_association" "$1" {
+	parent_pool = "$2"
+	vcable = "$3"
+}

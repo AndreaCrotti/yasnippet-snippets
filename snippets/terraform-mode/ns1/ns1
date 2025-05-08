@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: ns1
+# key: ns1
+# --
+provider "ns1" {
+	
+}

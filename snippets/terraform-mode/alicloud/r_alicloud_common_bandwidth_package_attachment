@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_common_bandwidth_package_attachment
+# key: r_alicloud_common_bandwidth_package_attachment
+# --
+resource "alicloud_common_bandwidth_package_attachment" "$1" {
+	bandwidth_package_id = "$2"
+	instance_id = "$3"
+}

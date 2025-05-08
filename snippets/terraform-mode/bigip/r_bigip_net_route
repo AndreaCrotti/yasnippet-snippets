@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_bigip_net_route
+# key: r_bigip_net_route
+# --
+resource "bigip_net_route" "$1" {
+	name = "$2"
+	network = "$3"
+}

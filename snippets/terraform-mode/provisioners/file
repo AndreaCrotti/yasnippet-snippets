@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: file
+# key: file
+# --
+provisioner "file" {
+	source = "$1"
+	destination = "$2"
+}

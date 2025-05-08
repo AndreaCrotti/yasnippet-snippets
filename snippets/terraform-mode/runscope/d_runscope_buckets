@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_runscope_buckets
+# key: d_runscope_buckets
+# --
+data "runscope_buckets" "$1" {
+	
+}

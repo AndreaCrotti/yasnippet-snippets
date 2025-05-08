@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_statuscake_test
+# key: r_statuscake_test
+# --
+resource "statuscake_test" "$1" {
+	test_type = "$2"
+	website_name = "$3"
+	website_url = "$4"
+}
