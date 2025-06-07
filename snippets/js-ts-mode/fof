@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# uuid: eec73b34-fb19-4d4c-b4fd-853b2eca6f19
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: forOf
+# key: fof
+# --
+
+for(let ${1:item} of ${2:object}) {
+  $0
+}

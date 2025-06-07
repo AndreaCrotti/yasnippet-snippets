@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# uuid: 9619a671-e44a-4b59-b343-b55b3b1dbbcc
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: console.clear
+# key: ccl
+# group: console
+# --
+
+console.clear()
