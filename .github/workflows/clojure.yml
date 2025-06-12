@@ -8,10 +8,21 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
+      - name: Setup Java
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-version: '21'
+
+      - name: Install Clojure Tools
+        uses: DeLaGuardo/setup-clojure@13.4
+        with:
+          cli: latest
+          lein: latest
+
     - name: generate html report
       run: cd report && lein run
