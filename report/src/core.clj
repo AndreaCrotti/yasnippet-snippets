@@ -116,11 +116,10 @@
 (comment
   (def all-modes (all-modes "../snippets"))
   (doseq [[mode ss] all-modes]
-    (do
-      (print "mode =" mode)
-      (let [grouped
-            (->> (group-by :name ss)
-                 (filter #(> (count (second %)) 1)))]
-        (doseq [[g vs] grouped]
-          (when (pos? (count vs))
-            (println g (map :filename vs))))))))
+    (print "mode =" mode)
+    (let [grouped
+          (->> (group-by :name ss)
+               (filter #(> (count (second %)) 1)))]
+      (doseq [[g vs] grouped]
+        (when (pos? (count vs))
+          (println g (map :filename vs)))))))

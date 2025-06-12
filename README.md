@@ -6,6 +6,7 @@
 
 This repository contains the official collection of snippets for [yasnippet](http://github.com/capitaomorte/yasnippet).
 
+You can see a genreated table of all snippets [here](https://andreacrotti.pro/yasnippet-snippets/snippets).
 
 # How to install
 
