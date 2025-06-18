@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: __dir__
+# key: _dir
+# group: Special methods
+# --
+def __dir__(self):
+    return $0

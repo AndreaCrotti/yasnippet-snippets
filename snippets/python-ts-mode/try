@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: try
+# key: try
+# expand-env: ((yas-indent-line 'fixed))
+# --
+try:
+    $0
+except ${1:Exception}:
+    $2

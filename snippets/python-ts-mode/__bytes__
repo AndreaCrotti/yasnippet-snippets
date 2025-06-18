@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: __bytes__
+# key: _bytes
+# group: Special methods
+# --
+def __bytes__(self):
+    return $0

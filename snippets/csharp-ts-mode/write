@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor : Frede Brændstrup <frederikbraendstrup@gmail.com>
+# name: Console.Write(...);
+# key: cw
+# --
+Console.Write(${1:Write});

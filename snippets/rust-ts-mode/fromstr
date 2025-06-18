@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: impl FromStr for Type { fn from_str(...) }
+# key: fromstr
+# --
+impl FromStr for ${1:Type} {
+    type Err = ${2:Error};
+
+    fn from_str(s: &str) -> Result<Self, Self::Err> {
+        Ok(Self{})
+    }
+}

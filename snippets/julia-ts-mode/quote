@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: quote ... end
+# key: quote
+# contributor: hankail05
+# --
+quote
+    ${1:expr}
+end
+$0

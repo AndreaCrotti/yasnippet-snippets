@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: each_index { |i| ... }
+# group : collections
+# --
+each_index { |${i}| $0 }

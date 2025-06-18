@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: if ... ... end
+# key: if
+# contributor: hankail05
+# --
+if ${1:cond}
+    $0
+end

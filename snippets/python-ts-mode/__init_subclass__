@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: __init_subclass__
+# key: _init_subclass
+# group: Special methods
+# --
+def __init_subclass__(cls, /${1:, param}, **kwargs):
+    super().__init_subclass__(**kwargs)
+    $0

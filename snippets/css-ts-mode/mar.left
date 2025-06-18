@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# contributor : rejeep <johan.rejeep@gmail.com>
+# name: margin-left: ...
+# --
+margin-left: $1;

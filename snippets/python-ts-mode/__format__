@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: __format__
+# key: _format
+# group: Special methods
+# --
+def __format__(self, format_spec):
+    return $0

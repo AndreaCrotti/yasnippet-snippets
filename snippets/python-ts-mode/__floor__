@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: __floor__
+# key: _floor
+# group: Special methods
+# --
+def __floor__(self):
+    return $0

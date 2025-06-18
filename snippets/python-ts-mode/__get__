@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: __get__
+# key: _get
+# group: Special methods
+# --
+def __get__(self, instance, owner=None):
+    return $0

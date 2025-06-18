@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: async fn name() -> Type { ... }
+# key: afnr
+# --
+async fn ${1:name}($2) -> ${3:Type} {
+    $0
+}

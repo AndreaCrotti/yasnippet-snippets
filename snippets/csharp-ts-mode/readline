@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor : Frede Brændstrup <frederikbraendstrup@gmail.com>
+# name: Console.ReadLine(...);
+# key: crl
+# --
+Console.ReadLine(${1:Read});

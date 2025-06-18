@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# uuid: 4650c619-bbd9-4496-955a-1d626fdf8bcb
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: namedFunction
+# key: nfn
+# --
+
+const ${1:name} = (${2:params}) => {
+  ${3}
+}

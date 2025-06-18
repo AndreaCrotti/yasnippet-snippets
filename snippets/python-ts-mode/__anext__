@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: __anext__
+# key: _anext
+# group: Special methods
+# --
+async def __anext__(self):
+    return $0

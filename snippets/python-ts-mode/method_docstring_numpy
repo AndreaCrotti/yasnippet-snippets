@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# contributor: quazgar
+# name: method_docstring_numpy
+# key: mdn
+# group: object oriented
+# --
+def ${1:name}(self$2):
+    \"\"\"$3
+    ${2:$(python-args-to-docstring-numpy)}
+    \"\"\"
+    $0

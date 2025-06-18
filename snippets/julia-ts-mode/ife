@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: if ... ... else ... end
+# key: ife
+# contributor: hankail05
+# --
+if ${1:cond}
+    ${2:true}
+else
+    ${3:false}
+end
+$0

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: dataclass
+# key: dc
+# group: object oriented
+# --
+@dataclass
+class ${1:class}:
+    $0

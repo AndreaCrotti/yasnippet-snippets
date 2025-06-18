@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: __length_hint__
+# key: _length_hint
+# group: Special methods
+# --
+def __length_hint__(self):
+    return $0

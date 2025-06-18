@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: try ... catch ... finally ... end
+# key: try
+# contributor: hankail05
+# --
+try
+    ${1:expr}
+catch ${2:error}
+    ${3:e_expr}
+finally
+    ${4:f_expr}
+end
+$0
