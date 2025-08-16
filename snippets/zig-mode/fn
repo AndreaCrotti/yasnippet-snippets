@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: fn name() type { ... }
+# key: fn
+# --
+fn ${1:name}($2) ${3:!void} {
+   $0
+}

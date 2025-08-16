@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: main pub function
+# key: main
+# --
+pub fn main($1) ${2:${!void}} {
+    $0
+}
