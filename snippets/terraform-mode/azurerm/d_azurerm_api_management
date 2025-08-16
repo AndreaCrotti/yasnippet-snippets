@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_azurerm_api_management
+# key: d_azurerm_api_management
+# --
+data "azurerm_api_management" "$1" {
+	name = "$2"
+	resource_group_name = "$3"
+}

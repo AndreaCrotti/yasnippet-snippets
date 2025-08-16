@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_vsphere_datastore_cluster
+# key: d_vsphere_datastore_cluster
+# --
+data "vsphere_datastore_cluster" "$1" {
+	name = "$2"
+}

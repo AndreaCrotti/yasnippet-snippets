@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_kinesis_firehose_delivery_stream
+# key: r_aws_kinesis_firehose_delivery_stream
+# --
+resource "aws_kinesis_firehose_delivery_stream" "$1" {
+	destination = "$2"
+	name = "$3"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_circonus_metric
+# key: r_circonus_metric
+# --
+resource "circonus_metric" "$1" {
+	name = "$2"
+	type = "$3"
+}

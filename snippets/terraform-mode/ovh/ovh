@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: ovh
+# key: ovh
+# --
+provider "ovh" {
+	endpoint = "$1"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_bigip_sys_provision
+# key: r_bigip_sys_provision
+# --
+resource "bigip_sys_provision" "$1" {
+	name = "$2"
+}

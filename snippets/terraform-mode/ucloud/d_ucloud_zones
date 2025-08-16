@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_ucloud_zones
+# key: d_ucloud_zones
+# --
+data "ucloud_zones" "$1" {
+	
+}

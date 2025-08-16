@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_flexibleengine_csbs_backup_policy_v1
+# key: d_flexibleengine_csbs_backup_policy_v1
+# --
+data "flexibleengine_csbs_backup_policy_v1" "$1" {
+	
+}

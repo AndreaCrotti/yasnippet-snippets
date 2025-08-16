@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_vsphere_virtual_machine
+# key: d_vsphere_virtual_machine
+# --
+data "vsphere_virtual_machine" "$1" {
+	name = "$2"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_cloudflare_record
+# key: r_cloudflare_record
+# --
+resource "cloudflare_record" "$1" {
+	domain = "$2"
+	name = "$3"
+	type = "$4"
+}

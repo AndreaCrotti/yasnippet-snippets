@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_datadog_screenboard
+# key: r_datadog_screenboard
+# --
+resource "datadog_screenboard" "$1" {
+	title = "$2"
+	widget {
+		type = ""
+		x = 1
+		y = 1
+	}
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_opsgenie_user
+# key: r_opsgenie_user
+# --
+resource "opsgenie_user" "$1" {
+	full_name = "$2"
+	role = "$3"
+	username = "$4"
+}

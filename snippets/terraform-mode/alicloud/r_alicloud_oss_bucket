@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_oss_bucket
+# key: r_alicloud_oss_bucket
+# --
+resource "alicloud_oss_bucket" "$1" {
+	
+}

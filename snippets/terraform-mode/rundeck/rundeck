@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: rundeck
+# key: rundeck
+# --
+provider "rundeck" {
+	auth_token = "$1"
+	url = "$2"
+}

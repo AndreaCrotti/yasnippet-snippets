@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_vswitch
+# key: r_alicloud_vswitch
+# --
+resource "alicloud_vswitch" "$1" {
+	availability_zone = "$2"
+	cidr_block = "$3"
+	vpc_id = "$4"
+}

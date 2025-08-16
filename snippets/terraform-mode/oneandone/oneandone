@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: oneandone
+# key: oneandone
+# --
+provider "oneandone" {
+	token = "$1"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_ami_launch_permission
+# key: r_aws_ami_launch_permission
+# --
+resource "aws_ami_launch_permission" "$1" {
+	account_id = "$2"
+	image_id = "$3"
+}

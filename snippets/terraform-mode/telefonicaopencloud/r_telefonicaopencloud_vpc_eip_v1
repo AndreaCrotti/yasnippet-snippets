@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: r_telefonicaopencloud_vpc_eip_v1
+# key: r_telefonicaopencloud_vpc_eip_v1
+# --
+resource "telefonicaopencloud_vpc_eip_v1" "$1" {
+	bandwidth {
+		name = ""
+		share_type = ""
+		size = 1
+	}
+	publicip {
+		type = ""
+	}
+}

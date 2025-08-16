@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oci_core_volume
+# key: d_oci_core_volume
+# --
+data "oci_core_volume" "$1" {
+	volume_id = "$2"
+}

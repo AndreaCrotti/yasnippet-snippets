@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_tencentcloud_instance_types
+# key: d_tencentcloud_instance_types
+# --
+data "tencentcloud_instance_types" "$1" {
+	
+}

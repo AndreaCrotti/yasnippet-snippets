@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_oneandone_shared_storage
+# key: r_oneandone_shared_storage
+# --
+resource "oneandone_shared_storage" "$1" {
+	datacenter = "$2"
+	name = "$3"
+	size = $4
+}

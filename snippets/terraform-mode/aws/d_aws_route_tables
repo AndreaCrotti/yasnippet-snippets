@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_route_tables
+# key: d_aws_route_tables
+# --
+data "aws_route_tables" "$1" {
+	
+}

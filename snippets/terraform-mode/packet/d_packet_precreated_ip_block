@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: d_packet_precreated_ip_block
+# key: d_packet_precreated_ip_block
+# --
+data "packet_precreated_ip_block" "$1" {
+	address_family = $2
+	facility = "$3"
+	project_id = "$4"
+	public = ${5:false}
+}

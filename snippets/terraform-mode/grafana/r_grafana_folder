@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_grafana_folder
+# key: r_grafana_folder
+# --
+resource "grafana_folder" "$1" {
+	title = "$2"
+}

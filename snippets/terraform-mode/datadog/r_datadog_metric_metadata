@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_datadog_metric_metadata
+# key: r_datadog_metric_metadata
+# --
+resource "datadog_metric_metadata" "$1" {
+	metric = "$2"
+}

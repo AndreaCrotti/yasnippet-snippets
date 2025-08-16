@@ -1,0 +1,24 @@
+# -*- mode: snippet -*-
+# name: r_opentelekomcloud_rds_instance_v1
+# key: r_opentelekomcloud_rds_instance_v1
+# --
+resource "opentelekomcloud_rds_instance_v1" "$1" {
+	availabilityzone = "$2"
+	datastore {
+		type = ""
+		version = ""
+	}
+	dbrtpd = "$4"
+	flavorref = "$5"
+	nics {
+		subnetid = ""
+	}
+	securitygroup {
+		id = ""
+	}
+	volume {
+		size = 1
+		type = ""
+	}
+	vpc = "$9"
+}

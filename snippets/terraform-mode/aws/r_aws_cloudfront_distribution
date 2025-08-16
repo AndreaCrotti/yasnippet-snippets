@@ -1,0 +1,31 @@
+# -*- mode: snippet -*-
+# name: r_aws_cloudfront_distribution
+# key: r_aws_cloudfront_distribution
+# --
+resource "aws_cloudfront_distribution" "$1" {
+	default_cache_behavior {
+		allowed_methods = [""]
+		cached_methods = [""]
+		forwarded_values {
+			cookies {
+			forward = ""
+		}
+			query_string = false
+		}
+		target_origin_id = ""
+		viewer_protocol_policy = ""
+	}
+	enabled = ${3:false}
+	origin {
+		domain_name = ""
+		origin_id = ""
+	}
+	restrictions {
+		geo_restriction {
+			restriction_type = ""
+		}
+	}
+	viewer_certificate {
+	
+	}
+}

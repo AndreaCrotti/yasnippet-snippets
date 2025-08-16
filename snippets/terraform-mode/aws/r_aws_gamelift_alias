@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_gamelift_alias
+# key: r_aws_gamelift_alias
+# --
+resource "aws_gamelift_alias" "$1" {
+	name = "$2"
+	routing_strategy {
+		type = ""
+	}
+}

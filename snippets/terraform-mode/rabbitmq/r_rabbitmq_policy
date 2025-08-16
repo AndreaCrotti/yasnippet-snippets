@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: r_rabbitmq_policy
+# key: r_rabbitmq_policy
+# --
+resource "rabbitmq_policy" "$1" {
+	name = "$2"
+	policy {
+		apply_to = ""
+		definition {
+
+		}
+		pattern = ""
+		priority = 1
+	}
+	vhost = "$4"
+}

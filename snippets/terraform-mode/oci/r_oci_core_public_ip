@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_oci_core_public_ip
+# key: r_oci_core_public_ip
+# --
+resource "oci_core_public_ip" "$1" {
+	compartment_id = "$2"
+	lifetime = "$3"
+}

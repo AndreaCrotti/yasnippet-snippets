@@ -1,0 +1,45 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_application_gateway
+# key: r_azurerm_application_gateway
+# --
+resource "azurerm_application_gateway" "$1" {
+	backend_address_pool {
+		name = ""
+	}
+	backend_http_settings {
+		cookie_based_affinity = ""
+		name = ""
+		port = 1
+		protocol = ""
+	}
+	frontend_ip_configuration {
+		name = ""
+	}
+	frontend_port {
+		name = ""
+		port = 1
+	}
+	gateway_ip_configuration {
+		name = ""
+		subnet_id = ""
+	}
+	http_listener {
+		frontend_ip_configuration_name = ""
+		frontend_port_name = ""
+		name = ""
+		protocol = ""
+	}
+	location = "$8"
+	name = "$9"
+	request_routing_rule {
+		http_listener_name = ""
+		name = ""
+		rule_type = ""
+	}
+	resource_group_name = "$11"
+	sku {
+		capacity = 1
+		name = ""
+		tier = ""
+	}
+}

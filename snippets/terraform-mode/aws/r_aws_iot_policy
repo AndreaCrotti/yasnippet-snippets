@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_iot_policy
+# key: r_aws_iot_policy
+# --
+resource "aws_iot_policy" "$1" {
+	name = "$2"
+	policy = "$3"
+}

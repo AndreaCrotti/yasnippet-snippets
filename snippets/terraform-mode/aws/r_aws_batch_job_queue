@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_batch_job_queue
+# key: r_aws_batch_job_queue
+# --
+resource "aws_batch_job_queue" "$1" {
+	compute_environments = ["$2"]
+	name = "$3"
+	priority = $4
+	state = "$5"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_vault_aws_auth_backend_sts_role
+# key: r_vault_aws_auth_backend_sts_role
+# --
+resource "vault_aws_auth_backend_sts_role" "$1" {
+	account_id = "$2"
+	sts_role = "$3"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: logentries
+# key: logentries
+# --
+provider "logentries" {
+	account_key = "$1"
+}

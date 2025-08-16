@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_template_cloudinit_config
+# key: d_template_cloudinit_config
+# --
+data "template_cloudinit_config" "$1" {
+	part {
+			content = ""
+		}
+}

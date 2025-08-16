@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_brightbox_container
+# key: r_brightbox_container
+# --
+resource "brightbox_container" "$1" {
+	name = "$2"
+}

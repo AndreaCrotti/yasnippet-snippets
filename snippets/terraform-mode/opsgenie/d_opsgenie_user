@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_opsgenie_user
+# key: d_opsgenie_user
+# --
+data "opsgenie_user" "$1" {
+	username = "$2"
+}

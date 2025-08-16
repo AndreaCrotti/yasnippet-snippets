@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: cloudflare
+# key: cloudflare
+# --
+provider "cloudflare" {
+	email = "$1"
+	token = "$2"
+}

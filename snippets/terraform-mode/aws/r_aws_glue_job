@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_aws_glue_job
+# key: r_aws_glue_job
+# --
+resource "aws_glue_job" "$1" {
+	command {
+		script_location = ""
+	}
+	name = "$3"
+	role_arn = "$4"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_cognito_user_pool_client
+# key: r_aws_cognito_user_pool_client
+# --
+resource "aws_cognito_user_pool_client" "$1" {
+	name = "$2"
+	user_pool_id = "$3"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: openstack
+# key: openstack
+# --
+provider "openstack" {
+	
+}

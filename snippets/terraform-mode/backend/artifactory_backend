@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: artifactory_backend
+# key: artifactory_backend
+# --
+terraform {
+	backend "artifactory" {
+		username = "$2"
+		password = "$3"
+		url = "https://custom.artifactoryonline.com/artifactory"
+		repo = "$4"
+		subpath = "$5"
+	}
+}

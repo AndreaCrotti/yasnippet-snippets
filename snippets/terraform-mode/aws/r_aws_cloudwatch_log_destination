@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_cloudwatch_log_destination
+# key: r_aws_cloudwatch_log_destination
+# --
+resource "aws_cloudwatch_log_destination" "$1" {
+	name = "$2"
+	role_arn = "$3"
+	target_arn = "$4"
+}

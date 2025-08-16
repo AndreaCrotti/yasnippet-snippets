@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_tfe_workspace
+# key: d_tfe_workspace
+# --
+data "tfe_workspace" "$1" {
+	name = "$2"
+	organization = "$3"
+}

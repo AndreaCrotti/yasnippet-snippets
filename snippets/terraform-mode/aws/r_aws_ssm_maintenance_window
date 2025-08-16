@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_ssm_maintenance_window
+# key: r_aws_ssm_maintenance_window
+# --
+resource "aws_ssm_maintenance_window" "$1" {
+	cutoff = $2
+	duration = $3
+	name = "$4"
+	schedule = "$5"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_opc_compute_ssh_key
+# key: r_opc_compute_ssh_key
+# --
+resource "opc_compute_ssh_key" "$1" {
+	key = "$2"
+	name = "$3"
+}

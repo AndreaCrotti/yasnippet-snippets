@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_cs_managed_kubernetes
+# key: r_alicloud_cs_managed_kubernetes
+# --
+resource "alicloud_cs_managed_kubernetes" "$1" {
+	worker_instance_types = ["$2"]
+}

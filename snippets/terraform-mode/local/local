@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: local
+# key: local
+# --
+provider "local" {
+	
+}

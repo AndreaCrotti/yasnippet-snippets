@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_triton_fabric_network
+# key: d_triton_fabric_network
+# --
+data "triton_fabric_network" "$1" {
+	name = "$2"
+	vlan_id = $3
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_opsworks_permission
+# key: r_aws_opsworks_permission
+# --
+resource "aws_opsworks_permission" "$1" {
+	user_arn = "$2"
+}

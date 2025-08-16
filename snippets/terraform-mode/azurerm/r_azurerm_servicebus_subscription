@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_servicebus_subscription
+# key: r_azurerm_servicebus_subscription
+# --
+resource "azurerm_servicebus_subscription" "$1" {
+	max_delivery_count = $2
+	name = "$3"
+	namespace_name = "$4"
+	resource_group_name = "$5"
+	topic_name = "$6"
+}

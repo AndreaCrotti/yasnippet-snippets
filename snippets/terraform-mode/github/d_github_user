@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_github_user
+# key: d_github_user
+# --
+data "github_user" "$1" {
+	username = "$2"
+}

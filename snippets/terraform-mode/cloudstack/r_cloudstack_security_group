@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_cloudstack_security_group
+# key: r_cloudstack_security_group
+# --
+resource "cloudstack_security_group" "$1" {
+	name = "$2"
+}

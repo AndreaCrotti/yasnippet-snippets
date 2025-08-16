@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_nomad_namespaces
+# key: d_nomad_namespaces
+# --
+data "nomad_namespaces" "$1" {
+	
+}

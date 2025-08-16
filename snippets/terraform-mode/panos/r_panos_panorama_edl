@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_panos_panorama_edl
+# key: r_panos_panorama_edl
+# --
+resource "panos_panorama_edl" "$1" {
+	name = "$2"
+}

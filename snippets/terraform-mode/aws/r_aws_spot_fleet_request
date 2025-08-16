@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_aws_spot_fleet_request
+# key: r_aws_spot_fleet_request
+# --
+resource "aws_spot_fleet_request" "$1" {
+	iam_fleet_role = "$2"
+	launch_specification {
+		ami = ""
+		instance_type = ""
+	}
+	target_capacity = $4
+}

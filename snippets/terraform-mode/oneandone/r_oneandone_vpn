@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_oneandone_vpn
+# key: r_oneandone_vpn
+# --
+resource "oneandone_vpn" "$1" {
+	name = "$2"
+}

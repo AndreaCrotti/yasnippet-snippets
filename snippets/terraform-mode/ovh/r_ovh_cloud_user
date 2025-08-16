@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_ovh_cloud_user
+# key: r_ovh_cloud_user
+# --
+resource "ovh_cloud_user" "$1" {
+	project_id = "$2"
+}

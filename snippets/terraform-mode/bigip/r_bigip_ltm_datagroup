@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_bigip_ltm_datagroup
+# key: r_bigip_ltm_datagroup
+# --
+resource "bigip_ltm_datagroup" "$1" {
+	name = "$2"
+	type = "$3"
+}

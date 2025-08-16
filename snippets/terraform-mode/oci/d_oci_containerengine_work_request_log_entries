@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_containerengine_work_request_log_entries
+# key: d_oci_containerengine_work_request_log_entries
+# --
+data "oci_containerengine_work_request_log_entries" "$1" {
+	compartment_id = "$2"
+	work_request_id = "$3"
+}

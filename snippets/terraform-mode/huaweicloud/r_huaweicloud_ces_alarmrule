@@ -1,0 +1,22 @@
+# -*- mode: snippet -*-
+# name: r_huaweicloud_ces_alarmrule
+# key: r_huaweicloud_ces_alarmrule
+# --
+resource "huaweicloud_ces_alarmrule" "$1" {
+	alarm_name = "$2"
+	condition {
+		comparison_operator = ""
+		count = 1
+		filter = ""
+		period = 1
+		value = 1
+	}
+	metric {
+		dimensions {
+			name = ""
+			value = ""
+		}
+		metric_name = ""
+		namespace = ""
+	}
+}

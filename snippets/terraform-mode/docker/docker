@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: docker
+# key: docker
+# --
+provider "docker" {
+	host = "$1"
+}

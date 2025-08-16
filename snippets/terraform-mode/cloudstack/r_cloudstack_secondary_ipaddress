@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_cloudstack_secondary_ipaddress
+# key: r_cloudstack_secondary_ipaddress
+# --
+resource "cloudstack_secondary_ipaddress" "$1" {
+	virtual_machine_id = "$2"
+}

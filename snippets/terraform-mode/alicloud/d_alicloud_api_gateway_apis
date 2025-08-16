@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_alicloud_api_gateway_apis
+# key: d_alicloud_api_gateway_apis
+# --
+data "alicloud_api_gateway_apis" "$1" {
+	
+}

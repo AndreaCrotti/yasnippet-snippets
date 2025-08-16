@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_ebs_volume
+# key: r_aws_ebs_volume
+# --
+resource "aws_ebs_volume" "$1" {
+	availability_zone = "$2"
+}

@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_automation_dsc_configuration
+# key: r_azurerm_automation_dsc_configuration
+# --
+resource "azurerm_automation_dsc_configuration" "$1" {
+	automation_account_name = "$2"
+	content_embedded = "$3"
+	location = "$4"
+	name = "$5"
+	resource_group_name = "$6"
+}

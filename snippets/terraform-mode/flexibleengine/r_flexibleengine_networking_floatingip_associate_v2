@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_flexibleengine_networking_floatingip_associate_v2
+# key: r_flexibleengine_networking_floatingip_associate_v2
+# --
+resource "flexibleengine_networking_floatingip_associate_v2" "$1" {
+	floating_ip = "$2"
+	port_id = "$3"
+}

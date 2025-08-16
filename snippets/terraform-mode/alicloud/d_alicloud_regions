@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_alicloud_regions
+# key: d_alicloud_regions
+# --
+data "alicloud_regions" "$1" {
+	
+}

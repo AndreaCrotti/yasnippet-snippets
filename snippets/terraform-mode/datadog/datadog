@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: datadog
+# key: datadog
+# --
+provider "datadog" {
+	api_key = "$1"
+	app_key = "$2"
+}
