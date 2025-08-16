@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: test statement
+# key: test
+# --
+test "$1" {
+    $0
+}

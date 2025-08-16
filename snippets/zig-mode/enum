@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: enum declaration
+# key: enum
+# --
+enum${1:(${2:type})} {
+    $0
+}
