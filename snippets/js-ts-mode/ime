@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# uuid: 13efbfa8-12d3-4570-9602-6d64717d75e3
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: importEverything
+# key: ime
+# --
+
+import * as ${2:alias} from '${1:module}'$0

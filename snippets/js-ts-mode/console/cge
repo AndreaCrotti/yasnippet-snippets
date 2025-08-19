@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# uuid: b3954656-b9c0-4061-b436-e7412ce008ad
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: console.groupEnd
+# key: cge
+# group: console
+# --
+
+console.groupEnd()
