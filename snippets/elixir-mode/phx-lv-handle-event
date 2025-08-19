@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: phx-lv-handle-event
+# key: phx-lv-handle-event
+# --
+@impl true
+def handle_event("$1", _params, socket) do
+  $0
+  {:noreply, socket}
+end
