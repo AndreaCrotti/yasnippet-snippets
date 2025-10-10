@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: for statement
+# key: for
+# --
+for ($1) ${2:|${3:value}|} {
+    $0
+}

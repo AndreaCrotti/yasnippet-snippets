@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: union statement
+# key: union
+# --
+union ${1:(enum)} {
+    $0
+}
