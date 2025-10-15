@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oci_core_drgs
+# key: d_oci_core_drgs
+# --
+data "oci_core_drgs" "$1" {
+	compartment_id = "$2"
+}

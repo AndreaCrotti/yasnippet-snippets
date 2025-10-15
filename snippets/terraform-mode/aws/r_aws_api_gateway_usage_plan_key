@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_api_gateway_usage_plan_key
+# key: r_aws_api_gateway_usage_plan_key
+# --
+resource "aws_api_gateway_usage_plan_key" "$1" {
+	key_id = "$2"
+	key_type = "$3"
+	usage_plan_id = "$4"
+}

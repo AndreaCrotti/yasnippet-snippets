@@ -1,0 +1,23 @@
+# -*- mode: snippet -*-
+# name: r_aws_dlm_lifecycle_policy
+# key: r_aws_dlm_lifecycle_policy
+# --
+resource "aws_dlm_lifecycle_policy" "$1" {
+	description = "$2"
+	execution_role_arn = "$3"
+	policy_details {
+		resource_types = [""]
+		schedule {
+			create_rule {
+			interval = 1
+		}
+			name = ""
+			retain_rule {
+			count = 1
+		}
+		}
+		target_tags {
+
+		}
+	}
+}

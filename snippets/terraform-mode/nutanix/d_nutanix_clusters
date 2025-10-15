@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_nutanix_clusters
+# key: d_nutanix_clusters
+# --
+data "nutanix_clusters" "$1" {
+	
+}

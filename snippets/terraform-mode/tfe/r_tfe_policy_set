@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_tfe_policy_set
+# key: r_tfe_policy_set
+# --
+resource "tfe_policy_set" "$1" {
+	name = "$2"
+	organization = "$3"
+	policy_ids = ["$4"]
+}

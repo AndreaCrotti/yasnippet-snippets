@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# name: r_panos_panorama_security_policies
+# key: r_panos_panorama_security_policies
+# --
+resource "panos_panorama_security_policies" "$1" {
+	rule {
+		applications = [""]
+		categories = [""]
+		destination_addresses = [""]
+		destination_zones = [""]
+		hip_profiles = [""]
+		name = ""
+		services = [""]
+		source_addresses = [""]
+		source_users = [""]
+		source_zones = [""]
+	}
+}

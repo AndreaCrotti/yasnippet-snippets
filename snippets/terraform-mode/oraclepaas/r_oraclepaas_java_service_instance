@@ -1,0 +1,24 @@
+# -*- mode: snippet -*-
+# name: r_oraclepaas_java_service_instance
+# key: r_oraclepaas_java_service_instance
+# --
+resource "oraclepaas_java_service_instance" "$1" {
+	backups {
+		cloud_storage_container = ""
+	}
+	edition = "$3"
+	name = "$4"
+	ssh_public_key = "$5"
+	weblogic_server {
+		admin {
+			password = ""
+			username = ""
+		}
+		database {
+			name = ""
+			password = ""
+			username = ""
+		}
+		shape = ""
+	}
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_docker_image
+# key: r_docker_image
+# --
+resource "docker_image" "$1" {
+	name = "$2"
+}

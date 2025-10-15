@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_ns1_record
+# key: r_ns1_record
+# --
+resource "ns1_record" "$1" {
+	domain = "$2"
+	type = "$3"
+	zone = "$4"
+}

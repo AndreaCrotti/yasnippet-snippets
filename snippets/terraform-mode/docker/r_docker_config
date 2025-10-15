@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_docker_config
+# key: r_docker_config
+# --
+resource "docker_config" "$1" {
+	data = "$2"
+	name = "$3"
+}

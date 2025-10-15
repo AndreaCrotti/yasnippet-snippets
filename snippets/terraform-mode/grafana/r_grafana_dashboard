@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_grafana_dashboard
+# key: r_grafana_dashboard
+# --
+resource "grafana_dashboard" "$1" {
+	config_json = "$2"
+}

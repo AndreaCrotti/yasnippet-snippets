@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_logicmonitor_collector_group
+# key: r_logicmonitor_collector_group
+# --
+resource "logicmonitor_collector_group" "$1" {
+	
+}

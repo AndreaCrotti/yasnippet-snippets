@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_newrelic_key_transaction
+# key: d_newrelic_key_transaction
+# --
+data "newrelic_key_transaction" "$1" {
+	name = "$2"
+}

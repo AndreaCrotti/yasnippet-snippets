@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: panos
+# key: panos
+# --
+provider "panos" {
+	
+}

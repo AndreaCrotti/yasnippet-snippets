@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_logicmonitor_device
+# key: r_logicmonitor_device
+# --
+resource "logicmonitor_device" "$1" {
+	collector = $2
+	ip_addr = "$3"
+}

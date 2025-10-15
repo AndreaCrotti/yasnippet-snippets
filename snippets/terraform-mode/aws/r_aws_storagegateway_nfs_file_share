@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_storagegateway_nfs_file_share
+# key: r_aws_storagegateway_nfs_file_share
+# --
+resource "aws_storagegateway_nfs_file_share" "$1" {
+	client_list = ["$2"]
+	gateway_arn = "$3"
+	location_arn = "$4"
+	role_arn = "$5"
+}

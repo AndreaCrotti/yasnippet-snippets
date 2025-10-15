@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_random_id
+# key: r_random_id
+# --
+resource "random_id" "$1" {
+	byte_length = $2
+}

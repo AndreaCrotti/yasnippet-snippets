@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_api_gateway_app
+# key: r_alicloud_api_gateway_app
+# --
+resource "alicloud_api_gateway_app" "$1" {
+	name = "$2"
+}

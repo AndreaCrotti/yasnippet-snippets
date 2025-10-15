@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_snapshot
+# key: r_azurerm_snapshot
+# --
+resource "azurerm_snapshot" "$1" {
+	create_option = "$2"
+	location = "$3"
+	name = "$4"
+	resource_group_name = "$5"
+}

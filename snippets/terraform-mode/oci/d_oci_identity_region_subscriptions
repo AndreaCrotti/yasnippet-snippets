@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oci_identity_region_subscriptions
+# key: d_oci_identity_region_subscriptions
+# --
+data "oci_identity_region_subscriptions" "$1" {
+	tenancy_id = "$2"
+}

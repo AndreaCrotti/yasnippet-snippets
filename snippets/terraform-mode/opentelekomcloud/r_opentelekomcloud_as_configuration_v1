@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_opentelekomcloud_as_configuration_v1
+# key: r_opentelekomcloud_as_configuration_v1
+# --
+resource "opentelekomcloud_as_configuration_v1" "$1" {
+	instance_config {
+		key_name = ""
+	}
+	scaling_configuration_name = "$3"
+}

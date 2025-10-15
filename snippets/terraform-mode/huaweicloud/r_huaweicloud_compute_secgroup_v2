@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_huaweicloud_compute_secgroup_v2
+# key: r_huaweicloud_compute_secgroup_v2
+# --
+resource "huaweicloud_compute_secgroup_v2" "$1" {
+	description = "$2"
+	name = "$3"
+}

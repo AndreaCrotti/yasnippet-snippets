@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_alicloud_pvtz_zones
+# key: d_alicloud_pvtz_zones
+# --
+data "alicloud_pvtz_zones" "$1" {
+	
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_load_balancer_listener_policy
+# key: r_aws_load_balancer_listener_policy
+# --
+resource "aws_load_balancer_listener_policy" "$1" {
+	load_balancer_name = "$2"
+	load_balancer_port = $3
+}

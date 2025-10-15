@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_huaweicloud_vpc_peering_connection_accepter_v2
+# key: r_huaweicloud_vpc_peering_connection_accepter_v2
+# --
+resource "huaweicloud_vpc_peering_connection_accepter_v2" "$1" {
+	vpc_peering_connection_id = "$2"
+}

@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_cosmosdb_account
+# key: r_azurerm_cosmosdb_account
+# --
+resource "azurerm_cosmosdb_account" "$1" {
+	consistency_policy {
+		consistency_level = ""
+	}
+	location = "$3"
+	name = "$4"
+	offer_type = "$5"
+	resource_group_name = "$6"
+}

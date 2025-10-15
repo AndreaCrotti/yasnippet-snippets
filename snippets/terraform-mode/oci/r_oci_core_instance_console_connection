@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_oci_core_instance_console_connection
+# key: r_oci_core_instance_console_connection
+# --
+resource "oci_core_instance_console_connection" "$1" {
+	instance_id = "$2"
+	public_key = "$3"
+}

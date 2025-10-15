@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_docker_registry_image
+# key: d_docker_registry_image
+# --
+data "docker_registry_image" "$1" {
+	
+}

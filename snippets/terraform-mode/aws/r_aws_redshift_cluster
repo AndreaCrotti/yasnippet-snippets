@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_redshift_cluster
+# key: r_aws_redshift_cluster
+# --
+resource "aws_redshift_cluster" "$1" {
+	cluster_identifier = "$2"
+	node_type = "$3"
+}

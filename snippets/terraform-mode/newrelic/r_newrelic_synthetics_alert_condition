@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_newrelic_synthetics_alert_condition
+# key: r_newrelic_synthetics_alert_condition
+# --
+resource "newrelic_synthetics_alert_condition" "$1" {
+	monitor_id = "$2"
+	name = "$3"
+	policy_id = $4
+}

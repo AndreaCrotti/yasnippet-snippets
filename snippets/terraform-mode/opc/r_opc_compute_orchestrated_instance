@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_opc_compute_orchestrated_instance
+# key: r_opc_compute_orchestrated_instance
+# --
+resource "opc_compute_orchestrated_instance" "$1" {
+	desired_state = "$2"
+	instance {
+		name = ""
+		shape = ""
+	}
+	name = "$4"
+}

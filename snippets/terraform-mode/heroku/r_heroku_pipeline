@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_heroku_pipeline
+# key: r_heroku_pipeline
+# --
+resource "heroku_pipeline" "$1" {
+	name = "$2"
+}

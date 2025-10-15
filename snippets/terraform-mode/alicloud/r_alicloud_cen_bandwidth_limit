@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_cen_bandwidth_limit
+# key: r_alicloud_cen_bandwidth_limit
+# --
+resource "alicloud_cen_bandwidth_limit" "$1" {
+	bandwidth_limit = $2
+	instance_id = "$3"
+	region_ids = ["$4"]
+}

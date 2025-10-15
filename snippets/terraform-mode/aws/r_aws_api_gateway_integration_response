@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_api_gateway_integration_response
+# key: r_aws_api_gateway_integration_response
+# --
+resource "aws_api_gateway_integration_response" "$1" {
+	http_method = "$2"
+	resource_id = "$3"
+	rest_api_id = "$4"
+	status_code = "$5"
+}

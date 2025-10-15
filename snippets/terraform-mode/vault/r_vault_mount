@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_vault_mount
+# key: r_vault_mount
+# --
+resource "vault_mount" "$1" {
+	path = "$2"
+	type = "$3"
+}

@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: r_kubernetes_horizontal_pod_autoscaler
+# key: r_kubernetes_horizontal_pod_autoscaler
+# --
+resource "kubernetes_horizontal_pod_autoscaler" "$1" {
+	metadata {
+	
+	}
+	spec {
+		max_replicas = 1
+		scale_target_ref {
+			kind = ""
+			name = ""
+		}
+	}
+}

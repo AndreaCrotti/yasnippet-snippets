@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: rightscale
+# key: rightscale
+# --
+provider "rightscale" {
+	rightscale_api_token = "$1"
+	rightscale_project_id = "$2"
+}

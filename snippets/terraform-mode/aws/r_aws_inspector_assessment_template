@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_inspector_assessment_template
+# key: r_aws_inspector_assessment_template
+# --
+resource "aws_inspector_assessment_template" "$1" {
+	duration = $2
+	name = "$3"
+	rules_package_arns = ["$4"]
+	target_arn = "$5"
+}

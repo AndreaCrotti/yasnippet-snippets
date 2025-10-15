@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_ucloud_vpc
+# key: r_ucloud_vpc
+# --
+resource "ucloud_vpc" "$1" {
+	cidr_blocks = ["$2"]
+}

@@ -1,0 +1,17 @@
+# -*- mode: snippet -*-
+# name: r_packet_spot_market_request
+# key: r_packet_spot_market_request
+# --
+resource "packet_spot_market_request" "$1" {
+	devices_max = $2
+	devices_min = $3
+	facilities = ["$4"]
+	instance_parameters {
+		billing_cycle = ""
+		hostname = ""
+		operating_system = ""
+		plan = ""
+	}
+	max_bid_price = $6
+	project_id = "$7"
+}

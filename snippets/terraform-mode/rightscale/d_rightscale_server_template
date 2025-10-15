@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_rightscale_server_template
+# key: d_rightscale_server_template
+# --
+data "rightscale_server_template" "$1" {
+	
+}

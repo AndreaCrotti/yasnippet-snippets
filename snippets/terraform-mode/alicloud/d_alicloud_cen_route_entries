@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_alicloud_cen_route_entries
+# key: d_alicloud_cen_route_entries
+# --
+data "alicloud_cen_route_entries" "$1" {
+	instance_id = "$2"
+	route_table_id = "$3"
+}

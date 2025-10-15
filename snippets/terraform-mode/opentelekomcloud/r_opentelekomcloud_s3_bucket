@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_opentelekomcloud_s3_bucket
+# key: r_opentelekomcloud_s3_bucket
+# --
+resource "opentelekomcloud_s3_bucket" "$1" {
+	
+}

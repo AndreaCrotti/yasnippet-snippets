@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_newrelic_alert_channel
+# key: d_newrelic_alert_channel
+# --
+data "newrelic_alert_channel" "$1" {
+	name = "$2"
+}

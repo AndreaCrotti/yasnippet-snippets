@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_pinpoint_adm_channel
+# key: r_aws_pinpoint_adm_channel
+# --
+resource "aws_pinpoint_adm_channel" "$1" {
+	application_id = "$2"
+	client_id = "$3"
+	client_secret = "$4"
+}

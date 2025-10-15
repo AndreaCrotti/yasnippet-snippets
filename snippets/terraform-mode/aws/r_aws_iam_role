@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_iam_role
+# key: r_aws_iam_role
+# --
+resource "aws_iam_role" "$1" {
+	assume_role_policy = "$2"
+}

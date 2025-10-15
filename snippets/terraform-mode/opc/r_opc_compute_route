@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_opc_compute_route
+# key: r_opc_compute_route
+# --
+resource "opc_compute_route" "$1" {
+	ip_address_prefix = "$2"
+	name = "$3"
+	next_hop_vnic_set = "$4"
+}

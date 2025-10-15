@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_opc_compute_instance
+# key: r_opc_compute_instance
+# --
+resource "opc_compute_instance" "$1" {
+	name = "$2"
+	shape = "$3"
+}

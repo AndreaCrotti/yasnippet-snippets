@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oci_identity_auth_tokens
+# key: d_oci_identity_auth_tokens
+# --
+data "oci_identity_auth_tokens" "$1" {
+	user_id = "$2"
+}

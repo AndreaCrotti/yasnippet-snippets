@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_vsphere_compute_cluster
+# key: d_vsphere_compute_cluster
+# --
+data "vsphere_compute_cluster" "$1" {
+	name = "$2"
+}

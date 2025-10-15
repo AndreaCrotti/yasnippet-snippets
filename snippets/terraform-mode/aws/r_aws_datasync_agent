@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_datasync_agent
+# key: r_aws_datasync_agent
+# --
+resource "aws_datasync_agent" "$1" {
+	
+}

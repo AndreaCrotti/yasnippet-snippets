@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_nat_gateway
+# key: r_alicloud_nat_gateway
+# --
+resource "alicloud_nat_gateway" "$1" {
+	vpc_id = "$2"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_ses_template
+# key: r_aws_ses_template
+# --
+resource "aws_ses_template" "$1" {
+	name = "$2"
+}

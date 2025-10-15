@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azurestack_storage_container
+# key: r_azurestack_storage_container
+# --
+resource "azurestack_storage_container" "$1" {
+	name = "$2"
+	resource_group_name = "$3"
+	storage_account_name = "$4"
+}

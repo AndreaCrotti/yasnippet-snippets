@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_flexibleengine_s3_bucket
+# key: r_flexibleengine_s3_bucket
+# --
+resource "flexibleengine_s3_bucket" "$1" {
+	
+}

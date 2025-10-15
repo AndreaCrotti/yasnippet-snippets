@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_organizations_policy_attachment
+# key: r_aws_organizations_policy_attachment
+# --
+resource "aws_organizations_policy_attachment" "$1" {
+	policy_id = "$2"
+	target_id = "$3"
+}

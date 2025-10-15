@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_rightscale_network_gateway
+# key: r_rightscale_network_gateway
+# --
+resource "rightscale_network_gateway" "$1" {
+	cloud_href = "$2"
+	name = "$3"
+	type = "$4"
+}

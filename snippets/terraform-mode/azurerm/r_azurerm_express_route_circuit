@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_express_route_circuit
+# key: r_azurerm_express_route_circuit
+# --
+resource "azurerm_express_route_circuit" "$1" {
+	bandwidth_in_mbps = $2
+	location = "$3"
+	name = "$4"
+	peering_location = "$5"
+	resource_group_name = "$6"
+	service_provider_name = "$7"
+	sku {
+		family = ""
+		tier = ""
+	}
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_devicefarm_project
+# key: r_aws_devicefarm_project
+# --
+resource "aws_devicefarm_project" "$1" {
+	name = "$2"
+}

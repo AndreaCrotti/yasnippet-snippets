@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_pagerduty_team
+# key: r_pagerduty_team
+# --
+resource "pagerduty_team" "$1" {
+	name = "$2"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_launch_configuration
+# key: d_aws_launch_configuration
+# --
+data "aws_launch_configuration" "$1" {
+	name = "$2"
+}

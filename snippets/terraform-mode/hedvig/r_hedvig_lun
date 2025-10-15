@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_hedvig_lun
+# key: r_hedvig_lun
+# --
+resource "hedvig_lun" "$1" {
+	controller = "$2"
+	vdisk = "$3"
+}

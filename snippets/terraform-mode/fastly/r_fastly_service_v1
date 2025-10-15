@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_fastly_service_v1
+# key: r_fastly_service_v1
+# --
+resource "fastly_service_v1" "$1" {
+	domain {
+		name = ""
+	}
+	name = "$3"
+}

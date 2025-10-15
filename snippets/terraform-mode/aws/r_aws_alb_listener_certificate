@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_alb_listener_certificate
+# key: r_aws_alb_listener_certificate
+# --
+resource "aws_alb_listener_certificate" "$1" {
+	certificate_arn = "$2"
+	listener_arn = "$3"
+}

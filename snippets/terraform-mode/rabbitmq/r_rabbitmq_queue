@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_rabbitmq_queue
+# key: r_rabbitmq_queue
+# --
+resource "rabbitmq_queue" "$1" {
+	name = "$2"
+	settings {
+	
+	}
+}

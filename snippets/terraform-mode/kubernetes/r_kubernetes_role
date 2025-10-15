@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: r_kubernetes_role
+# key: r_kubernetes_role
+# --
+resource "kubernetes_role" "$1" {
+	metadata {
+	
+	}
+	rule {
+		api_groups = [""]
+		resources = [""]
+		verbs = [""]
+	}
+}

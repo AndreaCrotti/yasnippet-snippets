@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_opc_lbaas_load_balancer
+# key: r_opc_lbaas_load_balancer
+# --
+resource "opc_lbaas_load_balancer" "$1" {
+	name = "$2"
+	region = "$3"
+	scheme = "$4"
+}

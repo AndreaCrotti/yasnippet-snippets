@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_sns_topic
+# key: r_aws_sns_topic
+# --
+resource "aws_sns_topic" "$1" {
+	
+}

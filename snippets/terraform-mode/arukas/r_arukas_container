@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_arukas_container
+# key: r_arukas_container
+# --
+resource "arukas_container" "$1" {
+	image = "$2"
+	name = "$3"
+	ports {
+	
+	}
+}

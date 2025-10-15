@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_bigip_ltm_pool
+# key: r_bigip_ltm_pool
+# --
+resource "bigip_ltm_pool" "$1" {
+	name = "$2"
+}

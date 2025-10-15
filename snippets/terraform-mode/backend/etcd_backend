@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: etcd_backend
+# key: etcd_backend
+# --
+terraform {
+	backend "etcd" {
+		path = "$2"
+		endpoints = "$3"
+	}
+}

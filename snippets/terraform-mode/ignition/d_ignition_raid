@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_ignition_raid
+# key: d_ignition_raid
+# --
+data "ignition_raid" "$1" {
+	level = "$2"
+	name = "$3"
+}

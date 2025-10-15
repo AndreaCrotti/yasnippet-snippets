@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_dynamodb_table
+# key: d_aws_dynamodb_table
+# --
+data "aws_dynamodb_table" "$1" {
+	name = "$2"
+}

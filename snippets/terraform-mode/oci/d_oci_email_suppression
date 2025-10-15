@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oci_email_suppression
+# key: d_oci_email_suppression
+# --
+data "oci_email_suppression" "$1" {
+	suppression_id = "$2"
+}

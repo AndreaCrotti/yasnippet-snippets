@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_flexibleengine_sfs_file_system_v2
+# key: r_flexibleengine_sfs_file_system_v2
+# --
+resource "flexibleengine_sfs_file_system_v2" "$1" {
+	access_level = "$2"
+	access_to = "$3"
+	size = $4
+}

@@ -1,0 +1,17 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_traffic_manager_profile
+# key: r_azurerm_traffic_manager_profile
+# --
+resource "azurerm_traffic_manager_profile" "$1" {
+	dns_config {
+		relative_name = ""
+		ttl = 1
+	}
+	monitor_config {
+		port = 1
+		protocol = ""
+	}
+	name = "$4"
+	resource_group_name = "$5"
+	traffic_routing_method = "$6"
+}

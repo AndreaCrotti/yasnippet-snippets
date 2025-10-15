@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: clc
+# key: clc
+# --
+provider "clc" {
+	password = "$1"
+	username = "$2"
+}

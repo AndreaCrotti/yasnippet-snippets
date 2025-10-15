@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_ebs_volume
+# key: d_aws_ebs_volume
+# --
+data "aws_ebs_volume" "$1" {
+	
+}

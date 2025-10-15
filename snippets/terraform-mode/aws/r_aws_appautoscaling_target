@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_aws_appautoscaling_target
+# key: r_aws_appautoscaling_target
+# --
+resource "aws_appautoscaling_target" "$1" {
+	max_capacity = $2
+	min_capacity = $3
+	resource_id = "$4"
+	scalable_dimension = "$5"
+	service_namespace = "$6"
+}

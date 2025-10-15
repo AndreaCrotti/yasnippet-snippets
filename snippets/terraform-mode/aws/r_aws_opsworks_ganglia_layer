@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_opsworks_ganglia_layer
+# key: r_aws_opsworks_ganglia_layer
+# --
+resource "aws_opsworks_ganglia_layer" "$1" {
+	password = "$2"
+	stack_id = "$3"
+}

@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_panos_panorama_nat_policy
+# key: r_panos_panorama_nat_policy
+# --
+resource "panos_panorama_nat_policy" "$1" {
+	destination_addresses = ["$2"]
+	destination_zone = "$3"
+	name = "$4"
+	source_addresses = ["$5"]
+	source_zones = ["$6"]
+}

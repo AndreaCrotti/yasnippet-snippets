@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_elastictranscoder_pipeline
+# key: r_aws_elastictranscoder_pipeline
+# --
+resource "aws_elastictranscoder_pipeline" "$1" {
+	input_bucket = "$2"
+	role = "$3"
+}

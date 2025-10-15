@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_oci_database_autonomous_database
+# key: r_oci_database_autonomous_database
+# --
+resource "oci_database_autonomous_database" "$1" {
+	admin_password = "$2"
+	compartment_id = "$3"
+	cpu_core_count = $4
+	data_storage_size_in_tbs = $5
+	db_name = "$6"
+}

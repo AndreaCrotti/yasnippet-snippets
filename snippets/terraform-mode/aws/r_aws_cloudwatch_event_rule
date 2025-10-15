@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_cloudwatch_event_rule
+# key: r_aws_cloudwatch_event_rule
+# --
+resource "aws_cloudwatch_event_rule" "$1" {
+	
+}

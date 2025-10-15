@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_network_security_rule
+# key: r_azurerm_network_security_rule
+# --
+resource "azurerm_network_security_rule" "$1" {
+	access = "$2"
+	direction = "$3"
+	name = "$4"
+	network_security_group_name = "$5"
+	priority = $6
+	protocol = "$7"
+	resource_group_name = "$8"
+}

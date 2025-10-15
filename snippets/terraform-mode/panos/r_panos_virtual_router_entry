@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_panos_virtual_router_entry
+# key: r_panos_virtual_router_entry
+# --
+resource "panos_virtual_router_entry" "$1" {
+	interface = "$2"
+	virtual_router = "$3"
+}

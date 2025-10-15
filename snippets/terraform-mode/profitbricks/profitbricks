@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: profitbricks
+# key: profitbricks
+# --
+provider "profitbricks" {
+	password = "$1"
+	username = "$2"
+}

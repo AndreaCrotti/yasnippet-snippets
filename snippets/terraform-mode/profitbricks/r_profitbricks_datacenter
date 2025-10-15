@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_profitbricks_datacenter
+# key: r_profitbricks_datacenter
+# --
+resource "profitbricks_datacenter" "$1" {
+	location = "$2"
+	name = "$3"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_ns1_zone
+# key: r_ns1_zone
+# --
+resource "ns1_zone" "$1" {
+	zone = "$2"
+}

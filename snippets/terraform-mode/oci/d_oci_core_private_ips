@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oci_core_private_ips
+# key: d_oci_core_private_ips
+# --
+data "oci_core_private_ips" "$1" {
+	
+}

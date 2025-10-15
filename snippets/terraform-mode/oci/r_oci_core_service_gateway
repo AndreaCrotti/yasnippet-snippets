@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_oci_core_service_gateway
+# key: r_oci_core_service_gateway
+# --
+resource "oci_core_service_gateway" "$1" {
+	compartment_id = "$2"
+	services {
+		service_id = ""
+	}
+	vcn_id = "$4"
+}

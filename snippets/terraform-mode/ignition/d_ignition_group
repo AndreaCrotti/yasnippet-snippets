@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_ignition_group
+# key: d_ignition_group
+# --
+data "ignition_group" "$1" {
+	name = "$2"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_profitbricks_snapshot
+# key: d_profitbricks_snapshot
+# --
+data "profitbricks_snapshot" "$1" {
+	name = "$2"
+}

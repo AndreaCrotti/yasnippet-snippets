@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_data_lake_store_file
+# key: r_azurerm_data_lake_store_file
+# --
+resource "azurerm_data_lake_store_file" "$1" {
+	account_name = "$2"
+	local_file_path = "$3"
+	remote_file_path = "$4"
+}

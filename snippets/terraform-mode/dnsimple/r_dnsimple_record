@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_dnsimple_record
+# key: r_dnsimple_record
+# --
+resource "dnsimple_record" "$1" {
+	domain = "$2"
+	name = "$3"
+	type = "$4"
+	value = "$5"
+}

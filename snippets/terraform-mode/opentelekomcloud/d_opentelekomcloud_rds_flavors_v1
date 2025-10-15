@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_opentelekomcloud_rds_flavors_v1
+# key: d_opentelekomcloud_rds_flavors_v1
+# --
+data "opentelekomcloud_rds_flavors_v1" "$1" {
+	datastore_name = "$2"
+	datastore_version = "$3"
+}

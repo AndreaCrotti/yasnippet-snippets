@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_kubernetes_namespace
+# key: r_kubernetes_namespace
+# --
+resource "kubernetes_namespace" "$1" {
+	metadata {
+	
+	}
+}

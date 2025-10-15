@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_autoscale_setting
+# key: r_azurerm_autoscale_setting
+# --
+resource "azurerm_autoscale_setting" "$1" {
+	location = "$2"
+	name = "$3"
+	profile {
+		capacity {
+			default = 1
+			maximum = 1
+			minimum = 1
+		}
+		name = ""
+	}
+	resource_group_name = "$5"
+	target_resource_id = "$6"
+}

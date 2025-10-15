@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_heroku_space_inbound_ruleset
+# key: r_heroku_space_inbound_ruleset
+# --
+resource "heroku_space_inbound_ruleset" "$1" {
+	rule {
+		action = ""
+		source = ""
+	}
+	space = "$3"
+}

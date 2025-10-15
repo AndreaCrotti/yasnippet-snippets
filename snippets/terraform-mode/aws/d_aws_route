@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_route
+# key: d_aws_route
+# --
+data "aws_route" "$1" {
+	route_table_id = "$2"
+}

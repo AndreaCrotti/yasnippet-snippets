@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_triton_package
+# key: d_triton_package
+# --
+data "triton_package" "$1" {
+	filter {
+		
+		}
+}

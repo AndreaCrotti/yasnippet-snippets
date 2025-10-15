@@ -1,0 +1,20 @@
+# -*- mode: snippet -*-
+# name: r_spotinst_elastigroup_azure
+# key: r_spotinst_elastigroup_azure
+# --
+resource "spotinst_elastigroup_azure" "$1" {
+	low_priority_sizes = ["$2"]
+	name = "$3"
+	network {
+		resource_group_name = ""
+		subnet_name = ""
+		virtual_network_name = ""
+	}
+	od_sizes = ["$5"]
+	product = "$6"
+	region = "$7"
+	resource_group_name = "$8"
+	strategy {
+	
+	}
+}

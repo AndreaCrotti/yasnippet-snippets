@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_logic_app_workflow
+# key: r_azurerm_logic_app_workflow
+# --
+resource "azurerm_logic_app_workflow" "$1" {
+	location = "$2"
+	name = "$3"
+	resource_group_name = "$4"
+}

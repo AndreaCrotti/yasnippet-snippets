@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_tls_locally_signed_cert
+# key: r_tls_locally_signed_cert
+# --
+resource "tls_locally_signed_cert" "$1" {
+	allowed_uses = ["$2"]
+	ca_cert_pem = "$3"
+	ca_key_algorithm = "$4"
+	ca_private_key_pem = "$5"
+	cert_request_pem = "$6"
+	validity_period_hours = $7
+}

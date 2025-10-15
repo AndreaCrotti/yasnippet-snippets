@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_elasticache_cluster
+# key: r_aws_elasticache_cluster
+# --
+resource "aws_elasticache_cluster" "$1" {
+	cluster_id = "$2"
+}

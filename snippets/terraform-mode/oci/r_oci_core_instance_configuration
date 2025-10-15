@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_oci_core_instance_configuration
+# key: r_oci_core_instance_configuration
+# --
+resource "oci_core_instance_configuration" "$1" {
+	compartment_id = "$2"
+	instance_details {
+		instance_type = ""
+	}
+}

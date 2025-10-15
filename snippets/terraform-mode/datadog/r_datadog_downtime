@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_datadog_downtime
+# key: r_datadog_downtime
+# --
+resource "datadog_downtime" "$1" {
+	scope = ["$2"]
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_archive_file
+# key: d_archive_file
+# --
+data "archive_file" "$1" {
+	output_path = "$2"
+	type = "$3"
+}

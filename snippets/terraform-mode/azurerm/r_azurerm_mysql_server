@@ -1,0 +1,22 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_mysql_server
+# key: r_azurerm_mysql_server
+# --
+resource "azurerm_mysql_server" "$1" {
+	administrator_login = "$2"
+	administrator_login_password = "$3"
+	location = "$4"
+	name = "$5"
+	resource_group_name = "$6"
+	sku {
+		capacity = 1
+		family = ""
+		name = ""
+		tier = ""
+	}
+	ssl_enforcement = "$8"
+	storage_profile {
+		storage_mb = 1
+	}
+	version = "$10"
+}

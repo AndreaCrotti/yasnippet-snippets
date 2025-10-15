@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_template_deployment
+# key: r_azurerm_template_deployment
+# --
+resource "azurerm_template_deployment" "$1" {
+	deployment_mode = "$2"
+	name = "$3"
+	resource_group_name = "$4"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_vpc_endpoint_subnet_association
+# key: r_aws_vpc_endpoint_subnet_association
+# --
+resource "aws_vpc_endpoint_subnet_association" "$1" {
+	subnet_id = "$2"
+	vpc_endpoint_id = "$3"
+}

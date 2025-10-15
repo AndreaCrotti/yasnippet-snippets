@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_netlify_deploy_key
+# key: r_netlify_deploy_key
+# --
+resource "netlify_deploy_key" "$1" {
+	
+}

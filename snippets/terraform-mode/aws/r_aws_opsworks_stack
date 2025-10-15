@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_opsworks_stack
+# key: r_aws_opsworks_stack
+# --
+resource "aws_opsworks_stack" "$1" {
+	default_instance_profile_arn = "$2"
+	name = "$3"
+	region = "$4"
+	service_role_arn = "$5"
+}

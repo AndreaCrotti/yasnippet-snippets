@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_bigip_ltm_profile_fasthttp
+# key: r_bigip_ltm_profile_fasthttp
+# --
+resource "bigip_ltm_profile_fasthttp" "$1" {
+	name = "$2"
+}

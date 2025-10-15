@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_azurerm_resource_group
+# key: d_azurerm_resource_group
+# --
+data "azurerm_resource_group" "$1" {
+	name = "$2"
+}

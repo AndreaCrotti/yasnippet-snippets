@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_nomad_sentinel_policy
+# key: r_nomad_sentinel_policy
+# --
+resource "nomad_sentinel_policy" "$1" {
+	enforcement_level = "$2"
+	name = "$3"
+	policy = "$4"
+	scope = "$5"
+}

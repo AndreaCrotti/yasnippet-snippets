@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_oci_core_default_route_table
+# key: r_oci_core_default_route_table
+# --
+resource "oci_core_default_route_table" "$1" {
+	manage_default_resource_id = "$2"
+}

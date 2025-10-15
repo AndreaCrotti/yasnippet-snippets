@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: remote_consul_backend
+# key: remote_consul_backend
+# --
+data "terraform_remote_state" "$1" {
+	backend = "consul"
+	config {
+		path = "$2"
+	}
+}

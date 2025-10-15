@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_selvpc_resell_keypair_v2
+# key: r_selvpc_resell_keypair_v2
+# --
+resource "selvpc_resell_keypair_v2" "$1" {
+	name = "$2"
+	public_key = "$3"
+	user_id = "$4"
+}

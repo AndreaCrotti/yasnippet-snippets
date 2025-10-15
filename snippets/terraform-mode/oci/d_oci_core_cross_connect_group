@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oci_core_cross_connect_group
+# key: d_oci_core_cross_connect_group
+# --
+data "oci_core_cross_connect_group" "$1" {
+	cross_connect_group_id = "$2"
+}

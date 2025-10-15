@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_azure_security_group
+# key: r_azure_security_group
+# --
+resource "azure_security_group" "$1" {
+	location = "$2"
+	name = "$3"
+}

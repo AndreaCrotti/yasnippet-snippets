@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_sns_topic
+# key: d_aws_sns_topic
+# --
+data "aws_sns_topic" "$1" {
+	name = "$2"
+}

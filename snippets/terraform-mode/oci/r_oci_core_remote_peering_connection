@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_oci_core_remote_peering_connection
+# key: r_oci_core_remote_peering_connection
+# --
+resource "oci_core_remote_peering_connection" "$1" {
+	compartment_id = "$2"
+	drg_id = "$3"
+}

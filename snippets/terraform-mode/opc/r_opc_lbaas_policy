@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_opc_lbaas_policy
+# key: r_opc_lbaas_policy
+# --
+resource "opc_lbaas_policy" "$1" {
+	load_balancer = "$2"
+	name = "$3"
+}

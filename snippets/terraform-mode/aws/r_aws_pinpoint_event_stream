@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_pinpoint_event_stream
+# key: r_aws_pinpoint_event_stream
+# --
+resource "aws_pinpoint_event_stream" "$1" {
+	application_id = "$2"
+	destination_stream_arn = "$3"
+	role_arn = "$4"
+}

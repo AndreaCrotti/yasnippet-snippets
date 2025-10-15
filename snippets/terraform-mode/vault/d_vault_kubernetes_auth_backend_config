@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_vault_kubernetes_auth_backend_config
+# key: d_vault_kubernetes_auth_backend_config
+# --
+data "vault_kubernetes_auth_backend_config" "$1" {
+	
+}

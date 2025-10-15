@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_cobbler_distro
+# key: r_cobbler_distro
+# --
+resource "cobbler_distro" "$1" {
+	breed = "$2"
+	initrd = "$3"
+	kernel = "$4"
+	name = "$5"
+	os_version = "$6"
+}

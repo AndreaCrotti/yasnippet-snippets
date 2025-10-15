@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_default_vpc_dhcp_options
+# key: r_aws_default_vpc_dhcp_options
+# --
+resource "aws_default_vpc_dhcp_options" "$1" {
+	
+}

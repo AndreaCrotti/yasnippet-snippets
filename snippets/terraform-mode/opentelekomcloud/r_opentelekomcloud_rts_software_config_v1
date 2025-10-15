@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_opentelekomcloud_rts_software_config_v1
+# key: r_opentelekomcloud_rts_software_config_v1
+# --
+resource "opentelekomcloud_rts_software_config_v1" "$1" {
+	name = "$2"
+}

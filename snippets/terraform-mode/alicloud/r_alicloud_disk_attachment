@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_disk_attachment
+# key: r_alicloud_disk_attachment
+# --
+resource "alicloud_disk_attachment" "$1" {
+	
+}

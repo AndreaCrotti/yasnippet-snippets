@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_bigip_net_vlan
+# key: r_bigip_net_vlan
+# --
+resource "bigip_net_vlan" "$1" {
+	name = "$2"
+}

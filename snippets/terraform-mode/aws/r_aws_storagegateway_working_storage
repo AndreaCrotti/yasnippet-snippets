@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_storagegateway_working_storage
+# key: r_aws_storagegateway_working_storage
+# --
+resource "aws_storagegateway_working_storage" "$1" {
+	disk_id = "$2"
+	gateway_arn = "$3"
+}

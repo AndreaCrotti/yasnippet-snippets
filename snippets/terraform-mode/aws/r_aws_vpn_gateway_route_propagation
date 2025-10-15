@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_vpn_gateway_route_propagation
+# key: r_aws_vpn_gateway_route_propagation
+# --
+resource "aws_vpn_gateway_route_propagation" "$1" {
+	route_table_id = "$2"
+	vpn_gateway_id = "$3"
+}

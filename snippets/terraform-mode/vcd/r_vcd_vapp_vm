@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_vcd_vapp_vm
+# key: r_vcd_vapp_vm
+# --
+resource "vcd_vapp_vm" "$1" {
+	catalog_name = "$2"
+	name = "$3"
+	template_name = "$4"
+	vapp_name = "$5"
+}

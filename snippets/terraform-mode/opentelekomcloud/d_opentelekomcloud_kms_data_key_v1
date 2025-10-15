@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_opentelekomcloud_kms_data_key_v1
+# key: d_opentelekomcloud_kms_data_key_v1
+# --
+data "opentelekomcloud_kms_data_key_v1" "$1" {
+	datakey_length = "$2"
+	key_id = "$3"
+}

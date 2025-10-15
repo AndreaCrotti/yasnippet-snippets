@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_digitalocean_certificate
+# key: d_digitalocean_certificate
+# --
+data "digitalocean_certificate" "$1" {
+	name = "$2"
+}

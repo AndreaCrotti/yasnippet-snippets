@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_opentelekomcloud_lb_listener_v2
+# key: r_opentelekomcloud_lb_listener_v2
+# --
+resource "opentelekomcloud_lb_listener_v2" "$1" {
+	loadbalancer_id = "$2"
+	protocol = "$3"
+	protocol_port = $4
+}

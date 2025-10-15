@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: dyn
+# key: dyn
+# --
+provider "dyn" {
+	customer_name = "$1"
+	password = "$2"
+	username = "$3"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_ovh_cloud_regions
+# key: d_ovh_cloud_regions
+# --
+data "ovh_cloud_regions" "$1" {
+	project_id = "$2"
+}

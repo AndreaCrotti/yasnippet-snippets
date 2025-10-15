@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_ses_event_destination
+# key: r_aws_ses_event_destination
+# --
+resource "aws_ses_event_destination" "$1" {
+	configuration_set_name = "$2"
+	matching_types = ["$3"]
+	name = "$4"
+}

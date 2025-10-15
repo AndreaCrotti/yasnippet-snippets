@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_ec2_transit_gateway_route_table
+# key: r_aws_ec2_transit_gateway_route_table
+# --
+resource "aws_ec2_transit_gateway_route_table" "$1" {
+	transit_gateway_id = "$2"
+}

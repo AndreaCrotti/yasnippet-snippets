@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_gamelift_game_session_queue
+# key: r_aws_gamelift_game_session_queue
+# --
+resource "aws_gamelift_game_session_queue" "$1" {
+	name = "$2"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_azurestack_resource_group
+# key: r_azurestack_resource_group
+# --
+resource "azurestack_resource_group" "$1" {
+	location = "$2"
+	name = "$3"
+}

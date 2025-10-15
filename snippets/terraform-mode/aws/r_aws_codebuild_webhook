@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_codebuild_webhook
+# key: r_aws_codebuild_webhook
+# --
+resource "aws_codebuild_webhook" "$1" {
+	project_name = "$2"
+}

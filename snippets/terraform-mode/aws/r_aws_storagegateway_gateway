@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_storagegateway_gateway
+# key: r_aws_storagegateway_gateway
+# --
+resource "aws_storagegateway_gateway" "$1" {
+	gateway_name = "$2"
+	gateway_timezone = "$3"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_consul_agent_config
+# key: d_consul_agent_config
+# --
+data "consul_agent_config" "$1" {
+	
+}

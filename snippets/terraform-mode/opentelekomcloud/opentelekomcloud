@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: opentelekomcloud
+# key: opentelekomcloud
+# --
+provider "opentelekomcloud" {
+	auth_url = "$1"
+}

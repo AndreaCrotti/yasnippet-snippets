@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_ns1_datafeed
+# key: r_ns1_datafeed
+# --
+resource "ns1_datafeed" "$1" {
+	name = "$2"
+	source_id = "$3"
+}

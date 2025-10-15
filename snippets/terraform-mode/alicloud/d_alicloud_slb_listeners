@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_alicloud_slb_listeners
+# key: d_alicloud_slb_listeners
+# --
+data "alicloud_slb_listeners" "$1" {
+	load_balancer_id = "$2"
+}

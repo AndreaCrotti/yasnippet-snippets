@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_brightbox_database_type
+# key: d_brightbox_database_type
+# --
+data "brightbox_database_type" "$1" {
+	
+}

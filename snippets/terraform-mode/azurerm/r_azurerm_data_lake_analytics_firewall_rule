@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_data_lake_analytics_firewall_rule
+# key: r_azurerm_data_lake_analytics_firewall_rule
+# --
+resource "azurerm_data_lake_analytics_firewall_rule" "$1" {
+	account_name = "$2"
+	end_ip_address = "$3"
+	name = "$4"
+	resource_group_name = "$5"
+	start_ip_address = "$6"
+}

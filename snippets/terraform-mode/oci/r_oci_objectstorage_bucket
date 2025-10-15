@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_oci_objectstorage_bucket
+# key: r_oci_objectstorage_bucket
+# --
+resource "oci_objectstorage_bucket" "$1" {
+	compartment_id = "$2"
+	name = "$3"
+	namespace = "$4"
+}

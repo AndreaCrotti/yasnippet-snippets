@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: tls
+# key: tls
+# --
+provider "tls" {
+	
+}

@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_redis_cache
+# key: r_azurerm_redis_cache
+# --
+resource "azurerm_redis_cache" "$1" {
+	capacity = $2
+	family = "$3"
+	location = "$4"
+	name = "$5"
+	redis_configuration {
+	
+	}
+	resource_group_name = "$7"
+	sku_name = "$8"
+}

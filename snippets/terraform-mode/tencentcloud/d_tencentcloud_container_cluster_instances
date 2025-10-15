@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_tencentcloud_container_cluster_instances
+# key: d_tencentcloud_container_cluster_instances
+# --
+data "tencentcloud_container_cluster_instances" "$1" {
+	cluster_id = "$2"
+}

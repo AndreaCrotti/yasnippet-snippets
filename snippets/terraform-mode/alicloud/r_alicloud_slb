@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_slb
+# key: r_alicloud_slb
+# --
+resource "alicloud_slb" "$1" {
+	
+}

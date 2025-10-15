@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_resourcegroups_group
+# key: r_aws_resourcegroups_group
+# --
+resource "aws_resourcegroups_group" "$1" {
+	name = "$2"
+	resource_query {
+		query = ""
+	}
+}

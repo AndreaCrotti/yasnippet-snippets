@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: remote_etcd_backend
+# key: remote_etcd_backend
+# --
+data "terraform_remote_state" "$1" {
+	backend = "etcd"
+	config {
+		path = "$2"
+		endpoints = "$3"
+	}
+}

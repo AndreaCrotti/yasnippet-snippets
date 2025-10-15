@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_config_configuration_recorder
+# key: r_aws_config_configuration_recorder
+# --
+resource "aws_config_configuration_recorder" "$1" {
+	role_arn = "$2"
+}

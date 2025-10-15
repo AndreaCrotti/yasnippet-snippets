@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_panos_management_profile
+# key: r_panos_management_profile
+# --
+resource "panos_management_profile" "$1" {
+	name = "$2"
+}

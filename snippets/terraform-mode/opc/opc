@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: opc
+# key: opc
+# --
+provider "opc" {
+	identity_domain = "$1"
+	password = "$2"
+	user = "$3"
+}

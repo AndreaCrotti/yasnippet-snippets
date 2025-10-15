@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_flexibleengine_as_policy_v1
+# key: r_flexibleengine_as_policy_v1
+# --
+resource "flexibleengine_as_policy_v1" "$1" {
+	scaling_group_id = "$2"
+	scaling_policy_name = "$3"
+	scaling_policy_type = "$4"
+}

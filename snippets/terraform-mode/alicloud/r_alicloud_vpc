@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_vpc
+# key: r_alicloud_vpc
+# --
+resource "alicloud_vpc" "$1" {
+	cidr_block = "$2"
+}

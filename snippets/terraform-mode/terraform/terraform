@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: terraform
+# key: terraform
+# --
+provider "terraform" {
+	
+}

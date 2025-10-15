@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_opc_compute_ip_address_association
+# key: r_opc_compute_ip_address_association
+# --
+resource "opc_compute_ip_address_association" "$1" {
+	name = "$2"
+}

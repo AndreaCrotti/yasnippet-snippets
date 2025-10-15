@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_spot_datafeed_subscription
+# key: r_aws_spot_datafeed_subscription
+# --
+resource "aws_spot_datafeed_subscription" "$1" {
+	bucket = "$2"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_hcloud_ssh_key
+# key: r_hcloud_ssh_key
+# --
+resource "hcloud_ssh_key" "$1" {
+	name = "$2"
+	public_key = "$3"
+}

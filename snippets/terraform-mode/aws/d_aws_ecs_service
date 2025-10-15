@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_aws_ecs_service
+# key: d_aws_ecs_service
+# --
+data "aws_ecs_service" "$1" {
+	cluster_arn = "$2"
+	service_name = "$3"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_rabbitmq_user
+# key: r_rabbitmq_user
+# --
+resource "rabbitmq_user" "$1" {
+	name = "$2"
+	password = "$3"
+}

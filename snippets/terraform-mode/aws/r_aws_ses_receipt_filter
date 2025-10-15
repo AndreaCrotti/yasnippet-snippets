@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_ses_receipt_filter
+# key: r_aws_ses_receipt_filter
+# --
+resource "aws_ses_receipt_filter" "$1" {
+	cidr = "$2"
+	name = "$3"
+	policy = "$4"
+}

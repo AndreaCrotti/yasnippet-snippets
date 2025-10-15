@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_heroku_space
+# key: r_heroku_space
+# --
+resource "heroku_space" "$1" {
+	name = "$2"
+	organization = "$3"
+}

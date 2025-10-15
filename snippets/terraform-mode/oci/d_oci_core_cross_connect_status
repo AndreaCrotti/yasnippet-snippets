@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oci_core_cross_connect_status
+# key: d_oci_core_cross_connect_status
+# --
+data "oci_core_cross_connect_status" "$1" {
+	cross_connect_id = "$2"
+}

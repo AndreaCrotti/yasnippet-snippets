@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oci_core_ipsec_status
+# key: d_oci_core_ipsec_status
+# --
+data "oci_core_ipsec_status" "$1" {
+	ipsec_id = "$2"
+}

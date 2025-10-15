@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_security_group_rule
+# key: r_alicloud_security_group_rule
+# --
+resource "alicloud_security_group_rule" "$1" {
+	ip_protocol = "$2"
+	security_group_id = "$3"
+	type = "$4"
+}

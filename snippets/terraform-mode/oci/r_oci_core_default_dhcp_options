@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_oci_core_default_dhcp_options
+# key: r_oci_core_default_dhcp_options
+# --
+resource "oci_core_default_dhcp_options" "$1" {
+	manage_default_resource_id = "$2"
+	options {
+		type = ""
+	}
+}

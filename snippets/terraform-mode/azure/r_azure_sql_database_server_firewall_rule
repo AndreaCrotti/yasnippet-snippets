@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azure_sql_database_server_firewall_rule
+# key: r_azure_sql_database_server_firewall_rule
+# --
+resource "azure_sql_database_server_firewall_rule" "$1" {
+	database_server_names = ["$2"]
+	end_ip = "$3"
+	name = "$4"
+	start_ip = "$5"
+}

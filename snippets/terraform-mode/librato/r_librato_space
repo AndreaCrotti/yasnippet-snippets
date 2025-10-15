@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_librato_space
+# key: r_librato_space
+# --
+resource "librato_space" "$1" {
+	name = "$2"
+}

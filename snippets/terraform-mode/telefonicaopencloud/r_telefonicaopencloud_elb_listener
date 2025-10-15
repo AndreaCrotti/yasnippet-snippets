@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_telefonicaopencloud_elb_listener
+# key: r_telefonicaopencloud_elb_listener
+# --
+resource "telefonicaopencloud_elb_listener" "$1" {
+	backend_port = $2
+	backend_protocol = "$3"
+	lb_algorithm = "$4"
+	loadbalancer_id = "$5"
+	name = "$6"
+	port = $7
+	protocol = "$8"
+}

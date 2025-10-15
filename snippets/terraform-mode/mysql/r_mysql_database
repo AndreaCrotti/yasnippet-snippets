@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_mysql_database
+# key: r_mysql_database
+# --
+resource "mysql_database" "$1" {
+	name = "$2"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_ecr_repository_policy
+# key: r_aws_ecr_repository_policy
+# --
+resource "aws_ecr_repository_policy" "$1" {
+	policy = "$2"
+	repository = "$3"
+}

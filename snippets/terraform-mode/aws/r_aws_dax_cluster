@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_dax_cluster
+# key: r_aws_dax_cluster
+# --
+resource "aws_dax_cluster" "$1" {
+	cluster_name = "$2"
+	iam_role_arn = "$3"
+	node_type = "$4"
+	replication_factor = $5
+}

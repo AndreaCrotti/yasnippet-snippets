@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_nsxt_ns_service
+# key: d_nsxt_ns_service
+# --
+data "nsxt_ns_service" "$1" {
+	
+}

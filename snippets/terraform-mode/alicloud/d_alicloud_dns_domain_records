@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_alicloud_dns_domain_records
+# key: d_alicloud_dns_domain_records
+# --
+data "alicloud_dns_domain_records" "$1" {
+	domain_name = "$2"
+}

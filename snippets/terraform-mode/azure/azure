@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: azure
+# key: azure
+# --
+provider "azure" {
+	
+}

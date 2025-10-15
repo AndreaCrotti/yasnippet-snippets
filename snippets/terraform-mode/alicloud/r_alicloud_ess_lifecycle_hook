@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_ess_lifecycle_hook
+# key: r_alicloud_ess_lifecycle_hook
+# --
+resource "alicloud_ess_lifecycle_hook" "$1" {
+	lifecycle_transition = "$2"
+	scaling_group_id = "$3"
+}

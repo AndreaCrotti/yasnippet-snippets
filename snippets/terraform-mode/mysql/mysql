@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: mysql
+# key: mysql
+# --
+provider "mysql" {
+	endpoint = "$1"
+	username = "$2"
+}

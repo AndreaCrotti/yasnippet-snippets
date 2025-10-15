@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_aws_api_gateway_resource
+# key: d_aws_api_gateway_resource
+# --
+data "aws_api_gateway_resource" "$1" {
+	path = "$2"
+	rest_api_id = "$3"
+}

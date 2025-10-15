@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: mailgun
+# key: mailgun
+# --
+provider "mailgun" {
+	api_key = "$1"
+}

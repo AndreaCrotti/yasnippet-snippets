@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_softlayer_virtual_guest
+# key: r_softlayer_virtual_guest
+# --
+resource "softlayer_virtual_guest" "$1" {
+	cpu = $2
+	domain = "$3"
+	hourly_billing = ${4:false}
+	local_disk = ${5:false}
+	name = "$6"
+	ram = $7
+	region = "$8"
+}

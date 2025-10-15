@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_container_group
+# key: r_azurerm_container_group
+# --
+resource "azurerm_container_group" "$1" {
+	container {
+		cpu = 1.0
+		image = ""
+		memory = 1.0
+		name = ""
+	}
+	location = "$3"
+	name = "$4"
+	os_type = "$5"
+	resource_group_name = "$6"
+}

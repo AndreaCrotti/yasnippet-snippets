@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_sns_topic_policy
+# key: r_aws_sns_topic_policy
+# --
+resource "aws_sns_topic_policy" "$1" {
+	arn = "$2"
+	policy = "$3"
+}

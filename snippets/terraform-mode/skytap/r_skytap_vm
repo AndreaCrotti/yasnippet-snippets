@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_skytap_vm
+# key: r_skytap_vm
+# --
+resource "skytap_vm" "$1" {
+	environment_id = "$2"
+	template_id = "$3"
+	vm_id = "$4"
+}

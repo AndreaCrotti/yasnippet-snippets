@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_launch_configuration
+# key: r_aws_launch_configuration
+# --
+resource "aws_launch_configuration" "$1" {
+	image_id = "$2"
+	instance_type = "$3"
+}

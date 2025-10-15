@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oci_file_storage_exports
+# key: d_oci_file_storage_exports
+# --
+data "oci_file_storage_exports" "$1" {
+	
+}

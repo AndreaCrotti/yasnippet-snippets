@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_pinpoint_baidu_channel
+# key: r_aws_pinpoint_baidu_channel
+# --
+resource "aws_pinpoint_baidu_channel" "$1" {
+	api_key = "$2"
+	application_id = "$3"
+	secret_key = "$4"
+}

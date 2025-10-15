@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_openstack_vpnaas_service_v2
+# key: r_openstack_vpnaas_service_v2
+# --
+resource "openstack_vpnaas_service_v2" "$1" {
+	router_id = "$2"
+}

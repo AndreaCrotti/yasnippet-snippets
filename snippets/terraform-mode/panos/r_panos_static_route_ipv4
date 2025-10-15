@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_panos_static_route_ipv4
+# key: r_panos_static_route_ipv4
+# --
+resource "panos_static_route_ipv4" "$1" {
+	destination = "$2"
+	name = "$3"
+	virtual_router = "$4"
+}

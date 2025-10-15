@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_oraclepaas_application_container
+# key: r_oraclepaas_application_container
+# --
+resource "oraclepaas_application_container" "$1" {
+	name = "$2"
+}

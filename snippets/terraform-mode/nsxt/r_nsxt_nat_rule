@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_nsxt_nat_rule
+# key: r_nsxt_nat_rule
+# --
+resource "nsxt_nat_rule" "$1" {
+	action = "$2"
+	logical_router_id = "$3"
+}

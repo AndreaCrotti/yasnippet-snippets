@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_inspector_assessment_target
+# key: r_aws_inspector_assessment_target
+# --
+resource "aws_inspector_assessment_target" "$1" {
+	name = "$2"
+}

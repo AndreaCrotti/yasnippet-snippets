@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_servicebus_queue
+# key: r_azurerm_servicebus_queue
+# --
+resource "azurerm_servicebus_queue" "$1" {
+	name = "$2"
+	namespace_name = "$3"
+	resource_group_name = "$4"
+}

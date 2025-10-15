@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_librato_service
+# key: r_librato_service
+# --
+resource "librato_service" "$1" {
+	settings = "$2"
+	title = "$3"
+	type = "$4"
+}

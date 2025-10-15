@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: cloudscale
+# key: cloudscale
+# --
+provider "cloudscale" {
+	token = "$1"
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_iot_topic_rule
+# key: r_aws_iot_topic_rule
+# --
+resource "aws_iot_topic_rule" "$1" {
+	enabled = ${2:false}
+	name = "$3"
+	sql = "$4"
+	sql_version = "$5"
+}

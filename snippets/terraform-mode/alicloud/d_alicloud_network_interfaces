@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_alicloud_network_interfaces
+# key: d_alicloud_network_interfaces
+# --
+data "alicloud_network_interfaces" "$1" {
+	
+}

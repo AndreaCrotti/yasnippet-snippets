@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_profitbricks_location
+# key: d_profitbricks_location
+# --
+data "profitbricks_location" "$1" {
+	
+}

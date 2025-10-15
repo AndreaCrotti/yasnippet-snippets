@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_load_balancer_backend_set_health
+# key: d_oci_load_balancer_backend_set_health
+# --
+data "oci_load_balancer_backend_set_health" "$1" {
+	backend_set_name = "$2"
+	load_balancer_id = "$3"
+}

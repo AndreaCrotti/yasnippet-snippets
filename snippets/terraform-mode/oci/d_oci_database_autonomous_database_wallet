@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_database_autonomous_database_wallet
+# key: d_oci_database_autonomous_database_wallet
+# --
+data "oci_database_autonomous_database_wallet" "$1" {
+	autonomous_database_id = "$2"
+	password = "$3"
+}

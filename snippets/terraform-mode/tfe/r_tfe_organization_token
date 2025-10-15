@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_tfe_organization_token
+# key: r_tfe_organization_token
+# --
+resource "tfe_organization_token" "$1" {
+	organization = "$2"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_cen_instance_attachment
+# key: r_alicloud_cen_instance_attachment
+# --
+resource "alicloud_cen_instance_attachment" "$1" {
+	child_instance_id = "$2"
+	child_instance_region_id = "$3"
+	instance_id = "$4"
+}

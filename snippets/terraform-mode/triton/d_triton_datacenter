@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_triton_datacenter
+# key: d_triton_datacenter
+# --
+data "triton_datacenter" "$1" {
+	
+}

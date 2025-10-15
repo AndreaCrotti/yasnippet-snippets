@@ -1,0 +1,60 @@
+# -*- mode: snippet -*-
+# name: r_oneandone_monitoring_policy
+# key: r_oneandone_monitoring_policy
+# --
+resource "oneandone_monitoring_policy" "$1" {
+	agent = ${2:false}
+	name = "$3"
+	thresholds {
+		cpu {
+			critical {
+			alert = false
+			value = 1
+		}
+			warning {
+			alert = false
+			value = 1
+		}
+		}
+		disk {
+			critical {
+			alert = false
+			value = 1
+		}
+			warning {
+			alert = false
+			value = 1
+		}
+		}
+		internal_ping {
+			critical {
+			alert = false
+			value = 1
+		}
+			warning {
+			alert = false
+			value = 1
+		}
+		}
+		ram {
+			critical {
+			alert = false
+			value = 1
+		}
+			warning {
+			alert = false
+			value = 1
+		}
+		}
+		transfer {
+			critical {
+			alert = false
+			value = 1
+		}
+			warning {
+			alert = false
+			value = 1
+		}
+		}
+	}
+}

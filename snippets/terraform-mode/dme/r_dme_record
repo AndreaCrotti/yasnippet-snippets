@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_dme_record
+# key: r_dme_record
+# --
+resource "dme_record" "$1" {
+	domainid = "$2"
+	name = "$3"
+	type = "$4"
+	value = "$5"
+}

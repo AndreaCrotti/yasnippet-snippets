@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_oci_load_balancer_certificate
+# key: r_oci_load_balancer_certificate
+# --
+resource "oci_load_balancer_certificate" "$1" {
+	certificate_name = "$2"
+	load_balancer_id = "$3"
+}

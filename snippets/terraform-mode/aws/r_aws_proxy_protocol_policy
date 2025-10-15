@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_proxy_protocol_policy
+# key: r_aws_proxy_protocol_policy
+# --
+resource "aws_proxy_protocol_policy" "$1" {
+	instance_ports = ["$2"]
+	load_balancer = "$3"
+}

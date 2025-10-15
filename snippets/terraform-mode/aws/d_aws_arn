@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_arn
+# key: d_aws_arn
+# --
+data "aws_arn" "$1" {
+	arn = "$2"
+}

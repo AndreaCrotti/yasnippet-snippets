@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_ovh_credit_card
+# key: d_ovh_credit_card
+# --
+data "ovh_credit_card" "$1" {
+	
+}

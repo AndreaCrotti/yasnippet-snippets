@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_consul_keys
+# key: d_consul_keys
+# --
+data "consul_keys" "$1" {
+	
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_openstack_lb_l7policy_v2
+# key: r_openstack_lb_l7policy_v2
+# --
+resource "openstack_lb_l7policy_v2" "$1" {
+	action = "$2"
+	listener_id = "$3"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_opc_compute_ip_reservation
+# key: d_opc_compute_ip_reservation
+# --
+data "opc_compute_ip_reservation" "$1" {
+	name = "$2"
+}

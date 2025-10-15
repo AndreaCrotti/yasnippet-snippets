@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: consul_backend
+# key: consul_backend
+# --
+terraform {
+	backend "consul" {
+		path = "$2"
+	}
+}

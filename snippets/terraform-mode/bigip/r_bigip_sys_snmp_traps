@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_bigip_sys_snmp_traps
+# key: r_bigip_sys_snmp_traps
+# --
+resource "bigip_sys_snmp_traps" "$1" {
+	
+}

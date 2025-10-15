@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_terraform_remote_state
+# key: d_terraform_remote_state
+# --
+data "terraform_remote_state" "$1" {
+	backend = "$2"
+}

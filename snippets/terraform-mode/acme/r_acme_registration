@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_acme_registration
+# key: r_acme_registration
+# --
+resource "acme_registration" "$1" {
+	account_key_pem = "$2"
+	email_address = "$3"
+}

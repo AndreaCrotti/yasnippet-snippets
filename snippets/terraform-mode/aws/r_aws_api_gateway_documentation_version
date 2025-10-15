@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_api_gateway_documentation_version
+# key: r_aws_api_gateway_documentation_version
+# --
+resource "aws_api_gateway_documentation_version" "$1" {
+	rest_api_id = "$2"
+	version = "$3"
+}

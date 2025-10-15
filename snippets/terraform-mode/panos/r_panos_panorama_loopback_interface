@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_panos_panorama_loopback_interface
+# key: r_panos_panorama_loopback_interface
+# --
+resource "panos_panorama_loopback_interface" "$1" {
+	name = "$2"
+	template = "$3"
+}

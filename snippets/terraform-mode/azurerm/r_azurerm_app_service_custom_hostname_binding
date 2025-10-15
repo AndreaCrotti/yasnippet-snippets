@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_app_service_custom_hostname_binding
+# key: r_azurerm_app_service_custom_hostname_binding
+# --
+resource "azurerm_app_service_custom_hostname_binding" "$1" {
+	app_service_name = "$2"
+	hostname = "$3"
+	resource_group_name = "$4"
+}

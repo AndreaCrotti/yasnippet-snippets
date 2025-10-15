@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_ess_scaling_group
+# key: r_alicloud_ess_scaling_group
+# --
+resource "alicloud_ess_scaling_group" "$1" {
+	max_size = $2
+	min_size = $3
+}

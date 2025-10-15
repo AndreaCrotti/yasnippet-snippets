@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_user_assigned_identity
+# key: r_azurerm_user_assigned_identity
+# --
+resource "azurerm_user_assigned_identity" "$1" {
+	location = "$2"
+	name = "$3"
+	resource_group_name = "$4"
+}

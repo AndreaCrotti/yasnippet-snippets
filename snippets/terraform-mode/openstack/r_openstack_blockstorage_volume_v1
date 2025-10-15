@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_openstack_blockstorage_volume_v1
+# key: r_openstack_blockstorage_volume_v1
+# --
+resource "openstack_blockstorage_volume_v1" "$1" {
+	size = $2
+}

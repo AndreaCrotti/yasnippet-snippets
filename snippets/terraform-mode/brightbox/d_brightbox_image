@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_brightbox_image
+# key: d_brightbox_image
+# --
+data "brightbox_image" "$1" {
+	
+}

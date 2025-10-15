@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_heroku_team_member
+# key: r_heroku_team_member
+# --
+resource "heroku_team_member" "$1" {
+	email = "$2"
+	role = "$3"
+	team = "$4"
+}

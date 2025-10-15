@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_packet_volume
+# key: r_packet_volume
+# --
+resource "packet_volume" "$1" {
+	facility = "$2"
+	plan = "$3"
+	project_id = "$4"
+	size = $5
+}

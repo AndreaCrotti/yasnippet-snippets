@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: r_vcd_edgegateway_vpn
+# key: r_vcd_edgegateway_vpn
+# --
+resource "vcd_edgegateway_vpn" "$1" {
+	edge_gateway = "$2"
+	encryption_protocol = "$3"
+	local_id = "$4"
+	local_ip_address = "$5"
+	mtu = $6
+	name = "$7"
+	peer_id = "$8"
+	peer_ip_address = "$9"
+	shared_secret = "$10"
+}

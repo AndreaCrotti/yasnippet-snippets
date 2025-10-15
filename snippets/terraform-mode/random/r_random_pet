@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_random_pet
+# key: r_random_pet
+# --
+resource "random_pet" "$1" {
+	
+}

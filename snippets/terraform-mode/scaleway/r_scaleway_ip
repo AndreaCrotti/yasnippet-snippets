@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_scaleway_ip
+# key: r_scaleway_ip
+# --
+resource "scaleway_ip" "$1" {
+	
+}

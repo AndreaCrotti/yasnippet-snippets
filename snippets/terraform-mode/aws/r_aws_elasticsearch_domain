@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_elasticsearch_domain
+# key: r_aws_elasticsearch_domain
+# --
+resource "aws_elasticsearch_domain" "$1" {
+	domain_name = "$2"
+}

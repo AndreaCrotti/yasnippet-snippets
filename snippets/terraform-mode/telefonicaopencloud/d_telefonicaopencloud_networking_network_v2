@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_telefonicaopencloud_networking_network_v2
+# key: d_telefonicaopencloud_networking_network_v2
+# --
+data "telefonicaopencloud_networking_network_v2" "$1" {
+	
+}

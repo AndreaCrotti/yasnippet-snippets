@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_circonus_rule_set
+# key: r_circonus_rule_set
+# --
+resource "circonus_rule_set" "$1" {
+	check = "$2"
+	if {
+	
+	}
+	metric_name = "$4"
+}
