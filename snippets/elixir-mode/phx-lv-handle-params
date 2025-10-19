@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: phx-lv-handle-params
+# key: phx-lv-handle-params
+# --
+@impl true
+def handle_params(params, _uri, socket) do
+  $0
+  {:noreply, socket}
+end
