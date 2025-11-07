@@ -1,0 +1,25 @@
+# -*- mode: snippet -*-
+# name: package_body
+# key: pacbody
+# --
+-- **********************************
+-- *                                *
+-- *  ${1:Package_name}                  *  BODY
+-- *                                *
+-- **********************************
+package body ${2:<package identifier>} is
+
+--| Notes (none)
+--| ${3:[Additional comments on the design, implementation, and
+--| use of the package.]}
+--|
+--| Modifications
+--| ${4:[A list of modifications made to the package BODY.
+--| Each entry in the list should include the date of the change,
+--| the name of the person who made the change, and a description
+--| of the modification.  The first entry in the list should
+--| always be the initial coding of the package BODY.
+--| The "Modifications" section is required only when the
+--| package BODY is a stand-alone compilation unit
+--| in a file of its own.]}
+$0

@@ -1,0 +1,36 @@
+# -*- mode: snippet -*-
+# name: function_specification
+# key: fctspec
+# --
+--X1804: CSU
+-- ..................................
+-- .                                .
+-- .  ${1:Subprogram_name}               .  SPEC
+-- .                                .
+-- ..................................
+function ${2:<function identifier>}
+  ( ${3:<parameter specification>;
+    <parameter specification>} )
+  return ${4:<type mark>};
+
+--| Purpose
+--| ${5:[This section is a description of all purposes and functions
+--| of the subprogram.]}
+--|
+--| Exceptions (none)
+--| ${6:[A list of all exceptions which may propagate out of the
+--| subprogram, and a description of when each would be raised.]}
+--|
+--| Notes (none)
+--| ${7:[Additional comments on the use of the subprogram.]}
+--|
+--| Modifications
+--| ${8:[A list of modifications made to the subprogram DECLARATION.
+--| Each entry in the list should include the date of the change,
+--| the name of the person who made the change, and a description
+--| of the modification.  The first entry in the list should
+--| always be the initial coding of the subprogram declaration.
+--| The "Modifications" section is required only when the
+--| subprogram declaration is a stand-alone compilation unit
+--| in a file of its own.]}
+$0

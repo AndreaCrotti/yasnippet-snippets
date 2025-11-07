@@ -1,0 +1,35 @@
+# -*- mode: snippet -*-
+# name: procedure_specification
+# key: prospec
+# --
+--X1804: CSU
+-- ..................................
+-- .                                .
+-- .  ${1:Subprogram_name}               .  SPEC
+-- .                                .
+-- ..................................
+procedure ${2:<procedure identifier>}
+  ( ${3:<parameter specification>;
+    <parameter specification>} );
+
+--| Purpose
+--| ${4:[This section is a description of all purposes and functions
+--| of the subprogram.]}
+--|
+--| Exceptions (none)
+--| ${5:[A list of all exceptions which may propagate out of the
+--| subprogram, and a description of when each would be raised.]}
+--|
+--| Notes (none)
+--| ${6:[Additional comments on the use of the subprogram.]}
+--|
+--| Modifications
+--| ${7:[A list of modifications made to the subprogram DECLARATION.
+--| Each entry in the list should include the date of the change,
+--| the name of the person who made the change, and a description
+--| of the modification.  The first entry in the list should
+--| always be the initial coding of the subprogram declaration.
+--| The "Modifications" section is required only when the
+--| subprogram declaration is a stand-alone compilation unit
+--| in a file of its own.]}
+$0
