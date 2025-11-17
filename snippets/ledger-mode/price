@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: ledger price
+# key: pr
+# --
+P `(format-time-string "%Y-%m-%d")` ${1:BTC} ${2:35000} ${3:EUR}
