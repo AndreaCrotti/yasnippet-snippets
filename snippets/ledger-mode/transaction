@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: ledger transaction
+# key: tr
+# --
+`(format-time-string "%Y-%m-%d")` ${1:Description}
+    ${2}  ${3:Amount} ${4:EUR}
+    ${5}
