@@ -1,0 +1,27 @@
+# -*- mode: snippet -*-
+# name: function_body
+# key: fctbody
+# --
+-- ..................................
+-- .                                .
+-- .  ${1:Subprogram_name}               .  BODY
+-- .                                .
+-- ..................................
+function ${2:<function identifier>}
+  ( ${3:<parameter specification>;
+    <parameter specification>} )
+  return ${4:<type mark>} is
+
+--| Notes (none)
+--| ${5:[Additional comments on the use of the subprogram.]}
+--|
+--| Modifications
+--| ${6:[A list of modifications made to the subprogram BODY.
+--| Each entry in the list should include the date of the change,
+--| the name of the person who made the change, and a description
+--| of the modification.  The first entry in the list should
+--| always be the initial coding of the subprogram body.
+--| The "Modifications" section is required only when the
+--| subprogram body is a stand-alone compilation unit
+--| in a file of its own.]}
+$0

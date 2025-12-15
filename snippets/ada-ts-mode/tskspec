@@ -1,0 +1,28 @@
+# -*- mode: snippet -*-
+# name: task_specification
+# key: tskspec
+# --
+-- **********************************
+-- *                                *
+-- *  ${1:Task_name}                     *  SPEC
+-- *                                *
+-- **********************************
+task ${2:<task identifier>} is
+
+--| Purpose
+--| ${3:[This section is a description of all purposes and functions
+--| of the task.]}
+--|
+--| Notes (none)
+--| ${4:[Additional comments on the use of the task.]}
+--|
+--| Modifications
+--| ${5:[A list of modifications made to the task DECLARATION.
+--| Each entry in the list should include the date of the change,
+--| the name of the person who made the change, and a description
+--| of the modification.  The first entry in the list should
+--| always be the initial coding of the task declaration.
+--| The "Modifications" section is required only when the
+--| task declaration is a stand-alone compilation unit
+--| in a file of its own.]}
+$0

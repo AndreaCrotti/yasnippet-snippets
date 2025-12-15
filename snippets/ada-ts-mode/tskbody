@@ -1,0 +1,24 @@
+# -*- mode: snippet -*-
+# name: task_body
+# key: tskbody
+# --
+-- **********************************
+-- *                                *
+-- *  ${1:Task_name}                     *  BODY
+-- *                                *
+-- **********************************
+task body ${2:<task identifier>} is
+
+--| Notes (none)
+--| ${3:[Additional comments on the use of the task.]}
+--|
+--| Modifications
+--| ${4:[A list of modifications made to the task BODY.
+--| Each entry in the list should include the date of the change,
+--| the name of the person who made the change, and a description
+--| of the modification.  The first entry in the list should
+--| always be the initial coding of the task BODY.
+--| The "Modifications" section is required only when the
+--| task BODY is a stand-alone compilation unit
+--| in a file of its own.]}
+$0

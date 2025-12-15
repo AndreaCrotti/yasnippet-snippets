@@ -1,0 +1,26 @@
+# -*- mode: snippet -*-
+# name: procedure_body
+# key: probody
+# --
+-- ..................................
+-- .                                .
+-- .  ${1:Subprogram_name}               .  BODY
+-- .                                .
+-- ..................................
+procedure ${2:<procedure identifier>}
+  ( ${3:<parameter specification>;
+    <parameter specification>} ) is
+
+--| Notes (none)
+--| ${4:[Additional comments on the use of the subprogram.]}
+--|
+--| Modifications
+--| ${5:[A list of modifications made to the subprogram BODY.
+--| Each entry in the list should include the date of the change,
+--| the name of the person who made the change, and a description
+--| of the modification.  The first entry in the list should
+--| always be the initial coding of the subprogram body.
+--| The "Modifications" section is required only when the
+--| subprogram body is a stand-alone compilation unit
+--| in a file of its own.]}
+$0

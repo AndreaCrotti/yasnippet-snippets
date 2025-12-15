@@ -1,0 +1,34 @@
+# -*- mode: snippet -*-
+# name: package_specification
+# key: pacspec
+# --
+--X1804: CSC
+-- **********************************
+-- *                                *
+-- *  ${1:Package_name}                  *  SPEC
+-- *                                *
+-- **********************************
+package ${2:<package identifier>} is
+
+--| Purpose
+--| ${3:[This section is a description of the purpose and function
+--| of the package.]}
+--|
+--| Initialization Exceptions (none)
+--| ${4:[A list of all exceptions which may propagate out of the
+--| package INITIALIZATION PART and a description of when each
+--| would be raised.]}
+--|
+--| Notes (none)
+--| ${5:[Additional comments on the use of the package.]}
+--|
+--| Modifications
+--| ${6:[A list of modifications made to the package SPECIFICATION.
+--| Each entry in the list should include the date of the change,
+--| the name of the person who made the change, and a description
+--| of the modification.  The first entry in the list should
+--| always be the initial coding of the package specification.
+--| The "Modifications" section is required only when the
+--| package specification is a stand-alone compilation unit
+--| in a file of its own.]}
+$0
