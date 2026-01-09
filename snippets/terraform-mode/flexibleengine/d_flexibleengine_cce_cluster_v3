@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_flexibleengine_cce_cluster_v3
+# key: d_flexibleengine_cce_cluster_v3
+# --
+data "flexibleengine_cce_cluster_v3" "$1" {
+	
+}

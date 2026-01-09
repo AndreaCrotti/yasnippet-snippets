@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_security_group_rule
+# key: r_tencentcloud_security_group_rule
+# --
+resource "tencentcloud_security_group_rule" "$1" {
+	cidr_ip = "$2"
+	policy = "$3"
+	security_group_id = "$4"
+	type = "$5"
+}

@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: remote_azure_backend
+# key: remote_azure_backend
+# --
+data "terraform_remote_state" "$1" {
+	backend = "azure"
+	config {
+		storage_account_name = "$2"
+		container_name = "$3"
+		key = "$4"
+	}
+}

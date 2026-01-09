@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_oci_dns_record
+# key: r_oci_dns_record
+# --
+resource "oci_dns_record" "$1" {
+	zone_name_or_id = "$2"
+}

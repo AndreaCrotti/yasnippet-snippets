@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_consul_intention
+# key: r_consul_intention
+# --
+resource "consul_intention" "$1" {
+	action = "$2"
+	destination_name = "$3"
+	source_name = "$4"
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_digitalocean_record
+# key: r_digitalocean_record
+# --
+resource "digitalocean_record" "$1" {
+	domain = "$2"
+	name = "$3"
+	type = "$4"
+	value = "$5"
+}

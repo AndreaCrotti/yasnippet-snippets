@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_vsphere_virtual_machine
+# key: r_vsphere_virtual_machine
+# --
+resource "vsphere_virtual_machine" "$1" {
+	name = "$2"
+	network_interface {
+		network_id = ""
+	}
+	resource_pool_id = "$4"
+}

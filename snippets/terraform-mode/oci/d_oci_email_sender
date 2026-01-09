@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oci_email_sender
+# key: d_oci_email_sender
+# --
+data "oci_email_sender" "$1" {
+	sender_id = "$2"
+}

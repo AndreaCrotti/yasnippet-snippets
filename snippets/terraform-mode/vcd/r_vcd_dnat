@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_vcd_dnat
+# key: r_vcd_dnat
+# --
+resource "vcd_dnat" "$1" {
+	edge_gateway = "$2"
+	external_ip = "$3"
+	internal_ip = "$4"
+	port = $5
+}

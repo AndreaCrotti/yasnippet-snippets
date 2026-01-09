@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_azurestack_storage_account
+# key: d_azurestack_storage_account
+# --
+data "azurestack_storage_account" "$1" {
+	name = "$2"
+	resource_group_name = "$3"
+}

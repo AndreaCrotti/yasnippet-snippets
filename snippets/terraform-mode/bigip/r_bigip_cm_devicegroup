@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_bigip_cm_devicegroup
+# key: r_bigip_cm_devicegroup
+# --
+resource "bigip_cm_devicegroup" "$1" {
+	
+}

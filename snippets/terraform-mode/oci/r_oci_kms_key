@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_oci_kms_key
+# key: r_oci_kms_key
+# --
+resource "oci_kms_key" "$1" {
+	compartment_id = "$2"
+	display_name = "$3"
+	key_shape {
+		algorithm = ""
+		length = 1
+	}
+	management_endpoint = "$5"
+}

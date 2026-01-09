@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oci_identity_user_group_memberships
+# key: d_oci_identity_user_group_memberships
+# --
+data "oci_identity_user_group_memberships" "$1" {
+	compartment_id = "$2"
+}

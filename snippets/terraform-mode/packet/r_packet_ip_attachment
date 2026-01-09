@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_packet_ip_attachment
+# key: r_packet_ip_attachment
+# --
+resource "packet_ip_attachment" "$1" {
+	cidr_notation = "$2"
+	device_id = "$3"
+}

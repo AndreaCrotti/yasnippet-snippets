@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_relay_namespace
+# key: r_azurerm_relay_namespace
+# --
+resource "azurerm_relay_namespace" "$1" {
+	location = "$2"
+	name = "$3"
+	resource_group_name = "$4"
+	sku {
+		name = ""
+	}
+}

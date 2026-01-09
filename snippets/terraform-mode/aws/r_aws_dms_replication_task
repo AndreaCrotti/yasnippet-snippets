@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_aws_dms_replication_task
+# key: r_aws_dms_replication_task
+# --
+resource "aws_dms_replication_task" "$1" {
+	migration_type = "$2"
+	replication_instance_arn = "$3"
+	replication_task_id = "$4"
+	source_endpoint_arn = "$5"
+	table_mappings = "$6"
+	target_endpoint_arn = "$7"
+}

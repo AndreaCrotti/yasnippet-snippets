@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_neptune_event_subscription
+# key: r_aws_neptune_event_subscription
+# --
+resource "aws_neptune_event_subscription" "$1" {
+	sns_topic_arn = "$2"
+}

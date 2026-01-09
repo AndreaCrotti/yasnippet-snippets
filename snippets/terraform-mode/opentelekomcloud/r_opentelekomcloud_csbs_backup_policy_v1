@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: r_opentelekomcloud_csbs_backup_policy_v1
+# key: r_opentelekomcloud_csbs_backup_policy_v1
+# --
+resource "opentelekomcloud_csbs_backup_policy_v1" "$1" {
+	name = "$2"
+	resource {
+		id = ""
+		name = ""
+		type = ""
+	}
+	scheduled_operation {
+		operation_type = ""
+		trigger_pattern = ""
+	}
+}

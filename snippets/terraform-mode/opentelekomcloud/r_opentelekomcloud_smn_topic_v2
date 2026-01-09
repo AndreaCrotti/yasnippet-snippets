@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_opentelekomcloud_smn_topic_v2
+# key: r_opentelekomcloud_smn_topic_v2
+# --
+resource "opentelekomcloud_smn_topic_v2" "$1" {
+	name = "$2"
+}

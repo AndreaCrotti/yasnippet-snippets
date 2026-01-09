@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_oci_email_sender
+# key: r_oci_email_sender
+# --
+resource "oci_email_sender" "$1" {
+	compartment_id = "$2"
+	email_address = "$3"
+}

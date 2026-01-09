@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_ns1_datasource
+# key: r_ns1_datasource
+# --
+resource "ns1_datasource" "$1" {
+	name = "$2"
+	sourcetype = "$3"
+}

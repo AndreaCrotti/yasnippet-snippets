@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_lightsail_static_ip
+# key: r_aws_lightsail_static_ip
+# --
+resource "aws_lightsail_static_ip" "$1" {
+	name = "$2"
+}

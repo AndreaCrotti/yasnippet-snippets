@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_iam_group_membership
+# key: r_aws_iam_group_membership
+# --
+resource "aws_iam_group_membership" "$1" {
+	group = "$2"
+	name = "$3"
+	users = ["$4"]
+}

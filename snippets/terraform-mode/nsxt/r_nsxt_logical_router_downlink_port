@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_nsxt_logical_router_downlink_port
+# key: r_nsxt_logical_router_downlink_port
+# --
+resource "nsxt_logical_router_downlink_port" "$1" {
+	ip_address = "$2"
+	linked_logical_switch_port_id = "$3"
+	logical_router_id = "$4"
+}

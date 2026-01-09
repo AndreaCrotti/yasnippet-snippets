@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_cloudstack_vpn_gateway
+# key: r_cloudstack_vpn_gateway
+# --
+resource "cloudstack_vpn_gateway" "$1" {
+	vpc_id = "$2"
+}

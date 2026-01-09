@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_cloudtrail
+# key: r_aws_cloudtrail
+# --
+resource "aws_cloudtrail" "$1" {
+	name = "$2"
+	s3_bucket_name = "$3"
+}

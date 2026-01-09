@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_fc_trigger
+# key: r_alicloud_fc_trigger
+# --
+resource "alicloud_fc_trigger" "$1" {
+	config = "$2"
+	function = "$3"
+	service = "$4"
+	type = "$5"
+}

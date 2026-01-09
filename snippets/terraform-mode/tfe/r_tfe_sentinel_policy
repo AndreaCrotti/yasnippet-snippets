@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_tfe_sentinel_policy
+# key: r_tfe_sentinel_policy
+# --
+resource "tfe_sentinel_policy" "$1" {
+	name = "$2"
+	organization = "$3"
+	policy = "$4"
+}

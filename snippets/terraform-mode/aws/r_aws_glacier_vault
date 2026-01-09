@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_glacier_vault
+# key: r_aws_glacier_vault
+# --
+resource "aws_glacier_vault" "$1" {
+	name = "$2"
+}

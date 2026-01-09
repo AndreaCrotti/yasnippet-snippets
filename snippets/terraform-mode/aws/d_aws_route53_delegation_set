@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_route53_delegation_set
+# key: d_aws_route53_delegation_set
+# --
+data "aws_route53_delegation_set" "$1" {
+	id = "$2"
+}

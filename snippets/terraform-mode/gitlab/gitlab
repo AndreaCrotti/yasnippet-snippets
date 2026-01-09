@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: gitlab
+# key: gitlab
+# --
+provider "gitlab" {
+	token = "$1"
+}

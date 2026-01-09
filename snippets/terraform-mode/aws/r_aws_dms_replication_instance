@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_dms_replication_instance
+# key: r_aws_dms_replication_instance
+# --
+resource "aws_dms_replication_instance" "$1" {
+	replication_instance_class = "$2"
+	replication_instance_id = "$3"
+}

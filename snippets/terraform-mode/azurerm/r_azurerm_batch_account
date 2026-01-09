@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_batch_account
+# key: r_azurerm_batch_account
+# --
+resource "azurerm_batch_account" "$1" {
+	location = "$2"
+	name = "$3"
+	resource_group_name = "$4"
+}

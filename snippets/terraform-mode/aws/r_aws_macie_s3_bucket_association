@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_macie_s3_bucket_association
+# key: r_aws_macie_s3_bucket_association
+# --
+resource "aws_macie_s3_bucket_association" "$1" {
+	bucket_name = "$2"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_log_machine_group
+# key: r_alicloud_log_machine_group
+# --
+resource "alicloud_log_machine_group" "$1" {
+	identify_list = ["$2"]
+	name = "$3"
+	project = "$4"
+}

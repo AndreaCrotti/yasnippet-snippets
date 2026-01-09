@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_cognito_user_group
+# key: r_aws_cognito_user_group
+# --
+resource "aws_cognito_user_group" "$1" {
+	name = "$2"
+	user_pool_id = "$3"
+}

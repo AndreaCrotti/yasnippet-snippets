@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_aws_gamelift_build
+# key: r_aws_gamelift_build
+# --
+resource "aws_gamelift_build" "$1" {
+	name = "$2"
+	operating_system = "$3"
+	storage_location {
+		bucket = ""
+		key = ""
+		role_arn = ""
+	}
+}

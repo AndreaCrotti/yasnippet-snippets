@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_cloudflare_load_balancer_monitor
+# key: r_cloudflare_load_balancer_monitor
+# --
+resource "cloudflare_load_balancer_monitor" "$1" {
+	expected_body = "$2"
+	expected_codes = "$3"
+}

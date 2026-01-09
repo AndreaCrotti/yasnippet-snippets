@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_ignition_user
+# key: d_ignition_user
+# --
+data "ignition_user" "$1" {
+	name = "$2"
+}

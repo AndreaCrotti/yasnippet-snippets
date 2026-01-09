@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_flexibleengine_networking_secgroup_rule_v2
+# key: r_flexibleengine_networking_secgroup_rule_v2
+# --
+resource "flexibleengine_networking_secgroup_rule_v2" "$1" {
+	direction = "$2"
+	ethertype = "$3"
+	security_group_id = "$4"
+}

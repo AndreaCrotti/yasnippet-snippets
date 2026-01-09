@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_flexibleengine_rts_stack_resource_v1
+# key: d_flexibleengine_rts_stack_resource_v1
+# --
+data "flexibleengine_rts_stack_resource_v1" "$1" {
+	stack_name = "$2"
+}

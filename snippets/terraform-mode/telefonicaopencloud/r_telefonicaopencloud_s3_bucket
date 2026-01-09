@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_telefonicaopencloud_s3_bucket
+# key: r_telefonicaopencloud_s3_bucket
+# --
+resource "telefonicaopencloud_s3_bucket" "$1" {
+	
+}

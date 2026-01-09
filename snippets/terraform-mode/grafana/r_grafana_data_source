@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_grafana_data_source
+# key: r_grafana_data_source
+# --
+resource "grafana_data_source" "$1" {
+	name = "$2"
+	type = "$3"
+}

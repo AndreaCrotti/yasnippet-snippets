@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_rightscale_security_group_rule
+# key: r_rightscale_security_group_rule
+# --
+resource "rightscale_security_group_rule" "$1" {
+	protocol = "$2"
+	protocol_details {
+	
+	}
+	security_group_href = "$4"
+	source_type = "$5"
+}

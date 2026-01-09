@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_dms_certificate
+# key: r_aws_dms_certificate
+# --
+resource "aws_dms_certificate" "$1" {
+	certificate_id = "$2"
+}

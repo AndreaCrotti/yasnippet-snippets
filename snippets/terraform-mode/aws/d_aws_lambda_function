@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_lambda_function
+# key: d_aws_lambda_function
+# --
+data "aws_lambda_function" "$1" {
+	function_name = "$2"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_digitalocean_domain
+# key: r_digitalocean_domain
+# --
+resource "digitalocean_domain" "$1" {
+	name = "$2"
+}

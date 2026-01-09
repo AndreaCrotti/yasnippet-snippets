@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_ssm_document
+# key: d_aws_ssm_document
+# --
+data "aws_ssm_document" "$1" {
+	name = "$2"
+}

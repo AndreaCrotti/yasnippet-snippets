@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_dns_mx_record
+# key: r_azurerm_dns_mx_record
+# --
+resource "azurerm_dns_mx_record" "$1" {
+	name = "$2"
+	record {
+		exchange = ""
+		preference = ""
+	}
+	resource_group_name = "$4"
+	ttl = $5
+	zone_name = "$6"
+}

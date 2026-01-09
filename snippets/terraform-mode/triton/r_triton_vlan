@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_triton_vlan
+# key: r_triton_vlan
+# --
+resource "triton_vlan" "$1" {
+	name = "$2"
+	vlan_id = $3
+}

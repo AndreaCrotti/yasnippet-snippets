@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_azurerm_kubernetes_cluster
+# key: d_azurerm_kubernetes_cluster
+# --
+data "azurerm_kubernetes_cluster" "$1" {
+	name = "$2"
+	resource_group_name = "$3"
+}

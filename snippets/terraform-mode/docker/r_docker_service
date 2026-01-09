@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_docker_service
+# key: r_docker_service
+# --
+resource "docker_service" "$1" {
+	name = "$2"
+	task_spec {
+		container_spec {
+			image = ""
+		}
+	}
+}

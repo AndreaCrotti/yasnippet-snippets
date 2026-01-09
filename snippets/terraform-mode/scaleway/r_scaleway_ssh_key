@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_scaleway_ssh_key
+# key: r_scaleway_ssh_key
+# --
+resource "scaleway_ssh_key" "$1" {
+	key = "$2"
+}

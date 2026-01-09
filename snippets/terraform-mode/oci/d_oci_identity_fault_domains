@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_identity_fault_domains
+# key: d_oci_identity_fault_domains
+# --
+data "oci_identity_fault_domains" "$1" {
+	availability_domain = "$2"
+	compartment_id = "$3"
+}

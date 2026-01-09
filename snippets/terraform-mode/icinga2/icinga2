@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: icinga2
+# key: icinga2
+# --
+provider "icinga2" {
+	api_password = "$1"
+	api_url = "$2"
+	api_user = "$3"
+}

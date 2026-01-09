@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_rightscale_datacenter
+# key: d_rightscale_datacenter
+# --
+data "rightscale_datacenter" "$1" {
+	cloud_href = "$2"
+}

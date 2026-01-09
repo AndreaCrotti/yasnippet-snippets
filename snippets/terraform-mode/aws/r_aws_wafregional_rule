@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_wafregional_rule
+# key: r_aws_wafregional_rule
+# --
+resource "aws_wafregional_rule" "$1" {
+	metric_name = "$2"
+	name = "$3"
+}

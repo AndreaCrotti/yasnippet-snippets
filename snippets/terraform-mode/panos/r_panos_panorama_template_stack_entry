@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_panos_panorama_template_stack_entry
+# key: r_panos_panorama_template_stack_entry
+# --
+resource "panos_panorama_template_stack_entry" "$1" {
+	device = "$2"
+	template_stack = "$3"
+}

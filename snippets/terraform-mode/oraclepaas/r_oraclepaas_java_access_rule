@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_oraclepaas_java_access_rule
+# key: r_oraclepaas_java_access_rule
+# --
+resource "oraclepaas_java_access_rule" "$1" {
+	description = "$2"
+	destination = "$3"
+	name = "$4"
+	ports = "$5"
+	service_instance_id = "$6"
+	source = "$7"
+}

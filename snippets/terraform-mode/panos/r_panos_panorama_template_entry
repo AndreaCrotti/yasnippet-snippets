@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_panos_panorama_template_entry
+# key: r_panos_panorama_template_entry
+# --
+resource "panos_panorama_template_entry" "$1" {
+	serial = "$2"
+	template = "$3"
+}

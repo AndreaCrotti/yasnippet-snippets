@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_tfe_oauth_client
+# key: r_tfe_oauth_client
+# --
+resource "tfe_oauth_client" "$1" {
+	api_url = "$2"
+	http_url = "$3"
+	oauth_token = "$4"
+	organization = "$5"
+	service_provider = "$6"
+}

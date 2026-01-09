@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: heroku
+# key: heroku
+# --
+provider "heroku" {
+	
+}

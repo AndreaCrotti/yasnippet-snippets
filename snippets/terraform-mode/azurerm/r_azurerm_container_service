@@ -1,0 +1,27 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_container_service
+# key: r_azurerm_container_service
+# --
+resource "azurerm_container_service" "$1" {
+	agent_pool_profile {
+		dns_prefix = ""
+		name = ""
+		vm_size = ""
+	}
+	diagnostics_profile {
+		enabled = false
+	}
+	linux_profile {
+		admin_username = ""
+		ssh_key {
+			key_data = ""
+		}
+	}
+	location = "$5"
+	master_profile {
+		dns_prefix = ""
+	}
+	name = "$7"
+	orchestration_platform = "$8"
+	resource_group_name = "$9"
+}

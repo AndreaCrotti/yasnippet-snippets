@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_newrelic_synthetics_monitor
+# key: d_newrelic_synthetics_monitor
+# --
+data "newrelic_synthetics_monitor" "$1" {
+	name = "$2"
+}

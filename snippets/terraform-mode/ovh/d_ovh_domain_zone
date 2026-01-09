@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_ovh_domain_zone
+# key: d_ovh_domain_zone
+# --
+data "ovh_domain_zone" "$1" {
+	name = "$2"
+}

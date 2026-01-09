@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: vcd
+# key: vcd
+# --
+provider "vcd" {
+	org = "$1"
+	password = "$2"
+	url = "$3"
+	user = "$4"
+}

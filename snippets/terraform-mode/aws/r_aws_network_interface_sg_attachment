@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_network_interface_sg_attachment
+# key: r_aws_network_interface_sg_attachment
+# --
+resource "aws_network_interface_sg_attachment" "$1" {
+	network_interface_id = "$2"
+	security_group_id = "$3"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_vault_aws_auth_backend_client
+# key: r_vault_aws_auth_backend_client
+# --
+resource "vault_aws_auth_backend_client" "$1" {
+	
+}

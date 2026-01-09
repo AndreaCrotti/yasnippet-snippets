@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_newrelic_dashboard
+# key: r_newrelic_dashboard
+# --
+resource "newrelic_dashboard" "$1" {
+	title = "$2"
+}

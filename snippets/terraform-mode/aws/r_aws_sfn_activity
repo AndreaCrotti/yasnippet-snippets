@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_sfn_activity
+# key: r_aws_sfn_activity
+# --
+resource "aws_sfn_activity" "$1" {
+	name = "$2"
+}

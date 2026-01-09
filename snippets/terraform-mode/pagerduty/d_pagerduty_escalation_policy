@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_pagerduty_escalation_policy
+# key: d_pagerduty_escalation_policy
+# --
+data "pagerduty_escalation_policy" "$1" {
+	name = "$2"
+}

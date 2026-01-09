@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_heroku_space_peering_info
+# key: d_heroku_space_peering_info
+# --
+data "heroku_space_peering_info" "$1" {
+	name = "$2"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_alicloud_vpcs
+# key: d_alicloud_vpcs
+# --
+data "alicloud_vpcs" "$1" {
+	
+}

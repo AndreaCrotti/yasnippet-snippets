@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_pinpoint_apns_voip_channel
+# key: r_aws_pinpoint_apns_voip_channel
+# --
+resource "aws_pinpoint_apns_voip_channel" "$1" {
+	application_id = "$2"
+}

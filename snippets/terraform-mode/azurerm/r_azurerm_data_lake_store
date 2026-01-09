@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_data_lake_store
+# key: r_azurerm_data_lake_store
+# --
+resource "azurerm_data_lake_store" "$1" {
+	location = "$2"
+	name = "$3"
+	resource_group_name = "$4"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_github_branch_protection
+# key: r_github_branch_protection
+# --
+resource "github_branch_protection" "$1" {
+	branch = "$2"
+	repository = "$3"
+}

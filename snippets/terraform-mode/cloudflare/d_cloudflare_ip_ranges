@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_cloudflare_ip_ranges
+# key: d_cloudflare_ip_ranges
+# --
+data "cloudflare_ip_ranges" "$1" {
+	
+}

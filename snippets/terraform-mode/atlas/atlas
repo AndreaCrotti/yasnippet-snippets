@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: atlas
+# key: atlas
+# --
+provider "atlas" {
+	token = "$1"
+}

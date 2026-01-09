@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_kubernetes_service
+# key: r_kubernetes_service
+# --
+resource "kubernetes_service" "$1" {
+	metadata {
+	
+	}
+	spec {
+	
+	}
+}

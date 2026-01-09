@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_oci_objectstorage_preauthrequest
+# key: d_oci_objectstorage_preauthrequest
+# --
+data "oci_objectstorage_preauthrequest" "$1" {
+	bucket = "$2"
+	namespace = "$3"
+	par_id = "$4"
+}

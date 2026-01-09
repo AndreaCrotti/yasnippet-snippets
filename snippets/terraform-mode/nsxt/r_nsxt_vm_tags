@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_nsxt_vm_tags
+# key: r_nsxt_vm_tags
+# --
+resource "nsxt_vm_tags" "$1" {
+	instance_id = "$2"
+}

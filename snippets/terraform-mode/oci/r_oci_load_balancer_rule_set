@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_oci_load_balancer_rule_set
+# key: r_oci_load_balancer_rule_set
+# --
+resource "oci_load_balancer_rule_set" "$1" {
+	items {
+		action = ""
+		header = ""
+	}
+	load_balancer_id = "$3"
+	name = "$4"
+}

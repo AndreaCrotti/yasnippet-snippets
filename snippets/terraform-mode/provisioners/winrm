@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: winrm
+# key: winrm
+# --
+connection {
+	type     = "winrm"
+	user     = "Administrator"
+	password = "${var.admin_password}"
+}

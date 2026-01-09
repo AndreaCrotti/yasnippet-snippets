@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_opentelekomcloud_compute_bms_nic_v2
+# key: d_opentelekomcloud_compute_bms_nic_v2
+# --
+data "opentelekomcloud_compute_bms_nic_v2" "$1" {
+	server_id = "$2"
+}

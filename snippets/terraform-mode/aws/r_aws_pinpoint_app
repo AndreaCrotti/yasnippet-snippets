@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_pinpoint_app
+# key: r_aws_pinpoint_app
+# --
+resource "aws_pinpoint_app" "$1" {
+	
+}

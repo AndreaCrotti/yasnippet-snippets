@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_profitbricks_ipfailover
+# key: r_profitbricks_ipfailover
+# --
+resource "profitbricks_ipfailover" "$1" {
+	datacenter_id = "$2"
+	ip = "$3"
+	lan_id = "$4"
+	nicuuid = "$5"
+}

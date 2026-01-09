@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_mns_queue
+# key: r_alicloud_mns_queue
+# --
+resource "alicloud_mns_queue" "$1" {
+	name = "$2"
+}

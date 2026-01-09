@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: spotinst
+# key: spotinst
+# --
+provider "spotinst" {
+	
+}

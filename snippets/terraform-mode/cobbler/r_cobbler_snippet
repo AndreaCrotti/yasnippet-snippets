@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_cobbler_snippet
+# key: r_cobbler_snippet
+# --
+resource "cobbler_snippet" "$1" {
+	body = "$2"
+	name = "$3"
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_oci_core_vnic_attachment
+# key: r_oci_core_vnic_attachment
+# --
+resource "oci_core_vnic_attachment" "$1" {
+	create_vnic_details {
+		subnet_id = ""
+	}
+	instance_id = "$3"
+}

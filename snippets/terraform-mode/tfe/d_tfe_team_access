@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_tfe_team_access
+# key: d_tfe_team_access
+# --
+data "tfe_team_access" "$1" {
+	team_id = "$2"
+	workspace_id = "$3"
+}

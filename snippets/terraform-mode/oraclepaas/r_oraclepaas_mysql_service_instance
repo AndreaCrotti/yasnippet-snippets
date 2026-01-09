@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_oraclepaas_mysql_service_instance
+# key: r_oraclepaas_mysql_service_instance
+# --
+resource "oraclepaas_mysql_service_instance" "$1" {
+	mysql_configuration {
+	
+	}
+	name = "$3"
+	shape = "$4"
+	ssh_public_key = "$5"
+}

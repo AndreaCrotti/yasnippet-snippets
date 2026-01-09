@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_profitbricks_ipblock
+# key: r_profitbricks_ipblock
+# --
+resource "profitbricks_ipblock" "$1" {
+	location = "$2"
+	size = $3
+}

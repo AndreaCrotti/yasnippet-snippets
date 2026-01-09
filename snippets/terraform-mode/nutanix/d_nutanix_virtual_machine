@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_nutanix_virtual_machine
+# key: d_nutanix_virtual_machine
+# --
+data "nutanix_virtual_machine" "$1" {
+	vm_id = "$2"
+}

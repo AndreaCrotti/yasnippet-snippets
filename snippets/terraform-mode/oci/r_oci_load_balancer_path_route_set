@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: r_oci_load_balancer_path_route_set
+# key: r_oci_load_balancer_path_route_set
+# --
+resource "oci_load_balancer_path_route_set" "$1" {
+	load_balancer_id = "$2"
+	name = "$3"
+	path_routes {
+		backend_set_name = ""
+		path = ""
+		path_match_type {
+			match_type = ""
+		}
+	}
+}

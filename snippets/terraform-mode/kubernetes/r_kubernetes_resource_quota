@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_kubernetes_resource_quota
+# key: r_kubernetes_resource_quota
+# --
+resource "kubernetes_resource_quota" "$1" {
+	metadata {
+	
+	}
+}

@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: r_flexibleengine_vpc_eip_v1
+# key: r_flexibleengine_vpc_eip_v1
+# --
+resource "flexibleengine_vpc_eip_v1" "$1" {
+	bandwidth {
+		name = ""
+		share_type = ""
+		size = 1
+	}
+	publicip {
+		type = ""
+	}
+}

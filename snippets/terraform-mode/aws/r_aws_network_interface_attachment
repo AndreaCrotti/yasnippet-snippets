@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_network_interface_attachment
+# key: r_aws_network_interface_attachment
+# --
+resource "aws_network_interface_attachment" "$1" {
+	device_index = $2
+	instance_id = "$3"
+	network_interface_id = "$4"
+}

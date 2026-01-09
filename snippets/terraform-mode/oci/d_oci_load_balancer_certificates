@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oci_load_balancer_certificates
+# key: d_oci_load_balancer_certificates
+# --
+data "oci_load_balancer_certificates" "$1" {
+	load_balancer_id = "$2"
+}

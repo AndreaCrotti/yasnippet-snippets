@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_redshift_subnet_group
+# key: r_aws_redshift_subnet_group
+# --
+resource "aws_redshift_subnet_group" "$1" {
+	name = "$2"
+	subnet_ids = ["$3"]
+}

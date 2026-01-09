@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_customer_gateway
+# key: r_aws_customer_gateway
+# --
+resource "aws_customer_gateway" "$1" {
+	bgp_asn = $2
+	ip_address = "$3"
+	type = "$4"
+}

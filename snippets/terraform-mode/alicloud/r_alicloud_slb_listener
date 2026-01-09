@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_slb_listener
+# key: r_alicloud_slb_listener
+# --
+resource "alicloud_slb_listener" "$1" {
+	backend_port = $2
+	bandwidth = $3
+	frontend_port = $4
+	load_balancer_id = "$5"
+	protocol = "$6"
+}

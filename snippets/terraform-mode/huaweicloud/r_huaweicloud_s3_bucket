@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_huaweicloud_s3_bucket
+# key: r_huaweicloud_s3_bucket
+# --
+resource "huaweicloud_s3_bucket" "$1" {
+	
+}

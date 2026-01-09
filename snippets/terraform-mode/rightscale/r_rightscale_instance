@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_rightscale_instance
+# key: r_rightscale_instance
+# --
+resource "rightscale_instance" "$1" {
+	cloud_href = "$2"
+	image_href = "$3"
+	instance_type_href = "$4"
+	name = "$5"
+}

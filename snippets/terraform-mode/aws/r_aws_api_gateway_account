@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_api_gateway_account
+# key: r_aws_api_gateway_account
+# --
+resource "aws_api_gateway_account" "$1" {
+	
+}

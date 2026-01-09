@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: manta_backend
+# key: manta_backend
+# --
+terraform {
+	backend "manta" {
+		path = "$1"
+		object_name = "$2"
+	}
+}

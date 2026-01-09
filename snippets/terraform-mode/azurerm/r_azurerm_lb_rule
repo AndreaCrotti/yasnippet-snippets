@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_lb_rule
+# key: r_azurerm_lb_rule
+# --
+resource "azurerm_lb_rule" "$1" {
+	backend_port = $2
+	frontend_ip_configuration_name = "$3"
+	frontend_port = $4
+	loadbalancer_id = "$5"
+	name = "$6"
+	protocol = "$7"
+	resource_group_name = "$8"
+}

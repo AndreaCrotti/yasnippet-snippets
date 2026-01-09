@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_opsworks_user_profile
+# key: r_aws_opsworks_user_profile
+# --
+resource "aws_opsworks_user_profile" "$1" {
+	ssh_username = "$2"
+	user_arn = "$3"
+}

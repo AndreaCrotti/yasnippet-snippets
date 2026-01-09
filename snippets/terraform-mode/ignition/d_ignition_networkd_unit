@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_ignition_networkd_unit
+# key: d_ignition_networkd_unit
+# --
+data "ignition_networkd_unit" "$1" {
+	name = "$2"
+}

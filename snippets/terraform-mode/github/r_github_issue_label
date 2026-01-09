@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_github_issue_label
+# key: r_github_issue_label
+# --
+resource "github_issue_label" "$1" {
+	color = "$2"
+	name = "$3"
+	repository = "$4"
+}

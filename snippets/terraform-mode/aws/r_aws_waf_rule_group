@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_waf_rule_group
+# key: r_aws_waf_rule_group
+# --
+resource "aws_waf_rule_group" "$1" {
+	metric_name = "$2"
+	name = "$3"
+}

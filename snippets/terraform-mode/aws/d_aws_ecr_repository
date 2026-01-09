@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_ecr_repository
+# key: d_aws_ecr_repository
+# --
+data "aws_ecr_repository" "$1" {
+	name = "$2"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_bigip_sys_bigiplicense
+# key: r_bigip_sys_bigiplicense
+# --
+resource "bigip_sys_bigiplicense" "$1" {
+	command = "$2"
+	registration_key = "$3"
+}

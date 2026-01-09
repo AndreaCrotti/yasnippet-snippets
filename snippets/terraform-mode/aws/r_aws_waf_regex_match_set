@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_waf_regex_match_set
+# key: r_aws_waf_regex_match_set
+# --
+resource "aws_waf_regex_match_set" "$1" {
+	name = "$2"
+}

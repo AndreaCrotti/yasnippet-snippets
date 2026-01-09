@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_cloudstack_affinity_group
+# key: r_cloudstack_affinity_group
+# --
+resource "cloudstack_affinity_group" "$1" {
+	name = "$2"
+	type = "$3"
+}

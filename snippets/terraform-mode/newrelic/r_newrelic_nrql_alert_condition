@@ -1,0 +1,17 @@
+# -*- mode: snippet -*-
+# name: r_newrelic_nrql_alert_condition
+# key: r_newrelic_nrql_alert_condition
+# --
+resource "newrelic_nrql_alert_condition" "$1" {
+	name = "$2"
+	nrql {
+		query = ""
+		since_value = ""
+	}
+	policy_id = $4
+	term {
+		duration = 1
+		threshold = 1.0
+		time_function = ""
+	}
+}

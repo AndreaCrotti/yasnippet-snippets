@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_cloudstack_ssh_keypair
+# key: r_cloudstack_ssh_keypair
+# --
+resource "cloudstack_ssh_keypair" "$1" {
+	name = "$2"
+}

@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_aws_ssm_maintenance_window_target
+# key: r_aws_ssm_maintenance_window_target
+# --
+resource "aws_ssm_maintenance_window_target" "$1" {
+	resource_type = "$2"
+	targets {
+		key = ""
+		values = [""]
+	}
+	window_id = "$4"
+}

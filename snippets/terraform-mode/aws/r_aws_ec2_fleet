@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: r_aws_ec2_fleet
+# key: r_aws_ec2_fleet
+# --
+resource "aws_ec2_fleet" "$1" {
+	launch_template_config {
+		launch_template_specification {
+			version = ""
+		}
+	}
+	target_capacity_specification {
+		default_target_capacity_type = ""
+		total_target_capacity = 1
+	}
+}

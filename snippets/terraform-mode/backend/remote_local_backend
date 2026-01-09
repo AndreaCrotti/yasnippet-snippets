@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: remote_local_backend
+# key: remote_local_backend
+# --
+data "terraform_remote_state" "$1" {
+	backend = "local"
+	config {
+		path = "\${path.module}/../../terraform.tfstate"
+	}
+}

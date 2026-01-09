@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_slb_ca_certificate
+# key: r_alicloud_slb_ca_certificate
+# --
+resource "alicloud_slb_ca_certificate" "$1" {
+	ca_certificate = "$2"
+}

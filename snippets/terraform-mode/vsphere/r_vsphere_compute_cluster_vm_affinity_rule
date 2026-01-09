@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_vsphere_compute_cluster_vm_affinity_rule
+# key: r_vsphere_compute_cluster_vm_affinity_rule
+# --
+resource "vsphere_compute_cluster_vm_affinity_rule" "$1" {
+	compute_cluster_id = "$2"
+	name = "$3"
+	virtual_machine_ids = ["$4"]
+}

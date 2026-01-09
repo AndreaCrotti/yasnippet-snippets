@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_archive_file
+# key: r_archive_file
+# --
+resource "archive_file" "$1" {
+	output_path = "$2"
+	type = "$3"
+}

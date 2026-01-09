@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_vault_kubernetes_auth_backend_role
+# key: d_vault_kubernetes_auth_backend_role
+# --
+data "vault_kubernetes_auth_backend_role" "$1" {
+	role_name = "$2"
+}

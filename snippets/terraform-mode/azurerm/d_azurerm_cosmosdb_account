@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_azurerm_cosmosdb_account
+# key: d_azurerm_cosmosdb_account
+# --
+data "azurerm_cosmosdb_account" "$1" {
+	name = "$2"
+	resource_group_name = "$3"
+}

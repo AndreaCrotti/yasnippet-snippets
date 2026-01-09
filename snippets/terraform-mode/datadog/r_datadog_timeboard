@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: r_datadog_timeboard
+# key: r_datadog_timeboard
+# --
+resource "datadog_timeboard" "$1" {
+	description = "$2"
+	graph {
+		request {
+			q = ""
+		}
+		title = ""
+		viz = ""
+	}
+	title = "$4"
+}

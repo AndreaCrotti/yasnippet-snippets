@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_triton_fabric_vlan
+# key: d_triton_fabric_vlan
+# --
+data "triton_fabric_vlan" "$1" {
+	
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_ovh_iploadbalancing_http_route
+# key: r_ovh_iploadbalancing_http_route
+# --
+resource "ovh_iploadbalancing_http_route" "$1" {
+	action {
+		type = ""
+	}
+	service_name = "$3"
+}

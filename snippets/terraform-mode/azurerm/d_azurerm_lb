@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_azurerm_lb
+# key: d_azurerm_lb
+# --
+data "azurerm_lb" "$1" {
+	name = "$2"
+	resource_group_name = "$3"
+}

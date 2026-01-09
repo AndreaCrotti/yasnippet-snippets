@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_scaleway_server
+# key: r_scaleway_server
+# --
+resource "scaleway_server" "$1" {
+	image = "$2"
+	name = "$3"
+	type = "$4"
+}

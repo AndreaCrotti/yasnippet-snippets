@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_kubernetes_service
+# key: d_kubernetes_service
+# --
+data "kubernetes_service" "$1" {
+	metadata {
+		
+		}
+}

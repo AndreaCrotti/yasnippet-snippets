@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_rds_cluster_endpoint
+# key: r_aws_rds_cluster_endpoint
+# --
+resource "aws_rds_cluster_endpoint" "$1" {
+	cluster_endpoint_identifier = "$2"
+	cluster_identifier = "$3"
+	custom_endpoint_type = "$4"
+}

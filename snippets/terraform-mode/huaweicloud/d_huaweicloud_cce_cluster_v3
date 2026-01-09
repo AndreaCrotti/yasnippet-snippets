@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_huaweicloud_cce_cluster_v3
+# key: d_huaweicloud_cce_cluster_v3
+# --
+data "huaweicloud_cce_cluster_v3" "$1" {
+	
+}

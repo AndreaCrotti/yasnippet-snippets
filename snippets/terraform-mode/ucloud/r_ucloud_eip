@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_ucloud_eip
+# key: r_ucloud_eip
+# --
+resource "ucloud_eip" "$1" {
+	internet_type = "$2"
+}

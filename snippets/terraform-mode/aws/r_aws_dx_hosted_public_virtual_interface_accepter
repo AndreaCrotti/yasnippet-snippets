@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_dx_hosted_public_virtual_interface_accepter
+# key: r_aws_dx_hosted_public_virtual_interface_accepter
+# --
+resource "aws_dx_hosted_public_virtual_interface_accepter" "$1" {
+	virtual_interface_id = "$2"
+}

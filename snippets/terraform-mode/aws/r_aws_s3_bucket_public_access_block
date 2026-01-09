@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_s3_bucket_public_access_block
+# key: r_aws_s3_bucket_public_access_block
+# --
+resource "aws_s3_bucket_public_access_block" "$1" {
+	bucket = "$2"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_digitalocean_loadbalancer
+# key: d_digitalocean_loadbalancer
+# --
+data "digitalocean_loadbalancer" "$1" {
+	name = "$2"
+}

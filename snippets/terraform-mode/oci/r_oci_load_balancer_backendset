@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_oci_load_balancer_backendset
+# key: r_oci_load_balancer_backendset
+# --
+resource "oci_load_balancer_backendset" "$1" {
+	health_checker {
+		protocol = ""
+	}
+	load_balancer_id = "$3"
+	name = "$4"
+}

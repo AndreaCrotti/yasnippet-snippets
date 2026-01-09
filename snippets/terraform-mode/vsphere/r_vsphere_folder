@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_vsphere_folder
+# key: r_vsphere_folder
+# --
+resource "vsphere_folder" "$1" {
+	path = "$2"
+	type = "$3"
+}

@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_oci_containerengine_node_pool
+# key: r_oci_containerengine_node_pool
+# --
+resource "oci_containerengine_node_pool" "$1" {
+	cluster_id = "$2"
+	compartment_id = "$3"
+	kubernetes_version = "$4"
+	name = "$5"
+	node_image_name = "$6"
+	node_shape = "$7"
+	subnet_ids = ["$8"]
+}

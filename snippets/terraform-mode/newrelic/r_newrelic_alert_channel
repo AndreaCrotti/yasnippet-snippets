@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_newrelic_alert_channel
+# key: r_newrelic_alert_channel
+# --
+resource "newrelic_alert_channel" "$1" {
+	configuration {
+
+	}
+	name = "$3"
+	type = "$4"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_openstack_lb_member_v2
+# key: r_openstack_lb_member_v2
+# --
+resource "openstack_lb_member_v2" "$1" {
+	address = "$2"
+	pool_id = "$3"
+	protocol_port = $4
+}

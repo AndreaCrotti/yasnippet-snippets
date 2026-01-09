@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_heroku_formation
+# key: r_heroku_formation
+# --
+resource "heroku_formation" "$1" {
+	app = "$2"
+	quantity = $3
+	size = "$4"
+	type = "$5"
+}

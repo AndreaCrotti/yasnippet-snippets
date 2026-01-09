@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_aws_glue_trigger
+# key: r_aws_glue_trigger
+# --
+resource "aws_glue_trigger" "$1" {
+	actions {
+		job_name = ""
+	}
+	name = "$3"
+	type = "$4"
+}

@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_monitor_metric_alert
+# key: r_azurerm_monitor_metric_alert
+# --
+resource "azurerm_monitor_metric_alert" "$1" {
+	criteria {
+		aggregation = ""
+		metric_name = ""
+		metric_namespace = ""
+		operator = ""
+		threshold = 1.0
+	}
+	name = "$3"
+	resource_group_name = "$4"
+	scopes = ["$5"]
+}

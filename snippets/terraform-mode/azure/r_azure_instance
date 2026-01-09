@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azure_instance
+# key: r_azure_instance
+# --
+resource "azure_instance" "$1" {
+	image = "$2"
+	location = "$3"
+	name = "$4"
+	size = "$5"
+	username = "$6"
+}

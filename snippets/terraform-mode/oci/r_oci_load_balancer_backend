@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_oci_load_balancer_backend
+# key: r_oci_load_balancer_backend
+# --
+resource "oci_load_balancer_backend" "$1" {
+	backendset_name = "$2"
+	ip_address = "$3"
+	load_balancer_id = "$4"
+	port = $5
+}

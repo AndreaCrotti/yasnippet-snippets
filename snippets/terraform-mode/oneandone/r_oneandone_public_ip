@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_oneandone_public_ip
+# key: r_oneandone_public_ip
+# --
+resource "oneandone_public_ip" "$1" {
+	ip_type = "$2"
+}

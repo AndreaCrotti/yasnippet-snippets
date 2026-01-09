@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_vault_approle_auth_backend_role_id
+# key: d_vault_approle_auth_backend_role_id
+# --
+data "vault_approle_auth_backend_role_id" "$1" {
+	role_name = "$2"
+}

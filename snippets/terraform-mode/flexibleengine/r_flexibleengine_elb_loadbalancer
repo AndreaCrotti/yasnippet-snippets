@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_flexibleengine_elb_loadbalancer
+# key: r_flexibleengine_elb_loadbalancer
+# --
+resource "flexibleengine_elb_loadbalancer" "$1" {
+	type = "$2"
+	vpc_id = "$3"
+}

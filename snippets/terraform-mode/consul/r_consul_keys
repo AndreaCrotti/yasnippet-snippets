@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_consul_keys
+# key: r_consul_keys
+# --
+resource "consul_keys" "$1" {
+	
+}

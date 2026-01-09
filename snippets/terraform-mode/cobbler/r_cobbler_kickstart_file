@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_cobbler_kickstart_file
+# key: r_cobbler_kickstart_file
+# --
+resource "cobbler_kickstart_file" "$1" {
+	body = "$2"
+	name = "$3"
+}

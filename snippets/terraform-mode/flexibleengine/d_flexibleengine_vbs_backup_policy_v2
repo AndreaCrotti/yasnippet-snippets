@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_flexibleengine_vbs_backup_policy_v2
+# key: d_flexibleengine_vbs_backup_policy_v2
+# --
+data "flexibleengine_vbs_backup_policy_v2" "$1" {
+	
+}

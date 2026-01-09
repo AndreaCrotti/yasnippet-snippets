@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_scaleway_bucket
+# key: r_scaleway_bucket
+# --
+resource "scaleway_bucket" "$1" {
+	name = "$2"
+}

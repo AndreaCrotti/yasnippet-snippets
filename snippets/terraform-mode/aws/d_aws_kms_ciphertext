@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_aws_kms_ciphertext
+# key: d_aws_kms_ciphertext
+# --
+data "aws_kms_ciphertext" "$1" {
+	key_id = "$2"
+	plaintext = "$3"
+}

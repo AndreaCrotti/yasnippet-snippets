@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: softlayer
+# key: softlayer
+# --
+provider "softlayer" {
+	api_key = "$1"
+	username = "$2"
+}

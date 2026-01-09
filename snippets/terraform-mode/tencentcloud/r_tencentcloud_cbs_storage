@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_cbs_storage
+# key: r_tencentcloud_cbs_storage
+# --
+resource "tencentcloud_cbs_storage" "$1" {
+	availability_zone = "$2"
+	period = $3
+	storage_name = "$4"
+	storage_size = $5
+	storage_type = "$6"
+}

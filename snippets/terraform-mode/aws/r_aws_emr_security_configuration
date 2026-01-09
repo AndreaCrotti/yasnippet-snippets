@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_emr_security_configuration
+# key: r_aws_emr_security_configuration
+# --
+resource "aws_emr_security_configuration" "$1" {
+	configuration = "$2"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_db_snapshot
+# key: r_aws_db_snapshot
+# --
+resource "aws_db_snapshot" "$1" {
+	db_instance_identifier = "$2"
+	db_snapshot_identifier = "$3"
+}

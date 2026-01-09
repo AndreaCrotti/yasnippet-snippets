@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oci_core_vnic_attachments
+# key: d_oci_core_vnic_attachments
+# --
+data "oci_core_vnic_attachments" "$1" {
+	compartment_id = "$2"
+}

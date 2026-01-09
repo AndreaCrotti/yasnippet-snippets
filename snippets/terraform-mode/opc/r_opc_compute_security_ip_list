@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_opc_compute_security_ip_list
+# key: r_opc_compute_security_ip_list
+# --
+resource "opc_compute_security_ip_list" "$1" {
+	ip_entries = ["$2"]
+	name = "$3"
+}

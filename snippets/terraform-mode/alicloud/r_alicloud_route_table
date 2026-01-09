@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_route_table
+# key: r_alicloud_route_table
+# --
+resource "alicloud_route_table" "$1" {
+	vpc_id = "$2"
+}

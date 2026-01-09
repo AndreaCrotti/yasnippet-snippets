@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_nutanix_image
+# key: d_nutanix_image
+# --
+data "nutanix_image" "$1" {
+	
+}

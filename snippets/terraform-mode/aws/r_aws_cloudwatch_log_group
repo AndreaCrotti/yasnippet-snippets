@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_cloudwatch_log_group
+# key: r_aws_cloudwatch_log_group
+# --
+resource "aws_cloudwatch_log_group" "$1" {
+	
+}

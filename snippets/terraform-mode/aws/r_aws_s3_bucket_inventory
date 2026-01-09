@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# name: r_aws_s3_bucket_inventory
+# key: r_aws_s3_bucket_inventory
+# --
+resource "aws_s3_bucket_inventory" "$1" {
+	bucket = "$2"
+	destination {
+		bucket {
+			bucket_arn = ""
+			format = ""
+		}
+	}
+	included_object_versions = "$4"
+	name = "$5"
+	schedule {
+		frequency = ""
+	}
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_scaleway_volume
+# key: d_scaleway_volume
+# --
+data "scaleway_volume" "$1" {
+	name = "$2"
+}

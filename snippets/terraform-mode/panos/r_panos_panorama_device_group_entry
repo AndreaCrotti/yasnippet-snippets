@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_panos_panorama_device_group_entry
+# key: r_panos_panorama_device_group_entry
+# --
+resource "panos_panorama_device_group_entry" "$1" {
+	device_group = "$2"
+	serial = "$3"
+}

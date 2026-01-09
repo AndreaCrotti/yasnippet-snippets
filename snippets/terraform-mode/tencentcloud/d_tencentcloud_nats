@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_tencentcloud_nats
+# key: d_tencentcloud_nats
+# --
+data "tencentcloud_nats" "$1" {
+	
+}

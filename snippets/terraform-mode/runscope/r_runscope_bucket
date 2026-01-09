@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_runscope_bucket
+# key: r_runscope_bucket
+# --
+resource "runscope_bucket" "$1" {
+	name = "$2"
+	team_uuid = "$3"
+}

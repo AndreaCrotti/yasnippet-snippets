@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_cloudflare_zone_settings_override
+# key: r_cloudflare_zone_settings_override
+# --
+resource "cloudflare_zone_settings_override" "$1" {
+	name = "$2"
+}

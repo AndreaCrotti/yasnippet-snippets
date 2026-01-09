@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_oci_core_vcn
+# key: r_oci_core_vcn
+# --
+resource "oci_core_vcn" "$1" {
+	cidr_block = "$2"
+	compartment_id = "$3"
+}

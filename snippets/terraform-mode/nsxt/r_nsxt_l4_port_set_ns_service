@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_nsxt_l4_port_set_ns_service
+# key: r_nsxt_l4_port_set_ns_service
+# --
+resource "nsxt_l4_port_set_ns_service" "$1" {
+	protocol = "$2"
+}

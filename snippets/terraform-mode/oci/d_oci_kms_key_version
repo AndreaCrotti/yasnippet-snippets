@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_oci_kms_key_version
+# key: d_oci_kms_key_version
+# --
+data "oci_kms_key_version" "$1" {
+	key_id = "$2"
+	key_version_id = "$3"
+	management_endpoint = "$4"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_opsworks_java_app_layer
+# key: r_aws_opsworks_java_app_layer
+# --
+resource "aws_opsworks_java_app_layer" "$1" {
+	stack_id = "$2"
+}

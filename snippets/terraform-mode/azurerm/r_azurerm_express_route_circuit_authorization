@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_express_route_circuit_authorization
+# key: r_azurerm_express_route_circuit_authorization
+# --
+resource "azurerm_express_route_circuit_authorization" "$1" {
+	express_route_circuit_name = "$2"
+	name = "$3"
+	resource_group_name = "$4"
+}

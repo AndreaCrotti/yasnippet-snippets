@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_clc_group
+# key: r_clc_group
+# --
+resource "clc_group" "$1" {
+	location_id = "$2"
+	name = "$3"
+	parent = "$4"
+}

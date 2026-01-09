@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_security_group
+# key: d_aws_security_group
+# --
+data "aws_security_group" "$1" {
+	
+}

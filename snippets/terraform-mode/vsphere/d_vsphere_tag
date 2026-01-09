@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_vsphere_tag
+# key: d_vsphere_tag
+# --
+data "vsphere_tag" "$1" {
+	category_id = "$2"
+	name = "$3"
+}

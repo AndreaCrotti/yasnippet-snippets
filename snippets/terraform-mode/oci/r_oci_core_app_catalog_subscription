@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_oci_core_app_catalog_subscription
+# key: r_oci_core_app_catalog_subscription
+# --
+resource "oci_core_app_catalog_subscription" "$1" {
+	compartment_id = "$2"
+	eula_link = "$3"
+	listing_id = "$4"
+	listing_resource_version = "$5"
+	oracle_terms_of_use_link = "$6"
+	signature = "$7"
+	time_retrieved = "$8"
+}

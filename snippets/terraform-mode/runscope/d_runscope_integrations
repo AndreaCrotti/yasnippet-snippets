@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_runscope_integrations
+# key: d_runscope_integrations
+# --
+data "runscope_integrations" "$1" {
+	team_uuid = "$2"
+}

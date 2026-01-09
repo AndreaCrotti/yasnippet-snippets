@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_oci_containerengine_cluster
+# key: r_oci_containerengine_cluster
+# --
+resource "oci_containerengine_cluster" "$1" {
+	compartment_id = "$2"
+	kubernetes_version = "$3"
+	name = "$4"
+	vcn_id = "$5"
+}

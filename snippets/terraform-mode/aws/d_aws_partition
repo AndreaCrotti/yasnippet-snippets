@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_partition
+# key: d_aws_partition
+# --
+data "aws_partition" "$1" {
+	
+}

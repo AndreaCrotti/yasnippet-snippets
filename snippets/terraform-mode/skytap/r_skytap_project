@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_skytap_project
+# key: r_skytap_project
+# --
+resource "skytap_project" "$1" {
+	name = "$2"
+}

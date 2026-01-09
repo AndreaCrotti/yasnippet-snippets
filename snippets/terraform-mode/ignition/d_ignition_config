@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_ignition_config
+# key: d_ignition_config
+# --
+data "ignition_config" "$1" {
+	
+}

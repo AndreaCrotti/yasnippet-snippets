@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_kms_alias
+# key: r_aws_kms_alias
+# --
+resource "aws_kms_alias" "$1" {
+	target_key_id = "$2"
+}

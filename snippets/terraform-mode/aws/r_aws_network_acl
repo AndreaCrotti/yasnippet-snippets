@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_network_acl
+# key: r_aws_network_acl
+# --
+resource "aws_network_acl" "$1" {
+	vpc_id = "$2"
+}

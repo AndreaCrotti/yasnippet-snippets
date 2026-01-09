@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_heroku_app
+# key: d_heroku_app
+# --
+data "heroku_app" "$1" {
+	name = "$2"
+}

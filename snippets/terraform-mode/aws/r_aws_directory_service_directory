@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_directory_service_directory
+# key: r_aws_directory_service_directory
+# --
+resource "aws_directory_service_directory" "$1" {
+	name = "$2"
+	password = "$3"
+}

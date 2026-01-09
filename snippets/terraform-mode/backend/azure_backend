@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: azure_backend
+# key: azure_backend
+# --
+terraform {
+	backend "azure" {
+		storage_account_name = "$2"
+		container_name = "$3"
+		key = "$4"
+	}
+}

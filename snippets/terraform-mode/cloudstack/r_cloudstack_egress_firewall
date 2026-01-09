@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_cloudstack_egress_firewall
+# key: r_cloudstack_egress_firewall
+# --
+resource "cloudstack_egress_firewall" "$1" {
+	network_id = "$2"
+}

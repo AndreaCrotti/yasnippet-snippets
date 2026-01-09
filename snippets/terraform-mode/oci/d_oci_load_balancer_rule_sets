@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oci_load_balancer_rule_sets
+# key: d_oci_load_balancer_rule_sets
+# --
+data "oci_load_balancer_rule_sets" "$1" {
+	load_balancer_id = "$2"
+}

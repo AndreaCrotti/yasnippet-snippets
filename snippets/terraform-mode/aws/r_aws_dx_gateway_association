@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_dx_gateway_association
+# key: r_aws_dx_gateway_association
+# --
+resource "aws_dx_gateway_association" "$1" {
+	dx_gateway_id = "$2"
+	vpn_gateway_id = "$3"
+}

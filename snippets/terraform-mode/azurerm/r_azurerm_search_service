@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_search_service
+# key: r_azurerm_search_service
+# --
+resource "azurerm_search_service" "$1" {
+	location = "$2"
+	name = "$3"
+	resource_group_name = "$4"
+	sku = "$5"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_vault_aws_auth_backend_cert
+# key: r_vault_aws_auth_backend_cert
+# --
+resource "vault_aws_auth_backend_cert" "$1" {
+	aws_public_cert = "$2"
+	cert_name = "$3"
+}

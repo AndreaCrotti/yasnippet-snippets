@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_cloudflare_filter
+# key: r_cloudflare_filter
+# --
+resource "cloudflare_filter" "$1" {
+	expression = "$2"
+}

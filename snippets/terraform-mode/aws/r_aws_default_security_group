@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_default_security_group
+# key: r_aws_default_security_group
+# --
+resource "aws_default_security_group" "$1" {
+	
+}

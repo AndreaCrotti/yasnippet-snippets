@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_openstack_sharedfilesystem_share_access_v2
+# key: r_openstack_sharedfilesystem_share_access_v2
+# --
+resource "openstack_sharedfilesystem_share_access_v2" "$1" {
+	access_level = "$2"
+	access_to = "$3"
+	access_type = "$4"
+	share_id = "$5"
+}

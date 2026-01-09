@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_application_insights_api_key
+# key: r_azurerm_application_insights_api_key
+# --
+resource "azurerm_application_insights_api_key" "$1" {
+	application_insights_id = "$2"
+	name = "$3"
+}

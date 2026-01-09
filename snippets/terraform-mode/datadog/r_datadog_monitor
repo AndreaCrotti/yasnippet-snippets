@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_datadog_monitor
+# key: r_datadog_monitor
+# --
+resource "datadog_monitor" "$1" {
+	message = "$2"
+	name = "$3"
+	query = "$4"
+	type = "$5"
+}

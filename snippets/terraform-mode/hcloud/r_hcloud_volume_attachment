@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_hcloud_volume_attachment
+# key: r_hcloud_volume_attachment
+# --
+resource "hcloud_volume_attachment" "$1" {
+	server_id = $2
+	volume_id = $3
+}

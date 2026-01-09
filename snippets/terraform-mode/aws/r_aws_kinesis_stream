@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_kinesis_stream
+# key: r_aws_kinesis_stream
+# --
+resource "aws_kinesis_stream" "$1" {
+	name = "$2"
+	shard_count = $3
+}

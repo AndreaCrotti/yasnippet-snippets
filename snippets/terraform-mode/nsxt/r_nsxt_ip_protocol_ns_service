@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_nsxt_ip_protocol_ns_service
+# key: r_nsxt_ip_protocol_ns_service
+# --
+resource "nsxt_ip_protocol_ns_service" "$1" {
+	protocol = $2
+}

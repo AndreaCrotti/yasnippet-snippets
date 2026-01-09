@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_opentelekomcloud_kms_key_v1
+# key: r_opentelekomcloud_kms_key_v1
+# --
+resource "opentelekomcloud_kms_key_v1" "$1" {
+	key_alias = "$2"
+}

@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_openstack_db_instance_v1
+# key: r_openstack_db_instance_v1
+# --
+resource "openstack_db_instance_v1" "$1" {
+	datastore {
+		type = ""
+		version = ""
+	}
+	name = "$3"
+	region = "$4"
+	size = $5
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_azurerm_lb_backend_address_pool
+# key: d_azurerm_lb_backend_address_pool
+# --
+data "azurerm_lb_backend_address_pool" "$1" {
+	loadbalancer_id = "$2"
+	name = "$3"
+}

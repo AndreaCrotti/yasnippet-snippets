@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_transfer_server
+# key: r_aws_transfer_server
+# --
+resource "aws_transfer_server" "$1" {
+	
+}

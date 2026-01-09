@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: remote_s3_backend
+# key: remote_s3_backend
+# --
+data "terraform_remote_state" "$1" {
+	backend = "s3"
+	config {
+		bucket = "$2"
+		key = "$3"
+		region = "us-east-1"
+	}
+}

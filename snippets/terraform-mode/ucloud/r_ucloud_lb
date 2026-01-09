@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_ucloud_lb
+# key: r_ucloud_lb
+# --
+resource "ucloud_lb" "$1" {
+	
+}

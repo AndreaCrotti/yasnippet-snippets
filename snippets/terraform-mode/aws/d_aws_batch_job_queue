@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_batch_job_queue
+# key: d_aws_batch_job_queue
+# --
+data "aws_batch_job_queue" "$1" {
+	name = "$2"
+}

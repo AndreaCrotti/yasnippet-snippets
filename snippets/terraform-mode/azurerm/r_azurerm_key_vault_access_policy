@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_key_vault_access_policy
+# key: r_azurerm_key_vault_access_policy
+# --
+resource "azurerm_key_vault_access_policy" "$1" {
+	object_id = "$2"
+	resource_group_name = "$3"
+	tenant_id = "$4"
+	vault_name = "$5"
+}

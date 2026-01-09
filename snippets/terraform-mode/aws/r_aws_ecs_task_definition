@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_ecs_task_definition
+# key: r_aws_ecs_task_definition
+# --
+resource "aws_ecs_task_definition" "$1" {
+	container_definitions = "$2"
+	family = "$3"
+}

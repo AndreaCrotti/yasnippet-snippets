@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_librato_space_chart
+# key: r_librato_space_chart
+# --
+resource "librato_space_chart" "$1" {
+	name = "$2"
+	space_id = $3
+	type = "$4"
+}

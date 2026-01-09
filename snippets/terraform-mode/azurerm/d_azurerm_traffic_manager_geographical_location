@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_azurerm_traffic_manager_geographical_location
+# key: d_azurerm_traffic_manager_geographical_location
+# --
+data "azurerm_traffic_manager_geographical_location" "$1" {
+	name = "$2"
+}

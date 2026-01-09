@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_cloudstack_instance
+# key: r_cloudstack_instance
+# --
+resource "cloudstack_instance" "$1" {
+	service_offering = "$2"
+	template = "$3"
+	zone = "$4"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oci_dns_zones
+# key: d_oci_dns_zones
+# --
+data "oci_dns_zones" "$1" {
+	compartment_id = "$2"
+}

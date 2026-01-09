@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_scaleway_volume_attachment
+# key: r_scaleway_volume_attachment
+# --
+resource "scaleway_volume_attachment" "$1" {
+	server = "$2"
+	volume = "$3"
+}

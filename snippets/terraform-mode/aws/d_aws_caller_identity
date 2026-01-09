@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_caller_identity
+# key: d_aws_caller_identity
+# --
+data "aws_caller_identity" "$1" {
+	
+}

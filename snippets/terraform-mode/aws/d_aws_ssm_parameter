@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_ssm_parameter
+# key: d_aws_ssm_parameter
+# --
+data "aws_ssm_parameter" "$1" {
+	name = "$2"
+}

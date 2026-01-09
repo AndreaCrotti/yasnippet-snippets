@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_eip
+# key: d_aws_eip
+# --
+data "aws_eip" "$1" {
+	
+}

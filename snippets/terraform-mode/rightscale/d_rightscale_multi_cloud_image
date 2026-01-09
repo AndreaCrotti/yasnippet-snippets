@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_rightscale_multi_cloud_image
+# key: d_rightscale_multi_cloud_image
+# --
+data "rightscale_multi_cloud_image" "$1" {
+	
+}

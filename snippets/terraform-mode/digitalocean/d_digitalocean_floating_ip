@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_digitalocean_floating_ip
+# key: d_digitalocean_floating_ip
+# --
+data "digitalocean_floating_ip" "$1" {
+	ip_address = "$2"
+}

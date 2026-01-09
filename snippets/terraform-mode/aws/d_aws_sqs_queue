@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_sqs_queue
+# key: d_aws_sqs_queue
+# --
+data "aws_sqs_queue" "$1" {
+	name = "$2"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_alicloud_ram_account_aliases
+# key: d_alicloud_ram_account_aliases
+# --
+data "alicloud_ram_account_aliases" "$1" {
+	
+}

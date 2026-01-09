@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Module
+# key: mo
+# --
+module "$1" {
+	$2
+}

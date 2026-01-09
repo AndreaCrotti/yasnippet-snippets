@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_newrelic_infra_alert_condition
+# key: r_newrelic_infra_alert_condition
+# --
+resource "newrelic_infra_alert_condition" "$1" {
+	name = "$2"
+	policy_id = $3
+	type = "$4"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_telefonicaopencloud_networking_router_interface_v2
+# key: r_telefonicaopencloud_networking_router_interface_v2
+# --
+resource "telefonicaopencloud_networking_router_interface_v2" "$1" {
+	router_id = "$2"
+}

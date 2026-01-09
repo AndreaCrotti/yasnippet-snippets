@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: null
+# key: null
+# --
+provider "null" {
+	
+}

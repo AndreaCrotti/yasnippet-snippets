@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azure_hosted_service
+# key: r_azure_hosted_service
+# --
+resource "azure_hosted_service" "$1" {
+	ephemeral_contents = ${2:false}
+	location = "$3"
+	name = "$4"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_vsphere_compute_cluster_vm_group
+# key: r_vsphere_compute_cluster_vm_group
+# --
+resource "vsphere_compute_cluster_vm_group" "$1" {
+	compute_cluster_id = "$2"
+	name = "$3"
+}

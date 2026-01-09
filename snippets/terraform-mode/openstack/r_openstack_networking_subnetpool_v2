@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_openstack_networking_subnetpool_v2
+# key: r_openstack_networking_subnetpool_v2
+# --
+resource "openstack_networking_subnetpool_v2" "$1" {
+	name = "$2"
+	prefixes = ["$3"]
+}

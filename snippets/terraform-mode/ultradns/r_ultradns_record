@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_ultradns_record
+# key: r_ultradns_record
+# --
+resource "ultradns_record" "$1" {
+	name = "$2"
+	rdata = ["$3"]
+	type = "$4"
+	zone = "$5"
+}

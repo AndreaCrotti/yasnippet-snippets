@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_acmpca_certificate_authority
+# key: d_aws_acmpca_certificate_authority
+# --
+data "aws_acmpca_certificate_authority" "$1" {
+	arn = "$2"
+}

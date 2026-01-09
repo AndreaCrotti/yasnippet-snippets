@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# name: r_oci_database_db_system
+# key: r_oci_database_db_system
+# --
+resource "oci_database_db_system" "$1" {
+	availability_domain = "$2"
+	compartment_id = "$3"
+	database_edition = "$4"
+	db_home {
+		database {
+			admin_password = ""
+		}
+	}
+	hostname = "$6"
+	shape = "$7"
+	ssh_public_keys = ["$8"]
+	subnet_id = "$9"
+}

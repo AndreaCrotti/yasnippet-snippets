@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_policy_assignment
+# key: r_azurerm_policy_assignment
+# --
+resource "azurerm_policy_assignment" "$1" {
+	name = "$2"
+	policy_definition_id = "$3"
+	scope = "$4"
+}

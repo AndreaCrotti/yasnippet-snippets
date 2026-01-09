@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_iam_saml_provider
+# key: r_aws_iam_saml_provider
+# --
+resource "aws_iam_saml_provider" "$1" {
+	name = "$2"
+	saml_metadata_document = "$3"
+}

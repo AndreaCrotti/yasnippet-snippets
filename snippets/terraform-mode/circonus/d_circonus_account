@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_circonus_account
+# key: d_circonus_account
+# --
+data "circonus_account" "$1" {
+	
+}

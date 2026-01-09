@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_opentelekomcloud_elb_backend
+# key: r_opentelekomcloud_elb_backend
+# --
+resource "opentelekomcloud_elb_backend" "$1" {
+	address = "$2"
+	listener_id = "$3"
+	server_id = "$4"
+}

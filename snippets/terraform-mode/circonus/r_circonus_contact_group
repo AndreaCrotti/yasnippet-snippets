@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_circonus_contact_group
+# key: r_circonus_contact_group
+# --
+resource "circonus_contact_group" "$1" {
+	name = "$2"
+}

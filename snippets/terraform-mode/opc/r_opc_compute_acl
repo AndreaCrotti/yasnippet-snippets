@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_opc_compute_acl
+# key: r_opc_compute_acl
+# --
+resource "opc_compute_acl" "$1" {
+	name = "$2"
+}

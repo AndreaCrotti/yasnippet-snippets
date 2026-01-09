@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_panos_panorama_template_variable
+# key: r_panos_panorama_template_variable
+# --
+resource "panos_panorama_template_variable" "$1" {
+	name = "$2"
+	value = "$3"
+}

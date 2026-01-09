@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: remote_gcs_backend
+# key: remote_gcs_backend
+# --
+data "terraform_remote_state" "$1" {
+	backend = "gcs"
+	config {
+		bucket = "$2"
+		path = "$3"
+		project = "$4"
+	}
+}

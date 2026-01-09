@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_rightscale_route
+# key: r_rightscale_route
+# --
+resource "rightscale_route" "$1" {
+	destination_cidr_block = "$2"
+	next_hop_type = "$3"
+	route_table_href = "$4"
+}

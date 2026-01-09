@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_dx_gateway
+# key: d_aws_dx_gateway
+# --
+data "aws_dx_gateway" "$1" {
+	name = "$2"
+}

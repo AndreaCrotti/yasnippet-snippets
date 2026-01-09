@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_config_delivery_channel
+# key: r_aws_config_delivery_channel
+# --
+resource "aws_config_delivery_channel" "$1" {
+	s3_bucket_name = "$2"
+}

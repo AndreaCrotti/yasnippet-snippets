@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azure_sql_database_server
+# key: r_azure_sql_database_server
+# --
+resource "azure_sql_database_server" "$1" {
+	location = "$2"
+	password = "$3"
+	username = "$4"
+}

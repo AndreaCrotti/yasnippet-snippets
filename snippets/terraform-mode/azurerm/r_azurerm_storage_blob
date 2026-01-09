@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_storage_blob
+# key: r_azurerm_storage_blob
+# --
+resource "azurerm_storage_blob" "$1" {
+	name = "$2"
+	resource_group_name = "$3"
+	storage_account_name = "$4"
+	storage_container_name = "$5"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_subnet_network_security_group_association
+# key: r_azurerm_subnet_network_security_group_association
+# --
+resource "azurerm_subnet_network_security_group_association" "$1" {
+	network_security_group_id = "$2"
+	subnet_id = "$3"
+}

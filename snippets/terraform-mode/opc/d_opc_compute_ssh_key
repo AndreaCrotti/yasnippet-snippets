@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_opc_compute_ssh_key
+# key: d_opc_compute_ssh_key
+# --
+data "opc_compute_ssh_key" "$1" {
+	name = "$2"
+}

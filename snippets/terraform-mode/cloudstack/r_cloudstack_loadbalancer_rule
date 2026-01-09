@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_cloudstack_loadbalancer_rule
+# key: r_cloudstack_loadbalancer_rule
+# --
+resource "cloudstack_loadbalancer_rule" "$1" {
+	algorithm = "$2"
+	ip_address_id = "$3"
+	member_ids = ["$4"]
+	name = "$5"
+	private_port = $6
+	public_port = $7
+}

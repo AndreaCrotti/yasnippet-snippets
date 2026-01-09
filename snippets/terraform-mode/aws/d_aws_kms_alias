@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_kms_alias
+# key: d_aws_kms_alias
+# --
+data "aws_kms_alias" "$1" {
+	name = "$2"
+}

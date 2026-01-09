@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_vsphere_datacenter
+# key: r_vsphere_datacenter
+# --
+resource "vsphere_datacenter" "$1" {
+	name = "$2"
+}

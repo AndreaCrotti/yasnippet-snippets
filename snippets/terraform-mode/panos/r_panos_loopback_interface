@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_panos_loopback_interface
+# key: r_panos_loopback_interface
+# --
+resource "panos_loopback_interface" "$1" {
+	name = "$2"
+}

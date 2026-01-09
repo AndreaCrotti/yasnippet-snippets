@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_alicloud_cen_bandwidth_limits
+# key: d_alicloud_cen_bandwidth_limits
+# --
+data "alicloud_cen_bandwidth_limits" "$1" {
+	
+}

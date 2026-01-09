@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_kinesis_stream
+# key: d_aws_kinesis_stream
+# --
+data "aws_kinesis_stream" "$1" {
+	name = "$2"
+}

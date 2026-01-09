@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_virtual_machine_data_disk_attachment
+# key: r_azurerm_virtual_machine_data_disk_attachment
+# --
+resource "azurerm_virtual_machine_data_disk_attachment" "$1" {
+	caching = "$2"
+	lun = $3
+	managed_disk_id = "$4"
+	virtual_machine_id = "$5"
+}

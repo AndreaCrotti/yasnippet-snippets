@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_automation_schedule
+# key: r_azurerm_automation_schedule
+# --
+resource "azurerm_automation_schedule" "$1" {
+	frequency = "$2"
+	name = "$3"
+	resource_group_name = "$4"
+}

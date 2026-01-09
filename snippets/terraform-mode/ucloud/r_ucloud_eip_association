@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_ucloud_eip_association
+# key: r_ucloud_eip_association
+# --
+resource "ucloud_eip_association" "$1" {
+	eip_id = "$2"
+	resource_id = "$3"
+}

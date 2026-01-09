@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_opentelekomcloud_antiddos_v1
+# key: r_opentelekomcloud_antiddos_v1
+# --
+resource "opentelekomcloud_antiddos_v1" "$1" {
+	app_type_id = $2
+	cleaning_access_pos_id = $3
+	enable_l7 = ${4:false}
+	floating_ip_id = "$5"
+	http_request_pos_id = $6
+	traffic_pos_id = $7
+}

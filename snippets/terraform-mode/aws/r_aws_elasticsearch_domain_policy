@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_elasticsearch_domain_policy
+# key: r_aws_elasticsearch_domain_policy
+# --
+resource "aws_elasticsearch_domain_policy" "$1" {
+	access_policies = "$2"
+	domain_name = "$3"
+}

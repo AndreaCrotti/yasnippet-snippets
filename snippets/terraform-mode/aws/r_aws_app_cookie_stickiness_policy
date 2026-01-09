@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_app_cookie_stickiness_policy
+# key: r_aws_app_cookie_stickiness_policy
+# --
+resource "aws_app_cookie_stickiness_policy" "$1" {
+	cookie_name = "$2"
+	lb_port = $3
+	load_balancer = "$4"
+	name = "$5"
+}

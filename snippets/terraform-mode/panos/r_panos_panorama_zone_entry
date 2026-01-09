@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_panos_panorama_zone_entry
+# key: r_panos_panorama_zone_entry
+# --
+resource "panos_panorama_zone_entry" "$1" {
+	interface = "$2"
+	template = "$3"
+	zone = "$4"
+}

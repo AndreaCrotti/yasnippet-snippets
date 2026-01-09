@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_oci_kms_generated_key
+# key: r_oci_kms_generated_key
+# --
+resource "oci_kms_generated_key" "$1" {
+	crypto_endpoint = "$2"
+	include_plaintext_key = ${3:false}
+	key_id = "$4"
+	key_shape {
+		algorithm = ""
+		length = 1
+	}
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_linode_sshkey
+# key: d_linode_sshkey
+# --
+data "linode_sshkey" "$1" {
+	label = "$2"
+}

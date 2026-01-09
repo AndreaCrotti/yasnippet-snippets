@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_flexibleengine_cts_tracker_v1
+# key: d_flexibleengine_cts_tracker_v1
+# --
+data "flexibleengine_cts_tracker_v1" "$1" {
+	
+}

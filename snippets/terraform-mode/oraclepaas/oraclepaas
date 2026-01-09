@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: oraclepaas
+# key: oraclepaas
+# --
+provider "oraclepaas" {
+	identity_domain = "$1"
+	password = "$2"
+	user = "$3"
+}

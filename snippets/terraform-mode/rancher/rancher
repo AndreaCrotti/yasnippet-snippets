@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: rancher
+# key: rancher
+# --
+provider "rancher" {
+	
+}

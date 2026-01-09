@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_triton_machine
+# key: r_triton_machine
+# --
+resource "triton_machine" "$1" {
+	image = "$2"
+	package = "$3"
+}

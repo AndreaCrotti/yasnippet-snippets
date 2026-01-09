@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_azuread_service_principal
+# key: r_azurerm_azuread_service_principal
+# --
+resource "azurerm_azuread_service_principal" "$1" {
+	application_id = "$2"
+}

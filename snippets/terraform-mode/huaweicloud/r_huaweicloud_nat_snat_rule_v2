@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_huaweicloud_nat_snat_rule_v2
+# key: r_huaweicloud_nat_snat_rule_v2
+# --
+resource "huaweicloud_nat_snat_rule_v2" "$1" {
+	floating_ip_id = "$2"
+	nat_gateway_id = "$3"
+	network_id = "$4"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_azurerm_recovery_services_vault
+# key: d_azurerm_recovery_services_vault
+# --
+data "azurerm_recovery_services_vault" "$1" {
+	name = "$2"
+	resource_group_name = "$3"
+}

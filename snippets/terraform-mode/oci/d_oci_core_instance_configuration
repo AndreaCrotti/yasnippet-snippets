@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oci_core_instance_configuration
+# key: d_oci_core_instance_configuration
+# --
+data "oci_core_instance_configuration" "$1" {
+	instance_configuration_id = "$2"
+}

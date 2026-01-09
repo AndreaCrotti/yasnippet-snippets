@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_ucloud_projects
+# key: d_ucloud_projects
+# --
+data "ucloud_projects" "$1" {
+	
+}

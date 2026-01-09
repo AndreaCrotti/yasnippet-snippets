@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_ns1_monitoringjob
+# key: r_ns1_monitoringjob
+# --
+resource "ns1_monitoringjob" "$1" {
+	config {
+
+	}
+	frequency = $3
+	job_type = "$4"
+	name = "$5"
+	regions = ["$6"]
+}

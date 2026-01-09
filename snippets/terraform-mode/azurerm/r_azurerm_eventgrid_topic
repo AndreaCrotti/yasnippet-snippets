@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_eventgrid_topic
+# key: r_azurerm_eventgrid_topic
+# --
+resource "azurerm_eventgrid_topic" "$1" {
+	location = "$2"
+	name = "$3"
+	resource_group_name = "$4"
+}

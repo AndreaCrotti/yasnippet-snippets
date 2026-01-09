@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_panos_dag_tags
+# key: r_panos_dag_tags
+# --
+resource "panos_dag_tags" "$1" {
+	register {
+		ip = ""
+		tags = [""]
+	}
+}

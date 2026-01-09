@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_influxdb_continuous_query
+# key: r_influxdb_continuous_query
+# --
+resource "influxdb_continuous_query" "$1" {
+	database = "$2"
+	name = "$3"
+	query = "$4"
+}

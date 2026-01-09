@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_clc_server
+# key: r_clc_server
+# --
+resource "clc_server" "$1" {
+	cpu = $2
+	group_id = "$3"
+	memory_mb = $4
+	name_template = "$5"
+	source_server_id = "$6"
+}

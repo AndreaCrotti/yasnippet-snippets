@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_triton_service_group
+# key: r_triton_service_group
+# --
+resource "triton_service_group" "$1" {
+	group_name = "$2"
+	template = "$3"
+}

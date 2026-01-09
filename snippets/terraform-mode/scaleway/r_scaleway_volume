@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_scaleway_volume
+# key: r_scaleway_volume
+# --
+resource "scaleway_volume" "$1" {
+	name = "$2"
+	size_in_gb = $3
+	type = "$4"
+}

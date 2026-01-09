@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_openstack_lb_pool_v2
+# key: r_openstack_lb_pool_v2
+# --
+resource "openstack_lb_pool_v2" "$1" {
+	lb_method = "$2"
+	protocol = "$3"
+}

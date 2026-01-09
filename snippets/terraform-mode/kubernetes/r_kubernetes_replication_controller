@@ -1,0 +1,17 @@
+# -*- mode: snippet -*-
+# name: r_kubernetes_replication_controller
+# key: r_kubernetes_replication_controller
+# --
+resource "kubernetes_replication_controller" "$1" {
+	metadata {
+	
+	}
+	spec {
+		selector {
+
+		}
+		template {
+		
+		}
+	}
+}

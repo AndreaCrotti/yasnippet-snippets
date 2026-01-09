@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_vpn_gateway
+# key: r_aws_vpn_gateway
+# --
+resource "aws_vpn_gateway" "$1" {
+	
+}

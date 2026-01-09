@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_atlas_artifact
+# key: d_atlas_artifact
+# --
+data "atlas_artifact" "$1" {
+	name = "$2"
+	type = "$3"
+}

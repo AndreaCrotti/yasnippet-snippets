@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_softlayer_ssh_key
+# key: r_softlayer_ssh_key
+# --
+resource "softlayer_ssh_key" "$1" {
+	name = "$2"
+	public_key = "$3"
+}

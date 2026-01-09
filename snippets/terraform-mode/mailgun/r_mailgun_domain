@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_mailgun_domain
+# key: r_mailgun_domain
+# --
+resource "mailgun_domain" "$1" {
+	name = "$2"
+	smtp_password = "$3"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_null_data_source
+# key: d_null_data_source
+# --
+data "null_data_source" "$1" {
+	
+}

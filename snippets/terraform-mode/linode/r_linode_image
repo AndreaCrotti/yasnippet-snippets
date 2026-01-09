@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_linode_image
+# key: r_linode_image
+# --
+resource "linode_image" "$1" {
+	disk_id = $2
+	label = "$3"
+	linode_id = $4
+}

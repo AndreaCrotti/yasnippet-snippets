@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_route_entry
+# key: r_alicloud_route_entry
+# --
+resource "alicloud_route_entry" "$1" {
+	route_table_id = "$2"
+}

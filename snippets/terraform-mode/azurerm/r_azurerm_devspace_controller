@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_devspace_controller
+# key: r_azurerm_devspace_controller
+# --
+resource "azurerm_devspace_controller" "$1" {
+	host_suffix = "$2"
+	location = "$3"
+	name = "$4"
+	resource_group_name = "$5"
+	sku {
+		name = ""
+		tier = ""
+	}
+	target_container_host_credentials_base64 = "$7"
+	target_container_host_resource_id = "$8"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_route53_zone
+# key: d_aws_route53_zone
+# --
+data "aws_route53_zone" "$1" {
+	
+}

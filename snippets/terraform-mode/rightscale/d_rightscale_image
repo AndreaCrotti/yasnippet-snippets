@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_rightscale_image
+# key: d_rightscale_image
+# --
+data "rightscale_image" "$1" {
+	cloud_href = "$2"
+}

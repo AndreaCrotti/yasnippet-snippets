@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_ses_domain_dkim
+# key: r_aws_ses_domain_dkim
+# --
+resource "aws_ses_domain_dkim" "$1" {
+	domain = "$2"
+}

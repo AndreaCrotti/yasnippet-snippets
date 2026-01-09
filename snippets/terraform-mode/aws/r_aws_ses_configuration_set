@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_ses_configuration_set
+# key: r_aws_ses_configuration_set
+# --
+resource "aws_ses_configuration_set" "$1" {
+	name = "$2"
+}

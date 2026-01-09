@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_cognitive_account
+# key: r_azurerm_cognitive_account
+# --
+resource "azurerm_cognitive_account" "$1" {
+	kind = "$2"
+	location = "$3"
+	name = "$4"
+	resource_group_name = "$5"
+	sku {
+		name = ""
+		tier = ""
+	}
+}

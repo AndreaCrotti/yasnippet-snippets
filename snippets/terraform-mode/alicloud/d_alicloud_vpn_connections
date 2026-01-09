@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_alicloud_vpn_connections
+# key: d_alicloud_vpn_connections
+# --
+data "alicloud_vpn_connections" "$1" {
+	
+}

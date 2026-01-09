@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_vpc_dhcp_options
+# key: d_aws_vpc_dhcp_options
+# --
+data "aws_vpc_dhcp_options" "$1" {
+	
+}

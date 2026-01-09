@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_lb_listener
+# key: d_aws_lb_listener
+# --
+data "aws_lb_listener" "$1" {
+	
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_digitalocean_kubernetes_node_pool
+# key: r_digitalocean_kubernetes_node_pool
+# --
+resource "digitalocean_kubernetes_node_pool" "$1" {
+	cluster_id = "$2"
+	name = "$3"
+	node_count = $4
+	size = "$5"
+}

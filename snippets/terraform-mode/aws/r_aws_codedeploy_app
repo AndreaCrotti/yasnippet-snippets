@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_codedeploy_app
+# key: r_aws_codedeploy_app
+# --
+resource "aws_codedeploy_app" "$1" {
+	name = "$2"
+}

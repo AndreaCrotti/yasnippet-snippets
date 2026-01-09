@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_api_gateway_stage
+# key: r_aws_api_gateway_stage
+# --
+resource "aws_api_gateway_stage" "$1" {
+	deployment_id = "$2"
+	rest_api_id = "$3"
+	stage_name = "$4"
+}

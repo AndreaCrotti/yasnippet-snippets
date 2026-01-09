@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oci_dns_records
+# key: d_oci_dns_records
+# --
+data "oci_dns_records" "$1" {
+	zone_name_or_id = "$2"
+}

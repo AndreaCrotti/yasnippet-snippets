@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oci_database_db_system_patch_history_entries
+# key: d_oci_database_db_system_patch_history_entries
+# --
+data "oci_database_db_system_patch_history_entries" "$1" {
+	db_system_id = "$2"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_rds_cluster_instance
+# key: r_aws_rds_cluster_instance
+# --
+resource "aws_rds_cluster_instance" "$1" {
+	cluster_identifier = "$2"
+	instance_class = "$3"
+}

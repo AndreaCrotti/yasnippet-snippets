@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_cognito_identity_pool_roles_attachment
+# key: r_aws_cognito_identity_pool_roles_attachment
+# --
+resource "aws_cognito_identity_pool_roles_attachment" "$1" {
+	identity_pool_id = "$2"
+	roles {
+	
+	}
+}

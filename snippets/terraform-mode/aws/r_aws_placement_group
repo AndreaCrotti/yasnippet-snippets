@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_placement_group
+# key: r_aws_placement_group
+# --
+resource "aws_placement_group" "$1" {
+	name = "$2"
+	strategy = "$3"
+}

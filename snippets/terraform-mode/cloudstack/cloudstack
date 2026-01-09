@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: cloudstack
+# key: cloudstack
+# --
+provider "cloudstack" {
+	http_get_only = ${1:false}
+	timeout = $2
+}

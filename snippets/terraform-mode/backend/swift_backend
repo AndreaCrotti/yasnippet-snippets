@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: swift_backend
+# key: swift_backend
+# --
+terraform {
+	backend "swift" {
+		path = "$2"
+	}
+}

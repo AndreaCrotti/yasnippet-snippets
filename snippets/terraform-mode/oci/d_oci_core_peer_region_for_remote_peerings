@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oci_core_peer_region_for_remote_peerings
+# key: d_oci_core_peer_region_for_remote_peerings
+# --
+data "oci_core_peer_region_for_remote_peerings" "$1" {
+	
+}

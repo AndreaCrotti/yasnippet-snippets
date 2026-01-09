@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_kubernetes_cluster
+# key: r_azurerm_kubernetes_cluster
+# --
+resource "azurerm_kubernetes_cluster" "$1" {
+	agent_pool_profile {
+		name = ""
+		vm_size = ""
+	}
+	dns_prefix = "$3"
+	location = "$4"
+	name = "$5"
+	resource_group_name = "$6"
+	service_principal {
+		client_id = ""
+		client_secret = ""
+	}
+}

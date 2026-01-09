@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_ami_ids
+# key: d_aws_ami_ids
+# --
+data "aws_ami_ids" "$1" {
+	
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_mns_topic
+# key: r_alicloud_mns_topic
+# --
+resource "alicloud_mns_topic" "$1" {
+	name = "$2"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_azurerm_virtual_network
+# key: d_azurerm_virtual_network
+# --
+data "azurerm_virtual_network" "$1" {
+	name = "$2"
+	resource_group_name = "$3"
+}

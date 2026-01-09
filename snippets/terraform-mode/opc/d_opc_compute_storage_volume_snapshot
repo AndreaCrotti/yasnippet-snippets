@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_opc_compute_storage_volume_snapshot
+# key: d_opc_compute_storage_volume_snapshot
+# --
+data "opc_compute_storage_volume_snapshot" "$1" {
+	name = "$2"
+}

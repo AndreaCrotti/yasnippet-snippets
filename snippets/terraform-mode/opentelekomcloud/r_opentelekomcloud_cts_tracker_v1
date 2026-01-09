@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_opentelekomcloud_cts_tracker_v1
+# key: r_opentelekomcloud_cts_tracker_v1
+# --
+resource "opentelekomcloud_cts_tracker_v1" "$1" {
+	bucket_name = "$2"
+	is_send_all_key_operation = ${3:false}
+	is_support_smn = ${4:false}
+	operations = ["$5"]
+	topic_id = "$6"
+}

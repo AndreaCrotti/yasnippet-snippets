@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_panos_telemetry
+# key: r_panos_telemetry
+# --
+resource "panos_telemetry" "$1" {
+	
+}

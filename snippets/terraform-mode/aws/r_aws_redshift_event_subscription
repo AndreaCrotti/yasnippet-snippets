@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_redshift_event_subscription
+# key: r_aws_redshift_event_subscription
+# --
+resource "aws_redshift_event_subscription" "$1" {
+	name = "$2"
+	sns_topic_arn = "$3"
+}

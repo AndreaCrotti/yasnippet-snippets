@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_powerdns_record
+# key: r_powerdns_record
+# --
+resource "powerdns_record" "$1" {
+	name = "$2"
+	records = ["$3"]
+	ttl = $4
+	type = "$5"
+	zone = "$6"
+}

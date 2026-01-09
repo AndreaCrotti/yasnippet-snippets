@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_telefonicaopencloud_s3_bucket_policy
+# key: r_telefonicaopencloud_s3_bucket_policy
+# --
+resource "telefonicaopencloud_s3_bucket_policy" "$1" {
+	bucket = "$2"
+	policy = "$3"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_openstack_blockstorage_volume_attach_v2
+# key: r_openstack_blockstorage_volume_attach_v2
+# --
+resource "openstack_blockstorage_volume_attach_v2" "$1" {
+	host_name = "$2"
+	volume_id = "$3"
+}

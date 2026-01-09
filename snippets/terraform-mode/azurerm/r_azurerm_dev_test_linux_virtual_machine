@@ -1,0 +1,21 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_dev_test_linux_virtual_machine
+# key: r_azurerm_dev_test_linux_virtual_machine
+# --
+resource "azurerm_dev_test_linux_virtual_machine" "$1" {
+	gallery_image_reference {
+		offer = ""
+		publisher = ""
+		sku = ""
+		version = ""
+	}
+	lab_name = "$3"
+	lab_subnet_name = "$4"
+	lab_virtual_network_id = "$5"
+	location = "$6"
+	name = "$7"
+	resource_group_name = "$8"
+	size = "$9"
+	storage_type = "$10"
+	username = "$11"
+}

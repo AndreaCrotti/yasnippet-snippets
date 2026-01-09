@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_tencentcloud_availability_zones
+# key: d_tencentcloud_availability_zones
+# --
+data "tencentcloud_availability_zones" "$1" {
+	
+}

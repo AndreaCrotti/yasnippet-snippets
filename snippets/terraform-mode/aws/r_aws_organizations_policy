@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_organizations_policy
+# key: r_aws_organizations_policy
+# --
+resource "aws_organizations_policy" "$1" {
+	content = "$2"
+	name = "$3"
+}

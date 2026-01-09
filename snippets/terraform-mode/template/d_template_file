@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_template_file
+# key: d_template_file
+# --
+data "template_file" "$1" {
+	
+}

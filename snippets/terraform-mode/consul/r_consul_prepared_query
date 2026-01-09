@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_consul_prepared_query
+# key: r_consul_prepared_query
+# --
+resource "consul_prepared_query" "$1" {
+	name = "$2"
+	service = "$3"
+}

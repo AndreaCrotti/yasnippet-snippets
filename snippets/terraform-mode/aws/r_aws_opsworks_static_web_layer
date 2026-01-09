@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_opsworks_static_web_layer
+# key: r_aws_opsworks_static_web_layer
+# --
+resource "aws_opsworks_static_web_layer" "$1" {
+	stack_id = "$2"
+}

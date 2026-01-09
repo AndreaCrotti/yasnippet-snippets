@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oci_core_boot_volume_backup
+# key: d_oci_core_boot_volume_backup
+# --
+data "oci_core_boot_volume_backup" "$1" {
+	boot_volume_backup_id = "$2"
+}

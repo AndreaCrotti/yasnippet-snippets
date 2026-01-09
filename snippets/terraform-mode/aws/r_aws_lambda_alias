@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_lambda_alias
+# key: r_aws_lambda_alias
+# --
+resource "aws_lambda_alias" "$1" {
+	function_name = "$2"
+	function_version = "$3"
+	name = "$4"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_github_ip_ranges
+# key: d_github_ip_ranges
+# --
+data "github_ip_ranges" "$1" {
+	
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_azuread_application
+# key: r_azuread_application
+# --
+resource "azuread_application" "$1" {
+	name = "$2"
+}

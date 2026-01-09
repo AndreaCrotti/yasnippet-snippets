@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: logicmonitor
+# key: logicmonitor
+# --
+provider "logicmonitor" {
+	api_id = "$1"
+	api_key = "$2"
+	company = "$3"
+}

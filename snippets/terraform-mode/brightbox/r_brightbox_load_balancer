@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: r_brightbox_load_balancer
+# key: r_brightbox_load_balancer
+# --
+resource "brightbox_load_balancer" "$1" {
+	healthcheck {
+		port = 1
+		type = ""
+	}
+	listener {
+		in = 1
+		out = 1
+		protocol = ""
+	}
+}

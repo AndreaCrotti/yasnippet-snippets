@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_rightscale_route_table
+# key: d_rightscale_route_table
+# --
+data "rightscale_route_table" "$1" {
+	
+}

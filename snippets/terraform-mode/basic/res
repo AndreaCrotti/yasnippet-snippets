@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Resource
+# key: res
+# --
+resource "$1" "$2" {
+	$3
+}

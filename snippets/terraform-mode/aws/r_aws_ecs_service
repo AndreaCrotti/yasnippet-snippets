@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_ecs_service
+# key: r_aws_ecs_service
+# --
+resource "aws_ecs_service" "$1" {
+	name = "$2"
+	task_definition = "$3"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_openstack_dns_recordset_v2
+# key: r_openstack_dns_recordset_v2
+# --
+resource "openstack_dns_recordset_v2" "$1" {
+	name = "$2"
+	zone_id = "$3"
+}

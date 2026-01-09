@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_cloudstack_ipaddress
+# key: r_cloudstack_ipaddress
+# --
+resource "cloudstack_ipaddress" "$1" {
+	
+}

@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_cloudflare_rate_limit
+# key: r_cloudflare_rate_limit
+# --
+resource "cloudflare_rate_limit" "$1" {
+	action {
+		mode = ""
+	}
+	period = $3
+	threshold = $4
+	zone = "$5"
+}

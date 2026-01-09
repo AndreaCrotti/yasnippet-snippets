@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_vpc_peering_connection_accepter
+# key: r_aws_vpc_peering_connection_accepter
+# --
+resource "aws_vpc_peering_connection_accepter" "$1" {
+	vpc_peering_connection_id = "$2"
+}

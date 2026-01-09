@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_iam_user
+# key: d_aws_iam_user
+# --
+data "aws_iam_user" "$1" {
+	user_name = "$2"
+}

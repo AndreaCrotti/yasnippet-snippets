@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_core_public_ips
+# key: d_oci_core_public_ips
+# --
+data "oci_core_public_ips" "$1" {
+	compartment_id = "$2"
+	scope = "$3"
+}

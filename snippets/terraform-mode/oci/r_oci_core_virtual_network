@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_oci_core_virtual_network
+# key: r_oci_core_virtual_network
+# --
+resource "oci_core_virtual_network" "$1" {
+	cidr_block = "$2"
+	compartment_id = "$3"
+}

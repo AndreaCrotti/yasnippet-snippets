@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_log_analytics_workspace
+# key: r_azurerm_log_analytics_workspace
+# --
+resource "azurerm_log_analytics_workspace" "$1" {
+	location = "$2"
+	name = "$3"
+	resource_group_name = "$4"
+	sku = "$5"
+}

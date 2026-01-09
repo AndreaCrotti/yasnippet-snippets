@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_openstack_db_database_v1
+# key: r_openstack_db_database_v1
+# --
+resource "openstack_db_database_v1" "$1" {
+	instance_id = "$2"
+	name = "$3"
+}

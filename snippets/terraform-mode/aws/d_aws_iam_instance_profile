@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_iam_instance_profile
+# key: d_aws_iam_instance_profile
+# --
+data "aws_iam_instance_profile" "$1" {
+	name = "$2"
+}

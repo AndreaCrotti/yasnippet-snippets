@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_cloudstack_network
+# key: r_cloudstack_network
+# --
+resource "cloudstack_network" "$1" {
+	cidr = "$2"
+	name = "$3"
+	network_offering = "$4"
+	zone = "$5"
+}

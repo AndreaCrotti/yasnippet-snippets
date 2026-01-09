@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_flexibleengine_rds_flavors_v1
+# key: d_flexibleengine_rds_flavors_v1
+# --
+data "flexibleengine_rds_flavors_v1" "$1" {
+	datastore_name = "$2"
+	datastore_version = "$3"
+}

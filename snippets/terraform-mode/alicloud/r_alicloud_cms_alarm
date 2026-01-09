@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_cms_alarm
+# key: r_alicloud_cms_alarm
+# --
+resource "alicloud_cms_alarm" "$1" {
+	contact_groups = ["$2"]
+	dimensions {
+
+	}
+	metric = "$4"
+	name = "$5"
+	project = "$6"
+	threshold = "$7"
+}

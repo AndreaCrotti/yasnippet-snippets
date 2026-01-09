@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_oci_database_autonomous_data_warehouse_backup
+# key: r_oci_database_autonomous_data_warehouse_backup
+# --
+resource "oci_database_autonomous_data_warehouse_backup" "$1" {
+	autonomous_data_warehouse_id = "$2"
+	display_name = "$3"
+}

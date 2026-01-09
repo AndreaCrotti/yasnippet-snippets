@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_triton_image
+# key: d_triton_image
+# --
+data "triton_image" "$1" {
+	
+}

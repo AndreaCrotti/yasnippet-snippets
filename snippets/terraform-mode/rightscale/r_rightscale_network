@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_rightscale_network
+# key: r_rightscale_network
+# --
+resource "rightscale_network" "$1" {
+	cloud_href = "$2"
+}

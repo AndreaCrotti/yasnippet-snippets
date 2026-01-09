@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_digitalocean_droplet_snapshot
+# key: d_digitalocean_droplet_snapshot
+# --
+data "digitalocean_droplet_snapshot" "$1" {
+	
+}

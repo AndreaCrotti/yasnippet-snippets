@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_consul_key_prefix
+# key: d_consul_key_prefix
+# --
+data "consul_key_prefix" "$1" {
+	path_prefix = "$2"
+}

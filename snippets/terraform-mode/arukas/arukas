@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: arukas
+# key: arukas
+# --
+provider "arukas" {
+	secret = "$1"
+	token = "$2"
+}

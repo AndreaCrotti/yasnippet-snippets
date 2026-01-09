@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_bigip_ltm_snat
+# key: r_bigip_ltm_snat
+# --
+resource "bigip_ltm_snat" "$1" {
+	name = "$2"
+	origins {
+	
+	}
+}

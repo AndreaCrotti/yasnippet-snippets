@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_vault_identity_group
+# key: r_vault_identity_group
+# --
+resource "vault_identity_group" "$1" {
+	name = "$2"
+}

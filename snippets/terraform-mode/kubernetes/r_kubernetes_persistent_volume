@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# name: r_kubernetes_persistent_volume
+# key: r_kubernetes_persistent_volume
+# --
+resource "kubernetes_persistent_volume" "$1" {
+	metadata {
+	
+	}
+	spec {
+		access_modes = [""]
+		capacity {
+
+		}
+		persistent_volume_source {
+		
+		}
+	}
+}

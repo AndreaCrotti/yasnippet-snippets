@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_azurerm_dev_test_lab
+# key: d_azurerm_dev_test_lab
+# --
+data "azurerm_dev_test_lab" "$1" {
+	name = "$2"
+	resource_group_name = "$3"
+}

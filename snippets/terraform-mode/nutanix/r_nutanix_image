@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_nutanix_image
+# key: r_nutanix_image
+# --
+resource "nutanix_image" "$1" {
+	name = "$2"
+}

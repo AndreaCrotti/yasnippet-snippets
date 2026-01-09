@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_appmesh_mesh
+# key: r_aws_appmesh_mesh
+# --
+resource "aws_appmesh_mesh" "$1" {
+	name = "$2"
+}

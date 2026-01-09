@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_ucloud_lb_attachment
+# key: r_ucloud_lb_attachment
+# --
+resource "ucloud_lb_attachment" "$1" {
+	listener_id = "$2"
+	load_balancer_id = "$3"
+	resource_id = "$4"
+}

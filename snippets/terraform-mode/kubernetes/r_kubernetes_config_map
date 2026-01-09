@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_kubernetes_config_map
+# key: r_kubernetes_config_map
+# --
+resource "kubernetes_config_map" "$1" {
+	metadata {
+	
+	}
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_flexibleengine_vpc_subnet_ids_v1
+# key: d_flexibleengine_vpc_subnet_ids_v1
+# --
+data "flexibleengine_vpc_subnet_ids_v1" "$1" {
+	vpc_id = "$2"
+}

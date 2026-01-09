@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_route53_zone
+# key: r_aws_route53_zone
+# --
+resource "aws_route53_zone" "$1" {
+	name = "$2"
+}

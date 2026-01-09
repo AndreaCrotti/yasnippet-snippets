@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_random_uuid
+# key: r_random_uuid
+# --
+resource "random_uuid" "$1" {
+	
+}

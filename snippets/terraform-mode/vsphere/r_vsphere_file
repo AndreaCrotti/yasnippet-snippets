@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_vsphere_file
+# key: r_vsphere_file
+# --
+resource "vsphere_file" "$1" {
+	datastore = "$2"
+	destination_file = "$3"
+	source_file = "$4"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_scheduler_job
+# key: r_azurerm_scheduler_job
+# --
+resource "azurerm_scheduler_job" "$1" {
+	job_collection_name = "$2"
+	name = "$3"
+	resource_group_name = "$4"
+}

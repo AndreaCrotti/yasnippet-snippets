@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_acm_certificate_validation
+# key: r_aws_acm_certificate_validation
+# --
+resource "aws_acm_certificate_validation" "$1" {
+	certificate_arn = "$2"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_heroku_space_app_access
+# key: r_heroku_space_app_access
+# --
+resource "heroku_space_app_access" "$1" {
+	email = "$2"
+	permissions = ["$3"]
+	space = "$4"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_cloudfront_public_key
+# key: r_aws_cloudfront_public_key
+# --
+resource "aws_cloudfront_public_key" "$1" {
+	encoded_key = "$2"
+}

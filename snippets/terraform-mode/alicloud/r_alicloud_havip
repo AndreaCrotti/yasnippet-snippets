@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_havip
+# key: r_alicloud_havip
+# --
+resource "alicloud_havip" "$1" {
+	vswitch_id = "$2"
+}

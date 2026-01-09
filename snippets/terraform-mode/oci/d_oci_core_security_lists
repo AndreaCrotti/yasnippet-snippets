@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_core_security_lists
+# key: d_oci_core_security_lists
+# --
+data "oci_core_security_lists" "$1" {
+	compartment_id = "$2"
+	vcn_id = "$3"
+}

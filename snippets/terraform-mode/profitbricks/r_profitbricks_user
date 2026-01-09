@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_profitbricks_user
+# key: r_profitbricks_user
+# --
+resource "profitbricks_user" "$1" {
+	administrator = ${2:false}
+	email = "$3"
+	first_name = "$4"
+	force_sec_auth = ${5:false}
+	last_name = "$6"
+	password = "$7"
+}

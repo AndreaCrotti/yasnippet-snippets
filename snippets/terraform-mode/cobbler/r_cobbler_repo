@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_cobbler_repo
+# key: r_cobbler_repo
+# --
+resource "cobbler_repo" "$1" {
+	breed = "$2"
+	mirror = "$3"
+	name = "$4"
+}

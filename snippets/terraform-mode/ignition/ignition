@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: ignition
+# key: ignition
+# --
+provider "ignition" {
+	
+}

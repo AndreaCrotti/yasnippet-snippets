@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_azurerm_managed_disk
+# key: d_azurerm_managed_disk
+# --
+data "azurerm_managed_disk" "$1" {
+	name = "$2"
+	resource_group_name = "$3"
+}

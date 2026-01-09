@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_vpn_customer_gateway
+# key: r_alicloud_vpn_customer_gateway
+# --
+resource "alicloud_vpn_customer_gateway" "$1" {
+	ip_address = "$2"
+}

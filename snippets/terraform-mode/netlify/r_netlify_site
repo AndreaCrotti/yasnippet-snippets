@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_netlify_site
+# key: r_netlify_site
+# --
+resource "netlify_site" "$1" {
+	
+}

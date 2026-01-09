@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_nomad_regions
+# key: d_nomad_regions
+# --
+data "nomad_regions" "$1" {
+	
+}

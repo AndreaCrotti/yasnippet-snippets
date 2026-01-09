@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_service_discovery_public_dns_namespace
+# key: r_aws_service_discovery_public_dns_namespace
+# --
+resource "aws_service_discovery_public_dns_namespace" "$1" {
+	name = "$2"
+}

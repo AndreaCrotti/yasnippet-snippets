@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_db_instance
+# key: r_alicloud_db_instance
+# --
+resource "alicloud_db_instance" "$1" {
+	engine = "$2"
+	engine_version = "$3"
+	instance_storage = $4
+	instance_type = "$5"
+}

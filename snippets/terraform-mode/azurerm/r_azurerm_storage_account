@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_storage_account
+# key: r_azurerm_storage_account
+# --
+resource "azurerm_storage_account" "$1" {
+	account_replication_type = "$2"
+	account_tier = "$3"
+	location = "$4"
+	name = "$5"
+	resource_group_name = "$6"
+}

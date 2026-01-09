@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_huaweicloud_cce_cluster_v3
+# key: r_huaweicloud_cce_cluster_v3
+# --
+resource "huaweicloud_cce_cluster_v3" "$1" {
+	cluster_type = "$2"
+	container_network_type = "$3"
+	flavor_id = "$4"
+	name = "$5"
+	subnet_id = "$6"
+	vpc_id = "$7"
+}

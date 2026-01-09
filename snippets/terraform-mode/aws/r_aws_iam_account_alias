@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_iam_account_alias
+# key: r_aws_iam_account_alias
+# --
+resource "aws_iam_account_alias" "$1" {
+	account_alias = "$2"
+}

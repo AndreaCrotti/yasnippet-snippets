@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: scaleway
+# key: scaleway
+# --
+provider "scaleway" {
+	organization = "$1"
+	token = "$2"
+}

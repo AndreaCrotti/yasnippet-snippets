@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_vsphere_resource_pool
+# key: r_vsphere_resource_pool
+# --
+resource "vsphere_resource_pool" "$1" {
+	name = "$2"
+	parent_resource_pool_id = "$3"
+}

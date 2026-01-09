@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_workspaces_bundle
+# key: d_aws_workspaces_bundle
+# --
+data "aws_workspaces_bundle" "$1" {
+	bundle_id = "$2"
+}

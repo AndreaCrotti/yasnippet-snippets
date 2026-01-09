@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_alicloud_slb_attachments
+# key: d_alicloud_slb_attachments
+# --
+data "alicloud_slb_attachments" "$1" {
+	load_balancer_id = "$2"
+}

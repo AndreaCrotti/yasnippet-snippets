@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oci_core_virtual_circuit_bandwidth_shapes
+# key: d_oci_core_virtual_circuit_bandwidth_shapes
+# --
+data "oci_core_virtual_circuit_bandwidth_shapes" "$1" {
+	provider_service_id = "$2"
+}

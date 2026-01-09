@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# name: d_aws_glue_script
+# key: d_aws_glue_script
+# --
+data "aws_glue_script" "$1" {
+	dag_edge {
+			source = ""
+			target = ""
+		}
+	dag_node {
+			args {
+			name = ""
+			value = ""
+		}
+			id = ""
+			node_type = ""
+		}
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oci_core_virtual_circuit_public_prefixes
+# key: d_oci_core_virtual_circuit_public_prefixes
+# --
+data "oci_core_virtual_circuit_public_prefixes" "$1" {
+	virtual_circuit_id = "$2"
+}

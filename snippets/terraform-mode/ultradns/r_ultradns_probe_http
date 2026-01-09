@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_ultradns_probe_http
+# key: r_ultradns_probe_http
+# --
+resource "ultradns_probe_http" "$1" {
+	agents = ["$2"]
+	name = "$3"
+	threshold = $4
+	zone = "$5"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: runscope
+# key: runscope
+# --
+provider "runscope" {
+	access_token = "$1"
+}

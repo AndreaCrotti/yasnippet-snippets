@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_rancher_registration_token
+# key: r_rancher_registration_token
+# --
+resource "rancher_registration_token" "$1" {
+	environment_id = "$2"
+	name = "$3"
+}

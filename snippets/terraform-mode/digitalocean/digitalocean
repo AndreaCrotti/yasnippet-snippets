@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: digitalocean
+# key: digitalocean
+# --
+provider "digitalocean" {
+	token = "$1"
+}

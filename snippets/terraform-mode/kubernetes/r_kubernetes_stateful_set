@@ -1,0 +1,20 @@
+# -*- mode: snippet -*-
+# name: r_kubernetes_stateful_set
+# key: r_kubernetes_stateful_set
+# --
+resource "kubernetes_stateful_set" "$1" {
+	metadata {
+	
+	}
+	spec {
+		selector {
+		
+		}
+		service_name = ""
+		template {
+			metadata {
+		
+		}
+		}
+	}
+}

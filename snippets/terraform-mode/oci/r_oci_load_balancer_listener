@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_oci_load_balancer_listener
+# key: r_oci_load_balancer_listener
+# --
+resource "oci_load_balancer_listener" "$1" {
+	default_backend_set_name = "$2"
+	load_balancer_id = "$3"
+	name = "$4"
+	port = $5
+	protocol = "$6"
+}

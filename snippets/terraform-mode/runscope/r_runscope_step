@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_runscope_step
+# key: r_runscope_step
+# --
+resource "runscope_step" "$1" {
+	bucket_id = "$2"
+	step_type = "$3"
+	test_id = "$4"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_oci_audit_configuration
+# key: r_oci_audit_configuration
+# --
+resource "oci_audit_configuration" "$1" {
+	compartment_id = "$2"
+}

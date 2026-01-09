@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_brightbox_server
+# key: r_brightbox_server
+# --
+resource "brightbox_server" "$1" {
+	image = "$2"
+	server_groups = ["$3"]
+}

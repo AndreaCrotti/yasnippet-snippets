@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_cloudformation_export
+# key: d_aws_cloudformation_export
+# --
+data "aws_cloudformation_export" "$1" {
+	name = "$2"
+}

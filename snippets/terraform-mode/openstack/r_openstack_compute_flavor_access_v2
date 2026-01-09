@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_openstack_compute_flavor_access_v2
+# key: r_openstack_compute_flavor_access_v2
+# --
+resource "openstack_compute_flavor_access_v2" "$1" {
+	flavor_id = "$2"
+	tenant_id = "$3"
+}

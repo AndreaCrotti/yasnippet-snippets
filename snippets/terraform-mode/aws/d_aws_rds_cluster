@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_rds_cluster
+# key: d_aws_rds_cluster
+# --
+data "aws_rds_cluster" "$1" {
+	cluster_identifier = "$2"
+}

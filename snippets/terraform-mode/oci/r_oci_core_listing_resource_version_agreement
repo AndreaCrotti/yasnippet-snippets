@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_oci_core_listing_resource_version_agreement
+# key: r_oci_core_listing_resource_version_agreement
+# --
+resource "oci_core_listing_resource_version_agreement" "$1" {
+	listing_id = "$2"
+	listing_resource_version = "$3"
+}

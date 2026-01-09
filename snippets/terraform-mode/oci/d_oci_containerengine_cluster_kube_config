@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oci_containerengine_cluster_kube_config
+# key: d_oci_containerengine_cluster_kube_config
+# --
+data "oci_containerengine_cluster_kube_config" "$1" {
+	cluster_id = "$2"
+}

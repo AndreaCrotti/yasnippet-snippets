@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_netlify_build_hook
+# key: r_netlify_build_hook
+# --
+resource "netlify_build_hook" "$1" {
+	branch = "$2"
+	site_id = "$3"
+	title = "$4"
+}

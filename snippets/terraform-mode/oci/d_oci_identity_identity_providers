@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_identity_identity_providers
+# key: d_oci_identity_identity_providers
+# --
+data "oci_identity_identity_providers" "$1" {
+	compartment_id = "$2"
+	protocol = "$3"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_alicloud_slb_server_groups
+# key: d_alicloud_slb_server_groups
+# --
+data "alicloud_slb_server_groups" "$1" {
+	load_balancer_id = "$2"
+}

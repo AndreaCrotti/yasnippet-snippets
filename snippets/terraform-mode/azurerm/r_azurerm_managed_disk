@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_managed_disk
+# key: r_azurerm_managed_disk
+# --
+resource "azurerm_managed_disk" "$1" {
+	create_option = "$2"
+	location = "$3"
+	name = "$4"
+	resource_group_name = "$5"
+	storage_account_type = "$6"
+}

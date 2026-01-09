@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_cloudhsm_v2_cluster
+# key: d_aws_cloudhsm_v2_cluster
+# --
+data "aws_cloudhsm_v2_cluster" "$1" {
+	cluster_id = "$2"
+}

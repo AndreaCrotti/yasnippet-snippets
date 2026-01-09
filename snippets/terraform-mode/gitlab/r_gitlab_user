@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_gitlab_user
+# key: r_gitlab_user
+# --
+resource "gitlab_user" "$1" {
+	email = "$2"
+	name = "$3"
+	password = "$4"
+	username = "$5"
+}

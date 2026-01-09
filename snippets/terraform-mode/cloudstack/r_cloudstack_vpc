@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_cloudstack_vpc
+# key: r_cloudstack_vpc
+# --
+resource "cloudstack_vpc" "$1" {
+	cidr = "$2"
+	name = "$3"
+	vpc_offering = "$4"
+	zone = "$5"
+}

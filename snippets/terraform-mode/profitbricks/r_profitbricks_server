@@ -1,0 +1,17 @@
+# -*- mode: snippet -*-
+# name: r_profitbricks_server
+# key: r_profitbricks_server
+# --
+resource "profitbricks_server" "$1" {
+	cores = $2
+	datacenter_id = "$3"
+	name = "$4"
+	nic {
+		lan = 1
+	}
+	ram = $6
+	volume {
+		disk_type = ""
+		size = 1
+	}
+}

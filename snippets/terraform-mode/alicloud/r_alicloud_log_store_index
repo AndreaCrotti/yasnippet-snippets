@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_log_store_index
+# key: r_alicloud_log_store_index
+# --
+resource "alicloud_log_store_index" "$1" {
+	logstore = "$2"
+	project = "$3"
+}

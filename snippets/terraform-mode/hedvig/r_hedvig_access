@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_hedvig_access
+# key: r_hedvig_access
+# --
+resource "hedvig_access" "$1" {
+	address = "$2"
+	host = "$3"
+	type = "$4"
+	vdisk = "$5"
+}

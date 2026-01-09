@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_local_file
+# key: d_local_file
+# --
+data "local_file" "$1" {
+	filename = "$2"
+}

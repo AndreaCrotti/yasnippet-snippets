@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_ram_user_policy_attachment
+# key: r_alicloud_ram_user_policy_attachment
+# --
+resource "alicloud_ram_user_policy_attachment" "$1" {
+	policy_name = "$2"
+	policy_type = "$3"
+	user_name = "$4"
+}

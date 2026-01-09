@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_nomad_deployments
+# key: d_nomad_deployments
+# --
+data "nomad_deployments" "$1" {
+	
+}

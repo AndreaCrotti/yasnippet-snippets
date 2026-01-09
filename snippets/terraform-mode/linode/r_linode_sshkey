@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_linode_sshkey
+# key: r_linode_sshkey
+# --
+resource "linode_sshkey" "$1" {
+	label = "$2"
+	ssh_key = "$3"
+}

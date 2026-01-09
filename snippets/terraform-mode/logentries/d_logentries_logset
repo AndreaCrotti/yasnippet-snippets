@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_logentries_logset
+# key: d_logentries_logset
+# --
+data "logentries_logset" "$1" {
+	name = "$2"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oci_core_nat_gateway
+# key: d_oci_core_nat_gateway
+# --
+data "oci_core_nat_gateway" "$1" {
+	nat_gateway_id = "$2"
+}

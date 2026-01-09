@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_linode_image
+# key: d_linode_image
+# --
+data "linode_image" "$1" {
+	id = "$2"
+}

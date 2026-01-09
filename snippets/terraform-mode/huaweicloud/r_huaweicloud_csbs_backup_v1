@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_huaweicloud_csbs_backup_v1
+# key: r_huaweicloud_csbs_backup_v1
+# --
+resource "huaweicloud_csbs_backup_v1" "$1" {
+	resource_id = "$2"
+}

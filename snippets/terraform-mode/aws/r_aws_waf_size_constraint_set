@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_waf_size_constraint_set
+# key: r_aws_waf_size_constraint_set
+# --
+resource "aws_waf_size_constraint_set" "$1" {
+	name = "$2"
+}

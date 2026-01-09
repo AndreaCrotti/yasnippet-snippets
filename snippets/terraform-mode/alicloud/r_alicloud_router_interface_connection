@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_router_interface_connection
+# key: r_alicloud_router_interface_connection
+# --
+resource "alicloud_router_interface_connection" "$1" {
+	interface_id = "$2"
+	opposite_interface_id = "$3"
+}

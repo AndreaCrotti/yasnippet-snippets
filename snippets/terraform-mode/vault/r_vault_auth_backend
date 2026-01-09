@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_vault_auth_backend
+# key: r_vault_auth_backend
+# --
+resource "vault_auth_backend" "$1" {
+	type = "$2"
+}

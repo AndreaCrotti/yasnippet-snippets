@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_oci_core_drg
+# key: r_oci_core_drg
+# --
+resource "oci_core_drg" "$1" {
+	compartment_id = "$2"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: dns
+# key: dns
+# --
+provider "dns" {
+	
+}

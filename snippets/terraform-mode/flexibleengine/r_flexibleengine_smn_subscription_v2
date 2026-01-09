@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_flexibleengine_smn_subscription_v2
+# key: r_flexibleengine_smn_subscription_v2
+# --
+resource "flexibleengine_smn_subscription_v2" "$1" {
+	endpoint = "$2"
+	protocol = "$3"
+	topic_urn = "$4"
+}

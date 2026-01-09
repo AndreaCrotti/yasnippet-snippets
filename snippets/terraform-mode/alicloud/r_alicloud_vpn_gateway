@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_vpn_gateway
+# key: r_alicloud_vpn_gateway
+# --
+resource "alicloud_vpn_gateway" "$1" {
+	bandwidth = $2
+	vpc_id = "$3"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_network_interface_backend_address_pool_association
+# key: r_azurerm_network_interface_backend_address_pool_association
+# --
+resource "azurerm_network_interface_backend_address_pool_association" "$1" {
+	backend_address_pool_id = "$2"
+	ip_configuration_name = "$3"
+	network_interface_id = "$4"
+}

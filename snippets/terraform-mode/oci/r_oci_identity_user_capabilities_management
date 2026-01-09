@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_oci_identity_user_capabilities_management
+# key: r_oci_identity_user_capabilities_management
+# --
+resource "oci_identity_user_capabilities_management" "$1" {
+	user_id = "$2"
+}

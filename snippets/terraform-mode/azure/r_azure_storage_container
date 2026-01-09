@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azure_storage_container
+# key: r_azure_storage_container
+# --
+resource "azure_storage_container" "$1" {
+	container_access_type = "$2"
+	name = "$3"
+	storage_service_name = "$4"
+}

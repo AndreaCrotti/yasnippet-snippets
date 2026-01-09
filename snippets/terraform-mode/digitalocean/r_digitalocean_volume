@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_digitalocean_volume
+# key: r_digitalocean_volume
+# --
+resource "digitalocean_volume" "$1" {
+	name = "$2"
+	region = "$3"
+	size = $4
+}

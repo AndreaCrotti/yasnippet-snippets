@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_oci_core_private_ip
+# key: r_oci_core_private_ip
+# --
+resource "oci_core_private_ip" "$1" {
+	vnic_id = "$2"
+}

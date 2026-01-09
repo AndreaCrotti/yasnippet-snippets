@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_elasticache_replication_group
+# key: d_aws_elasticache_replication_group
+# --
+data "aws_elasticache_replication_group" "$1" {
+	replication_group_id = "$2"
+}

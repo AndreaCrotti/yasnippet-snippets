@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_opsworks_rds_db_instance
+# key: r_aws_opsworks_rds_db_instance
+# --
+resource "aws_opsworks_rds_db_instance" "$1" {
+	db_password = "$2"
+	db_user = "$3"
+	rds_db_instance_arn = "$4"
+	stack_id = "$5"
+}

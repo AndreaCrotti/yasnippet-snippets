@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# name: r_huaweicloud_cce_node_v3
+# key: r_huaweicloud_cce_node_v3
+# --
+resource "huaweicloud_cce_node_v3" "$1" {
+	availability_zone = "$2"
+	cluster_id = "$3"
+	data_volumes {
+		size = 1
+		volumetype = ""
+	}
+	flavor_id = "$5"
+	key_pair = "$6"
+	root_volume {
+		size = 1
+		volumetype = ""
+	}
+}

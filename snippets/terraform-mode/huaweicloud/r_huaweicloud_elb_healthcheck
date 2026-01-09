@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_huaweicloud_elb_healthcheck
+# key: r_huaweicloud_elb_healthcheck
+# --
+resource "huaweicloud_elb_healthcheck" "$1" {
+	listener_id = "$2"
+}

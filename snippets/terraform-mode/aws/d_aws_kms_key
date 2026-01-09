@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_kms_key
+# key: d_aws_kms_key
+# --
+data "aws_kms_key" "$1" {
+	key_id = "$2"
+}

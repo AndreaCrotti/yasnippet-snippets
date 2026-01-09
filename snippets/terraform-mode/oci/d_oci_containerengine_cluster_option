@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oci_containerengine_cluster_option
+# key: d_oci_containerengine_cluster_option
+# --
+data "oci_containerengine_cluster_option" "$1" {
+	cluster_option_id = "$2"
+}

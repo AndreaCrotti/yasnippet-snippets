@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_vcd_snat
+# key: r_vcd_snat
+# --
+resource "vcd_snat" "$1" {
+	edge_gateway = "$2"
+	external_ip = "$3"
+	internal_ip = "$4"
+}

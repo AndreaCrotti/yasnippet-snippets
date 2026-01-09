@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_route_table
+# key: r_tencentcloud_route_table
+# --
+resource "tencentcloud_route_table" "$1" {
+	name = "$2"
+	vpc_id = "$3"
+}

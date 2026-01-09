@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_opc_compute_machine_image
+# key: d_opc_compute_machine_image
+# --
+data "opc_compute_machine_image" "$1" {
+	account = "$2"
+	name = "$3"
+}

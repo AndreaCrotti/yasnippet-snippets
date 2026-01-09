@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_ucloud_instance
+# key: r_ucloud_instance
+# --
+resource "ucloud_instance" "$1" {
+	availability_zone = "$2"
+	image_id = "$3"
+	instance_type = "$4"
+	root_password = "$5"
+}

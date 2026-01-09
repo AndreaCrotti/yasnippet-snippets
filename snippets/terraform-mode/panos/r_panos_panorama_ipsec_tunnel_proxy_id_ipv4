@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_panos_panorama_ipsec_tunnel_proxy_id_ipv4
+# key: r_panos_panorama_ipsec_tunnel_proxy_id_ipv4
+# --
+resource "panos_panorama_ipsec_tunnel_proxy_id_ipv4" "$1" {
+	ipsec_tunnel = "$2"
+	name = "$3"
+	template = "$4"
+}

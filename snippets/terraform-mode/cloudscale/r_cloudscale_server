@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_cloudscale_server
+# key: r_cloudscale_server
+# --
+resource "cloudscale_server" "$1" {
+	flavor_slug = "$2"
+	image_slug = "$3"
+	name = "$4"
+	ssh_keys = ["$5"]
+}

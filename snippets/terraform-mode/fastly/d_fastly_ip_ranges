@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fastly_ip_ranges
+# key: d_fastly_ip_ranges
+# --
+data "fastly_ip_ranges" "$1" {
+	
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_rightscale_subnet
+# key: d_rightscale_subnet
+# --
+data "rightscale_subnet" "$1" {
+	cloud_href = "$2"
+}

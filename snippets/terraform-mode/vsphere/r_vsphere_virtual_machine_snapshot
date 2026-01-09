@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_vsphere_virtual_machine_snapshot
+# key: r_vsphere_virtual_machine_snapshot
+# --
+resource "vsphere_virtual_machine_snapshot" "$1" {
+	description = "$2"
+	memory = ${3:false}
+	quiesce = ${4:false}
+	snapshot_name = "$5"
+	virtual_machine_uuid = "$6"
+}

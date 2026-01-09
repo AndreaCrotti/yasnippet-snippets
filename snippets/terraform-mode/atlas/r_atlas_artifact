@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_atlas_artifact
+# key: r_atlas_artifact
+# --
+resource "atlas_artifact" "$1" {
+	name = "$2"
+	type = "$3"
+}

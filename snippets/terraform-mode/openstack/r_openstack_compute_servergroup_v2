@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_openstack_compute_servergroup_v2
+# key: r_openstack_compute_servergroup_v2
+# --
+resource "openstack_compute_servergroup_v2" "$1" {
+	name = "$2"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oci_core_services
+# key: d_oci_core_services
+# --
+data "oci_core_services" "$1" {
+	
+}

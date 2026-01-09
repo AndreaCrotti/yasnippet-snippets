@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_appautoscaling_scheduled_action
+# key: r_aws_appautoscaling_scheduled_action
+# --
+resource "aws_appautoscaling_scheduled_action" "$1" {
+	name = "$2"
+	resource_id = "$3"
+	service_namespace = "$4"
+}

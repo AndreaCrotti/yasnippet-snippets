@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_flexibleengine_lb_monitor_v2
+# key: r_flexibleengine_lb_monitor_v2
+# --
+resource "flexibleengine_lb_monitor_v2" "$1" {
+	delay = $2
+	max_retries = $3
+	pool_id = "$4"
+	timeout = $5
+	type = "$6"
+}

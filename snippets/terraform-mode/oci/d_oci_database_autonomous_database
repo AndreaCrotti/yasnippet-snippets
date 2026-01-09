@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oci_database_autonomous_database
+# key: d_oci_database_autonomous_database
+# --
+data "oci_database_autonomous_database" "$1" {
+	autonomous_database_id = "$2"
+}

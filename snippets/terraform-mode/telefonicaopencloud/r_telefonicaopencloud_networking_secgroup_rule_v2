@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_telefonicaopencloud_networking_secgroup_rule_v2
+# key: r_telefonicaopencloud_networking_secgroup_rule_v2
+# --
+resource "telefonicaopencloud_networking_secgroup_rule_v2" "$1" {
+	direction = "$2"
+	ethertype = "$3"
+	security_group_id = "$4"
+}

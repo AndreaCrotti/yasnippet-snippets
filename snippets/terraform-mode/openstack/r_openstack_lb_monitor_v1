@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_openstack_lb_monitor_v1
+# key: r_openstack_lb_monitor_v1
+# --
+resource "openstack_lb_monitor_v1" "$1" {
+	delay = $2
+	max_retries = $3
+	timeout = $4
+	type = "$5"
+}

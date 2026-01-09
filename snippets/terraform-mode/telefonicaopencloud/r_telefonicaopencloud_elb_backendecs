@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_telefonicaopencloud_elb_backendecs
+# key: r_telefonicaopencloud_elb_backendecs
+# --
+resource "telefonicaopencloud_elb_backendecs" "$1" {
+	listener_id = "$2"
+	private_address = "$3"
+	server_id = "$4"
+}

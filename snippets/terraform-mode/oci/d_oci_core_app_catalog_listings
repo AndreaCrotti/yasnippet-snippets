@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oci_core_app_catalog_listings
+# key: d_oci_core_app_catalog_listings
+# --
+data "oci_core_app_catalog_listings" "$1" {
+	
+}

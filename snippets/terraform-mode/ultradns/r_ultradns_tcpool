@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_ultradns_tcpool
+# key: r_ultradns_tcpool
+# --
+resource "ultradns_tcpool" "$1" {
+	description = "$2"
+	name = "$3"
+	rdata {
+		host = ""
+	}
+	zone = "$5"
+}

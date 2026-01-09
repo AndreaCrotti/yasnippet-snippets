@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_nsxt_ns_group
+# key: r_nsxt_ns_group
+# --
+resource "nsxt_ns_group" "$1" {
+	
+}

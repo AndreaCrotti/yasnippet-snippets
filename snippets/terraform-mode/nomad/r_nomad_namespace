@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_nomad_namespace
+# key: r_nomad_namespace
+# --
+resource "nomad_namespace" "$1" {
+	name = "$2"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_iam_policy
+# key: r_aws_iam_policy
+# --
+resource "aws_iam_policy" "$1" {
+	policy = "$2"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_oci_core_volume_backup
+# key: r_oci_core_volume_backup
+# --
+resource "oci_core_volume_backup" "$1" {
+	
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: hcloud
+# key: hcloud
+# --
+provider "hcloud" {
+	token = "$1"
+}

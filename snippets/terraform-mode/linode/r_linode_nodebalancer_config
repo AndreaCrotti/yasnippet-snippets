@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_linode_nodebalancer_config
+# key: r_linode_nodebalancer_config
+# --
+resource "linode_nodebalancer_config" "$1" {
+	nodebalancer_id = $2
+}

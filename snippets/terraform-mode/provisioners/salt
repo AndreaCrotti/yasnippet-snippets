@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: salt
+# key: salt
+# --
+provisioner "sal-masterless" {
+	"local_state_tree" = "$1"
+}

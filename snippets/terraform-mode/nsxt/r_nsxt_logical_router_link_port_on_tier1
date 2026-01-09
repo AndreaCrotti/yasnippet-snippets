@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_nsxt_logical_router_link_port_on_tier1
+# key: r_nsxt_logical_router_link_port_on_tier1
+# --
+resource "nsxt_logical_router_link_port_on_tier1" "$1" {
+	linked_logical_router_port_id = "$2"
+	logical_router_id = "$3"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_shared_image_gallery
+# key: r_azurerm_shared_image_gallery
+# --
+resource "azurerm_shared_image_gallery" "$1" {
+	location = "$2"
+	name = "$3"
+	resource_group_name = "$4"
+}

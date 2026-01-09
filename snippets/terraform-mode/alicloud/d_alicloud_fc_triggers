@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_alicloud_fc_triggers
+# key: d_alicloud_fc_triggers
+# --
+data "alicloud_fc_triggers" "$1" {
+	function_name = "$2"
+	service_name = "$3"
+}

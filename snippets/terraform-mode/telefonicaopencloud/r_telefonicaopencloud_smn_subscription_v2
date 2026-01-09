@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_telefonicaopencloud_smn_subscription_v2
+# key: r_telefonicaopencloud_smn_subscription_v2
+# --
+resource "telefonicaopencloud_smn_subscription_v2" "$1" {
+	endpoint = "$2"
+	protocol = "$3"
+	topic_urn = "$4"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_panos_panorama_service_group
+# key: r_panos_panorama_service_group
+# --
+resource "panos_panorama_service_group" "$1" {
+	name = "$2"
+	services = ["$3"]
+}

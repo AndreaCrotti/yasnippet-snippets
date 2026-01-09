@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: remote_artifactory_backend
+# key: remote_artifactory_backend
+# --
+data "terraform_remote_state" "$1" {
+	backend = "artifactory"
+	config {
+		username = "$2"
+		password = "$3"
+		url = "https://custom.artifactoryonline.com/artifactory"
+		repo = "$4"
+		subpath = "$5"
+	}
+}

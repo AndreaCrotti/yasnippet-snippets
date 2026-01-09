@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: r_digitalocean_loadbalancer
+# key: r_digitalocean_loadbalancer
+# --
+resource "digitalocean_loadbalancer" "$1" {
+	forwarding_rule {
+		entry_port = 1
+		entry_protocol = ""
+		target_port = 1
+		target_protocol = ""
+	}
+	name = "$3"
+	region = "$4"
+}

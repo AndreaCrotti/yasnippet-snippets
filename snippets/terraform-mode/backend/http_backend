@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: http_backend
+# key: http_backend
+# --
+terraform {
+	backend "http" {
+		address = "$2"
+	}
+}

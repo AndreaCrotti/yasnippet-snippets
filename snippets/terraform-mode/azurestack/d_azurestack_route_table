@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_azurestack_route_table
+# key: d_azurestack_route_table
+# --
+data "azurestack_route_table" "$1" {
+	name = "$2"
+	resource_group_name = "$3"
+}

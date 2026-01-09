@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_docker_volume
+# key: r_docker_volume
+# --
+resource "docker_volume" "$1" {
+	
+}

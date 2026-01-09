@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_aws_dynamodb_table
+# key: r_aws_dynamodb_table
+# --
+resource "aws_dynamodb_table" "$1" {
+	attribute {
+		name = ""
+		type = ""
+	}
+	hash_key = "$3"
+	name = "$4"
+}

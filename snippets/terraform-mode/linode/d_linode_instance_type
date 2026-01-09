@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_linode_instance_type
+# key: d_linode_instance_type
+# --
+data "linode_instance_type" "$1" {
+	id = "$2"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_azurerm_dns_zone
+# key: d_azurerm_dns_zone
+# --
+data "azurerm_dns_zone" "$1" {
+	name = "$2"
+}

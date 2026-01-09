@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_cloudscale_floating_ip
+# key: r_cloudscale_floating_ip
+# --
+resource "cloudscale_floating_ip" "$1" {
+	ip_version = $2
+	server = "$3"
+}

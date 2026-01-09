@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_openstack_vpnaas_site_connection_v2
+# key: r_openstack_vpnaas_site_connection_v2
+# --
+resource "openstack_vpnaas_site_connection_v2" "$1" {
+	ikepolicy_id = "$2"
+	ipsecpolicy_id = "$3"
+	peer_address = "$4"
+	peer_id = "$5"
+	psk = "$6"
+	vpnservice_id = "$7"
+}

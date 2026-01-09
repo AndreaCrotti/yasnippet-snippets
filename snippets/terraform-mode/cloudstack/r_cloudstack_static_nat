@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_cloudstack_static_nat
+# key: r_cloudstack_static_nat
+# --
+resource "cloudstack_static_nat" "$1" {
+	ip_address_id = "$2"
+	virtual_machine_id = "$3"
+}

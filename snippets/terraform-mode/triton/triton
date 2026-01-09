@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: triton
+# key: triton
+# --
+provider "triton" {
+	account = "$1"
+	key_id = "$2"
+	url = "$3"
+	user = "$4"
+}

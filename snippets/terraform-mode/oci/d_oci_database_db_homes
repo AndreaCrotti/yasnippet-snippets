@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_database_db_homes
+# key: d_oci_database_db_homes
+# --
+data "oci_database_db_homes" "$1" {
+	compartment_id = "$2"
+	db_system_id = "$3"
+}

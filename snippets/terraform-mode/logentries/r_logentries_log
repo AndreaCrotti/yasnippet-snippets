@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_logentries_log
+# key: r_logentries_log
+# --
+resource "logentries_log" "$1" {
+	logset_id = "$2"
+	name = "$3"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_iam_server_certificate
+# key: r_aws_iam_server_certificate
+# --
+resource "aws_iam_server_certificate" "$1" {
+	certificate_body = "$2"
+	private_key = "$3"
+}

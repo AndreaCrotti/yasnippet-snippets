@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_vpn_connection_route
+# key: r_aws_vpn_connection_route
+# --
+resource "aws_vpn_connection_route" "$1" {
+	destination_cidr_block = "$2"
+	vpn_connection_id = "$3"
+}

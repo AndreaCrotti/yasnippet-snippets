@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_cloudflare_access_rule
+# key: r_cloudflare_access_rule
+# --
+resource "cloudflare_access_rule" "$1" {
+	configuration {
+		target = ""
+		value = ""
+	}
+	mode = "$3"
+}

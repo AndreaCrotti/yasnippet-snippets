@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_glue_catalog_database
+# key: r_aws_glue_catalog_database
+# --
+resource "aws_glue_catalog_database" "$1" {
+	name = "$2"
+}

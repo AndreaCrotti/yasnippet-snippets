@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_github_user_gpg_key
+# key: r_github_user_gpg_key
+# --
+resource "github_user_gpg_key" "$1" {
+	armored_public_key = "$2"
+}

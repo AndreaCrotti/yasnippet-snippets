@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_openstack_containerinfra_cluster_v1
+# key: d_openstack_containerinfra_cluster_v1
+# --
+data "openstack_containerinfra_cluster_v1" "$1" {
+	name = "$2"
+}

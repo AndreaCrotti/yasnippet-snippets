@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: bitbucket
+# key: bitbucket
+# --
+provider "bitbucket" {
+	password = "$1"
+	username = "$2"
+}

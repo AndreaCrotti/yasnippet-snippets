@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_iam_group_policy
+# key: r_aws_iam_group_policy
+# --
+resource "aws_iam_group_policy" "$1" {
+	group = "$2"
+	policy = "$3"
+}

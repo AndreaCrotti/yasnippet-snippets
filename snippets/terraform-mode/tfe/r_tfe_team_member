@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_tfe_team_member
+# key: r_tfe_team_member
+# --
+resource "tfe_team_member" "$1" {
+	team_id = "$2"
+	username = "$3"
+}

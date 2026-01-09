@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_route53_record
+# key: r_aws_route53_record
+# --
+resource "aws_route53_record" "$1" {
+	name = "$2"
+	type = "$3"
+	zone_id = "$4"
+}

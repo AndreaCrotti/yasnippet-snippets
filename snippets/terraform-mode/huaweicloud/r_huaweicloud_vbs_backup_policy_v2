@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_huaweicloud_vbs_backup_policy_v2
+# key: r_huaweicloud_vbs_backup_policy_v2
+# --
+resource "huaweicloud_vbs_backup_policy_v2" "$1" {
+	frequency = $2
+	name = "$3"
+	rentention_num = $4
+	retain_first_backup = "$5"
+	start_time = "$6"
+	status = "$7"
+}

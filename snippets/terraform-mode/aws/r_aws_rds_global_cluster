@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_rds_global_cluster
+# key: r_aws_rds_global_cluster
+# --
+resource "aws_rds_global_cluster" "$1" {
+	global_cluster_identifier = "$2"
+}

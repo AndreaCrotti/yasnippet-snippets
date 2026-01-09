@@ -1,0 +1,19 @@
+# -*- mode: snippet -*-
+# name: r_huaweicloud_dcs_instance_v1
+# key: r_huaweicloud_dcs_instance_v1
+# --
+resource "huaweicloud_dcs_instance_v1" "$1" {
+	available_zones = ["$2"]
+	backup_at = [$3]
+	backup_type = "$4"
+	begin_at = "$5"
+	capacity = $6
+	engine = "$7"
+	name = "$8"
+	period_type = "$9"
+	product_id = "$10"
+	save_days = $11
+	security_group_id = "$12"
+	subnet_id = "$13"
+	vpc_id = "$14"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_ess_scaling_rule
+# key: r_alicloud_ess_scaling_rule
+# --
+resource "alicloud_ess_scaling_rule" "$1" {
+	adjustment_type = "$2"
+	adjustment_value = $3
+	scaling_group_id = "$4"
+}

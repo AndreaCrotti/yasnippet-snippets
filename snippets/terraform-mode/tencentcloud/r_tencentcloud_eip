@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_eip
+# key: r_tencentcloud_eip
+# --
+resource "tencentcloud_eip" "$1" {
+	
+}

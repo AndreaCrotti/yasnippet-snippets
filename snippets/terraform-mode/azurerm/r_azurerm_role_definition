@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_role_definition
+# key: r_azurerm_role_definition
+# --
+resource "azurerm_role_definition" "$1" {
+	assignable_scopes = ["$2"]
+	name = "$3"
+	permissions {
+	
+	}
+	scope = "$5"
+}

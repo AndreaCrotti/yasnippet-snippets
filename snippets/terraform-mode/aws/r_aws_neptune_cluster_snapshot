@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_neptune_cluster_snapshot
+# key: r_aws_neptune_cluster_snapshot
+# --
+resource "aws_neptune_cluster_snapshot" "$1" {
+	db_cluster_identifier = "$2"
+	db_cluster_snapshot_identifier = "$3"
+}
