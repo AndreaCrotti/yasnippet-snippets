@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: phx-lv-mount
+# key: phx-lv-mount
+# --
+@impl true
+def mount(_params, _session, socket) do
+  $0
+  {:ok, socket}
+end

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: phx-lv-render
+# key: phx-lv-render
+# --
+@impl true
+def render(assigns) do
+  ~H"""
+  $0
+  """
+end

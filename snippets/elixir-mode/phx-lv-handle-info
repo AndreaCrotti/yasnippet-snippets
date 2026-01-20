@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: phx-lv-handle-info
+# key: phx-lv-handle-info
+# --
+@impl true
+def handle_info(msg, socket) do
+  $0
+  {:noreply, socket}
+end
