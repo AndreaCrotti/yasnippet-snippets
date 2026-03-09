@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # name: upto(...) { |n| ... }
 # key: upt
-# group : control structure
+# group: control structure
 # --
 upto(${n}) { |${i}|
   $0

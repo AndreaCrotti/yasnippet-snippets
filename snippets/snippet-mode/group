@@ -2,4 +2,4 @@
 # name: group
 # key: group
 # --
-# group : ${1:group}
+# group: ${1:group}

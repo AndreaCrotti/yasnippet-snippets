@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # name: for
 # key: for
-# group : control structure
+# group: control structure
 # --
 for ${1:el} in ${2:collection}
     $0

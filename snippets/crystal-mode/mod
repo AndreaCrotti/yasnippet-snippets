@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: module ... end
-# group : definitions
+# group: definitions
 # key: mod
 # --
 module ${1:`(let ((fn (capitalize (file-name-nondirectory

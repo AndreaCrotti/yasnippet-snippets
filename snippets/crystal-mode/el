@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # name: else ...
 # key: el
-# group : control structure
+# group: control structure
 # --
 else`(indent-for-tab-command)`
   $1

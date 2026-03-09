@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: class << self ... end
-# group : definitions
+# group: definitions
 # --
 class << ${self}
   $0

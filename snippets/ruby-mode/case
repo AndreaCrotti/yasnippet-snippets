@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: case ... end
-# group : general
+# group: general
 # --
 case ${1:object}
 when ${2:condition}

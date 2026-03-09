@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
 # name: delete_if { |...| ... }
-# group : collections
+# group: collections
 # --
 delete_if { |${e}| $0 }

@@ -2,7 +2,7 @@
 # contributor: USAMI Kenta <tadsan@zonu.me>
 # name: trait
 # key: trait
-# group : definitions
+# group: definitions
 # --
 trait ${1:`(yas-php-get-class-name-by-file-name)`}
 {

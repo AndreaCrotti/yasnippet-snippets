@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # name: current-date
 # key: desk
-# contributor : Yilkal Argaw <yilkalargawworkneh@gmail.com>
+# contributor: Yilkal Argaw <yilkalargawworkneh@gmail.com>
 # --
 [Desktop Entry]
 Encoding=${1:UTF-8}

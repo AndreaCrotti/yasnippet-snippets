@@ -2,7 +2,7 @@
 # contributor: USAMI Kenta <tadsan@zonu.me>
 # name: try
 # key: try
-# group : control structure
+# group: control structure
 # --
 try {
     $0

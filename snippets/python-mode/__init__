@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # name: __init__
 # key: _init
-# group : definitions
+# group: definitions
 # --
 def __init__(self${1:, args}):
     ${2:"${3:docstring}"
