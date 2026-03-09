@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # name: ${n:$(...)} mirror
 # key: $m
-# contributor : joaotavora
+# contributor: joaotavora
 # key: mirror
 # --
 \${${2:n}:${4:\$(${5:reflection-fn})}\}$0

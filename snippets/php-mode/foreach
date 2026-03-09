@@ -2,7 +2,7 @@
 # contributor: USAMI Kenta <tadsan@zonu.me>
 # name: foreach
 # key: foreach
-# group : control structure
+# group: control structure
 # --
 foreach (${1:$expression} as \$${2:value}) {
     $0

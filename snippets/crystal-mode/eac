@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: each_cons(...) { |...| ... }
 # key: eac
-# group : collections
+# group: collections
 # --
 each_cons(${1:2}) { |${group}| $0 }

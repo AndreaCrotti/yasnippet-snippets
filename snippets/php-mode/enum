@@ -2,7 +2,7 @@
 # contributor: takeo obara<bararararatty@gmail.com>
 # name: enum
 # key: enum
-# group : definitions
+# group: definitions
 # --
 enum ${1:Name}${2:: type} {
     case: ${3:One};

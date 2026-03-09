@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
 # name: each_value { |val| ... }
-# group : collections
+# group: collections
 # --
 each_value { |${val}| $0 }

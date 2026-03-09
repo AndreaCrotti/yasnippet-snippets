@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # name: benchmark
 # key: bench
-# contributor : @atotto
+# contributor: @atotto
 # --
 func Benchmark$1(b *testing.B) {
 	for i := 0; i < b.N; i++ {

@@ -5,4 +5,4 @@
 # --
 macro ${1:macro}(${2:args})
     $0
-end
+end

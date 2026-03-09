@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: Command that works on region or word
-# contributor : Xah Lee
+# contributor: Xah Lee
 # --
 ;; example of a command that works on current word or text selection
 (defun down-case-word-or-region ()

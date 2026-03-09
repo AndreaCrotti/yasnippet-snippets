@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # name: init_docstring
 # key: id
-# group : definitions
+# group: definitions
 # --
 def __init__(self$1):
     \"\"\"$2

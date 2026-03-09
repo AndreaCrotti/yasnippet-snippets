@@ -2,7 +2,7 @@
 # contributor: takeo obara<bararararatty@gmail.com>
 # name: match
 # key: match
-# group : control structure
+# group: control structure
 # --
 match (${1:$var}) {
     ${2:$cond} => ${3:$return},

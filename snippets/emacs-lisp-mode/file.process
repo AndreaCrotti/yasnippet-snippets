@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: a function that process a file
-# contributor : Xah Lee
+# contributor: Xah Lee
 # --
 (defun doThisFile (fpath)
   "Process the file at path FPATH ..."

@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: include Comparable; def <=> ... end
-# group : definitions
+# group: definitions
 # --
 include Comparable
 

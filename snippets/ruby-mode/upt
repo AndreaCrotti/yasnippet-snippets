@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: upto(...) { |n| ... }
-# group : control structure
+# group: control structure
 # --
 upto(${n}) { |${i}|
   $0

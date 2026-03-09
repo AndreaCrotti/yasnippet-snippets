@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
 # name: any? { |...| ... }
-# group : collections
+# group: collections
 # --
 any? { |${e}| $0 }

@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-# contributor : Jimmy Wu <frozenthrone88@gmail.com>
+# contributor: Jimmy Wu <frozenthrone88@gmail.com>
 # name: <html xmlns="...">...</html>
 # --
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="${1:en}" lang="${2:en}">

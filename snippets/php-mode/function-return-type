@@ -2,7 +2,7 @@
 # contributor: USAMI Kenta <tadsan@zonu.me>
 # name: function :type
 # key: function:
-# group : control structure
+# group: control structure
 # --
 ${4:public }function ${1:name}(${2:$arg, ...}): ${3:type}
 {

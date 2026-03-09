@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: read lines of a file
-# contributor : Xah Lee
+# contributor: Xah Lee
 # --
 (defun read-lines (filePath)
   "Return a list of lines in FILEPATH."

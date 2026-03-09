@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
 # name: attr_writer ...
-# group : definitions
+# group: definitions
 # --
 attr_writer :

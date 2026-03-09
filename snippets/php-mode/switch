@@ -2,7 +2,7 @@
 # contributor: USAMI Kenta <tadsan@zonu.me>
 # name: switch
 # key: switch
-# group : control structure
+# group: control structure
 # --
 switch (${1:condition}) {
     case ${2:expr}:

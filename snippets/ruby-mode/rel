@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
 # name: require_relative
-# group : general
+# group: general
 # --
 require_relative '$0'

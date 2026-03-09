@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: when ... end
-# group : control structure
+# group: control structure
 # --
 when ${condition}
   $0
