@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # contributor: João Diogo Duarte
-# name: if
+# name: if-block
 # key: if
 # --
 if ($1) {

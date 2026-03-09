@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
-#name: condp
-#key: condp
+# name: condp
+# key: condp
 # --
 (condp ${1:pred} ${2:expr}
   $0)
