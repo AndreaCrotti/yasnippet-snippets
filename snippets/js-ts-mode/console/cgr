@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# uuid: afebe290-f0e6-403a-9c4f-da33451115cb
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: console.group
+# key: cgr
+# group: console
+# --
+
+console.group("${1:label}")

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# uuid: 9c2aa6ee-9729-46d9-afdb-b6dc21f9f2e7
+# contributor: Laam Pui <lpwowo@gmail.com>
+# name: console.table
+# key: cta
+# group: console
+# --
+
+console.table(${1:object})

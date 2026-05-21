@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# uuid: b33dbf56-f2ad-489e-bc7b-1b4c2d1657ea
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: propertyset
+# key: pse
+# --
+
+set ${1:propertyName}(${2:value}) {
+  $0
+}

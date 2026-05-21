@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: param-comment
+# key: *@p
+# condition: (let ((node (and (fboundp 'treesit-node-at) (ignore-errors (treesit-node-at (point)))))) (and node (string= (treesit-node-type node) "comment")))
+# --
+* @param {${type}} ${comment}.

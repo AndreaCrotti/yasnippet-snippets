@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# uuid: 851254b3-d70e-4024-a557-2629d3d73507
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: importDestructing
+# key: imd
+# --
+
+import { $2 } from '${1:module}'$0

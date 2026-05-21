@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# uuid: 0a552742-2fa3-4d23-8fe6-fe7f211b642a
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: destructingObject
+# key: dob
+# --
+
+const {${1:propertyName}} = ${2:objectToDestruct}

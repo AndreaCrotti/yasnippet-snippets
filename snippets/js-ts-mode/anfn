@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# uuid: 289f0557-4e11-47c5-bcbf-1105bbec41ce
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: anonymousFunction
+# key: anfn
+# --
+
+(${1:params}) => {
+  ${2}
+}

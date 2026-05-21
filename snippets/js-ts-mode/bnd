@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# uuid: 6788dcb5-8d8e-4e30-a97b-83029ecaf89b
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: bindThis
+# key: bnd
+# --
+
+this.${1:methodName} = this.${1:methodName}.bind(this)$0

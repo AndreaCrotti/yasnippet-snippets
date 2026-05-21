@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# uuid: 983d648f-a7de-4e22-bab9-bca5cd6188a6
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: Comment Big Block
+# key: cmmb
+# --
+
+/**
+|--------------------------------------------------
+| $1
+|--------------------------------------------------
+*/

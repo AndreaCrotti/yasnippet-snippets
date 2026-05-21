@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# uuid: 39b0065c-1dd5-4214-a612-1fead18dd677
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: importNoModuleName
+# key: imn
+# --
+
+import '${1:module}'$0

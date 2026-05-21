@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# uuid: 54ad9659-8b18-40a0-9096-48131f9577da
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: console.error
+# key: cer
+# group: console
+# --
+
+console.error(${1:object})

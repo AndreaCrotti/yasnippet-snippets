@@ -1,0 +1,12 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: class
+# key: class
+# --
+class ${1:Class}${2: extends ${3:ParentClass}} {
+  ${4:constructor(${5:arg}) {
+    ${6:super(arg);}
+    $7
+  \}}
+
+  $0
+}

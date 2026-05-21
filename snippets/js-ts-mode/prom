@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# uuid: 1f2ca8a4-dda2-4b88-9377-23ec10760aec
+# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# name: promise
+# key: prom
+# --
+
+return new Promise((resolve, reject) => {
+  ${1}
+})
