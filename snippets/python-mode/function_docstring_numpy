@@ -4,9 +4,9 @@
 # key: fdn
 # group: definitions
 # --
-def ${1:name}($2):
-    \"\"\"$3
+def ${1:name}($2)${3: -> Any}:
+    \"\"\"$4
 
-${2:$(python-args-to-docstring-numpy)}
+${2:$(python-args-to-docstring-numpy (yas-field-value 3))}
     \"\"\"
     $0

@@ -83,9 +83,16 @@ default values.  An argument named `self` is omitted."
     (unless (string= formatted-args "")
       (mapconcat 'identity (list "Keyword Arguments:" formatted-args) indent))))
 
-(defun python-args-to-docstring-numpy ()
-  "return docstring format for the python arguments in yas-text"
+(defun python-args-to-docstring-numpy (&optional return-type)
+  "Return NumPy docstring format for the python arguments in `yas-text'.
+
+Optional argument RETURN-TYPE is used for the generated return value type."
   (let* ((args (python-split-args yas-text))
+         ;; Snippets pass an editable field like " -> Any" -> strip the prefix.
+         (return-type (and return-type
+                           (replace-regexp-in-string
+                            "\\`[[:space:]]*->[[:space:]]*" ""
+                            return-type)))
          (format-arg (lambda(arg)
                        (concat (nth 0 arg) " : "            ; name
                                (if (nth 1 arg) (nth 1 arg)) ; type  TODO handle Optional[Foo] correctly
@@ -93,7 +100,11 @@ default values.  An argument named `self` is omitted."
                                                        "default=" (nth 2 arg))) ; default
                                "\n")))
          (formatted-params (mapconcat format-arg args "\n"))
-         (formatted-ret (mapconcat format-arg (list (list "out")) "\n")))
+         (formatted-ret (mapconcat format-arg
+                                   (list (list "out"        ; 1-element list for output
+                                               (unless (string= return-type "")
+                                                 return-type)))
+                                   "\n")))
     (unless (string= formatted-params "")
       (mapconcat 'identity
                  (list "\nParameters\n----------" formatted-params
